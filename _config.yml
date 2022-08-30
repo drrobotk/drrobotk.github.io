@@ -20,13 +20,13 @@ author: Dr. Usman Kayani
 ###############################################
 
 navbar-links:
+  Home: "https://drrobotk.github.io"
   About Me: "aboutme"
   CV: "cv"
   Project Areas: 
     - GitHub: "https://github.com/drrobotk"
     - Orcid: "https://orcid.org/0000-0003-3754-3730"
     - Blog: "blog"
-  Author's home: "https://drrobotk.github.io"
 
 ################
 # --- Logo --- #
