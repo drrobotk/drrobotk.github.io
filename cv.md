@@ -12,22 +12,18 @@ Logical, imaginative, analytical and committed data scientist with a background 
 - ### Programming and Scripting
 Python, C++, Visual Basic, Java, Javascript, PHP, PowerShell, Bash, SQL
 and HTML5
-
 - ### Computations and Data Science
 Mathematica, Maple, MATLAB, Matplotlib, NumPy, SciPy, Seaborn, GAMS,
 Pandas, PySpark, Jupyter, Tableau and R
-
 - ### Machine Learning
 Statsmodels, Scikit-learn, TensorFlow, Keras and PyTorch
-
 - ### Technical
 Data analysis, Time Series Analytics, Signal Processing, Web Scraping,
 Mathematical Modelling, Quantitative Research, Statistical Analysis,
 Data Mining, Arduino, Raspberry Pi, TCP/IP Networking and Debugging,
 Cloud Computing (Cloudera, GCP, Microsoft Azure), Big Data (Spark and
 Hadoop), Jenkins and Agile software development
-
-### Graphics 
+- ### Graphics 
 Photoshop, PowerPoint, LaTeX, GIMP and CorelDraw
 
 # Education
