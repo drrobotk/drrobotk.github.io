@@ -21,12 +21,12 @@ author: Dr. Usman Kayani
 
 navbar-links:
   Home: "https://drrobotk.github.io"
+  Blog: "blog"
   About Me: "aboutme"
   CV: "cv"
   Project Areas: 
     - GitHub: "https://github.com/drrobotk"
     - Orcid: "https://orcid.org/0000-0003-3754-3730"
-    - Blog: "blog"
 
 ################
 # --- Logo --- #
@@ -34,7 +34,7 @@ navbar-links:
 
 # Image to show in the navigation bar - works best with a square image
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/assets/img/test.jpeg"
+avatar: "/assets/img/profile.jpeg"
 
 # By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
 round-avatar: false
@@ -229,7 +229,7 @@ footer-hover-col: "#0085A1"
 #  mapping: pathname
 #  reactions-enabled: 1
 #  emit-metadata: 0
-#  theme: light
+#  theme: dark
 
 ################
 # --- Misc --- #

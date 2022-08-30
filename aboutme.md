@@ -1,9 +1,20 @@
 ---
-layout: page
+layout: post
 title: About me
 subtitle: whoami
+date: 2022-01-15
 ---
 <img src="/assets/img/neurodiversity.png" alt="isolated" width="150"/>
 
-My name is Usman Kayani and I am a Data Scientist at the Data Science Campus within the Office for National Statistics. I have a MSci in Mathematics with First Class Honours and a PhD in Applied Mathematics and Theoretical Physics.
+I am a Data Scientist with MSci in Mathematics, with First Class Honours, and a PhD in Applied Mathematics and Theoretical Physics, and as such I have a lot of analytical experience including theoretical and applied techniques in mathematics, statistical and numerical methods. I am an expert on creating data pipelines and deploying machine learning models at scale, using technologies such as Apache Spark.
+
+I have experience coding in many languages (e.g Python, C++) using various OS and I have extensively used computational software (e.g Matlab, Mathematica, Maple) or libraries (e.g numpy, scipy, scikit-learn) for performing mathematical, physical, and statistical computations on various analyses and datasets. For my PhD research, I had performed extensive computations on multi-dimensional arrays.
+
+I am also familiar with data science and machine learning R and Python libraries (e.g Scikit-learn, Keras, Tensorflow) as well as data visualization tools such as Tableau. Most recently I analysed TV instantaneous power consumption data of various households with ML to identify and classify when the TV is turned on and the occurrences and duration of the use of a Kettle, to identify routines and detection of anomalies where there is a deviation from the routines. This data was provided by a particular company that aims to use ML and modelling with domestic electric appliances.
+
+Since June 2021, I have been working as a Higher Data Scientist at the Office for National Statistics (ONS) within the Economics Statistics Group (ESG), where I have been involved in researching and implementing multilateral price indices, using calculations and time series extension methods in Python. This work was as part of an ETL (Extract, transform, load) data pipeline for the treatment of new alternative data sources (e.g scanner data) which will be used to determine the consumer price index (CPI) in the future.
+
+While working on building a data pipeline for the CPI, I made very significant contributions both to methodology and computational efficiency, e.g I led an investigation into particular model-based multilateral index methods known as the Time Product Dummy (TPD), Time Dummy Hedonic (TDH) using an application of weighted least squares regression. I developed an efficient application of these methods and more for the integration of alternative data sources.
+
+I also have experience teaching and tutoring Mathematics and Physics at a Graduate (BSc/MSc), A-level and GCSE. I am currently tutoring university students in mathematics topics such as advanced statistics, linear algebra and Python coding.
 
