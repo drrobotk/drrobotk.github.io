@@ -22,6 +22,16 @@ The way that JavaScript calls work is that the browser makes a request to the se
 
 It turns out we can intercept the AJAX routines from the page and reproduce/replay them to get the same data without a browser.
 
+As an example, let us consider a use case which has been covered in the following guide:
+
+[https://medium.com/@michaelstvnhodge/using-selenium-in-python-to-get-table-data-from-a-javascript-website-13292863bfa4](Using selenium and Pandas in Python to get table data from a JavaScript website)
+
+This guide uses selenium to obtain a table data from a JavaScript website, in particular to obtain the available appointments for the UK Passport Fast Track service. The main URL for the service is [https://www.passportappointment.service.gov.uk/outreach/PublicBooking.ofml](https://www.passportappointment.service.gov.uk/outreach/PublicBooking.ofml) and this service uses JavaScript to render its webpage as you navigate through the options, which require user input.
+
+<img src="/assets/img/source.png" alt="isolated" width="600"/>
+
+<img src="/assets/img/network.png" alt="isolated" width="600"/>
+
 ```python
 import requests, re
 from typing import Dict, Union
