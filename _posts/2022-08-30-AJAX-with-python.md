@@ -26,7 +26,9 @@ As an example, let us consider a use case which has been covered in the followin
 
 [Using selenium and Pandas in Python to get table data from a JavaScript website](https://medium.com/@michaelstvnhodge/using-selenium-in-python-to-get-table-data-from-a-javascript-website-13292863bfa4 "Using selenium and Pandas in Python to get table data from a JavaScript website")
 
-This guide uses selenium to obtain a table data from a JavaScript website, in particular to obtain the available appointments for the UK Passport Fast Track service. The main URL for the service is [https://www.passportappointment.service.gov.uk/outreach/PublicBooking.ofml](https://www.passportappointment.service.gov.uk/outreach/PublicBooking.ofml) and this service uses JavaScript to render its webpage as you navigate through the options, which require user input.
+The guide above uses selenium to obtain a table data from a JavaScript website, in particular to obtain the available appointments for the UK Passport Fast Track service. The main URL for the service is [https://www.passportappointment.service.gov.uk/outreach/PublicBooking.ofml](https://www.passportappointment.service.gov.uk/outreach/PublicBooking.ofml) and this service uses JavaScript to render its webpage as you navigate through the options, which require user input.
+
+We will attempt to scrape the same table data using requests by replaying AJAX routines.
 
 <img src="/assets/img/source.png" alt="isolated" width="600"/>
 
