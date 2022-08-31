@@ -10,6 +10,14 @@ date: 2022-08-30
 last-updated: 2022-08-30
 ---
 
+Due to the increasing popularity of modern JavaScript frameworks such as React, Angular, and Vue, more and more websites are now built dynamically with JavaScript. This poses a challenge for web scraping because the HTML markup is not available in the source code. Therefore, we cannot scrape these JavaScript webpages directly and may need to render them as regular HTML markup first. For such tasks, where we have to interact with the web browser, selenium is your go-to library.
+
+In the past, we used libraries such as urllib or requests to read or download data from webpages, but things started falling apart with dynamic websites. There is hope for some JavaScript websites where we can make use of AJAX to get data from the server. 
+
+<img src="/assets/img/ajax.png" alt="isolated" width="300"/>
+
+Using Requests generally results in faster and more concise code, while using Selenium makes development faster on Javascript heavy sites. 
+
 ```python
 import requests, re
 from typing import Dict, Union
@@ -64,5 +72,5 @@ def get_ajax(
     return open_tag + '&amp;'.join(params_list) + '</post></ajaxrequest>'
 ```
 
-<img src="/assets/img/ajax.png" alt="isolated" width="300"/>
+
 
