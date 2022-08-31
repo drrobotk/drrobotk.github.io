@@ -5,18 +5,22 @@ subtitle: No more Selenium!
 #cover-img: /assets/img/path.jpg
 thumbnail-img: /assets/img/ajax.png
 #share-img: /assets/img/path.jpg
-tags: [javascript, python, ajax, requests]
+tags: [JavaScript, python, ajax, requests]
 date: 2022-08-30
 last-updated: 2022-08-30
 ---
 
-Due to the increasing popularity of modern JavaScript frameworks such as React, Angular, and Vue, more and more websites are now built dynamically with JavaScript. This poses a challenge for web scraping because the HTML markup is not available in the source code. Therefore, we cannot scrape these JavaScript webpages directly and may need to render them as regular HTML markup first. For such tasks, where we have to interact with the web browser, selenium is your go-to library.
+In the past, we used libraries such as urllib or requests to read or download data from webpages, but things started falling apart with dynamic websites.
 
-In the past, we used libraries such as urllib or requests to read or download data from webpages, but things started falling apart with dynamic websites. There is hope for some JavaScript websites where we can make use of AJAX to get data from the server. 
+Due to the increasing popularity of modern JavaScript frameworks such as React, Angular, and Vue, more and more websites are now built dynamically with JavaScript. This poses a challenge for web scraping because the HTML markup is not available in the source code. Therefore, we cannot scrape these JavaScript webpages directly and may need to render them as regular HTML markup first. 
+
+For such tasks, particularly where we have to interact with the web browser, selenium is the usual go-to library which uses an automated web browser called a web driver. However, this can be more resource heavy than using the requests library. 
+
+The way that JavaScript calls work is that the browser makes a request to the server, using AJAX routines, and the server returns the data to the browser. 
 
 <img src="/assets/img/ajax.png" alt="isolated" width="300"/>
 
-Using Requests generally results in faster and more concise code, while using Selenium makes development faster on Javascript heavy sites. 
+It turns out we can intercept the AJAX calls from the page and reproduce/replay them to get the same data without a browser.
 
 ```python
 import requests, re
@@ -34,6 +38,11 @@ session = requests.Session()
 def get_insthash(MAIN_URL: str) -> str:
     """
     Get the insthash.
+
+    Params:
+        MAIN_URL: str
+            The main URL of the website.
+    
     Returns:
         str
             Instance hash.
@@ -53,13 +62,17 @@ def get_ajax(
 ) -> str:
     """
     Get the ajax text to process JS request.
+
     Params:
+        MAIN_URL: str
+            The main URL of the website.
         insthash: str
             Instance hash.
         params: Dict
             Parameters to pass to the request.
         init: bool
             Whether to get the initial data or not.
+
     Returns:
         str
             The ajax text for the post request.
