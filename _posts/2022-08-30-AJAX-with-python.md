@@ -20,7 +20,7 @@ The way that JavaScript calls work is that the browser makes a request to the se
 
 <img src="/assets/img/ajax.png" alt="isolated" width="300"/>
 
-It turns out we can intercept the AJAX calls from the page and reproduce/replay them to get the same data without a browser.
+It turns out we can intercept the AJAX routines from the page and reproduce/replay them to get the same data without a browser.
 
 ```python
 import requests, re
@@ -85,5 +85,5 @@ def get_ajax(
     return open_tag + '&amp;'.join(params_list) + '</post></ajaxrequest>'
 ```
 
-Always try to reproduce the AJAX calls before trying something more complicated or heavy like using an automated browser.
+Always try to reproduce the AJAX routines before trying something more complicated or heavy like using an automated browser.
 
