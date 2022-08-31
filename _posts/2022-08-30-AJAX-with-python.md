@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Using requests library with AJAX in Python to get data from a JavaScript website
-subtitle: No more Selenium!
+subtitle: Replaying AJAX routines instead of using Selenium
 #cover-img: /assets/img/path.jpg
 thumbnail-img: /assets/img/ajax.png
 #share-img: /assets/img/path.jpg
