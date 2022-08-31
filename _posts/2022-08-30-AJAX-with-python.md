@@ -85,5 +85,5 @@ def get_ajax(
     return open_tag + '&amp;'.join(params_list) + '</post></ajaxrequest>'
 ```
 
-
+Always try to reproduce the AJAX calls before trying something more complicated or heavy like using an automated browser.
 
