@@ -6,8 +6,8 @@ subtitle: Short introduction to black holes
 thumbnail-img: /assets/img/saga.jpg
 #share-img: /assets/img/path.jpg
 tags: [black hole, physics, m87, sagitarrius A*]
-date: 2022-08-30
-last-updated: 2022-08-31
+date: 2022-01-20
+last-updated: 2022-08-30
 ---
 
 A **black hole** is simply an object from which light can't escape. If particles of light (photons) cannot escape the surface of the object, then we can't see the object - hence the name. They can be formed from the gravitational collapse of massive stars but are also of interest in their own right, independently of how they were formed. 
