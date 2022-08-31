@@ -5,8 +5,8 @@ subtitle: SSH over HTTPS or IAP
 #cover-img: /assets/img/path.jpg
 thumbnail-img: /assets/img/bastion.png
 #share-img: /assets/img/path.jpg
-tags: [GCP, ssh, vm, firewall]
-date: 2022-07-20
+tags: [GCP, ssh, vm, firewall, https, iap]
+date: 2022-08-20
 last-updated: 2022-08-31
 ---
 Sometimes firewalls refuse to allow SSH connections entirely. In such cases, we can establish a SSH connection via HTTPS or IAP.
