@@ -9,7 +9,6 @@ tags: [JavaScript, python, ajax, requests]
 date: 2022-08-30
 last-updated: 2022-09-01
 ---
-
 In the past, we used libraries such as urllib or requests to read or download data from webpages, but things started falling apart with dynamic websites.
 
 Due to the increasing popularity of modern JavaScript frameworks such as React, Angular, and Vue, more and more websites are now built dynamically with JavaScript. This poses a challenge for web scraping because the HTML markup is not available in the source code. Therefore, we cannot scrape these JavaScript webpages directly and may need to render them as regular HTML markup first. 
@@ -30,7 +29,12 @@ We will use requests to scrape the same table data by replaying AJAX routines, i
 
 The first step is to visit the url and view the network requests in developer mode. The following screenshots were taken from a Firefox browser.
 
+We look for the first request to the server, which in this case is a POST request:
+
 <img src="/assets/img/network1.png" alt="isolated" width="800"/>
+
+The POST request contains the following request payload:
+
 <img src="/assets/img/network2.png" alt="isolated" width="800"/>
 
 Request payload (after formatting):
@@ -46,6 +50,7 @@ Request payload (after formatting):
 The shows the first request is to initialize the AJAX routines using an instance hash and the tag `saving` is set to `TRUE` to indicate that the following AJAX requests should be saved at each step.
 
 We can find the instance hash by looking at the `insthash` tag contained in the source from the initial request to the url.
+
 <img src="/assets/img/source.png" alt="isolated" width="800"/>
 
 Now let's move to the next section of the application by appending dummy data:
