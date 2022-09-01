@@ -28,9 +28,74 @@ The guide above uses selenium to obtain a table data from a JavaScript website, 
 
 We will attempt to scrape the same table data using requests by replaying AJAX routines.
 
-<img src="/assets/img/source.png" alt="isolated" width="600"/>
+<img src="/assets/img/source.png" alt="isolated" width="800"/>
 
-<img src="/assets/img/network.png" alt="isolated" width="600"/>
+The first step is to initialize the AJAX routines using the instance hash contained in the source from the initial request.
+
+<img src="/assets/img/network1.png" alt="isolated" width="800"/>
+<img src="/assets/img/network2.png" alt="isolated" width="800"/>
+
+Request payload (after formatting):
+```html
+<ajaxrequest>
+<insthash>4101-d9689b26a765a87f</insthash>
+<post url='https://www.passportappointment.service.gov.uk/outreach/PublicBooking.ofml'>
+</post>
+<saving>TRUE</saving>
+</ajaxrequest>
+```
+
+<img src="/assets/img/network4.png" alt="isolated" width="800"/>
+
+Request payload (after formatting):
+```html
+<ajaxrequest>
+<insthash>4101-d9689b26a765a87f</insthash>
+<post url='https://www.passportappointment.service.gov.uk/outreach/PublicBooking.ofml'>
+I_SUBMITCOUNT=1&amp;
+I_INSTHASH=4101-d9689b26a765a87f&amp;
+I_PAGENUM=4&amp;
+I_JAVASCRIPTON=1&amp;
+I_UTFENCODED=TRUE&amp;
+I_ACCESS=&amp;
+I_TABLELINK=&amp;
+I_AJAXMODE=&amp;
+I_SMALLSCREEN=&amp;
+I_SECTIONHASH=d9689b26a765a87f_Section_start&amp;
+FHC_Passport_count=&amp;
+F_Passport_count=1&amp;
+F_Applicant1_firstname=m&amp;
+F_Applicant1_lastname=m&amp;
+FD_Applicant1_dob=1&amp;
+FM_Applicant1_dob=1&amp;
+FY_Applicant1_dob=1990&amp;
+F_Applicant2_firstname=&amp;
+F_Applicant2_lastname=&amp;
+FD_Applicant2_dob=&amp;
+FM_Applicant2_dob=&amp;
+FY_Applicant2_dob=&amp;
+F_Applicant3_firstname=&amp;
+F_Applicant3_lastname=&amp;
+FD_Applicant3_dob=&amp;
+FM_Applicant3_dob=&amp;
+FY_Applicant3_dob=&amp;
+F_Applicant4_firstname=&amp;
+F_Applicant4_lastname=&amp;
+FD_Applicant4_dob=&amp;
+FM_Applicant4_dob=&amp;
+FY_Applicant4_dob=&amp;
+F_Applicant5_firstname=&amp;
+F_Applicant5_lastname=&amp;
+FD_Applicant5_dob=&amp;
+FM_Applicant5_dob=&amp;
+FY_Applicant5_dob=&amp;
+BB_Next=
+</post>
+</ajaxrequest>
+```
+
+We can repeat this process for the other pages until we get to the page that contains the table data, making note of the AJAX routines that are called and the data in the request payload.
+
 
 ```python
 import requests, re
@@ -97,3 +162,4 @@ def get_ajax(
 
 Always try to reproduce the AJAX routines before trying something more complicated or heavy like using an automated browser.
 
+The full code, including the AJAX request data for each page, can be viewed from [https://github.com/mshodge/youshallnotpassport/blob/main/scripts/appointments_ft.py](https://github.com/mshodge/youshallnotpassport/blob/main/scripts/appointments_ft.py).
