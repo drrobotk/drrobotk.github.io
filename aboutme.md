@@ -2,7 +2,7 @@
 layout: post
 title: About me
 subtitle: whoami
-date: 2022-01-15
+date: 2022-03-15
 ---
 <img src="/assets/img/neurodiversity.png" alt="isolated" width="150"/>
 
