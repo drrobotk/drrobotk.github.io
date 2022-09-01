@@ -28,9 +28,7 @@ The guide above uses selenium to obtain a table data from a JavaScript website, 
 
 We will use requests to scrape the same table data by replaying AJAX routines, instead of using a selenium webdriver. This work was implemented as part of v2 of [youshallnotpassport](https://github.com/mshodge/youshallnotpassport) which has significantly improved the speed and reliability of the scraping process, since it does not rely on installing and using a web driver.
 
-<img src="/assets/img/source.png" alt="isolated" width="800"/>
-
-The first step is to initialize the AJAX routines using the instance hash contained in the source from the initial request.
+The first step is to visit the url and view the network requests in developer mode. The following screenshots were taken from a Firefox browser.
 
 <img src="/assets/img/network1.png" alt="isolated" width="800"/>
 <img src="/assets/img/network2.png" alt="isolated" width="800"/>
@@ -44,6 +42,17 @@ Request payload (after formatting):
 <saving>TRUE</saving>
 </ajaxrequest>
 ```
+
+The shows the first request is to initialize the AJAX routines using an instance hash and the tag `saving` is set to `TRUE` to indicate that the following AJAX requests should be saved at each step.
+
+We can find the instance hash by looking at the `insthash` tag contained in the source from the initial request to the url.
+<img src="/assets/img/source.png" alt="isolated" width="800"/>
+
+Now let's move to the next section of the application by appending dummy data:
+
+<img src="/assets/img/dummy.png" alt="isolated" width="400"/>
+
+and again checking the network requests for the request and response payload:
 
 <img src="/assets/img/network4.png" alt="isolated" width="800"/>
 
@@ -96,6 +105,7 @@ BB_Next=
 
 We can repeat this process for the other pages until we get to the page that contains the table data, making note of the AJAX routines that are called and the data in the request payload.
 
+The following code can be used to find the instance hash from the source of the main url and to get the data required for the AJAX routine in the request payload.
 
 ```python
 import requests, re
