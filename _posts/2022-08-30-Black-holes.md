@@ -10,7 +10,14 @@ date: 2022-01-20
 last-updated: 2022-08-30
 ---
 
-A **black hole** is simply an object from which light can't escape. If particles of light (photons) cannot escape the surface of the object, then we can't see the object - hence the name. They can be formed from the gravitational collapse of massive stars but are also of interest in their own right, independently of how they were formed. 
+A **black hole** is simply an object from which light can't escape. If particles of light (photons) cannot escape the surface of the object, then we can't see the object - hence the name. 
+
+|<img src="/assets/img/bh.gif" alt="isolated" width="300"/>| 
+|:--:| 
+| *A black hole.* |
+
+
+They can be formed from the gravitational collapse of massive stars but are also of interest in their own right, independently of how they were formed. 
 
 | ![star](https://user-images.githubusercontent.com/51001263/73226997-ece4a380-4169-11ea-973a-69dec5844b62.jpg)| 
 |:--:| 
@@ -46,6 +53,6 @@ Black holes also arise as solutions in Einstein's theory of general relativity. 
 
 The first black hole was discovered in 1964 called Cygnus X1 and it is estimated to have a mass of about 14.8 times the mass of the sun.
 
-|![cygnus](https://user-images.githubusercontent.com/51001263/73227709-4b128600-416c-11ea-91e7-304c3cbfaa8d.png) | 
+|<img src="https://user-images.githubusercontent.com/51001263/73227709-4b128600-416c-11ea-91e7-304c3cbfaa8d.png" alt="isolated" width="400"/> | 
 |:--:| 
 | *Cygnus X1 is a galactic X-ray source discovered during a rocket flight.* |
