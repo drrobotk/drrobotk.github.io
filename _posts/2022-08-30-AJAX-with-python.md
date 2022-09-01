@@ -7,7 +7,7 @@ thumbnail-img: /assets/img/ajax.png
 #share-img: /assets/img/path.jpg
 tags: [JavaScript, python, ajax, requests]
 date: 2022-08-30
-last-updated: 2022-08-31
+last-updated: 2022-09-01
 ---
 
 In the past, we used libraries such as urllib or requests to read or download data from webpages, but things started falling apart with dynamic websites.
