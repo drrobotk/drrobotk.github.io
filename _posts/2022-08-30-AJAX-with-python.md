@@ -51,7 +51,7 @@ The shows the first request is to initialize the AJAX routines using an instance
 
 We can find the instance hash by looking at the `insthash` tag contained in the source from the initial request to the url.
 
-<img src="/assets/img/source.png" alt="isolated" width="800"/>
+<img src="/assets/img/source.png" alt="isolated" width="900"/>
 
 Now let's move to the next section of the application by appending dummy data:
 
