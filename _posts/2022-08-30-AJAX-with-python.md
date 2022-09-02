@@ -179,5 +179,5 @@ Moral of the story: Always try to reproduce the AJAX routines before trying some
 
 The full code, including the AJAX request data for each page, can be viewed from: [appointments_ft.py](https://github.com/mshodge/youshallnotpassport/blob/main/scripts/appointments_ft.py)
 
-A similar module has been created for the [UK Passport Premium Service](https://www.gov.uk/get-a-passport-urgently/online-premium-service). This service is based on a different but simpler system which requires only POST/GET requests to get the table data:
+A similar module has been created for the [UK Passport Premium Service](https://www.gov.uk/get-a-passport-urgently/online-premium-service). This service is based on a different system which requires only POST/GET requests with a [CSRF Token](https://portswigger.net/web-security/csrf/tokens) to get the table data:
 [appointments_op.py](https://github.com/mshodge/youshallnotpassport/blob/main/scripts/appointments_op.py)
