@@ -175,7 +175,7 @@ def get_ajax(
     return open_tag + '&amp;'.join(params_list) + '</post></ajaxrequest>'
 ```
 
-Always try to reproduce the AJAX routines before trying something more complicated or heavy like using an automated browser.
+Moral of the story: Always try to reproduce the AJAX routines before trying something more complicated or heavy like using an automated browser.
 
 The full code, including the AJAX request data for each page, can be viewed from: [appointments_ft.py](https://github.com/mshodge/youshallnotpassport/blob/main/scripts/appointments_ft.py)
 
