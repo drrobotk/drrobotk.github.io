@@ -1,5 +1,5 @@
 ---
 layout: home
 title: Blog
-subtitle: Posts about stuff
+subtitle: Powered by Markdown(-> HTML, JS), PyScript and MathJax.
 ---
