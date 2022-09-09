@@ -47,7 +47,7 @@ Request payload (after formatting):
 </ajaxrequest>
 ```
 
-The shows the first request is to initialize the AJAX routines using an instance hash and the tag `saving` is set to `TRUE` to indicate that the following AJAX requests should be saved at each step.
+This shows the first request is to initialize the AJAX routines using an instance hash and the tag `saving` is set to `TRUE` to indicate that the following AJAX requests should be saved at each step.
 
 We can find the instance hash by looking at the `insthash` tag contained in the source from the initial request to the url.
 
