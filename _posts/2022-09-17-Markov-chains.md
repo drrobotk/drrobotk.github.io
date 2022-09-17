@@ -2,9 +2,7 @@
 layout: post
 title: Markov chains
 subtitle: Discrete-time Markov chains
-#cover-img: /assets/img/path.jpg
 thumbnail-img: /assets/img/markov.png
-#share-img: /assets/img/path.jpg
 tags: [markov chains, discrete-time, stochastic processes]
 date: 2022-09-17
 last-updated: 2022-09-17
