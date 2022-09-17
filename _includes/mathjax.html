@@ -10,9 +10,15 @@ MathJax.Hub.Config({
     "MathMenu.js",
     "MathZoom.js",
     "AssistiveMML.js",
-    "a11y/accessibility-menu.js"
+    "a11y/accessibility-menu.js",
+    "tex2jax.js"
   ],
   jax: ["input/TeX", "output/CommonHTML"],
+  tex2jax: {
+    inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+    displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+    processEscapes: true
+  },
   TeX: {
     extensions: [
       "AMSmath.js",
