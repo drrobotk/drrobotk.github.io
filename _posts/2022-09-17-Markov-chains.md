@@ -27,7 +27,7 @@ for all $t=0,1,\cdots, n$ and all possible states $i, j = 1, \cdots, m$.
 
 Thus, such a Markov chain process is memoryless. Consequently, it can be used for describing systems that follow a chain of linked events, where what happens next depends only on the current state of the system. 
 
-|<center><img src="/assets/img/markov.png" alt="isolated" width="300"/></center>| 
+|<centre><img src="/assets/img/markov.png" alt="isolated" width="300"/></centre>| 
 |:--:| 
 | *A transition state diagram* |
 
