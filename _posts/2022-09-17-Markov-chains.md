@@ -85,7 +85,7 @@ $$\begin{align}
 \lim_{n \rightarrow \infty} P_{ij}^{(n)} = \pi_j, \, \, \, \, \, \,  \sum_{j=1}^m \pi_j = 1 \ .
 \end{align}$$
 
-We can determine this from,
+We can determine this from the matrix equation,
 
 $$\begin{align}
 \pi P = \pi \ .
