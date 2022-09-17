@@ -5,12 +5,12 @@ title: My CV
 
 # Summary
 
-Logical, imaginative, analytical and committed data scientist with a background in mathematics and theoretical physics looking for opportunities in data science, machine learning or mathematical modelling. Interested in devising a better problem-solving method for challenging tasks, and learning new technologies and tools if the need arises.
+Logical, imaginative, analytical and committed data scientist with a background in mathematics and theoretical physics looking for opportunities in data science, machine learning or mathematical modelling to solve real-world problem. Interested in devising a better problem-solving method for challenging tasks, and learning new technologies and tools if the need arises. 
 
 # Skills
 
 - ### Programming and Scripting
-Python, C++, Visual Basic, Java, Javascript, PHP, PowerShell, Bash, SQL, 
+Python, C++, Visual Basic, Java, Javascript, PyScript, PHP, PowerShell, Bash, SQL, 
 and HTML5
 - ### Computations and Data Science
 Mathematica, Maple, MATLAB, Matplotlib, NumPy, SciPy, Seaborn, GAMS,
