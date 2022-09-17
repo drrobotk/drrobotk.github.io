@@ -126,7 +126,7 @@ Photoshop, PowerPoint, LaTeX, GIMP and CorelDraw
 **Researcher** - [King's College London](https://www.kcl.ac.uk/)
 
 **October 2011 - June 2012**
--   Researched quantum integrable and spin chains which has applications in quantum computing for information processing.
+-   Researched quantum integrable and spin chains with applications in quantum computing for information processing.
 -   Training in the mathematics department with supervisor Dr B Doyon.
 -   Analysed physics journal papers and typed up report in LaTeX.
 
