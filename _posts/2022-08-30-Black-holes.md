@@ -12,7 +12,7 @@ last-updated: 2022-08-30
 
 A **black hole** is simply an object from which light can't escape. If particles of light (photons) cannot escape the surface of the object, then we can't see the object - hence the name. 
 
-|<img src="/assets/img/bh.gif" alt="isolated" width="300"/>| 
+|<img src="/assets/img/bh.gif" alt="isolated" width="200"/>| 
 |:--:| 
 | *A black hole.* |
 
