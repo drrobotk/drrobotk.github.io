@@ -41,7 +41,7 @@ $$\begin{align}
 
 for all $ n > p$. In this type of Markov chain, the future state depends on the past $p$ states where $p=1$ is equivalent to the usual Markov property. 
 
-A Markov chain is irreducible if there is a path from any state to any other state. A Markov chain is aperiodic if the period of the chain is 1. A Markov chain is ergodic if it is irreducible and aperiodic.
+A Markov chain is irreducible if there is a path from any state to any other state and aperiodic if the period of the chain is 1. A Markov chain is ergodic if it is both irreducible and aperiodic.
 
 If the state space is finite, then the transition probability can be represented by a matrix $P$ whose $(i,j)$th element is given by:
 
