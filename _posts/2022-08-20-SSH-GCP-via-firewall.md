@@ -97,6 +97,15 @@ ssh INSTANCE_NAME.ZONE.PROJECT_ID
 ```
 or by using the `Remote - SSH` extension on vscode.
 
+You may also need to configure your proxy settings to allow the connection to be made by running the following commands:
+```bash
+gcloud config set proxy/type http
+gcloud config set proxy/address proxy.testcorp.com
+gcloud config set proxy/port 8080
+gcloud config set proxy/username user001
+gcloud config set proxy/password XXXXXXXXXXXX
+```
+
 ## Method 2: SSH over IAP
 Identity-Aware Proxy (IAP) is a managed service that can control the access to your VM. It allows you to authenticate user TCP traffic through IAP before sending it to your VM instances. This also works for private VM’s without an external IP address.
 
