@@ -46,7 +46,7 @@ Photoshop, PowerPoint, LaTeX, GIMP and CorelDraw
 **3 A-levels, 3 AS-levels and AEA** - [Sir George Monoux College](https://www.sgmc.ac.uk/) 
 
 **2006-2008**                                                  
-- A-levels: Mathematics, Further Mathematics and Physics.                                                     
+-   A-levels: Mathematics, Further Mathematics and Physics.                                                     
 -   AS-levels: Computer Science, Psychology, Communications.                                                       
 -   Advanced Extension Award: Mathematics.                   
 
@@ -57,6 +57,9 @@ Photoshop, PowerPoint, LaTeX, GIMP and CorelDraw
 **March 2022-present**
 -   Working in the Economics Statistics Group (ESG) as part of the Data Science Campus.
 -   Extracting, analysing and interpreting large amounts of data from a range of sources, using algorithmic, data mining, machine learning and statistical tools in Python and R.
+-   Developing and maintaining data pipelines and data visualisations using Python, R, SQL, Tableau and GCP.
+-   Working with a team of data scientists, statisticians and economists to deliver high quality data products and services.
+-   Researched and implemented the price index and aggregation methodology for the [least cost index](https://www.ons.gov.uk/economy/inflationandpriceindices/articles/trackingthelowestcostgroceryitemsukexperimentalanalysis/april2021toapril2022) which was used to track the price of the lowest-cost grocery items for 30 products over multiple retailers using web-scraped data on GCP.
 -   Continued member of the Data Science and Statistical High-performance computing (DaSH) expert group and the Index Numbers Expert Group (INEG).
 
 **Freelance Mathematics, Statistics and Computing Tutor** - [Witherow Brooke](https://www.witherowbrooke.co.uk/)
@@ -70,7 +73,8 @@ Photoshop, PowerPoint, LaTeX, GIMP and CorelDraw
 **June 2021 - March 2022**
 -   Working in the Economics Statistics Group (ESG) as part of Emerging Platforms Delivery Support.
 -   Extracting, analysing and interpreting large amounts of data from a range of sources, using algorithmic, data mining, machine learning and statistical tools in Python and R.
--   Currently researching and implementing multilateral price indices, using calculations, imputation and time series extension methods in Python, for Big Data alternative data sources processed via Spark for the Consumer Prices Alternative Data Sources ETL data pipeline.
+-   Currently researching and implementing multilateral price indices, using calculations, imputation and time series extension methods in Python, for Big Data [alternative data sources](https://www.ons.gov.uk/economy/inflationandpriceindices/articles/introducingalternativedataintoconsumerpricestatisticsaggregationandweights/2021-11-09) (scanner and webscraped data) and [new index methods](https://www.ons.gov.uk/economy/inflationandpriceindices/articles/newindexnumbermethodsinconsumerpricestatistics/2020-09-01) processed via Spark for the Consumer Prices Alternative Data Sources ETL data pipeline.
+-   Developed and maintained data pipelines and data visualisations using Python, SQL, Spark and Cloudera.
 -   Became a member of the Data Science and Statistical High-performance computing (DaSH) expert group, the Index Numbers Expert Group (INEG) \`and the EPDS induction team onboarding new starters.
 
 **Mathematics, Software and Technology Consultant** - Self-employed
@@ -78,6 +82,7 @@ Photoshop, PowerPoint, LaTeX, GIMP and CorelDraw
 **January 2019 - Present**
 -   Advice to clients on the application of mathematics, software and technology, such as statistical analysis, machine learning or IoT devices.
 -   Researching new methods and technology for innovative applications.
+-   Provided training and tutoring in mathematics, software and technology.
 -   Consulting on web development and writing custom code in Python, PHP, Javascript, MySQL etc.
 
 **Electronics Repair Technician** - Self-employed
@@ -106,6 +111,7 @@ Photoshop, PowerPoint, LaTeX, GIMP and CorelDraw
 -   Doctoral training from the mathematics department with supervisors Prof G Papadopoulos and Dr J Gutowksi.
 -   Published research in peer-review science journals written in LaTeX.
 -   Attended and presented at conferences on my published research.
+-   Awarded a PhD Scholarship by the [Science and Technology Facilities Council (STFC)](https://stfc.ukri.org/) for academic excellence.
 -   Planned weekly journal clubs and other activities.
 
 **Graduate Teaching Assistant** - [King's College London](https://www.kcl.ac.uk/)
@@ -113,6 +119,8 @@ Photoshop, PowerPoint, LaTeX, GIMP and CorelDraw
 **September 2012 - January 2019**
 -   Teaching Assistant for: Calculus I, Calculus II, Partial Differential equations and Complex Variables, Geometry of Surfaces, Introduction to dynamical systems, Intermediate dynamics, Linear Methods, Elementary Number Theory, Groups and Symmetries, Linear Algebra.
 -   Conducted training sessions in a computer lab for Maple, a software package for technical computations.
+-   Marked and graded assignments and tests.
+-   Held office hours for students to ask questions and discuss problems.
 -   Planned regular tutorials, offered guidance and support to students, held extended office hours, marked weekly assignments and oversaw student presentations.
 
 **Researcher** - [King's College London](https://www.kcl.ac.uk/)
