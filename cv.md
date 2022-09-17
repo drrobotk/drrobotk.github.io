@@ -55,7 +55,7 @@ Photoshop, PowerPoint, LaTeX, GIMP and CorelDraw
 **Data Scientist (Senior Executive Officer)** - [Office for National Statistics](https://www.ons.gov.uk/)
 
 **March 2022-present**
--   Working in the Economics Statistics Group (ESG) as part of the Data Science Campus.
+-   Working in the Economics Statistics Group (ESG) as part of the [Data Science Campus](https://datasciencecampus.ons.gov.uk/).
 -   Extracting, analysing and interpreting large amounts of data from a range of sources, using algorithmic, data mining, machine learning and statistical tools in Python and R.
 -   Developing and maintaining data pipelines and data visualisations using Python, R, SQL, Tableau and GCP.
 -   Working with a team of data scientists, statisticians and economists to deliver high quality data products and services.
