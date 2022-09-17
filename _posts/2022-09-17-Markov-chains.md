@@ -13,7 +13,9 @@ A first-order Markov chain process is characterized by the Markov property, whic
 
 {% include mathjax.html type="post" %}
 
-#### Discrete-time Markov Chain
+<p style="border-width:2px; border-style:solid; border-color:#FF0000; padding: 1em;">
+<strong>Definition: Discrete-time Markov Chain</strong>
+<br>
 Let a stochastic process $S = \{X_0, X_1, \cdots, X_n\}$ be a sequence of discrete random variables. Then the sequence $S$ is a Markov Chain if it satisfies the Markov property:
 
 $$\begin{align}
@@ -23,8 +25,11 @@ $$\begin{align}
 \end{align}$$
 
 for all $t=0,1,\cdots, n$ and all possible states $i, j = 1, \cdots, m$.
+</p>
 
-Thus, such a Markov chain process is memoryless. Consequently, it can be used for describing systems that follow a chain of linked events, where what happens next depends only on the current state of the system. A Markov chain with memory is a process satisfying,
+Thus, such a Markov chain process is memoryless. Consequently, it can be used for describing systems that follow a chain of linked events, where what happens next depends only on the current state of the system. The Markov property is a sufficient condition for a stochastic process to be a Markov chain. However, it is not a necessary condition. For example, the random walk is a Markov chain, but it does not satisfy the Markov property.
+
+A Markov chain with memory is a process satisfying,
 
 $$\begin{align}
 \mathcal{P}(X_{t+1} = j | X_t = i, X_{t-1}, \cdots, X_1, X_0) = \mathcal{P}(X_{t+1} = j | X_t = i, X_{t-1}, \cdots, X_{n-p}) \nonumber \ ,
