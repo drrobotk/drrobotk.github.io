@@ -3,6 +3,7 @@ layout: post
 title: About me
 subtitle: whoami
 date: 2022-03-15
+last-updated: 2022-09-17
 ---
 <img src="/assets/img/neurodiversity.png" alt="isolated" width="150"/>
 
@@ -10,7 +11,7 @@ I am a Data Scientist with MSci in Mathematics, with First Class Honours, and a 
 
 I have experience coding in many languages (e.g Python, C++) using various OS and I have extensively used computational software (e.g Matlab, Mathematica, Maple) or libraries (e.g numpy, scipy, scikit-learn) for performing mathematical, physical, and statistical computations on various analyses and datasets. For my PhD research, I had performed extensive computations on multi-dimensional arrays. I am an expert on creating data pipelines and deploying machine learning models at scale, using cloud services (e.g GCP, Cloudera) and technologies such as Apache Spark or BigQuery.
 
-I am also familiar with data science and machine learning R and Python libraries (e.g Scikit-learn, Keras, Tensorflow) as well as data visualization tools such as Tableau. As a freelance data scientist, I analysed TV instantaneous power consumption data of various households with ML to identify and classify when various devices (e.g the TV or kettle) are turned on and the occurrences and duration of their usage, to identify routines and detection of anomalies where there is a deviation. This data was provided by a particular company that aims to use ML and modelling with domestic electric appliances.
+I am also familiar with data science and machine learning R and Python libraries (e.g Scikit-learn, Keras, Tensorflow) as well as data visualization tools such as Tableau. As a freelance data scientist, I analysed instantaneous power consumption data of a large number of households with ML to identify various devices (e.g the TV or kettle) and classify when they are turned on and the occurrences/duration of their usage, to identify routines and detection of anomalies. This data was provided by a particular company that aims to use ML and modelling with domestic electric appliances.
 
 Since June 2021, I have been working as a Higher Data Scientist at the Office for National Statistics (ONS) within the Economics Statistics Group (ESG), where I have been involved in researching and implementing multilateral price indices, using calculations and time series extension methods in Python. This work was as part of an ETL Reproducible Analytical Pipeline on Cloudera with Apache Spark for the treatment of [alternative data sources](https://www.ons.gov.uk/economy/inflationandpriceindices/articles/introducingalternativedataintoconsumerpricestatisticsaggregationandweights/2021-11-09) (scanner and web-scraped data) and [new index methods](https://www.ons.gov.uk/economy/inflationandpriceindices/articles/newindexnumbermethodsinconsumerpricestatistics/2020-09-01) (e.g multilateral methods) which will be used to determine the consumer price index (CPI) in the future. 
 
