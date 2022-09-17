@@ -113,13 +113,7 @@ We can repeat this process for the other pages until we get to the page that con
 The following code can be used to find the instance hash from the source of the main url and to get the data required for the AJAX routine in the request payload.
 
 ```python
-import requests, re
-from typing import Dict, Union
-import dateutil.parser as dparser
-from datetime import date as dt
-from datetime import datetime, timedelta
-import time
-
+import requests
 from bs4 import BeautifulSoup
 import pandas as pd
 
