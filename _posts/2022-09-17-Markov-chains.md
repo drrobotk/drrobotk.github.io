@@ -41,6 +41,8 @@ $$\begin{align}
 
 for all $ n > p$. In this type of Markov chain, the future state depends on the past $p$ states where $p=1$ is equivalent to the usual Markov property. 
 
+A Markov chain is irreducible if there is a path from any state to any other state. A Markov chain is aperiodic if the period of the chain is 1. A Markov chain is ergodic if it is irreducible and aperiodic.
+
 If the state space is finite, then the transition probability can be represented by a matrix $P$ whose $(i,j)$th element is given by:
 
 $$\begin{align}
@@ -93,7 +95,7 @@ $$\begin{align}
 \pi P = \pi \ .
 \end{align}$$
 
-The steady state vector is the eigenvector of $P$ with eigenvalue $1$. The steady state distribution is the probability distribution of the Markov chain at equilibrium and it is unique if the Markov chain is irreducible and aperiodic.
+The steady state vector is the eigenvector of $P$ with eigenvalue $1$. The steady state distribution is the probability distribution of the Markov chain at equilibrium and it is unique if the Markov chain is ergodic.
 
 The expected number of steps to reach a given state $j$ from the initial state $i$ is given by,
 
