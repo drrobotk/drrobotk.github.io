@@ -25,7 +25,13 @@ $$\begin{align}
 for all $t=0,1,\cdots, n$ and all possible states $i, j = 1, \cdots, m$.
 </p>
 
-Thus, such a Markov chain process is memoryless. Consequently, it can be used for describing systems that follow a chain of linked events, where what happens next depends only on the current state of the system. The Markov property is a sufficient condition for a stochastic process to be a Markov chain. However, it is not a necessary condition. For example, the random walk is a Markov chain, but it does not satisfy the Markov property.
+Thus, such a Markov chain process is memoryless. Consequently, it can be used for describing systems that follow a chain of linked events, where what happens next depends only on the current state of the system. 
+
+|<center><img src="/assets/img/markov.png" alt="isolated" width="300"/></center>| 
+|:--:| 
+| *A transition state diagram* |
+
+The Markov property is a sufficient condition for a stochastic process to be a Markov chain. However, it is not a necessary condition. For example, the random walk is a Markov chain, but it does not satisfy the Markov property.
 
 A Markov chain with memory is a process satisfying,
 
@@ -34,10 +40,6 @@ $$\begin{align}
 \end{align}$$
 
 for all $ n > p$. In this type of Markov chain, the future state depends on the past $p$ states where $p=1$ is equivalent to the usual Markov property. 
-
-<center>
-<img src="/assets/img/markov.png" alt="isolated" width="300"/>
-</center>
 
 If the state space is finite, then the transition probability can be represented by a matrix $P$ whose $(i,j)$th element is given by:
 
@@ -89,4 +91,12 @@ We can determine this from the matrix equation,
 
 $$\begin{align}
 \pi P = \pi \ .
+\end{align}$$
+
+The steady state vector is the eigenvector of $P$ with eigenvalue $1$. The steady state distribution is the probability distribution of the Markov chain at equilibrium and it is unique if the Markov chain is irreducible and aperiodic.
+
+The expected number of steps to reach a given state $j$ from the initial state $i$ is given by,
+
+$$\begin{align}
+\mathcal{E}(X_t = j | X_0 = i) = \sum_{k=0}^n k P_{ij}^{(k)} \ .
 \end{align}$$
