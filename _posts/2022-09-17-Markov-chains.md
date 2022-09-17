@@ -17,9 +17,9 @@ A first-order Markov chain process is characterized by the Markov property, whic
 Let a stochastic process $S = \{X_0, X_1, \cdots, X_n\}$ be a sequence of discrete random variables. Then the sequence $S$ is a Markov Chain if it satisfies the Markov property:
 
 $$\begin{align}
-\mathcal{P}(X_{t+1} = j | X_t = i, X_{t-1}, \cdots, X_1, X_0) &=& \mathcal{P}(X_{t+1} = j | X_t = i) \nonumber \\
-&=& \mathcal{P}(X_{t} = j | X_{t-1} = i) \nonumber \\
-&=& \mathcal{P}(X_{1} = j | X_{0} = i)  \ ,
+\mathcal{P}(X_{t+1} = j | X_t = i, X_{t-1}, \cdots, X_1, X_0) &= \mathcal{P}(X_{t+1} = j | X_t = i) \nonumber \\
+&= \mathcal{P}(X_{t} = j | X_{t-1} = i) \nonumber \\
+&= \mathcal{P}(X_{1} = j | X_{0} = i)  \ ,
 \end{align}$$
 
 for all $t=0,1,\cdots, n$ and all possible states $i, j = 1, \cdots, m$.
@@ -45,9 +45,11 @@ P_{i j} = \mathcal{P}(X_{t+1} = j | X_t = i) \geq 0, \, \, \, \, \, \, \sum_{j=1
 This matrix is also known as the one-step probability matrix, i.e. the $P_{i j}$ is the probability of moving from state $i$ to state $j$ in one-step in the chain. Similarly the $(i,j)$th element of the $k$-step probability matrix $P^{(k)}$ is,
 
 $$\begin{align}
-P_{ij}^{(k)} &=& \mathcal{P}(X_{t+k}=j | X_{t} = i) \ ,
+P_{ij}^{(k)} &= \mathcal{P}(X_{t+k}=j | X_{t} = i) \ ,
 \nonumber \\
-&=& \mathcal{P}(X_k = j | X_0 = i) \geq 0 \ ,
+&= \mathcal{P}(X_k = j | X_0 = i) \ ,
+\nonumber \\
+&\geq 0 \ ,
 \end{align}$$
 
 and,
