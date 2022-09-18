@@ -7,7 +7,9 @@ tags: [markov chains, discrete-time, stochastic processes]
 date: 2022-09-17
 last-updated: 2022-09-17
 ---
-A first-order Markov chain process is characterized by the Markov property, which states that the conditional probability distribution for the system at the next time period depends only on the current state of the system, and not on the state of the system at any previous time periods. A finite-state discrete-time Markov chain is a stochastic process that consists of a finite number of states and transition probabilities among the different states. The process evolves through successive time periods known as steps.
+A first-order Markov chain process is characterized by the Markov property, which states that the conditional probability distribution for the system at the next time period depends only on the current state of the system, and not on the state of the system at any previous time periods. 
+
+A finite-state discrete-time Markov chain is a stochastic process that consists of a finite number of states and transition probabilities among the different states. The process evolves through successive time periods known as steps.
 
 {% include mathjax.html type="post" %}
 
@@ -102,3 +104,4 @@ The expected number of steps to reach a given state $j$ from the initial state $
 $$\begin{align}
 \mathcal{E}(X_t = j | X_0 = i) = \sum_{k=0}^n k P_{ij}^{(k)} \ .
 \end{align}$$
+
