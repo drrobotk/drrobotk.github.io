@@ -53,7 +53,7 @@ Photoshop, PowerPoint, LaTeX, GIMP and CorelDraw
 - Demonstrated understanding and skills to the fullest extent.
 - More advanced questions than the A-Level syllabus.
 
-### **3 A-levels &  3 AS-levels** - [Sir George Monoux College](https://www.sgmc.ac.uk/) 
+### **3 A-levels & 3 AS-levels** - [Sir George Monoux College](https://www.sgmc.ac.uk/) 
 
 **September 2006 - July 2008**                                                  
 -   A-levels: Mathematics, Further Mathematics and Physics.                                                     
