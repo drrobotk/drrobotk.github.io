@@ -6,7 +6,7 @@ layout: base
 
 <div class="{% if page.full-width %} container-fluid {% else %} container-md {% endif %}" role="main">
   <div class="row">
-    <div class="{% if page.full-width %} col {% else %} col-xl-20 offset-xl-20 col-lg-20 offset-lg-20 {% endif %}">
+    <div class="{% if page.full-width %} col {% else %} col-xl-30 offset-xl-30 col-lg-20 offset-lg-30 {% endif %}">
       {% if page.before-content %}
         <div class="before-content">
           {% for file in page.before-content %}
@@ -24,8 +24,6 @@ layout: base
           {% endfor %}
         </div>
       {% endif %}
-
-      {% include comments.html %}
     </div>
   </div>
 </div>
