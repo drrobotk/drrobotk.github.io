@@ -43,12 +43,19 @@ Photoshop, PowerPoint, LaTeX, GIMP and CorelDraw
 -   Covered various modules in pure and applied mathematics, including physics and statistics.
 -   Dissertation: '*Integrable quantum spin chains'*
 
-### **3 A-levels, 3 AS-levels and AEA** - [Sir George Monoux College](https://www.sgmc.ac.uk/) 
+### **Advanced Extension Award** - [Edexcel](https://qualifications.pearson.com/en/qualifications/edexcel-a-levels/advanced-extension-award-mathematics-2018.html)
+
+**January 2007 - August 2008**
+
+- Grade: *Merit*
+- Exam given to challenge the top 10% of candidates, to help them to develop their mathematical skills and demonstrate their understanding to the fullest extent.
+- More advanced questions than the A-Level syllabus.
+
+### **3 A-levels &  3 AS-levels** - [Sir George Monoux College](https://www.sgmc.ac.uk/) 
 
 **September 2006 - July 2008**                                                  
 -   A-levels: Mathematics, Further Mathematics and Physics.                                                     
--   AS-levels: Computer Science, Psychology, Communications.                                                       
--   Advanced Extension Award: Mathematics.                   
+-   AS-levels: Computer Science, Psychology, Communications.            
 
 # Experience
 
