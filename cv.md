@@ -77,7 +77,7 @@ Photoshop, PowerPoint, LaTeX, GIMP and CorelDraw
 -   Tutoring university students and planning lessons remotely over a video call and an online whiteboard.
 -   Advanced topics such as Linear Algebra, Statistics and Python.
 
-### **Data Scientist (Higher Executive Officer)** - *Contract with JSA Umbrella Company* - [Office for National Statistics](https://www.ons.gov.uk/)
+### **Data Scientist (Higher Executive Officer)** - *Contract with [JSA Umbrella Company](https://workwellsolutions.com/)* - [Office for National Statistics](https://www.ons.gov.uk/)
 
 **June 2021 - March 2022**
 -   Working in the Economics Statistics Group (ESG) as part of Emerging Platforms Delivery Support.
