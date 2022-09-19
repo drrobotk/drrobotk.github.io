@@ -28,31 +28,31 @@ Photoshop, PowerPoint, LaTeX, GIMP and CorelDraw
 
 # Education
 
-**PhD in Applied Mathematics & Theoretical Physics** - [King's College London](https://www.kcl.ac.uk/)
+#### **PhD in Applied Mathematics & Theoretical Physics** - [King's College London](https://www.kcl.ac.uk/)
 
-**2014-2019**
+**November 2014 - December 2019**
 -   Thesis: [*Dynamical supersymmetry enhancement black hole horizons*](https://kclpure.kcl.ac.uk/portal/en/theses/dynamical-supersymmetry-enhancement-of-black-hole-horizons(e38b3d0d-4523-41d5-998e-c83f20a18441).html)
 -   Attended weekly seminars with Triangle London and other academic conferences; presenting research.
 -   Research conducted between 2017-2019 independently without supervision.
 -   Awarded PhD Scholarship by the [Science and Technology Facilities Council (STFC)](https://stfc.ukri.org/) for academic excellence.
 
-**MSci in Mathematics** - [King's College London](https://www.kcl.ac.uk/)
+#### **MSci in Mathematics** - [King's College London](https://www.kcl.ac.uk/)
 
-**2008-2012**
+**September 2008 - August 2012**
 -   Grade: *First Class Honours (1:1)*
 -   Covered various modules in pure and applied mathematics, including physics and statistics.
 -   Dissertation: '*Integrable quantum spin chains'*
 
-**3 A-levels, 3 AS-levels and AEA** - [Sir George Monoux College](https://www.sgmc.ac.uk/) 
+#### **3 A-levels, 3 AS-levels and AEA** - [Sir George Monoux College](https://www.sgmc.ac.uk/) 
 
-**2006-2008**                                                  
+**September 2006 - July 2008**                                                  
 -   A-levels: Mathematics, Further Mathematics and Physics.                                                     
 -   AS-levels: Computer Science, Psychology, Communications.                                                       
 -   Advanced Extension Award: Mathematics.                   
 
 # Experience
 
-**Data Scientist (Senior Executive Officer)** - [Office for National Statistics](https://www.ons.gov.uk/)
+#### **Data Scientist (Senior Executive Officer)** - [Office for National Statistics](https://www.ons.gov.uk/)
 
 **March 2022-present**
 -   Working in the Economics Statistics Group (ESG) as part of the [Data Science Campus](https://datasciencecampus.ons.gov.uk/).
@@ -62,13 +62,13 @@ Photoshop, PowerPoint, LaTeX, GIMP and CorelDraw
 -   Researched and implemented the price index and aggregation methodology for the [least cost index](https://www.ons.gov.uk/economy/inflationandpriceindices/articles/trackingthelowestcostgroceryitemsukexperimentalanalysis/april2021toapril2022) which was used to track the price of the lowest-cost grocery items for 30 products over multiple retailers using web-scraped data on GCP.
 -   Continued member of the Data Science and Statistical High-performance computing (DaSH) expert group and the Index Numbers Expert Group (INEG).
 
-**Freelance Mathematics, Statistics and Computing Tutor** - [Witherow Brooke](https://www.witherowbrooke.co.uk/)
+#### **Freelance Mathematics, Statistics and Computing Tutor** - [Witherow Brooke](https://www.witherowbrooke.co.uk/)
 
-**July 2021-present**
+**July 2021 - present**
 -   Tutoring university students and planning lessons remotely over a video call and an online whiteboard.
 -   Advanced topics such as Linear Algebra, Statistics and Python.
 
-**Data Scientist (Higher Executive Officer)** -- Contract with JSA Umbrella Company - [Office for National Statistics](https://www.ons.gov.uk/)
+#### **Data Scientist (Higher Executive Officer)** - *Contract with JSA Umbrella Company* - [Office for National Statistics](https://www.ons.gov.uk/)
 
 **June 2021 - March 2022**
 -   Working in the Economics Statistics Group (ESG) as part of Emerging Platforms Delivery Support.
@@ -77,7 +77,7 @@ Photoshop, PowerPoint, LaTeX, GIMP and CorelDraw
 -   Developed and maintained data pipelines and data visualisations using Python, SQL, Spark and Cloudera.
 -   Became a member of the Data Science and Statistical High-performance computing (DaSH) expert group, the Index Numbers Expert Group (INEG) \`and the EPDS induction team onboarding new starters.
 
-**Mathematics, Software and Technology Consultant** - Self-employed
+#### **Mathematics, Software and Technology Consultant** - Self-employed
 
 **January 2019 - Present**
 -   Advice to clients on the application of mathematics, software and technology, such as statistical analysis, machine learning or IoT devices.
@@ -85,25 +85,25 @@ Photoshop, PowerPoint, LaTeX, GIMP and CorelDraw
 -   Provided training and tutoring in mathematics, software and technology.
 -   Consulting on web development and writing custom code in Python, PHP, Javascript, MySQL etc.
 
-**Electronics Repair Technician** - Self-employed
+#### **Electronics Repair Technician** - Self-employed
 
 **January 2009 - Present**
 -   Providing services to repair electronics such as PCs, laptops and mobile phones.
 -   Upgrading computer software and hardware.
 
-**Freelance Mathematics Content Writer and Video Developer** - [Nagwa](https://www.nagwa.com/en/)
+#### **Freelance Mathematics Content Writer and Video Developer** - [Nagwa](https://www.nagwa.com/en/)
 
 **July 2020 - Febuary 2021**
 -   Planning, researching and writing 'explainer' content using LaTeX for topics in mathematics from GCSE to undegraduate level.
 -   Recording lesson and question videos for mathematics using the Nagwa studio app.
 
-**Science Communication Volunteer** - [Institute of Physics](https://www.iop.org/)
+#### **Science Communication Volunteer** - [Institute of Physics](https://www.iop.org/)
 
 **July 2015 - August 2015**
 -   Participant in an online event called 'I'm a Scientist, get me out of here'.
 -   Answered questions by school students regarding my research but also black holes and physics, with fast paced web chats.
 
-**Postgraduate Researcher** - [King's College London](https://www.kcl.ac.uk/)
+#### **Postgraduate Researcher** - [King's College London](https://www.kcl.ac.uk/)
 
 **November 2014 - Febuary 2019**
 -   Researched black holes in quantum gravity.
@@ -114,7 +114,7 @@ Photoshop, PowerPoint, LaTeX, GIMP and CorelDraw
 -   Awarded a PhD Scholarship by the [Science and Technology Facilities Council (STFC)](https://stfc.ukri.org/) for academic excellence.
 -   Planned weekly journal clubs and other activities.
 
-**Graduate Teaching Assistant** - [King's College London](https://www.kcl.ac.uk/)
+#### **Graduate Teaching Assistant** - [King's College London](https://www.kcl.ac.uk/)
 
 **September 2012 - January 2019**
 -   Teaching Assistant for: Calculus I, Calculus II, Partial Differential equations and Complex Variables, Geometry of Surfaces, Introduction to dynamical systems, Intermediate dynamics, Linear Methods, Elementary Number Theory, Groups and Symmetries, Linear Algebra.
@@ -123,14 +123,14 @@ Photoshop, PowerPoint, LaTeX, GIMP and CorelDraw
 -   Held office hours for students to ask questions and discuss problems.
 -   Planned regular tutorials, offered guidance and support to students, held extended office hours, marked weekly assignments and oversaw student presentations.
 
-**Researcher** - [King's College London](https://www.kcl.ac.uk/)
+#### **Researcher** - [King's College London](https://www.kcl.ac.uk/)
 
 **October 2011 - June 2012**
 -   Researched quantum integrable and spin chains with applications in quantum computing for information processing.
 -   Training in the mathematics department with supervisor Dr B Doyon.
 -   Analysed physics journal papers and typed up report in LaTeX.
 
-**Sales Assistant** - [River Island](https://www.riverisland.com/) 
+#### **Sales Assistant** - [River Island](https://www.riverisland.com/) 
 
 **October 2008 - November 2010**
 -   Greeting customers who entered the shop, giving advice and guidance on product selection and dealing with customer issues and answering queries.
