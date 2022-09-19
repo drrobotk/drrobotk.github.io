@@ -70,12 +70,15 @@ Photoshop, PowerPoint, LaTeX, GIMP and CorelDraw
 -   Working with a team of data scientists, statisticians and economists to deliver high quality data products and services.
 -   Researched and implemented the price index and aggregation methodology for the [least cost index](https://www.ons.gov.uk/economy/inflationandpriceindices/articles/trackingthelowestcostgroceryitemsukexperimentalanalysis/april2021toapril2022) which was used to track the price of the lowest-cost grocery items for 30 products over multiple retailers using web-scraped data on GCP.
 -   Continued member of the Data Science and Statistical High-performance computing (DaSH) expert group and the Index Numbers Expert Group (INEG).
+-   Granted the Recognition Award for Outstanding Contribution to the ONS in 2022.
+-   Provided help and support to allow the capitcal stocks statistical production to be accessible for transparancy and reproducible.
 
 ### **Freelance Mathematics, Statistics and Computing Tutor** - [Witherow Brooke](https://www.witherowbrooke.co.uk/)
 
 **July 2021 - Present**
 -   Tutoring university students and planning lessons remotely over a video call and an online whiteboard.
 -   Advanced topics such as Linear Algebra, Statistics and Python.
+-  Helping students to develop their problem-solving skills and confidence.
 
 ### **Data Scientist (Higher Executive Officer)** - *Contract with [JSA Umbrella Company](https://workwellsolutions.com/)* - [Office for National Statistics](https://www.ons.gov.uk/)
 
@@ -93,6 +96,7 @@ Photoshop, PowerPoint, LaTeX, GIMP and CorelDraw
 -   Researching new methods and technology for innovative applications.
 -   Provided training and tutoring in mathematics, software and technology.
 -   Consulting on web development and writing custom code in Python, PHP, Javascript, MySQL etc.
+-  Developing and maintaining websites and web applications.
 
 ### **Electronics Repair Technician** - Self-employed
 
@@ -105,6 +109,7 @@ Photoshop, PowerPoint, LaTeX, GIMP and CorelDraw
 **July 2020 - Febuary 2021**
 -   Planning, researching and writing 'explainer' content using LaTeX for topics in mathematics from GCSE to undegraduate level.
 -   Recording lesson and question videos for mathematics using the Nagwa studio app.
+-  Editing and uploading videos to the Nagwa platform.
 
 ### **Science Communication Volunteer** - [Institute of Physics](https://www.iop.org/)
 
