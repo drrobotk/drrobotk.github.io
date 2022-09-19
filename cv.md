@@ -48,7 +48,7 @@ Photoshop, PowerPoint, LaTeX, GIMP and CorelDraw
 **January 2007 - August 2008**
 
 - Grade: *Merit*
-- Exam given to challenge the top 10% of candidates.
+- Extra exam given to challenge the top 10% of candidates.
 - Developed mathematical skills and knowledge in pure mathematics.
 - Demonstrated understanding and skills to the fullest extent.
 - More advanced questions than the A-Level syllabus.
