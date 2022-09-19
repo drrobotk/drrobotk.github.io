@@ -48,7 +48,9 @@ Photoshop, PowerPoint, LaTeX, GIMP and CorelDraw
 **January 2007 - August 2008**
 
 - Grade: *Merit*
-- Exam given to challenge the top 10% of candidates, to help them to develop their mathematical skills and demonstrate their understanding to the fullest extent.
+- Exam given to challenge the top 10% of candidates.
+- Developed mathematical skills and knowledge in pure mathematics.
+- Demonstrated understanding and skills to the fullest extent.
 - More advanced questions than the A-Level syllabus.
 
 ### **3 A-levels &  3 AS-levels** - [Sir George Monoux College](https://www.sgmc.ac.uk/) 
