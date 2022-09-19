@@ -22,7 +22,7 @@ Data analysis, Time Series Analytics, Signal Processing, Web Scraping,
 Mathematical Modelling, Quantitative Research, Statistical Analysis,
 Data Mining, Arduino, Raspberry Pi, TCP/IP Networking and Debugging,
 Cloud Computing (Cloudera, GCP, Microsoft Azure), Big Data (Spark and
-Hadoop), Jenkin, Agile software development, Git and Docker
+Hadoop), Jenkins, Agile software development, Git and Docker
 - ### Graphics 
 Photoshop, PowerPoint, LaTeX, GIMP and CorelDraw
 
