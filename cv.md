@@ -71,7 +71,7 @@ Photoshop, PowerPoint, LaTeX, GIMP and CorelDraw
 -   Researched and implemented the price index and aggregation methodology for the [least cost index](https://www.ons.gov.uk/economy/inflationandpriceindices/articles/trackingthelowestcostgroceryitemsukexperimentalanalysis/april2021toapril2022) which was used to track the price of the lowest-cost grocery items for 30 products over multiple retailers using web-scraped data on GCP.
 -   Continued member of the Data Science and Statistical High-performance computing (DaSH) expert group and the Index Numbers Expert Group (INEG).
 -   Granted the Recognition Award for outstanding collaboration and contribution to the ONS in August 2022.
--   Provided help and support to allow the capitcal stocks statistical production to be accessible for transparancy and reproducible.
+-   Provided help and support to allow the capital stocks statistical production to be accessible for transparancy and reproducible.
 
 ### **Freelance Mathematics, Statistics and Computing Tutor** - [Witherow Brooke](https://www.witherowbrooke.co.uk/)
 
