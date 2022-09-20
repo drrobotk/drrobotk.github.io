@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Exact solution for the multilateral Geary-Khamis price index method using Linear Algebra
-subtitle: A simple and elegant solution to the Geary-Khamis method without iteration
+title: Exact closed-form solution for the multilateral Geary-Khamis price index method
+subtitle: A simple and elegant linear algebra solution to the Geary-Khamis method without iteration
 #cover-img: /assets/img/path.jpg
 thumbnail-img: https://user-images.githubusercontent.com/51001263/164988385-855ceecf-a5e0-4073-8239-cb1f2304d244.png
 #share-img: /assets/img/path.jpg
