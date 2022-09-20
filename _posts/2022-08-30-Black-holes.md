@@ -6,7 +6,7 @@ subtitle: Short introduction to black holes
 thumbnail-img: /assets/img/saga.jpg
 #share-img: /assets/img/path.jpg
 tags: [black hole, physics, m87, sagitarrius A*]
-date: 2022-01-20
+date: 2021-01-20
 last-updated: 2022-08-30
 ---
 

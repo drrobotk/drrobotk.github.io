@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Markov chains
-subtitle: Intro to discrete-time Markov chains
+title: Primer to Markov Chains
+subtitle: A quick overview of discrete-time Markov Chains
 thumbnail-img: /assets/img/markov.png
 tags: [markov chains, discrete-time, stochastic processes]
 date: 2022-09-17
