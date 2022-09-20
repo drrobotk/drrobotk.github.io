@@ -9,13 +9,13 @@ tags: [cpi, price index, geary-khamis, linear algebra]
 date: 2021-09-20
 last-updated: 2022-09-20
 ---
-Price index methods are being used or currently being implemented by many statistical agencies around the world to calculate price indices e.g the Consumer Price Index (CPI) using bilateral or multilateral methods. The CPI in the UK is currently based on a bilateral method, but that will change in the future with the introduction of alternative data sources such as scanner or web-scraped data.
+Price index methods are being used or currently being implemented by many statistical agencies around the world (e.g to compute the Consumer Price Index (CPI)) using bilateral or multilateral methods. The CPI in the UK is currently based on a bilateral method, but that will change in the future with the introduction of alternative data sources such as scanner or web-scraped data.
 
 Multilateral methods simultaneously make use of all data over a given time period. The use of multilateral methods for calculating temporal price indices is relatively new internationally, but these methods have been shown to have some desirable properties relative to their bilateral method counterparts, in that they account for new and disappearing products (to remain representative of the market) while also reducing the scale of chain-drift.
 
 {% include mathjax.html type="post" %}
 
-The Geary-Khamis method is a multilateral method which involves calculated a set of quality adjustment factors, $b_n$, simultaneously with the price levels, $P_t$. The two equations that determine both of these are:
+The Geary-Khamis method is a multilateral method which involves calculating a set of quality adjustment factors, $b_n$, simultaneously with the price levels, $P_t$. The two equations that determine both of these are:
 
 $$
 \begin{aligned}
