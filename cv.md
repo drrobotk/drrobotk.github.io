@@ -43,7 +43,7 @@ Photoshop, PowerPoint, LaTeX, GIMP and CorelDraw
 -   Covered various modules in pure and applied mathematics, including physics and statistics.
 -   Dissertation: '*Integrable quantum spin chains'*
 
-### **Advanced Extension Award** - [Edexcel](https://qualifications.pearson.com/en/qualifications/edexcel-a-levels/advanced-extension-award-mathematics-2018.html)
+### **Advanced Extension Award in Mathematics** - [Edexcel](https://qualifications.pearson.com/en/qualifications/edexcel-a-levels/advanced-extension-award-mathematics-2018.html)
 
 **January 2007 - August 2008**
 
