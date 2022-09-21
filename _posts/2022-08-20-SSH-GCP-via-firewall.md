@@ -25,7 +25,7 @@ After this, you need to restart the VM instance, or at the very least restart th
 sudo service ssh restart
 sudo service sshd restart
 ```
-For the next steps, we need to modify the firewall rules in order to allow SSH via HTTPS. We can do this directly within the VM instance settings within Compute Engine, but here we will do this via command line using the Google Cloud CLI which.
+For the next steps, we need to modify the firewall rules in order to allow SSH via HTTPS. We can do this directly within the VM instance settings within Compute Engine, but here we will do this via command line using the Google Cloud CLI.
 
 You can install gcloud CLI via the instructions [here](https://cloud.google.com/sdk/docs/install), but if you use vscode then a better way would be to install the `Cloud Code` extension which comes with the Google Cloud SDK and gcloud. After this has been completed, you can set up the current project by running the following within a terminal window:
 ```bash
