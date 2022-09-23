@@ -153,9 +153,9 @@ Photoshop, PowerPoint, LaTeX, GIMP and CorelDraw
 # Publications 
 [OrcID: 0000-0003-3754-3730](https://orcid.org/0000-0003-3754-3730)
 
-- **Symmetry enhancement of Killing horizons in D = 6 supergravity** (Sole Author), *ArXiv*, [*DOI: 10.48550/arXiv.1912.04249*](https://doi.org/10.48550/arXiv.1912.04249).
-- **Dynamical supersymmetry enhancement of black hole horizons** (Sole Author), *Research Thesis*, [*DOI: 10.48550/arXiv.1910.01080*](https://kclpure.kcl.ac.uk/portal/en/theses/dynamical-supersymmetry-enhancement-of-black-hole-horizons(e38b3d0d-4523-41d5-998e-c83f20a18441).html).
-- **Symmetry enhancement of extremal horizons in D = 5 supergravity** (Sole Author), *Institute of Physics: Classical and Quantum Gravity*, [*DOI: 10.1088/13616382/aac30c*](https://iopscience.iop.org/article/10.1088/1361-6382/aac30c)
+- **Symmetry enhancement of Killing horizons in D = 6 supergravity** (Sole Author), *ArXiv*, [*DOI: 10.48550/arXiv.1912.04249*](https://doi.org/10.48550/arXiv.1912.04249)
+- **Dynamical supersymmetry enhancement of black hole horizons** (Sole Author), *Research Thesis*, [*DOI: 10.48550/arXiv.1910.01080*](https://kclpure.kcl.ac.uk/portal/en/theses/dynamical-supersymmetry-enhancement-of-black-hole-horizons(e38b3d0d-4523-41d5-998e-c83f20a18441).html)
+- **Symmetry enhancement of extremal horizons in D = 5 supergravity** (Sole Author), *Institute of Physics: Classical and Quantum Gravity*, [*DOI: 10.1088/13616382/aac30c*](https://iopscience.iop.org/article/10.1088/1361-6382/aac30c).
 - **Dynamical symmetry enhancement near massive IIA horizons** (Joint Author with J. Gutowski, U. Gran, G. Papadopoulos), *Institute of Physics: Classical and Quantum Gravity*, [*DOI: 10.1088/0264-9381/32/23/235004*](https://iopscience.iop.org/article/10.1088/0264-9381/32/23/235004)
 - **Dynamical symmetry enhancement near IIA horizons** (Joint Author with J. Gutowski, U. Gran, G. Papadopoulos), *Journal of High Energy Physics*, [*DOI: 10.1007/JHEP06(2015)139*](https://link.springer.com/article/10.1007%2FJHEP06%282015%29139)
 
