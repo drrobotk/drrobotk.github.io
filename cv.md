@@ -119,7 +119,7 @@ Photoshop, PowerPoint, LaTeX, GIMP and CorelDraw
 ### **Postgraduate Researcher** - [King's College London](https://www.kcl.ac.uk/)
 
 **November 2014 - Febuary 2019**
--   Researched black holes in quantum gravity.
+-   Researched black holes in quantum gravity using supergravity, differential geometry, topology and Lie algebras.
 -   Developed *Python* code for extensive computations of tensors and Clifford algebras in quantum gravity.
 -   Doctoral training from the mathematics department with supervisors Prof G Papadopoulos and Dr J Gutowksi.
 -   Published research in peer-review science journals written in LaTeX.
