@@ -10,8 +10,7 @@ Logical, imaginative, analytical and committed data scientist with a background 
 # Skills
 
 ### Programming and Scripting
-Python, C++, Visual Basic, Java, Javascript, PyScript, PHP, PowerShell, Bash, SQL, 
-and HTML5
+Python, C++, Visual Basic, Java, Javascript, PyScript, PHP, PowerShell, Bash, SQL, and HTML5
 ### Computations and Data Science
 Mathematica, Maple, MATLAB, Matplotlib, NumPy, SciPy, Seaborn, GAMS,
 Pandas, PySpark, Jupyter, Tableau, Plotly and R
