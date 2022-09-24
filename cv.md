@@ -135,9 +135,10 @@ Photoshop, PowerPoint, LaTeX, GIMP and CorelDraw
 **September 2012 - January 2019**
 -   Teaching Assistant for: Calculus I, Calculus II, Partial Differential equations and Complex Variables, Geometry of Surfaces, Introduction to dynamical systems, Intermediate dynamics, Linear Methods, Elementary Number Theory, Groups and Symmetries, Linear Algebra.
 -   Conducted training sessions in a computer lab for Maple, a software package for technical computations.
--   Marked and graded assignments and tests.
--   Held office hours for students to ask questions and discuss problems.
--   Planned regular tutorials, offered guidance and support to students, held extended office hours, marked weekly assignments and oversaw student presentations.
+-   Marked and graded weekly assignments and tests.
+-   Held extended office hours for students to ask questions and discuss problems.
+-  Planned regular tutorials and oversaw student presentations.
+-  Offered guidance and support to students.
 
 ### **Researcher** - [King's College London](https://www.kcl.ac.uk/)
 
