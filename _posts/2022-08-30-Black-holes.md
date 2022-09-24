@@ -3,7 +3,7 @@ layout: post
 title: Black holes
 subtitle: Short introduction to black holes
 #cover-img: /assets/img/path.jpg
-thumbnail-img: /assets/img/saga.jpg
+thumbnail-img: /assets/img/bh.gif
 #share-img: /assets/img/path.jpg
 tags: [black hole, physics, m87, sagitarrius A*]
 date: 2021-01-20

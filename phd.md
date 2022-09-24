@@ -6,6 +6,9 @@ date: 2021-12-01
 ---
 {% include mathjax.html type="post" %}
 
+| <img src="/assets/img/canon.gif" alt="isolated" width="450" /> |
+|:--:| 
+|*Newtons canon.*|
 
 
 
