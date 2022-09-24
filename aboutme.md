@@ -3,7 +3,7 @@ layout: post
 title: About me
 subtitle: whoami
 date: 2022-03-15
-last-updated: 2022-09-17
+last-updated: 2022-09-24
 ---
 <img src="/assets/img/neurodiversity.png" alt="isolated" width="150"/>
 
