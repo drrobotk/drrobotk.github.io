@@ -24,7 +24,7 @@ navbar-links:
   Blog: "blog"
   About Me: "aboutme"
   CV: "cv"
-  #PhD: "phd"
+  PhD: "phd"
   Project Areas: 
     - GitHub: "https://github.com/drrobotk"
     - Orcid: "https://orcid.org/0000-0003-3754-3730"
