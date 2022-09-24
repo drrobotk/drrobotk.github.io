@@ -69,6 +69,7 @@ Photoshop, PowerPoint, LaTeX, GIMP and CorelDraw
 -   Working with a team of data scientists, statisticians and economists to deliver high quality data products and services.
 -   Researched and implemented the price index and aggregation methodology for the [least cost index](https://www.ons.gov.uk/economy/inflationandpriceindices/articles/trackingthelowestcostgroceryitemsukexperimentalanalysis/april2021toapril2022) which was used to track the price of the lowest-cost grocery items for 30 products over multiple retailers using web-scraped data on GCP.
 -   Continued member of the Data Science and Statistical High-performance computing (DaSH) expert group and the Index Numbers Expert Group (INEG).
+-   Delivered presentation titled *Spark application debugging, tuning and optimization* as part of the [*Spark at the ONS*](https://best-practice-and-impact.github.io/ons-spark/intro.html) event to the ONS and hosted by DAPCATs.
 -   Granted the Recognition Award for outstanding collaboration and contribution to the ONS in August 2022.
 -   Provided help and support to allow the capital stocks statistical production to be accessible for transparancy and reproducible.
 
@@ -86,6 +87,7 @@ Photoshop, PowerPoint, LaTeX, GIMP and CorelDraw
 -   Extracting, analysing and interpreting large amounts of data from a range of sources, using algorithmic, data mining, machine learning and statistical tools in Python and R.
 -   Currently researching and implementing multilateral price indices, using calculations, imputation and time series extension methods in Python, for Big Data [alternative data sources](https://www.ons.gov.uk/economy/inflationandpriceindices/articles/introducingalternativedataintoconsumerpricestatisticsaggregationandweights/2021-11-09) (scanner and webscraped data) and [new index methods](https://www.ons.gov.uk/economy/inflationandpriceindices/articles/newindexnumbermethodsinconsumerpricestatistics/2020-09-01) processed via Spark for the Consumer Prices Alternative Data Sources ETL Reproducible Analytical Pipeline.
 -   Developed and maintained data pipelines and data visualisations using Python, SQL, Spark and Cloudera.
+-   Delivered a presentation titled *Introduction to Pandas UDFs* to my team and department as part of a regular Data Science seminar series.
 -   Became a member of the Data Science and Statistical High-performance computing (DaSH) expert group, the Index Numbers Expert Group (INEG) \`and the EPDS induction team onboarding new starters.
 
 ### **Mathematics, Software and Technology Consultant** - Self-employed
