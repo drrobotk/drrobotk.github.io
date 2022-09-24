@@ -89,7 +89,7 @@ Photoshop, PowerPoint, LaTeX, GIMP and CorelDraw
 -   Currently researching and implementing multilateral price indices, using calculations, imputation and time series extension methods in Python, for Big Data [alternative data sources](https://www.ons.gov.uk/economy/inflationandpriceindices/articles/introducingalternativedataintoconsumerpricestatisticsaggregationandweights/2021-11-09) (scanner and webscraped data) and [new index methods](https://www.ons.gov.uk/economy/inflationandpriceindices/articles/newindexnumbermethodsinconsumerpricestatistics/2020-09-01) processed via Spark for the Consumer Prices Alternative Data Sources ETL Reproducible Analytical Pipeline.
 -   Developed and maintained data pipelines and data visualisations using Python, SQL, Spark and Cloudera.
 -   Delivered a presentation titled *Introduction to Pandas UDFs* to my team and department as part of a regular Data Science seminar series in EPDS.
--   Became a member of the Data Science and Statistical High-performance computing (DaSH) expert group, the Index Numbers Expert Group (INEG) \`and the EPDS induction team onboarding new starters.
+-   Became a member of the Data Science and Statistical High-performance computing (DaSH) expert group, the Index Numbers Expert Group (INEG) and the EPDS induction team onboarding new starters.
 
 ### **Mathematics, Software and Technology Consultant** - Self-employed
 
