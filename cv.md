@@ -72,7 +72,7 @@ Photoshop, PowerPoint, LaTeX, GIMP and CorelDraw
 -   Joined the Data Access Capability And Training Support (DAPCATs) mentoring scheme to help other data scientists and analysts with their work and projects.
 -   Delivered presentation titled *Spark application debugging, tuning and optimization* as part of the [*Spark at the ONS*](https://best-practice-and-impact.github.io/ons-spark/intro.html) event to the ONS, hosted by DAPCATs.
 -   Granted the Recognition Award for outstanding collaboration and contribution to the ONS in August 2022.
--   Provided help and support to allow the capital stocks statistical production to be accessible for transparancy and reproducible.
+-   Provided help and support to allow the capital stocks statistical production to be accessible for transparancy and reproducibility.
 
 ### **Freelance Mathematics, Statistics and Computing Tutor** - [Witherow Brooke](https://www.witherowbrooke.co.uk/)
 
