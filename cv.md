@@ -30,10 +30,10 @@ Photoshop, PowerPoint, LaTeX, GIMP and CorelDraw
 ### **PhD in Applied Mathematics & Theoretical Physics** - [King's College London](https://www.kcl.ac.uk/)
 
 **November 2014 - December 2019**
--   Thesis: [*Dynamical supersymmetry enhancement black hole horizons*](https://kclpure.kcl.ac.uk/portal/en/theses/dynamical-supersymmetry-enhancement-of-black-hole-horizons(e38b3d0d-4523-41d5-998e-c83f20a18441).html)
+-   Awarded PhD Scholarship by the [Science and Technology Facilities Council (STFC)](https://stfc.ukri.org/) for academic excellence.
 -   Attended weekly seminars with Triangle London and other academic conferences; presenting research.
 -   Research conducted between 2017-2019 independently without supervision.
--   Awarded PhD Scholarship by the [Science and Technology Facilities Council (STFC)](https://stfc.ukri.org/) for academic excellence.
+-   Thesis: [*Dynamical supersymmetry enhancement black hole horizons*](https://kclpure.kcl.ac.uk/portal/en/theses/dynamical-supersymmetry-enhancement-of-black-hole-horizons(e38b3d0d-4523-41d5-998e-c83f20a18441).html)
 
 ### **MSci in Mathematics** - [King's College London](https://www.kcl.ac.uk/)
 
