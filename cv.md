@@ -69,8 +69,8 @@ Photoshop, PowerPoint, LaTeX, GIMP and CorelDraw
 -   Working with a team of data scientists, statisticians and economists to deliver high quality data products and services.
 -   Researched and implemented the price index and aggregation methodology for the [least cost index](https://www.ons.gov.uk/economy/inflationandpriceindices/articles/trackingthelowestcostgroceryitemsukexperimentalanalysis/april2021toapril2022) which was used to track the price of the lowest-cost grocery items for 30 products over multiple retailers using web-scraped data on GCP.
 -   Continued member of the Data Science and Statistical High-performance computing (DaSH) expert group and the Index Numbers Expert Group (INEG).
--   Joined the Data Access Capability And Training Support (DAPCATS) mentoring scheme to help other data scientists and analysts with their work and projects.
--   Delivered presentation titled *Spark application debugging, tuning and optimization* as part of the [*Spark at the ONS*](https://best-practice-and-impact.github.io/ons-spark/intro.html) event to the ONS, hosted by DAPCATs.
+-   Joined the Data Access Platform Capability And Training Support (DAPCATS) mentoring scheme to help other data scientists and analysts with their work and projects.
+-   Delivered presentation titled *Spark application debugging, tuning and optimization* as part of the [*Spark at the ONS*](https://best-practice-and-impact.github.io/ons-spark/intro.html) event to the ONS, hosted by DAPCATS.
 -   Granted the Recognition Award for outstanding collaboration and contribution to the ONS in August 2022.
 -   Provided help and support to allow the capital stocks statistical production to be accessible for transparancy and reproducibility.
 
