@@ -118,7 +118,6 @@ Photoshop, PowerPoint, LaTeX, GIMP and CorelDraw
 **July 2015 - August 2015**
 -   Participant in an online event called 'I'm a Scientist, get me out of here'.
 -   Answered questions by school students regarding my research but also black holes and physics, with fast paced web chats.
-- 
 
 ### **Postgraduate Researcher** - [King's College London](https://www.kcl.ac.uk/)
 
