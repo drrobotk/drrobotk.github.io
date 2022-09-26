@@ -101,6 +101,9 @@ The caveat to using this matrix method is that the matrix $M = I_{N}-C+R$ should
 The code below is the implementation of the Geary-Khamis method using matrices. It is written in Python and uses the `numpy` and `pandas` library to solve the system of equations using the matrix method, but also the iterative method as a fallback. The matrix method is extremely efficient with a significantly shorter runtime.
 
 ```python
+import pandas as pd
+import numpy as np
+
 def geary_khamis(
     df: pd.DataFrame,
     price_col: str = 'price',
