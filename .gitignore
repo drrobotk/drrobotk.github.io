@@ -14,3 +14,4 @@ beautiful-jekyll-theme-*.gem
 ublog.sh
 gpull.sh
 gpush.sh
+jserve.sh

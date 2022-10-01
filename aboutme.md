@@ -56,10 +56,17 @@ For my PhD research, I had performed extensive computations on multi-dimensional
 
 I also have experience teaching and tutoring Mathematics and Physics at a Graduate (BSc/MSc), A-level and GCSE. I am currently tutoring university students in mathematics topics such as advanced statistics, linear algebra and Python coding.
 
-I am also experienced with data science and machine learning R and Python libraries (e.g Scikit-learn, Keras, Tensorflow) as well as data visualization tools such as Tableau. As a freelance data scientist, I analysed instantaneous power consumption data of a large number of households with ML to identify various devices (e.g the TV or kettle) and classify when they are turned on and the occurrences/duration of their usage, to identify routines and detection of anomalies. This data was provided by a particular company that aims to use ML and modelling with domestic electric appliances.
+I am also experienced with data science and machine learning R and Python libraries (e.g Scikit-learn, Keras, Tensorflow) as well as data visualization tools such as Tableau. 
 
-<p align="center"><img src="https://camo.githubusercontent.com/aeb4f612bd9b40d81c62fcbebd6db44a5d4344b8b962be0138817e18c9c06963/68747470733a2f2f7777772e74656e736f72666c6f772e6f72672f696d616765732f74665f6c6f676f5f686f72697a6f6e74616c2e706e67" alt="isolated" width="300"/>
-<img src="https://raw.githubusercontent.com/scikit-learn/scikit-learn/main/doc/logos/scikit-learn-logo.png" alt="isolated" width="150"/></p>
+<p align="center">
+<img src="https://raw.githubusercontent.com/scikit-learn/scikit-learn/main/doc/logos/scikit-learn-logo.png" alt="isolated" width="150"/>
+<img src="https://camo.githubusercontent.com/aeb4f612bd9b40d81c62fcbebd6db44a5d4344b8b962be0138817e18c9c06963/68747470733a2f2f7777772e74656e736f72666c6f772e6f72672f696d616765732f74665f6c6f676f5f686f72697a6f6e74616c2e706e67" alt="isolated" width="300"/>
+</p>
+
+As a freelance data scientist, I analysed instantaneous power consumption data of a large number of households with ML to identify various devices (e.g the TV or kettle) and classify when they are turned on and the occurrences/duration of their usage, to identify routines and detection of anomalies. This data was provided by a particular company that aims to use ML and modelling with domestic electric appliances.
+
+<p align="center"><img src="https://static.wixstatic.com/media/e465c3_63f788f48f2a42c1ab6736fe40180f9e~mv2.png/v1/fit/w_829%2Ch_456%2Cal_c/file.png" alt="isolated" width="275"/></p>
+
 
 In **June 2021**, I was employed as a Data Scientist at the *Higher Executive Officer* grade at the Office for National Statistics (ONS) within the Economics Statistics Group (ESG) and Emerging Platforms Delivery Support (EPDS). 
 
