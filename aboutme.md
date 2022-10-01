@@ -10,7 +10,7 @@ last-updated: 2022-09-24
 
 I am a Data Scientist with an MSci in Mathematics, with First Class Honours, and a PhD in Applied Mathematics and Theoretical Physics, and as such I have a lot of analytical experience including theoretical and applied techniques in mathematics, statistical and numerical methods. 
 
-<p align="center"><img src="/assets/img/tp.jpeg" alt="isolated" width="400"/></p>
+<p align="center"><img src="/assets/img/tp.jpeg" alt="isolated" width="350"/></p>
 
 I am an expert in Python code development, creating analytical data pipelines (ETL, RAP) and deploying machine learning models at scale, using cloud services (e.g GCP, Cloudera) and technologies such as Apache Spark or BigQuery with SQL.
 
