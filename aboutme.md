@@ -10,7 +10,7 @@ last-updated: 2022-09-24
 
 I am a Data Scientist with an MSci in Mathematics, with First Class Honours, and a PhD in Applied Mathematics and Theoretical Physics, and as such I have a lot of analytical experience including theoretical and applied techniques in mathematics, statistical and numerical methods. 
 
-<p align="center"><img src="https://static.scientificamerican.com/sciam/cache/file/47FDF662-19F4-4095-B29F01DA0DC8958F_source.jpg?w=590&h=800&D0D08839-C3A3-4651-8F9970FB71CC115F" alt="isolated" width="400"/></p>
+<p align="center"><img src="/assets/img/tp.jpeg" alt="isolated" width="400"/></p>
 
 I am an expert in Python code development, creating analytical data pipelines (ETL, RAP) and deploying machine learning models at scale, using cloud services (e.g GCP, Cloudera) and technologies such as Apache Spark or BigQuery with SQL.
 
@@ -70,10 +70,10 @@ After only my second month at the ONS, I was a member of the induction team resp
 <p align="center"><img src="/assets/img/spark.png" alt="isolated" width="400"/></p>
 
 
-While working on building a data pipeline for the CPI, I made very significant contributions both to methodology and computational efficiency for the integration of alternative data sources. In my first few months, I led an investigation into a particular implicit hedonic multilateral index method known as the [Time Product Dummy](https://onlinelibrary.wiley.com/doi/full/10.1111/roiw.12468) (TPD) method, which uses a log-linear price model with weighted least squares regression and expenditure shares as weights. 
+While working on building a data pipeline for the CPI, I made very significant contributions both to methodology and computational efficiency for the integration of alternative data sources. In my first few months, I led an investigation into a particular implicit hedonic multilateral index method known as the [Time Product Dummy](https://onlinelibrary.wiley.com/doi/full/10.1111/roiw.12468) (TPD) method, which uses a log-linear price model with weighted least squares regression and expenditure shares as weights:
 
 \begin{equation}
-\ln p_i^{t} = \alpha + \sum_{r=1}^T \delta^r D_i^r + \sum_{j=1}^{N-1}\gamma_j D_j + \epsilon_i^{t} \ .
+\ln p_i^{t} = \alpha + \sum_{r=1}^T \delta^r D_i^r + \sum_{j=1}^{N-1}\gamma_j D_j + \epsilon_i^{t} \ . 
 \end{equation}
 
 After noticing an error in the formulae and example workbooks produced for these methods and bringing this to the attention of the ONS, I worked closely with people from methodology on making sure we got all the technical details right.
