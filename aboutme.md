@@ -14,7 +14,7 @@ I am a Data Scientist with an MSci in Mathematics, with First Class Honours, and
 
 I am an expert in Python code development, creating analytical data pipelines (ETL, RAP) and deploying machine learning models at scale, using cloud services (e.g GCP, Cloudera) and technologies such as Apache Spark or BigQuery with SQL.
 
-<p align="center"><img src="/assets/img/pysym.jpg" alt="isolated" width="200"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://miro.medium.com/max/1400/1*5kzao7Ypy3deyQqxeA7SCQ.gif" alt="isolated" width="400"/></p>
+<p align="center"><img src="/assets/img/pysym.jpg" alt="isolated" width="200"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="/assets/img/coding.gif" alt="isolated" width="400"/></p>
 <p align="center"><img src="https://www.databricks.com/wp-content/uploads/2021/05/ETL-Process.jpg" alt="isolated" width="350"/></p>
 
 {% include mathjax.html type="post" %}
@@ -36,7 +36,7 @@ These models have acquired growing importance in [quantum computing](https://doi
 For my academic excellence in my MSci, I was also awarded a scholarship by the [Science and Technology Facilities Council](https://stfc.ukri.org/) (STFC) to undertake a PhD in Applied Mathematics and Theoretical Physics under the mathematics department. The main theme of my [PhD research](https://doi.org/10.48550/arXiv.1910.01080) was a study of the symmetries of black hole horizons in quantum gravity.
 
 <p align="center">
-<img src="/assets/img/qg.jpg" alt="isolated" width="400"/>
+<img src="/assets/img/qg.jpg" alt="isolated" width="375"/>
 <img src="/assets/img/source.gif" alt="isolated" width="300"/>
 </p>
 
@@ -78,14 +78,30 @@ While working on building a data pipeline for the CPI, I made very significant c
 
 After noticing an error in the formulae and example workbooks produced for these methods and bringing this to the attention of the ONS, I worked closely with people from methodology on making sure we got all the technical details right.
 
-My first task was to implement the TPD method within the CPI pipeline using PySpark. This also led me toward discovering [Pandas UDFs](https://www.databricks.com/blog/2020/05/20/new-pandas-udfs-and-python-type-hints-in-the-upcoming-release-of-apache-spark-3-0.html), which allow for vectorized operations on Big Data and increase performance by up to 100x compared to regular UDFs, and have since been implemented in various multilateral index methods and an integral part of the CPI pipeline. I also used the same ideas for the Time Dummy Hedonic (TDH) method, which is an explicit hedonic model similar to TPD, but also uses the item characteristics in the WLS regression model. 
+My first task was to implement the TPD method within the CPI pipeline using PySpark. This also led me toward discovering [Pandas UDFs](https://www.databricks.com/blog/2020/05/20/new-pandas-udfs-and-python-type-hints-in-the-upcoming-release-of-apache-spark-3-0.html), which allow for vectorized operations on Big Data and increase performance by up to 100x compared to regular UDFs, and have since been implemented in various multilateral index methods and an integral part of the CPI pipeline. 
 
 <p align="center"><img src="https://kontext.tech/api/flex/medias/obj-1563" alt="isolated" width="500"/></p>
 
 <p align="center"><img src="https://www.databricks.com/wp-content/uploads/2017/10/image1-4.png" alt="isolated" width="500"/></p>
 
+I also used the same ideas for the [Time Dummy Hedonic]((https://onlinelibrary.wiley.com/doi/full/10.1111/roiw.12468)) (TDH) method, which is an explicit hedonic model similar to TPD, but also uses the item characteristics in the WLS regression model. 
 
-After implementing the TPD and TDH methods, I turned my attention to another multilateral method known as Geary-Khamis (GK) and the usual method involves iteratively calculating the set of quality adjustment factors simultaneously with the price levels. I was able to independently research and implement a method solely based on [matrix operations](https://drrobotk.github.io/2021-09-20-Geary-Khamis/), which makes the method more efficient since it has vectorized operations which act on the entire data. I also refactored my code for TPD and TDH using matrix operations, which turned out to be more efficient and increased performance by up to 7x compared to standard statistical libraries.
+\begin{equation}
+\ln p_i^{t} = \alpha + \sum_{r=1}^T \delta^r D_i^r + \sum_{k=1}^K \beta_k z_{ik} + \epsilon_i^{t} \ . 
+\end{equation}
+
+After implementing the TPD and TDH methods, I turned my attention to another multilateral method known as [Geary-Khamis](https://www.scb.se/contentassets/ca21efb41fee47d293bbee5bf7be7fb3/a-comparison-of-ten-methods-for-multilateral-international-price-and-volume-comparison.pdf) (GK) and the usual method involves iteratively calculating the set of quality adjustment factors simultaneously with the price levels. 
+
+$$
+\begin{aligned}
+b_{n}&=\sum_{t=1}^{T}\left[\frac{q_{t n}}{q_{n}}\right]\left[\frac{p_{t n}}{P_{t}}\right] \ ,
+\nonumber \\
+P_{t}&=\frac{p^{t} \cdot q^{t}}{ \vec{b} \cdot q^{t}} \ .
+\end{aligned}
+$$
+
+
+I was able to independently research and implement a method solely based on [matrix operations](https://drrobotk.github.io/2021-09-20-Geary-Khamis/), which makes the method more efficient since it has vectorized operations which act on the entire data. I also refactored my code for TPD and TDH using matrix operations, which turned out to be more efficient and increased performance by up to 7x compared to standard statistical libraries.
 
 In **September 2021**, after working closely with methodology on index numbers, I was invited to join the [Index Numbers Expert Group](https://gss.civilservice.gov.uk/guidance/methodology/information-on-specific-methods/#index-numbers) (INEG) and the [Data Science and High-performance computing](https://gss.civilservice.gov.uk/guidance/methodology/information-on-specific-methods/#data-science-and-high-performance-computing) (DaSH) expert group. I also delivered a presentation in a seminar to my team and deparment, to introduce the concept of Pandas UDFs. This turned out to be a success as I got good engagement and questions after the presentation, as well as interest from other parties in DaSH, to watch the recording and slides. I also presented a seminar aimed at people both little and extensive knowledge of the subjects, and a Jupyter Notebook of worked examples. I discussed this material with a computing specialist, and with their feedback have produced useful material with a full set of instructions and worked examples, which is accessible to a wider audience.
 
