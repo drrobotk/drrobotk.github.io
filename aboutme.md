@@ -14,7 +14,7 @@ I am a Data Scientist with an MSci in Mathematics, with First Class Honours, and
 
 I am an expert in Python code development, creating analytical data pipelines (ETL, RAP) and deploying machine learning models at scale, using cloud services (e.g GCP, Cloudera) and technologies such as Apache Spark or BigQuery with SQL.
 
-<p align="center"><img src="https://logos-world.net/wp-content/uploads/2021/10/Python-Symbol.png" alt="isolated" width="200"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://miro.medium.com/max/1400/1*5kzao7Ypy3deyQqxeA7SCQ.gif" alt="isolated" width="400"/></p>
+<p align="center"><img src="/assets/img/pysym.jpg" alt="isolated" width="200"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://miro.medium.com/max/1400/1*5kzao7Ypy3deyQqxeA7SCQ.gif" alt="isolated" width="400"/></p>
 <p align="center"><img src="https://www.databricks.com/wp-content/uploads/2021/05/ETL-Process.jpg" alt="isolated" width="350"/></p>
 
 {% include mathjax.html type="post" %}
@@ -22,7 +22,7 @@ I am an expert in Python code development, creating analytical data pipelines (E
 For my MSci dissertation, I studied integrable quantum spin chains. This introduced me to quantum interaction models particularly the Heisenberg spin chain, which describes the nearest neighbour interaction of particles with spin-$\frac{1}{2}$  (i.e electrons) and naturally arises in the study of ferromagnetism. 
 
 <p align="center">
-<img src="/assets/img/magnon.gif" alt="isolated" width="400"/>
+<img src="/assets/img/magnon.gif" alt="isolated" width="550"/>
 </p>
 
 
