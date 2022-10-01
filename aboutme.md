@@ -22,8 +22,7 @@ I am an expert in Python code development, creating analytical data pipelines (E
 For my MSci dissertation, I studied integrable quantum spin chains. This introduced me to quantum interaction models particularly the Heisenberg spin chain, which describes the nearest neighbour interaction of particles with spin-$\frac{1}{2}$  (i.e electrons) and naturally arises in the study of ferromagnetism. 
 
 <p align="center">
-<img src="https://www.electronics-tutorials.ws/wp-content/uploads/2018/05/electromagnetism-mag2.gif" alt="isolated" width="200"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://www.nist.gov/sites/default/files/images/2020/02/12/Magnon-closeup-1.gif" alt="isolated" width="200"/>
+<img src="/assets/img/magnon.gif" alt="isolated" width="400"/>
 </p>
 
 
@@ -45,9 +44,10 @@ In particular, under various string and supergravity theories, specifically [typ
 
 <p align="center"><img src="/assets/img/stringt.png" alt="isolated" width="350"/></p>
 
-I have experience coding in many languages (e.g Python, C++) using various OS and I have extensively used computational software (e.g Matlab, Mathematica, Maple) or libraries (e.g numpy, scipy) for performing mathematical, physical, and statistical computations on various analyses and datasets. 
+I have experience coding in many languages (e.g Python, C++) using various OS and I have extensively used computational software (e.g Matlab, Mathematica, Maple) or libraries (e.g numpy, scipy, matplotlib) for performing mathematical, physical, and statistical computations on various analyses and datasets. 
 
-<p align="center"><img src="https://itprocurement.unl.edu/software_product_images/wolfram-mathematica-logo-new.jpg" alt="isolated" width="250"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://www.fullstackpython.com/img/logos/scipy.png" alt="isolated" width="200"/></p>
+<p align="center"><img src="/assets/img/wolfram.png" alt="isolated" width="250"/></p>
+<p align="center"><img src="https://miro.medium.com/max/1400/1*OTQHk3rsuzwdidO9zgSOfA.png" alt="isolated" width="350"/></p>
 
 For my PhD research, I had performed extensive computations on multi-dimensional arrays for supergravity calculations using Python with [Cadabra](https://cadabra.science/). 
 
