@@ -72,9 +72,11 @@ After only my second month at the ONS, I was a member of the induction team resp
 
 While working on building a data pipeline for the CPI, I made very significant contributions both to methodology and computational efficiency for the integration of alternative data sources. In my first few months, I led an investigation into a particular implicit hedonic multilateral index method known as the [Time Product Dummy](https://onlinelibrary.wiley.com/doi/full/10.1111/roiw.12468) (TPD) method, which uses a log-linear price model with weighted least squares regression and expenditure shares as weights:
 
-\begin{equation}
+$$
+\begin{aligned}
 \ln p_i^{t} = \alpha + \sum_{r=1}^T \delta^r D_i^r + \sum_{j=1}^{N-1}\gamma_j D_j + \epsilon_i^{t} \ . 
-\end{equation}
+\end{aligned}
+$$
 
 After noticing an error in the formulae and example workbooks produced for these methods and bringing this to the attention of the ONS, I worked closely with people from methodology on making sure we got all the technical details right.
 
@@ -86,9 +88,11 @@ My first task was to implement the TPD method within the CPI pipeline using PySp
 
 I also used the same ideas for the [Time Dummy Hedonic]((https://onlinelibrary.wiley.com/doi/full/10.1111/roiw.12468)) (TDH) method, which is an explicit hedonic model similar to TPD, but also uses the item characteristics in the WLS regression model. 
 
-\begin{equation}
+$$
+\begin{aligned}
 \ln p_i^{t} = \alpha + \sum_{r=1}^T \delta^r D_i^r + \sum_{k=1}^K \beta_k z_{ik} + \epsilon_i^{t} \ . 
-\end{equation}
+\end{aligned}
+$$
 
 After implementing the TPD and TDH methods, I turned my attention to another multilateral method known as [Geary-Khamis](https://www.scb.se/contentassets/ca21efb41fee47d293bbee5bf7be7fb3/a-comparison-of-ten-methods-for-multilateral-international-price-and-volume-comparison.pdf) (GK) and the usual method involves iteratively calculating the set of quality adjustment factors simultaneously with the price levels. 
 
