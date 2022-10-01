@@ -22,7 +22,7 @@ I am an expert in Python code development, creating analytical data pipelines (E
 For my MSci dissertation, I studied integrable quantum spin chains. This introduced me to quantum interaction models particularly the Heisenberg spin chain, which describes the nearest neighbour interaction of particles with spin-$\frac{1}{2}$  (i.e electrons) and naturally arises in the study of ferromagnetism. 
 
 <p align="center">
-<img src="https://www.electronics-tutorials.ws/wp-content/uploads/2018/05/electromagnetism-mag2.gif" alt="isolated" width="200"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="https://www.electronics-tutorials.ws/wp-content/uploads/2018/05/electromagnetism-mag2.gif" alt="isolated" width="200"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <img src="https://www.nist.gov/sites/default/files/images/2020/02/12/Magnon-closeup-1.gif" alt="isolated" width="200"/>
 </p>
 
