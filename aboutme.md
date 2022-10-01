@@ -63,12 +63,12 @@ I am also experienced with data science and machine learning R and Python librar
 
 In June 2021, I was employed as a Data Scientist at the *Higher Executive Officer* grade at the Office for National Statistics (ONS) within the Economics Statistics Group (ESG) and Emerging Platforms Delivery Support (EPDS). 
 
-<p align="center"><img src="/assets/img/ons.png" alt="isolated" width="300"/></p>
+<p align="center"><img src="/assets/img/ons.png" alt="isolated" width="275"/></p>
 
 After only my second month at the ONS, I was a member of the induction team responsible for onboarding new starters and aiding or mentoring to new members of the team. My main work was researching and implementing multilateral price indices, using calculations and time series extension methods in Python. This work was as part of an ETL Reproducible Analytical Pipeline (RAP) on Cloudera with Apache Spark for the treatment of [alternative data sources](https://www.ons.gov.uk/economy/inflationandpriceindices/articles/introducingalternativedataintoconsumerpricestatisticsaggregationandweights/2021-11-09) (scanner and web-scraped data) and [new index methods](https://www.ons.gov.uk/economy/inflationandpriceindices/articles/newindexnumbermethodsinconsumerpricestatistics/2020-09-01) (e.g multilateral methods) which will be used to determine the consumer price index (CPI) in the future. 
 
-<p align="center"><img src="https://www.databricks.com/wp-content/uploads/2019/02/largest-open-source-apache-spark.png" alt="isolated" width="500"/></p>
-<p align="center"><img src="https://miro.medium.com/max/823/1*PnCw2SnrlXjXQt_O63W2Ww.png" alt="isolated" width="600"/></p>
+<p align="center"><img src="/assets/img/spark.png" alt="isolated" width="400"/></p>
+
 
 While working on building a data pipeline for the CPI, I made very significant contributions both to methodology and computational efficiency for the integration of alternative data sources. In my first few months, I led an investigation into a particular implicit hedonic multilateral index method known as the [Time Product Dummy](https://onlinelibrary.wiley.com/doi/full/10.1111/roiw.12468) (TPD) method, which uses a log-linear price model with weighted least squares regression and expenditure shares as weights. After noticing an error in the formulae and example workbooks produced for these methods and bringing this to the attention of the ONS, I worked closely with people from methodology on making sure we got all the technical details right.
 
@@ -87,15 +87,16 @@ After working closely with methodology on index numbers, I was invited to join t
 
 In March 2022, I joined the [Data Science Campus](https://datasciencecampus.ons.gov.uk/) at the ONS with a promotion to *Senior Executive Officer*.
 
-<p align="center"><img src="/assets/img/campus.png" alt="isolated" width="200"/></p>
+<p align="center"><img src="/assets/img/dsc.png" alt="isolated" width="200"/></p>
 
 My first project was on the [least cost index](https://www.ons.gov.uk/economy/inflationandpriceindices/articles/trackingthelowestcostgroceryitemsukexperimentalanalysis/april2021toapril2022), which was published in May 2022. 
 
-<p align="center"><img src="https://www.ons.gov.uk/chartimage?uri=/economy/inflationandpriceindices/articles/trackingthelowestcostgroceryitemsukexperimentalanalysis/april2021toapril2022/d3b9ef7a" alt="isolated" width="600"/></p>
+<p align="center"><img src="/assets/img/lci.png" alt="isolated" width="600"/></p>
 
 I played a significant role in researching and implementing the price index and aggregation methods, which was powered by an existing price index package which I created called [PriceIndexCalc](https://pypi.org/project/PriceIndexCalc/). This was used to track the prices over time of the lowest-cost grocery items for 30 products over multiple retailers, using web-scraped data and a data pipeline on the [Google Cloud Platform](https://cloud.google.com/). This analysis was conducted as part of the ONS's current and future analytical work related to the cost of living.
 
-<p align="center"><img src="https://www.freecodecamp.org/news/content/images/2020/10/gcp.png" alt="isolated" width="300"/></p>
+<p align="center"><img src="/assets/img/gcp.jpg" alt="isolated" width="175"/></p>
+<p align="center"><img src="/assets/img/bucket.png" alt="isolated" width="600"/></p>
 
 In April 2022, I also joined the Data Access Platform Capability And Training Support (DAPCATS) as a mentor, where I have been helping other data scientists and analysts with their work and projects. 
 
