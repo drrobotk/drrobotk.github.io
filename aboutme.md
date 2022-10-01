@@ -70,9 +70,13 @@ After only my second month at the ONS, I was a member of the induction team resp
 <p align="center"><img src="/assets/img/spark.png" alt="isolated" width="400"/></p>
 
 
-While working on building a data pipeline for the CPI, I made very significant contributions both to methodology and computational efficiency for the integration of alternative data sources. In my first few months, I led an investigation into a particular implicit hedonic multilateral index method known as the [Time Product Dummy](https://onlinelibrary.wiley.com/doi/full/10.1111/roiw.12468) (TPD) method, which uses a log-linear price model with weighted least squares regression and expenditure shares as weights. After noticing an error in the formulae and example workbooks produced for these methods and bringing this to the attention of the ONS, I worked closely with people from methodology on making sure we got all the technical details right.
+While working on building a data pipeline for the CPI, I made very significant contributions both to methodology and computational efficiency for the integration of alternative data sources. In my first few months, I led an investigation into a particular implicit hedonic multilateral index method known as the [Time Product Dummy](https://onlinelibrary.wiley.com/doi/full/10.1111/roiw.12468) (TPD) method, which uses a log-linear price model with weighted least squares regression and expenditure shares as weights. 
 
-<p align="center"><img src="/assets/img/logprice.png" alt="isolated" width="400"/></p>
+\begin{equation}
+\ln p_i^{t} = \alpha + \sum_{r=1}^T \delta^r D_i^r + \sum_{j=1}^{N-1}\gamma_j D_j + \epsilon_i^{t} \ .
+\end{equation}
+
+After noticing an error in the formulae and example workbooks produced for these methods and bringing this to the attention of the ONS, I worked closely with people from methodology on making sure we got all the technical details right.
 
 My first task was to implement the TPD method within the CPI pipeline using PySpark. This also led me toward discovering [Pandas UDFs](https://www.databricks.com/blog/2020/05/20/new-pandas-udfs-and-python-type-hints-in-the-upcoming-release-of-apache-spark-3-0.html), which allow for vectorized operations on Big Data and increase performance by up to 100x compared to regular UDFs, and have since been implemented in various multilateral index methods and an integral part of the CPI pipeline. I also used the same ideas for the Time Dummy Hedonic (TDH) method, which is an explicit hedonic model similar to TPD, but also uses the item characteristics in the WLS regression model. 
 
