@@ -81,7 +81,7 @@ While working on building a data pipeline for the CPI, I made very significant c
 
 $$
 \begin{aligned}
-\ln p_i^{t} = \alpha + \sum_{r=1}^T \delta^r D_i^r + \sum_{j=1}^{N-1}\gamma_j D_j + \epsilon_i^{t} \ . 
+\ln p_i^{t} = \alpha + \sum_{r=1}^T \delta^r D_i^{t,r} + \sum_{j=1}^{N-1}\gamma_j K_{i,j} + \epsilon_i^{t} \ . 
 \end{aligned}
 $$
 
@@ -101,7 +101,7 @@ I also used the same ideas for the [Time Dummy Hedonic](https://onlinelibrary.wi
 
 $$
 \begin{aligned}
-\ln p_i^{t} = \delta^0 + \sum_{r=1}^T \delta^r D_i^r + \sum_{k=1}^K \beta_k z_{ik} + \epsilon_i^{t} \ . 
+\ln p_i^{t} = \delta^0 + \sum_{r=1}^T \delta^r D_i^{t,r} + \sum_{k=1}^K \beta_k z_{i,k} + \epsilon_i^{t} \ . 
 \end{aligned}
 $$
 
