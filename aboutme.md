@@ -81,7 +81,8 @@ While working on building a data pipeline for the CPI, I made very significant c
 
 $$
 \begin{aligned}
-\ln p_i^{t} = \alpha + \sum_{r=1}^T \delta^r D_i^{t,r} + \sum_{j=1}^{N-1}\gamma_j K_{i,j} + \epsilon_i^{t} \ . 
+\ln p_i^{t} &= \alpha + \sum_{r=1}^T \delta^r D_i^{t,r} + \sum_{j=1}^{N-1}\gamma_j K_{i,j} + \epsilon_i^{t} \ , \\
+s_i^{t} &= \frac{p_i^t q_i^t}{\sum_{j=1}^N p_j^t q_j^t}  \ .
 \end{aligned}
 $$
 
