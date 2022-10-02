@@ -87,7 +87,7 @@ $$
 
 After noticing an error in the formulae and example workbooks produced for these methods and bringing this to the attention of the ONS, I worked closely with people from methodology on making sure we got all the technical details right.
 
-My first task was to implement the TPD method within the CPI pipeline using PySpark. Sparks native ML library though powerful generally lacks many features, and is not suited for modelling on multiple groups or subsets of the data at once. The usual approach to use custom functions or transformations which are not present as part of the built-in functions provided by Spark’s standard library is to use a User Defined Function (UDF). However, the downside of this is they have performance issues, since they executed row-at-a-time and thus suffer from high serialization and invocation overhead.
+My first task was to implement the TPD method within the CPI pipeline using PySpark. Spark's native ML library though powerful generally lacks many features, and is not suited for modelling on multiple groups or subsets of the data at once. The usual approach to use custom functions or transformations which are not part of the built-in functions provided by Spark’s standard library is to use a User Defined Function (UDF). However, the downside of this is they have performance issues, since they executed row-at-a-time and thus suffer from high serialization and invocation overhead.
 
 <p align="center"><img src="https://noufel1393.gitlab.io/noufel1393/img/blog_images/pyspark_udf_large.png" alt="isolated" width="250"/></p>
 
