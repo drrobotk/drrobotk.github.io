@@ -51,7 +51,7 @@ I have experience coding in many languages (e.g Python, C++) using various OS an
 
 For my PhD research, I had performed extensive computations on multi-dimensional arrays for supergravity calculations using Python with [Cadabra](https://cadabra.science/). 
 
-<p align="center"><img src="/assets/img/cadabra.jpg" alt="isolated" width="350"/></p>
+<a href="https://cadabra.science/"><p align="center"><img src="/assets/img/cadabra.jpg" alt="isolated" width="350"/></p></a>
 
 
 I also have experience teaching and tutoring Mathematics and Physics at a Graduate (BSc/MSc), A-level and GCSE. I am currently tutoring university students in mathematics topics such as advanced statistics, linear algebra and Python coding.
@@ -68,9 +68,9 @@ As a freelance data scientist, I analysed instantaneous power consumption data o
 <p align="center"><img src="https://static.wixstatic.com/media/e465c3_63f788f48f2a42c1ab6736fe40180f9e~mv2.png/v1/fit/w_829%2Ch_456%2Cal_c/file.png" alt="isolated" width="275"/></p>
 
 
-In **June 2021**, I was employed as a Data Scientist at the *Higher Executive Officer* grade at the Office for National Statistics (ONS) within the Economics Statistics Group (ESG) and Emerging Platforms Delivery Support (EPDS). 
+In **June 2021**, I was employed as a Data Scientist at the *Higher Executive Officer* grade at the [Office for National Statistics](https://www.ons.gov.uk/) (ONS) within the Economics Statistics Group (ESG) and Emerging Platforms Delivery Support (EPDS). 
 
-<p align="center"><img src="/assets/img/ons.png" alt="isolated" width="275"/></p>
+<a href="https://www.ons.gov.uk/"><p align="center"><img src="/assets/img/ons.png" alt="isolated" width="275"/></p></a>
 
 After only my second month at the ONS, I was a member of the induction team responsible for onboarding new starters and aiding or mentoring to new members of the team. My main work was researching and implementing multilateral price indices, using calculations and time series extension methods in Python. This work was as part of an ETL Reproducible Analytical Pipeline (RAP) on Cloudera with Apache Spark for the treatment of [alternative data sources](https://www.ons.gov.uk/economy/inflationandpriceindices/articles/introducingalternativedataintoconsumerpricestatisticsaggregationandweights/2021-11-09) (scanner and web-scraped data) and [new index methods](https://www.ons.gov.uk/economy/inflationandpriceindices/articles/newindexnumbermethodsinconsumerpricestatistics/2020-09-01) (e.g multilateral methods) which will be used to determine the consumer price index (CPI) in the future. 
 
@@ -95,7 +95,7 @@ This led me toward discovering [Pandas UDFs](https://www.databricks.com/blog/202
 
 <p align="center"><img src="https://kontext.tech/api/flex/medias/obj-1563" alt="isolated" width="500"/></p>
 
-<p align="center"><img src="https://www.databricks.com/wp-content/uploads/2017/10/image1-4.png" alt="isolated" width="500"/></p>
+<a href="https://www.databricks.com/blog/2017/10/30/introducing-vectorized-udfs-for-pyspark.html"><p align="center"><img src="https://www.databricks.com/wp-content/uploads/2017/10/image1-4.png" alt="isolated" width="500"/></p></a>
 
 I also used the same ideas for the [Time Dummy Hedonic](https://onlinelibrary.wiley.com/doi/full/10.1111/roiw.12468#roiw12468-sec-0002-title) (TDH) method, which is an explicit hedonic model similar to TPD, but also uses the item characteristics in the WLS regression model. 
 
@@ -124,16 +124,16 @@ In **November 2021**, I delivered a presentation in a seminar to my team and dep
 
 In **March 2022**, I joined the [Data Science Campus](https://datasciencecampus.ons.gov.uk/) at the ONS with a promotion to *Senior Executive Officer*.
 
-<p align="center"><img src="/assets/img/dsc.png" alt="isolated" width="200"/></p>
+<a href="https://datasciencecampus.ons.gov.uk/"><p align="center"><img src="/assets/img/dsc.png" alt="isolated" width="200"/></p></a>
 
 My first project was on the [least cost index](https://www.ons.gov.uk/economy/inflationandpriceindices/articles/trackingthelowestcostgroceryitemsukexperimentalanalysis/april2021toapril2022), which was published in May 2022. 
 
-<p align="center"><img src="/assets/img/lci.png" alt="isolated" width="600"/></p>
+<a href="https://www.ons.gov.uk/economy/inflationandpriceindices/articles/trackingthelowestcostgroceryitemsukexperimentalanalysis/april2021toapril2022"><p align="center"><img src="/assets/img/lci.png" alt="isolated" width="600"/></p></a>
 
 I played a significant role in researching and implementing the price index and aggregation methods, which was powered by an existing price index package which I created called [PriceIndexCalc](https://pypi.org/project/PriceIndexCalc/). This was used to track the prices over time of the lowest-cost grocery items for 30 products over multiple retailers, using web-scraped data and a data pipeline on the [Google Cloud Platform](https://cloud.google.com/). This analysis was conducted as part of the ONS's current and future analytical work related to the cost of living.
 
-<p align="center"><img src="/assets/img/gcp.jpg" alt="isolated" width="175"/></p>
-<p align="center"><img src="/assets/img/bucket.png" alt="isolated" width="600"/></p>
+<a href="https://cloud.google.com/"><p align="center"><img src="/assets/img/gcp.jpg" alt="isolated" width="175"/></p>
+<p align="center"><img src="/assets/img/bucket.png" alt="isolated" width="600"/></p></a>
 
 In **April 2022**, I also joined the Data Access Platform Capability And Training Support (DAPCATS) as a mentor, where I have been helping other data scientists and analysts with their work and projects. 
 
