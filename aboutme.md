@@ -97,7 +97,7 @@ This led me toward discovering [Pandas UDFs](https://www.databricks.com/blog/202
 
 <p align="center"><img src="https://www.databricks.com/wp-content/uploads/2017/10/image1-4.png" alt="isolated" width="500"/></p>
 
-I also used the same ideas for the [Time Dummy Hedonic]((https://onlinelibrary.wiley.com/doi/full/10.1111/roiw.12468)) (TDH) method, which is an explicit hedonic model similar to TPD, but also uses the item characteristics in the WLS regression model. 
+I also used the same ideas for the [Time Dummy Hedonic](https://onlinelibrary.wiley.com/doi/full/10.1111/roiw.12468) (TDH) method, which is an explicit hedonic model similar to TPD, but also uses the item characteristics in the WLS regression model. 
 
 $$
 \begin{aligned}
