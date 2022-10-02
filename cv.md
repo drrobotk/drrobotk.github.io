@@ -68,7 +68,7 @@ Photoshop, PowerPoint, LaTeX, GIMP and CorelDraw
 -   Developing and maintaining data pipelines and data visualisations using Python, R, SQL, Tableau and GCP.
 -   Working with a team of data scientists, statisticians and economists to deliver high quality data products and services.
 -   Researched and implemented the price index and aggregation methodology for the [least cost index](https://www.ons.gov.uk/economy/inflationandpriceindices/articles/trackingthelowestcostgroceryitemsukexperimentalanalysis/april2021toapril2022) which was used to track the price of the lowest-cost grocery items for 30 products over multiple retailers using web-scraped data on GCP.
--   Continued member of the Data Science and Statistical High-performance computing (DaSH) expert group and the Index Numbers Expert Group (INEG).
+-   Continued member of the [Data Science and High-performance computing](https://gss.civilservice.gov.uk/guidance/methodology/information-on-specific-methods/#data-science-and-high-performance-computing) (DaSH) expert group and the [Index Numbers Expert Group](https://gss.civilservice.gov.uk/guidance/methodology/information-on-specific-methods/#index-numbers) (INEG).
 -   Joined the Data Access Platform Capability And Training Support (DAPCATS) mentoring scheme to help other data scientists and analysts with their work and projects.
 -   Delivered presentation titled *Spark application debugging, tuning and optimization* as part of the [*Spark at the ONS*](https://best-practice-and-impact.github.io/ons-spark/intro.html) event to the ONS, hosted by DAPCATS.
 -   Granted the Recognition Award for outstanding collaboration and contribution to the ONS in August 2022.
@@ -89,7 +89,7 @@ Photoshop, PowerPoint, LaTeX, GIMP and CorelDraw
 -   Researched and implemented multilateral price indices, using calculations, imputation and time series extension methods in Python, for Big Data [alternative data sources](https://www.ons.gov.uk/economy/inflationandpriceindices/articles/introducingalternativedataintoconsumerpricestatisticsaggregationandweights/2021-11-09) (scanner and webscraped data) and [new index methods](https://www.ons.gov.uk/economy/inflationandpriceindices/articles/newindexnumbermethodsinconsumerpricestatistics/2020-09-01) processed via Spark for the Consumer Prices Alternative Data Sources ETL Reproducible Analytical Pipeline.
 -   Developed and maintained data pipelines and data visualisations using Python, SQL, Spark and Cloudera.
 -   Delivered a presentation titled *Introduction to Pandas UDFs* to my team and department as part of a regular Data Science seminar series in EPDS.
--   Became a member of the Data Science and Statistical High-performance computing (DaSH) expert group, the Index Numbers Expert Group (INEG) and the EPDS induction team onboarding new starters.
+-   Became a member of the [Data Science and High-performance computing](https://gss.civilservice.gov.uk/guidance/methodology/information-on-specific-methods/#data-science-and-high-performance-computing) (DaSH) expert group, the [Index Numbers Expert Group](https://gss.civilservice.gov.uk/guidance/methodology/information-on-specific-methods/#index-numbers) (INEG) and the EPDS induction team onboarding new starters.
 
 ### **Mathematics, Software and Technology Consultant** - Self-employed
 
