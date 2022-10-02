@@ -77,7 +77,7 @@ After only my second month at the ONS, I was a member of the induction team resp
 <p align="center"><img src="/assets/img/spark.png" alt="isolated" width="400"/></p>
 
 
-While working on building a data pipeline for the CPI, I made very significant contributions both to methodology and computational efficiency for the integration of alternative data sources. In my first few months, I led an investigation into a particular implicit hedonic multilateral index method known as the [Time Product Dummy](https://onlinelibrary.wiley.com/doi/full/10.1111/roiw.12468) (TPD) method, which uses a log-linear price model with weighted least squares regression and expenditure shares as weights.
+While working on building a data pipeline for the CPI, I made very significant contributions both to methodology and computational efficiency for the integration of alternative data sources. In my first few months, I led an investigation into a particular implicit hedonic multilateral index method known as the [Time Product Dummy](https://onlinelibrary.wiley.com/doi/full/10.1111/roiw.12468#roiw12468-sec-0002-title) (TPD) method, which uses a log-linear price model with weighted least squares regression and expenditure shares as weights.
 
 $$
 \begin{aligned}
@@ -97,7 +97,7 @@ This led me toward discovering [Pandas UDFs](https://www.databricks.com/blog/202
 
 <p align="center"><img src="https://www.databricks.com/wp-content/uploads/2017/10/image1-4.png" alt="isolated" width="500"/></p>
 
-I also used the same ideas for the [Time Dummy Hedonic](https://onlinelibrary.wiley.com/doi/full/10.1111/roiw.12468) (TDH) method, which is an explicit hedonic model similar to TPD, but also uses the item characteristics in the WLS regression model. 
+I also used the same ideas for the [Time Dummy Hedonic](https://onlinelibrary.wiley.com/doi/full/10.1111/roiw.12468#roiw12468-sec-0002-title) (TDH) method, which is an explicit hedonic model similar to TPD, but also uses the item characteristics in the WLS regression model. 
 
 $$
 \begin{aligned}
