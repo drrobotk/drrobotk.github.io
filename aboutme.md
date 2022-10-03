@@ -30,7 +30,7 @@ These models have acquired growing importance in [quantum computing](https://doi
 
 <p align="center">
 <img src="/assets/img/qc.png" alt="isolated" width="300"/>&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://miro.medium.com/max/800/1*KZj_DViOL0gEyK8B_TkRUg.gif" alt="isolated" width="300"/>
+<img src="/assets/img/qubit.gif" alt="isolated" width="300"/>
 </p>
 
 For my academic excellence in my MSci, I was also awarded a scholarship by the [Science and Technology Facilities Council](https://stfc.ukri.org/) (STFC) to undertake a PhD in Applied Mathematics and Theoretical Physics under the mathematics department. The main theme of my [PhD research](https://doi.org/10.48550/arXiv.1910.01080) was a study of the symmetries of black hole horizons in quantum gravity.
