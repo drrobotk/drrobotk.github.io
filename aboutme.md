@@ -36,7 +36,7 @@ These models have acquired growing importance in [quantum computing](https://doi
 For my academic excellence in my MSci, I was also awarded a scholarship by the [Science and Technology Facilities Council](https://stfc.ukri.org/) (STFC) to undertake a PhD in Applied Mathematics and Theoretical Physics under the mathematics department. The main theme of my [PhD research](https://doi.org/10.48550/arXiv.1910.01080) was a study of the symmetries of black hole horizons in quantum gravity.
 
 <p align="center">
-<img src="/assets/img/qg.jpg" alt="isolated" width="375"/>
+<img src="/assets/img/qg.jpg" alt="isolated" width="400"/>
 <img src="/assets/img/source.gif" alt="isolated" width="275"/>
 </p>
 
