@@ -68,7 +68,7 @@ As a freelance data scientist, I analysed instantaneous power consumption data o
 <p align="center"><img src="https://static.wixstatic.com/media/e465c3_63f788f48f2a42c1ab6736fe40180f9e~mv2.png/v1/fit/w_829%2Ch_456%2Cal_c/file.png" alt="isolated" width="275"/></p>
 
 
-In **June 2021**, I was employed as a Data Scientist at the *Higher Executive Officer* grade at the [Office for National Statistics](https://www.ons.gov.uk/) (ONS) within the Economics Statistics Group (ESG) and Emerging Platforms Delivery Support (EPDS). 
+In **June 2021**, I was employed as a Data Scientist at the *Higher Executive Officer* grade at the [Office for National Statistics](https://www.ons.gov.uk/) (ONS) within the Economics Statistics Group (ESG) and the Reproducible Data Science and Analysis (RDSA) team, formerly known as Emerging Platforms Delivery Support (EPDS). 
 
 <p align="center"><a href="https://www.ons.gov.uk/"><img src="/assets/img/ons.png" alt="isolated" width="275"/></a></p>
 
