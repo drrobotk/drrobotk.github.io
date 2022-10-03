@@ -29,7 +29,7 @@ For my MSci dissertation, I studied integrable quantum spin chains. This introdu
 These models have acquired growing importance in [quantum computing](https://doi.org/10.48550/arXiv.2207.09994) within the field of quantum information processing, mainly as a means of efficiently transferring information. It also gave me insights into various mathematical methods to diagonalize large square matrices which can grow exponentially according to the number of particles. 
 
 <p align="center">
-<img src="https://www.researchgate.net/publication/328536318/figure/fig1/AS:685999256506368@1540566376509/Diagram-of-ideal-quantum-computer-Information-about-its-solution-is-in-the-final-vector.png" alt="isolated" width="300"/>&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="/assets/img/qc.png" alt="isolated" width="300"/>&nbsp;&nbsp;&nbsp;&nbsp;
 <img src="https://miro.medium.com/max/800/1*KZj_DViOL0gEyK8B_TkRUg.gif" alt="isolated" width="300"/>
 </p>
 
