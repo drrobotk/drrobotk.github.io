@@ -118,7 +118,7 @@ P_{t}&=\frac{p^{t} \cdot q^{t}}{ \vec{b} \cdot q^{t}} \ .
 $$
 
 
-I was able to independently research and implement a method solely based on [matrix operations](https://drrobotk.github.io/2021-09-20-Geary-Khamis/), which makes the method more efficient since it has vectorized operations which act on the entire data. I also refactored my code for TPD and TDH using matrix operations, which turned out to be more efficient and increased performance by up to 7x compared to standard statistical libraries.
+I was able to independently research and implement a method solely based on [matrix operations](https://drrobotk.github.io/2021-09-20-Geary-Khamis/), which makes the method more efficient since it has vectorized operations which act on the entire data. I also refactored my code for TPD and TDH using matrix operations, which turned out to be more efficient and increased performance by up to 7x compared to standard statistical libraries. The Pandas UDFs were also applied to the time series [extension methods](https://unece.org/sites/default/files/2021-05/Session_1_Netherlands_Paper.pdf) for TPD, TDH, GK and another multilateral method known as [GEKS](https://unece.org/fileadmin/DAM/stats/documents/ece/ces/ge.22/2016/Session_1_room_doc_Netherlands_an_overview_of_price_index_methods.pdf). 
 
 In **October 2021**, after working closely with methodology on index numbers, I was invited to join the [Index Numbers Expert Group](https://gss.civilservice.gov.uk/guidance/methodology/information-on-specific-methods/#index-numbers) (INEG) and the [Data Science and High-performance computing](https://gss.civilservice.gov.uk/guidance/methodology/information-on-specific-methods/#data-science-and-high-performance-computing) (DaSH) expert group. 
 
