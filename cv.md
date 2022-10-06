@@ -41,6 +41,7 @@ Photoshop, PowerPoint, LaTeX, GIMP and CorelDraw
 -   Grade: *First Class Honours (1:1)*
 -   Covered various modules in pure and applied mathematics, including physics and statistics.
 -   Dissertation: '*Integrable quantum spin chains'*
+-   Societies: [MathSoc](https://en-gb.facebook.com/kclmathsoc/), The Math Network
 
 ### **Advanced Extension Award in Mathematics** - [Edexcel](https://qualifications.pearson.com/en/qualifications/edexcel-a-levels/advanced-extension-award-mathematics-2018.html)
 
