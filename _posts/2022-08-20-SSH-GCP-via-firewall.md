@@ -105,6 +105,7 @@ You may also need to configure your proxy settings to allow the connection to be
 gcloud config set proxy/type http
 gcloud config set proxy/address proxy.testcorp.com
 gcloud config set proxy/port 8080
+# optional:
 gcloud config set proxy/username user001
 gcloud config set proxy/password XXXXXXXXXXXX
 ```
@@ -151,6 +152,7 @@ In order to resolve this, you need to complete the following steps:
 gcloud config set proxy/type http
 gcloud config set proxy/address proxy.testcorp.com
 gcloud config set proxy/port 8080
+# optional:
 gcloud config set proxy/username user001
 gcloud config set proxy/password XXXXXXXXXXXX
 ```
