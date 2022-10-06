@@ -81,7 +81,7 @@ Photoshop, PowerPoint, LaTeX, GIMP and CorelDraw
 -   Advanced topics such as Linear Algebra, Statistics and Python.
 -  Helping students to develop their problem-solving skills and confidence.
 
-### **Data Scientist (Higher Executive Officer)** - *Contract with [JSA Umbrella Company](https://workwellsolutions.com/)* - [Office for National Statistics](https://www.ons.gov.uk/)
+### **Data Scientist (Higher Executive Officer)** - [Office for National Statistics](https://www.ons.gov.uk/)
 
 **June 2021 - March 2022**
 -   Working in the Economics Statistics Group (ESG) as part of the Reproducible Data Science and Analysis (RDSA) team, formerly known as Emerging Platforms Delivery Support (EPDS).
