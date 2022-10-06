@@ -84,7 +84,7 @@ Photoshop, PowerPoint, LaTeX, GIMP and CorelDraw
 ### **Data Scientist (Higher Executive Officer)** - *Contract with [JSA Umbrella Company](https://workwellsolutions.com/)* - [Office for National Statistics](https://www.ons.gov.uk/)
 
 **June 2021 - March 2022**
--   Working in the Economics Statistics Group (ESG) as part of Reproducible Data Science and Analysis (RDSA), formerly known as Emerging Platforms Delivery Support (EPDS).
+-   Working in the Economics Statistics Group (ESG) as part of the Reproducible Data Science and Analysis (RDSA) team, formerly known as Emerging Platforms Delivery Support (EPDS).
 -   Extracting, analysing and interpreting large amounts of data from a range of sources, using algorithmic, data mining, machine learning and statistical tools in Python and R.
 -   Researched and implemented multilateral price indices, using calculations, imputation and time series extension methods in Python, for Big Data [alternative data sources](https://www.ons.gov.uk/economy/inflationandpriceindices/articles/introducingalternativedataintoconsumerpricestatisticsaggregationandweights/2021-11-09) (scanner and webscraped data) and [new index methods](https://www.ons.gov.uk/economy/inflationandpriceindices/articles/newindexnumbermethodsinconsumerpricestatistics/2020-09-01) processed via Spark for the Consumer Prices Alternative Data Sources ETL Reproducible Analytical Pipeline.
 -   Developed and maintained data pipelines and data visualisations using Python, SQL, Spark and Cloudera.
