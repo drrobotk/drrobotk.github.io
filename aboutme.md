@@ -91,7 +91,7 @@ After noticing an error in the formulae and example workbooks produced for these
 
 My first task was to implement the TPD method within the CPI pipeline using PySpark. Spark's native ML library though powerful generally lacks many features, and is not suited for modelling on multiple groups or subsets of the data at once. The usual approach to use custom functions or transformations which are not part of the built-in functions provided by Spark’s standard library is to use a User Defined Function (UDF). However, the downside of this is they have performance issues, since they executed row-at-a-time and thus suffer from high serialization and invocation overhead.
 
-<p align="center"><img src="https://noufel1393.gitlab.io/noufel1393/img/blog_images/pyspark_udf_large.png" alt="isolated" width="250"/></p>
+<p align="center"><img src="https://noufel1393.gitlab.io/noufel1393/img/blog_images/pyspark_udf_large.png" alt="isolated" width="300"/></p>
 
 This led me toward discovering [Pandas UDFs](https://www.databricks.com/blog/2020/05/20/new-pandas-udfs-and-python-type-hints-in-the-upcoming-release-of-apache-spark-3-0.html), which allow for vectorized operations on Big Data and increase performance by up to 100x compared to regular UDFs, and have since been implemented in various multilateral index methods and an integral part of the CPI pipeline. 
 
@@ -140,6 +140,7 @@ I played a significant role in researching and implementing the price index and 
 In **April 2022**, I also joined the Data Access Platform Capability And Training Support (DAPCATS) as a mentor, where I have been helping other data scientists and analysts with their work and projects. 
 
 <p align="center"><img src="https://best-practice-and-impact.github.io/ons-spark/_static/logo.png" alt="isolated" width="200"/></p>
+
 
 I also took part in the *Spark at the ONS* event hosted by DAPCATS and created for the launch of a new [online book](https://best-practice-and-impact.github.io/ons-spark/intro.html). This event was used to discuss various topics and resources related to Spark and Big Data, and I delivered a presentation titled *Spark application debugging, tuning and optimization*. For this talk, I discussed various tips and techniques to increase efficiency, identify bugs or bottlenecks that can cause Spark applications to be slow or fail, and tuning Spark parameters accordingly. This can help to reduce overall developer and compute time, costs for resources to run the Spark application or the environmental impact that comes with using unnecessary extra resources or having significantly longer runtimes. 
 
