@@ -66,7 +66,7 @@ In particular, I studied black holes under various [string](https://en.wikipedia
 
 <p align="center"><img src="/assets/img/stringt.png" alt="isolated" width="400"/></p>
 
-For my research in quantum gravity, I also performed extensive computations on multi-dimensional arrays for supergravity calculations using Python with [Cadabra](https://cadabra.science/), particularly using clifford algebras and spinors in higher dimensions.
+For my research in quantum gravity, I also performed extensive computations on multi-dimensional arrays for supergravity calculations using Python with [Cadabra](https://cadabra.science/), particularly for clifford algebras and spinors in higher dimensions.
 
 <p align="center"><a href="https://cadabra.science/"><img src="/assets/img/cadabra.jpg" alt="isolated" width="350"/></a></p>
 
