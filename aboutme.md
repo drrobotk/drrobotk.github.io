@@ -95,7 +95,11 @@ In addition to [Cadabra](https://cadabra.science/), I used [Mathematica](https:/
 
 <p align="center"><img src="/assets/img/pylib.png" alt="isolated" width="350"/></p>
 
-After leaving academia, one of the roles I decided to pursue was a Scientific Software Engineer at the Meteorological Office, but I ultimately decided to embark on a career in Data Science instead. Nevertheless, the panel was very impressed with my application and noted that I had a good understanding of the importance of software quality, and awareness of the challenges of developing scientific software. I also demonstrated good examples of software development, especially in Python and a sensible approach to debugging code, including when working with other’s code. 
+After leaving academia, one of the roles I decided to pursue was a Scientific Software Engineer at the Meteorological Office. I gave a presentation on the history, applications and good practices in scientific software engineering.
+
+<p align="center"><a href="https://www.metoffice.gov.uk/"><img src="/assets/img/mo.png" alt="isolated" width="125"/></a></p>
+
+Ultimately I decided to embark on a career in Data Science instead. Nevertheless, the panel was very impressed with my application and noted that I had a good understanding of the importance of software quality, and awareness of the challenges of developing scientific software. I also demonstrated good examples of software development, especially in Python and a sensible approach to debugging code, including when working with other’s code. 
 
 I am experienced with data science and machine learning Python libraries (e.g Scikit-learn, Keras, Tensorflow) as well as data visualization software such as Tableau and Power BI. 
 
@@ -110,6 +114,7 @@ As a freelance data scientist, I analysed instantaneous power consumption data o
 
 <a name="ons_journey"></a>
 # My journey at the Office for National Statistics
+### Data Scientist in `Reproducible Data Science and Analysis`
 
 In **June 2021**, I was employed as a Data Scientist at the *Higher Executive Officer* grade at the [Office for National Statistics](https://www.ons.gov.uk/) (ONS) within the Economics Statistics Group (ESG) and the Reproducible Data Science and Analysis (RDSA) team, formerly known as Emerging Platforms Delivery Support (EPDS). 
 
@@ -167,15 +172,17 @@ In **October 2021**, after working closely with methodology on index numbers, I 
 
 In **November 2021**, I delivered a presentation in a seminar to my team and deparment, to introduce the concept of Pandas UDFs. This turned out to be a success as I got good engagement and questions after the presentation, as well as interest from other parties in DaSH, to watch the recording and slides. I also presented a seminar aimed at people both little and extensive knowledge of the subjects, and a Jupyter Notebook of worked examples. I discussed this material with a computing specialist, and with their feedback have produced useful material with a full set of instructions and worked examples, which is accessible to a wider audience.
 
-In **March 2022**, I joined the [Data Science Campus](https://datasciencecampus.ons.gov.uk/) at the ONS with a promotion to *Senior Executive Officer*.
+### Data scientist in the `Data Science Campus`
+
+In **March 2022**, I joined the [Data Science Campus](https://datasciencecampus.ons.gov.uk/) at the ONS with a promotion to *Senior Executive Officer* and a permanent civil servant.
 
 <p align="center"><a href="https://datasciencecampus.ons.gov.uk/"><img src="/assets/img/dsc.png" alt="isolated" width="200"/></a></p>
 
-My first project was on the [least cost index](https://www.ons.gov.uk/economy/inflationandpriceindices/articles/trackingthelowestcostgroceryitemsukexperimentalanalysis/april2021toapril2022), which was published in May 2022. 
+My first project was on the [least cost index](https://www.ons.gov.uk/economy/inflationandpriceindices/articles/trackingthelowestcostgroceryitemsukexperimentalanalysis/april2021toapril2022), which was published in May 2022. I played a significant role in researching and implementing the price index and aggregation methods, which was powered by a Python price index package which I created called [PriceIndexCalc](https://pypi.org/project/PriceIndexCalc/).
 
 <p align="center"><a href="https://www.ons.gov.uk/economy/inflationandpriceindices/articles/trackingthelowestcostgroceryitemsukexperimentalanalysis/april2021toapril2022"><img src="/assets/img/lci.png" alt="isolated" width="600"/></a></p>
 
-I played a significant role in researching and implementing the price index and aggregation methods, which was powered by an existing price index package which I created called [PriceIndexCalc](https://pypi.org/project/PriceIndexCalc/). This was used to track the prices over time of the lowest-cost grocery items for 30 products over multiple retailers, using web-scraped data and a data pipeline on the [Google Cloud Platform](https://cloud.google.com/). This analysis was conducted as part of the ONS's current and future analytical work related to the cost of living.
+My package and work was used to track the prices over time of the lowest-cost grocery items for 30 products over multiple retailers, using web-scraped data and a data pipeline on the [Google Cloud Platform](https://cloud.google.com/). This analysis was conducted as part of the ONS's current and future analytical work related to the cost of living.
 
 <p align="center"><a href="https://cloud.google.com/"><img src="/assets/img/gcp.jpg" alt="isolated" width="175"/></a></p>
 <p align="center"><img src="/assets/img/bucket.png" alt="isolated" width="600"/></p>
