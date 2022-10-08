@@ -34,7 +34,7 @@ I am also neurodivergent with [ADHD](https://www.nhs.uk/conditions/attention-def
 <a name="academia"></a>
 # Academia and Research
 
-I completed an MSci in Mathematics, with First Class Honours, and a PhD in Applied Mathematics and Theoretical Physics at [King's College London](https://www.kcl.ac.uk/). 
+I completed an MSci in Mathematics, with **First Class Honours**, and a PhD in Applied Mathematics and Theoretical Physics at [King's College London](https://www.kcl.ac.uk/). 
 
 <p align="center"><a href="https://www.kcl.ac.uk/"><img src="/assets/img/kcl.jpeg" alt="isolated" width="175"/></a></p>
 
