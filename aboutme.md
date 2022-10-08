@@ -66,9 +66,13 @@ In particular, I studied black holes under various [string](https://en.wikipedia
 
 <p align="center"><img src="/assets/img/stringt.png" alt="isolated" width="400"/></p>
 
-For my PhD research, I also performed extensive computations on multi-dimensional arrays for supergravity calculations using Python with [Cadabra](https://cadabra.science/). 
+For my research in quantum gravity, I also performed extensive computations on multi-dimensional arrays for supergravity calculations using Python with [Cadabra](https://cadabra.science/), particularly using clifford algebras and spinors in higher dimensions.
 
 <p align="center"><a href="https://cadabra.science/"><img src="/assets/img/cadabra.jpg" alt="isolated" width="350"/></a></p>
+
+I also attended various academic seminars and conferences such as the [Winter School on Supergravity, Strings, and Gauge Theory](https://indico.cern.ch/event/439879/) at [CERN](https://home.web.cern.ch/) in Switzerland, and I presented my research at many conferences including the [Young Theorists’ Forum](https://maths.dur.ac.uk/YTF/8/) at Durham University.
+
+<p align="center"><a href="https://indico.cern.ch/event/439879/"><img src="/assets/img/cern.png" alt="isolated" width="100"/></a></p>
 
 <a name="tutoring"></a>
 # Tutoring and Content Development
