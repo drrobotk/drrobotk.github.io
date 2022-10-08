@@ -13,7 +13,7 @@ Logical, imaginative, analytical and committed data scientist with a background 
 Python, C++, Visual Basic, Java, Javascript, PyScript, PHP, PowerShell, Bash, SQL, and HTML5
 ### Computations and Data Science
 Mathematica, Maple, MATLAB, Matplotlib, NumPy, SciPy, Seaborn, GAMS,
-Pandas, PySpark, Jupyter, Tableau, Plotly and R
+Pandas, PySpark, Jupyter, Tableau, Power BI, Plotly and R
 ### Machine Learning
 Statsmodels, Scikit-learn, TensorFlow, Keras, PyTorch and XGBoost
 ### Technical

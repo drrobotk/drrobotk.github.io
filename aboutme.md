@@ -44,19 +44,23 @@ In particular, under various string and supergravity theories, specifically [typ
 
 <p align="center"><img src="/assets/img/stringt.png" alt="isolated" width="400"/></p>
 
-I have experience coding in many languages (e.g Python, C++) using various OS and I have extensively used computational software (e.g Matlab, Mathematica, Maple) or libraries (e.g numpy, scipy, matplotlib) for performing mathematical, physical, and statistical computations on various analyses and datasets. 
+I have extensive experience coding in many high-level programming languages (e.g C++, Java), scripting languages (e.g Python, R, Bash, etc) and symbolic languages (e.g Mathematica, MATLAB, Maple etc) using various operating systems (e.g Linux, Windows, Mac OS). I have also used these languages or libraries (e.g NumPy, SciPy, Matplotlib etc) to  perform mathematical, physical, and statistical computations for various analyses and datasets. 
 
-<p align="center"><a href="https://www.wolfram.com/mathematica/"><img src="/assets/img/wolfram.png" alt="isolated" width="250"/></a></p>
-<p align="center"><img src="https://miro.medium.com/max/1400/1*OTQHk3rsuzwdidO9zgSOfA.png" alt="isolated" width="350"/></p>
+<p align="center"><a href="https://www.wolfram.com/mathematica/"><img src="/assets/img/wolfram.png" alt="isolated" width="250"/></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="/assets/img/mathematica-a.gif" alt="isolated" width="300"/></p>
+<p align="center"><img src="/assets/img/R.gif" alt="isolated" width="300"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="/assets/img/python-shm.gif" alt="isolated" width="350"/></p>
+<p align="center"><img src="/assets/img/pylib.png" alt="isolated" width="350"/></p>
+
 
 For my PhD research, I had performed extensive computations on multi-dimensional arrays for supergravity calculations using Python with [Cadabra](https://cadabra.science/). 
 
 <p align="center"><a href="https://cadabra.science/"><img src="/assets/img/cadabra.jpg" alt="isolated" width="350"/></a></p>
 
 
-I also have experience teaching and tutoring Mathematics and Physics at a Graduate (BSc/MSc), A-level and GCSE. I am currently tutoring university students in mathematics topics such as advanced statistics, linear algebra and Python coding.
+I also have experience teaching and tutoring Mathematics, Physics and Programming at a Graduate (BSc/MSc), A-level and GCSE. I am currently tutoring university students in mathematics topics such as advanced statistics, linear algebra and Python coding.
 
-I am also experienced with data science and machine learning R and Python libraries (e.g Scikit-learn, Keras, Tensorflow) as well as data visualization tools such as Tableau. 
+After leaving academia, one of the roles I decided to pursue was a Scientific Software Engineer at the Meteorological Office, but I decided to embark on a career in Data Science instead. Nevertheless, the panel was very impressed with my application and noted that I had a good understanding of the importance of software quality, and awareness of the challenges of developing scientific software. I also demonstrated good examples of software development, especially in Python and a sensible approach to debugging code, including when working with other’s code. 
+
+I am experienced with data science and machine learning Python libraries (e.g Scikit-learn, Keras, Tensorflow) as well as data visualization software such as Tableau and Power BI. 
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/scikit-learn/scikit-learn/main/doc/logos/scikit-learn-logo.png" alt="isolated" width="150"/>
