@@ -5,10 +5,17 @@ subtitle: whoami
 date: 2022-04-15
 last-updated: 2022-10-05
 ---
-<p align="center"><img src="/assets/img/neurodiversity.png" alt="isolated" width="200"/></p>
+# Table of Contents
+1. [Introduction](#introduction)
+2. [Academia](#academia)
+3. [Tutoring](#tutoring)
+4. [Coding and Data Science](#coding_data_science)
+5. [My journey at the Office for National Statistics](#ons_journey)
 
+<a name="introduction"></a>
+# Introduction
 
-I am a Data Scientist with an extensive background in mathematics, and as such I have a lot of analytical experience including theoretical and applied techniques in mathematics, statistical and numerical methods. 
+My name is **Usman Kayani** and I am a neurodivergent Data Scientist with an extensive background in mathematics (MSci, PhD), and as such I have a lot of analytical experience including theoretical and applied techniques in mathematics, statistics and numerical methods. 
 
 <p align="center"><img src="/assets/img/tp.jpeg" alt="isolated" width="350"/></p>
 
@@ -17,9 +24,15 @@ I am an expert in Python code development, creating analytical data pipelines (E
 <p align="center"><img src="/assets/img/pysym.jpg" alt="isolated" width="200"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="/assets/img/coding.gif" alt="isolated" width="400"/></p>
 <p align="center"><img src="https://www.databricks.com/wp-content/uploads/2021/05/ETL-Process.jpg" alt="isolated" width="350"/></p>
 
+I am also neurodivergent with [ADHD](https://www.nhs.uk/conditions/attention-deficit-hyperactivity-disorder-adhd/) and [Dyslexia](https://www.bdadyslexia.org.uk/dyslexia/about-dyslexia/what-is-dyslexia), and this has shaped my life and career in many ways. I am passionate about diversity and inclusion, and I am a strong advocate for neurodiversity in the [workplace](https://www.inclusiveemployers.co.uk/blog/neurodiversity-in-the-workplace-understanding-is-key/). I am also a strong believer in the power of data and technology to improve people's lives, and I am always looking for ways to use my skills to make a positive impact on society.
+
+
+<p align="center"><img src="/assets/img/neurodiversity.png" alt="isolated" width="200"/></p>
+
 {% include mathjax.html type="post" %}
 
-# Academia
+<a name="academia"></a>
+# Academia 
 
 I completed a MSci in Mathematics, with First Class Honours, and a PhD in Applied Mathematics and Theoretical Physics at [King's College London](https://www.kcl.ac.uk/). 
 
@@ -54,6 +67,7 @@ For my PhD research, I also performed extensive computations on multi-dimensiona
 
 <p align="center"><a href="https://cadabra.science/"><img src="/assets/img/cadabra.jpg" alt="isolated" width="350"/></a></p>
 
+<a name="tutoring"></a>
 # Tutoring
 
 I have experience teaching and tutoring Mathematics, Physics and Programming at a Graduate (BSc/MSc), A-level and GCSE. I was a graduate teaching assistant at my university for over 6 years, and a private tutor for over 12 years. During my PhD, I also volunteered in roles for science communication to explain my research on black holes to school children.
@@ -66,6 +80,7 @@ I also worked as a freelance mathematics content writer and video developer for 
 
 <p align="center"><a href="https://www.nagwa.com/en/"><img src="https://contents.nagwa.com/content/images/logo.svg" alt="isolated" width="200"/></a></p>
 
+<a name="coding_data_science"></a>
 # Coding and Data Science
 
 I have extensive experience coding in many high-level programming languages (e.g C++, Java), scripting languages (e.g Python, R, Bash, etc) and symbolic languages (e.g Mathematica, MATLAB, Maple etc) using various operating systems (e.g Linux, Windows, Mac OS). 
@@ -90,6 +105,7 @@ As a freelance data scientist, I analysed instantaneous power consumption data o
 
 <p align="center"><img src="https://static.wixstatic.com/media/e465c3_63f788f48f2a42c1ab6736fe40180f9e~mv2.png/v1/fit/w_829%2Ch_456%2Cal_c/file.png" alt="isolated" width="275"/></p>
 
+<a name="ons_journey"></a>
 # My journey at the Office for National Statistics
 
 In **June 2021**, I was employed as a Data Scientist at the *Higher Executive Officer* grade at the [Office for National Statistics](https://www.ons.gov.uk/) (ONS) within the Economics Statistics Group (ESG) and the Reproducible Data Science and Analysis (RDSA) team, formerly known as Emerging Platforms Delivery Support (EPDS). 
