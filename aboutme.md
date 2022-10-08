@@ -73,15 +73,19 @@ For my PhD research, I also performed extensive computations on multi-dimensiona
 <a name="tutoring"></a>
 # Tutoring and Content Development
 
-I have experience teaching and tutoring Mathematics, Physics and Programming at a Graduate (BSc/MSc), A-level and GCSE. I was a graduate teaching assistant at my university for over 6 years, and a private tutor for over 12 years. During my PhD, I also volunteered in roles for science communication to explain my research on black holes to school children.
+I have experience teaching and tutoring Mathematics, Physics and Programming at a Graduate (BSc/MSc), A-level and GCSE. I was a graduate teaching assistant at King's College London for over 6 years, and a private tutor for over 12 years. During my PhD, I also volunteered in roles for science communication, such as with the [Institute of Physics](https://www.iop.org/), to explain my research on black holes to school children.
+
+<p align="center"><a href="https://www.iop.org/"><img src="/assets/img/iop.png" alt="isolated" width="175"/></a></p>
 
 In the last few years, I have also undertaken freelance work with [Witherow Brooke](https://www.witherowbrooke.co.uk/), a private tuition and educational consultancy company which was featured in The Telegraph. I am currently tutoring university students in mathematics topics such as advanced statistics, linear algebra and Python coding.
 
-<p align="center"><a href="https://www.witherowbrooke.co.uk/"><img src="https://images.squarespace-cdn.com/content/v1/5f9b483a3274976f2be7ff49/1629543370730-SJGZ5LRA0O2PYEP44JGH/WBLOGO.png" alt="isolated" width="300"/></a></p>
+<p align="center"><a href="https://www.witherowbrooke.co.uk/"><img src="https://images.squarespace-cdn.com/content/v1/5f9b483a3274976f2be7ff49/1629543370730-SJGZ5LRA0O2PYEP44JGH/WBLOGO.png" alt="isolated" width="275"/></a><img src="/assets/img/wb.png" alt="isolated" width="275"/></p>
+
+
 
 I also worked as a freelance mathematics content writer and video developer for [Nagwa](https://www.nagwa.com/en/), a leading educational technology company in the Middle East and North Africa. I was responsible for developing educational videos and content for the company's online platform for topics in mathematics from GCSE to graduate level, such as algebra, trigonometry, calculus and statistics.
 
-<p align="center"><a href="https://www.nagwa.com/en/"><img src="https://contents.nagwa.com/content/images/logo.svg" alt="isolated" width="200"/></a></p>
+<p align="center"><a href="https://www.nagwa.com/en/"><img src="https://contents.nagwa.com/content/images/logo.svg" alt="isolated" width="175"/></a></p>
 
 <a name="coding_data_science"></a>
 # Coding and Data Science
