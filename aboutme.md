@@ -7,8 +7,8 @@ last-updated: 2022-10-05
 ---
 # Table of Contents
 1. [Introduction](#introduction)
-2. [Academia](#academia)
-3. [Tutoring](#tutoring)
+2. [Academia and Research](#academia)
+3. [Tutoring and Educational Content Development](#tutoring)
 4. [Coding and Data Science](#coding_data_science)
 5. [My journey at the Office for National Statistics](#ons_journey)
 
@@ -32,18 +32,21 @@ I am also neurodivergent with [ADHD](https://www.nhs.uk/conditions/attention-def
 {% include mathjax.html type="post" %}
 
 <a name="academia"></a>
-# Academia 
+# Academia and Research
 
-I completed a MSci in Mathematics, with First Class Honours, and a PhD in Applied Mathematics and Theoretical Physics at [King's College London](https://www.kcl.ac.uk/). 
+I completed an MSci in Mathematics, with First Class Honours, and a PhD in Applied Mathematics and Theoretical Physics at [King's College London](https://www.kcl.ac.uk/). 
 
 <p align="center"><a href="https://www.kcl.ac.uk/"><img src="/assets/img/kcl.jpeg" alt="isolated" width="175"/></a></p>
+
+During my MSci, I scored highly in my mathematics modules, most notably gaining 99% in the linear algebra and partial differential equations with complex variables modules. In my second year as an undergraduate, I had written a paper under the advice of one of my professors, who thought that it was interesting enough to be posted on the [university website](https://web.archive.org/web/20100113041557/http://www.mth.kcl.ac.uk:80/courses/cm211.html) for the mathematics department. This gave me valuable experience on how to write a paper and investigate different mathematical techniques and ideas.
+
+The paper I wrote was on a new method to solve linear ordinary differential equations of any order with non-constant coefficients and certain classes of partial differential equations. As a result, by the recommendation of another professor and based on my academic record, I was able to attend the fourth year module, Fourier Analysis, for extra credit in my second year.
 
 For my MSci dissertation, I studied integrable quantum spin chains. This introduced me to quantum interaction models particularly the Heisenberg spin chain, which describes the nearest neighbour interaction of particles with spin-$\frac{1}{2}$  (i.e electrons) and naturally arises in the study of ferromagnetism. 
 
 <p align="center">
 <img src="/assets/img/magnon.gif" alt="isolated" width="550"/>
 </p>
-
 
 These models have acquired growing importance in [quantum computing](https://doi.org/10.48550/arXiv.2207.09994) within the field of quantum information processing, mainly as a means of efficiently transferring information. It also gave me insights into various mathematical methods to diagonalize large square matrices which can grow exponentially according to the number of particles. 
 
@@ -68,7 +71,7 @@ For my PhD research, I also performed extensive computations on multi-dimensiona
 <p align="center"><a href="https://cadabra.science/"><img src="/assets/img/cadabra.jpg" alt="isolated" width="350"/></a></p>
 
 <a name="tutoring"></a>
-# Tutoring
+# Tutoring and Educational Content Development
 
 I have experience teaching and tutoring Mathematics, Physics and Programming at a Graduate (BSc/MSc), A-level and GCSE. I was a graduate teaching assistant at my university for over 6 years, and a private tutor for over 12 years. During my PhD, I also volunteered in roles for science communication to explain my research on black holes to school children.
 
