@@ -99,7 +99,7 @@ After leaving academia, one of the roles I decided to pursue was a Scientific So
 
 <p align="center"><a href="https://www.metoffice.gov.uk/"><img src="/assets/img/mo.png" alt="isolated" width="125"/></a></p>
 
-Ultimately I decided to embark on a career in Data Science instead. Nevertheless, the panel was very impressed with my application and noted that I had a good understanding of the importance of software quality, and awareness of the challenges of developing scientific software. I also demonstrated good examples of software development, especially in Python and a sensible approach to debugging code, including when working with other’s code. 
+Ultimately I decided to embark on a career in data science instead. Nevertheless, the panel was very impressed with my application and noted that I had a good understanding of the importance of software quality, and awareness of the challenges of developing scientific software. I also demonstrated good examples of software development, especially in Python and a sensible approach to debugging code, including when working with other’s code. 
 
 I am experienced with data science and machine learning Python libraries (e.g Scikit-learn, Keras, Tensorflow) as well as data visualization software such as Tableau and Power BI. 
 
