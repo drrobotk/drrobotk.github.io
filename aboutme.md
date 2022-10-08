@@ -75,7 +75,7 @@ For my PhD research, I also performed extensive computations on multi-dimensiona
 
 I have experience teaching and tutoring Mathematics, Physics and Programming at a Graduate (BSc/MSc), A-level and GCSE. I was a graduate teaching assistant at my university for over 6 years, and a private tutor for over 12 years. During my PhD, I also volunteered in roles for science communication to explain my research on black holes to school children.
 
-In the last few years, I have also undertaken freelance work with [Witherow Brooke](https://www.witherowbrooke.co.uk/), a private tuition and educational consultancy company which was featured in The Telepgraph. I am currently tutoring university students in mathematics topics such as advanced statistics, linear algebra and Python coding.
+In the last few years, I have also undertaken freelance work with [Witherow Brooke](https://www.witherowbrooke.co.uk/), a private tuition and educational consultancy company which was featured in The Telegraph. I am currently tutoring university students in mathematics topics such as advanced statistics, linear algebra and Python coding.
 
 <p align="center"><a href="https://www.witherowbrooke.co.uk/"><img src="https://images.squarespace-cdn.com/content/v1/5f9b483a3274976f2be7ff49/1629543370730-SJGZ5LRA0O2PYEP44JGH/WBLOGO.png" alt="isolated" width="300"/></a></p>
 
