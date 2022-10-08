@@ -8,7 +8,7 @@ last-updated: 2022-10-05
 # Table of Contents
 1. [Introduction](#introduction)
 2. [Academia and Research](#academia)
-3. [Tutoring and Educational Content Development](#tutoring)
+3. [Tutoring and Content Development](#tutoring)
 4. [Coding and Data Science](#coding_data_science)
 5. [My journey at the Office for National Statistics](#ons_journey)
 
@@ -38,7 +38,7 @@ I completed an MSci in Mathematics, with First Class Honours, and a PhD in Appli
 
 <p align="center"><a href="https://www.kcl.ac.uk/"><img src="/assets/img/kcl.jpeg" alt="isolated" width="175"/></a></p>
 
-During my MSci, I scored highly in my mathematics modules, most notably gaining 99% in the linear algebra and partial differential equations with complex variables modules. In my second year as an undergraduate, I had written a paper under the advice of one of my professors, who thought that it was interesting enough to be posted on the [university website](https://web.archive.org/web/20100113041557/http://www.mth.kcl.ac.uk:80/courses/cm211.html) for the mathematics department. This gave me valuable experience on how to write a paper and investigate different mathematical techniques and ideas.
+During my MSci, I scored highly in my mathematics modules, most notably gaining 99% in Linear Algebra and Partial Differential Equations with Complex Variables. In my second year as an undergraduate, I had written a paper under the advice of one of my professors, who thought that it was interesting enough to be posted on the [university website](https://web.archive.org/web/20100113041557/http://www.mth.kcl.ac.uk:80/courses/cm211.html) for the mathematics department. This gave me valuable experience on how to write a paper and investigate different mathematical techniques and ideas.
 
 The paper I wrote was on a new method to solve linear ordinary differential equations of any order with non-constant coefficients and certain classes of partial differential equations. As a result, by the recommendation of another professor and based on my academic record, I was able to attend the fourth year module, Fourier Analysis, for extra credit in my second year.
 
@@ -71,7 +71,7 @@ For my PhD research, I also performed extensive computations on multi-dimensiona
 <p align="center"><a href="https://cadabra.science/"><img src="/assets/img/cadabra.jpg" alt="isolated" width="350"/></a></p>
 
 <a name="tutoring"></a>
-# Tutoring and Educational Content Development
+# Tutoring and Content Development
 
 I have experience teaching and tutoring Mathematics, Physics and Programming at a Graduate (BSc/MSc), A-level and GCSE. I was a graduate teaching assistant at my university for over 6 years, and a private tutor for over 12 years. During my PhD, I also volunteered in roles for science communication to explain my research on black holes to school children.
 
@@ -79,7 +79,7 @@ In the last few years, I have also undertaken freelance work with [Witherow Broo
 
 <p align="center"><a href="https://www.witherowbrooke.co.uk/"><img src="https://images.squarespace-cdn.com/content/v1/5f9b483a3274976f2be7ff49/1629543370730-SJGZ5LRA0O2PYEP44JGH/WBLOGO.png" alt="isolated" width="300"/></a></p>
 
-I also worked as a freelance mathematics content writer and video developer for [Nagwa](https://www.nagwa.com/en/), a leading educational technology company in the Middle East and North Africa. I was responsible for developing educational videos and content for the company's online platform for topics in mathematics from GCSE to graduate levevel, such as algebra, trigonometry, calculus and statistics.
+I also worked as a freelance mathematics content writer and video developer for [Nagwa](https://www.nagwa.com/en/), a leading educational technology company in the Middle East and North Africa. I was responsible for developing educational videos and content for the company's online platform for topics in mathematics from GCSE to graduate level, such as algebra, trigonometry, calculus and statistics.
 
 <p align="center"><a href="https://www.nagwa.com/en/"><img src="https://contents.nagwa.com/content/images/logo.svg" alt="isolated" width="200"/></a></p>
 
