@@ -95,7 +95,7 @@ In addition to [Cadabra](https://cadabra.science/), I used [Mathematica](https:/
 
 <p align="center"><img src="/assets/img/pylib.png" alt="isolated" width="350"/></p>
 
-After leaving academia, one of the roles I decided to pursue was a Scientific Software Engineer at the Meteorological Office. I gave a presentation on the history, applications and good practices in scientific software engineering.
+After leaving academia, one of the roles I decided to pursue was a Scientific Software Engineer at the Meteorological Office. For this role, I gave a presentation on the history, applications and good practices in scientific software engineering.
 
 <p align="center"><a href="https://www.metoffice.gov.uk/"><img src="/assets/img/mo.png" alt="isolated" width="125"/></a></p>
 
