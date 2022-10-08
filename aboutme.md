@@ -8,7 +8,7 @@ last-updated: 2022-10-05
 <p align="center"><img src="/assets/img/neurodiversity.png" alt="isolated" width="200"/></p>
 
 
-I am a Data Scientist with an MSci in Mathematics, with First Class Honours, and a PhD in Applied Mathematics and Theoretical Physics, and as such I have a lot of analytical experience including theoretical and applied techniques in mathematics, statistical and numerical methods. 
+I am a Data Scientist with an extensive background in mathematics, and as such I have a lot of analytical experience including theoretical and applied techniques in mathematics, statistical and numerical methods. 
 
 <p align="center"><img src="/assets/img/tp.jpeg" alt="isolated" width="350"/></p>
 
@@ -18,6 +18,12 @@ I am an expert in Python code development, creating analytical data pipelines (E
 <p align="center"><img src="https://www.databricks.com/wp-content/uploads/2021/05/ETL-Process.jpg" alt="isolated" width="350"/></p>
 
 {% include mathjax.html type="post" %}
+
+# Academia
+
+I completed a MSci in Mathematics, with First Class Honours, and a PhD in Applied Mathematics and Theoretical Physics at [King's College London](https://www.kcl.ac.uk/). 
+
+<p align="center"><a href="https://www.kcl.ac.uk/"><img src="/assets/img/kcl.jpeg" alt="isolated" width="175"/></a></p>
 
 For my MSci dissertation, I studied integrable quantum spin chains. This introduced me to quantum interaction models particularly the Heisenberg spin chain, which describes the nearest neighbour interaction of particles with spin-$\frac{1}{2}$  (i.e electrons) and naturally arises in the study of ferromagnetism. 
 
@@ -33,32 +39,45 @@ These models have acquired growing importance in [quantum computing](https://doi
 <img src="/assets/img/qubit.gif" alt="isolated" width="300"/>
 </p>
 
-For my academic excellence in my MSci, I was also awarded a scholarship by the [Science and Technology Facilities Council](https://stfc.ukri.org/) (STFC) to undertake a PhD in Applied Mathematics and Theoretical Physics under the mathematics department. The main theme of my [PhD research](https://doi.org/10.48550/arXiv.1910.01080) was a study of the symmetries of black hole horizons in quantum gravity.
+For my academic excellence in my MSci, I was also awarded a scholarship by the [Science and Technology Facilities Council](https://stfc.ukri.org/) (STFC) to undertake a PhD in Applied Mathematics and Theoretical Physics under the mathematics department. The main theme of my [PhD research](https://doi.org/10.48550/arXiv.1910.01080) was a study of the symmetries of black hole horizons in quantum gravity. 
 
 <p align="center">
 <img src="/assets/img/qg.jpg" alt="isolated" width="425"/>
 <img src="/assets/img/source.gif" alt="isolated" width="300"/>
 </p>
 
-In particular, under various string and supergravity theories, specifically [type IIA](https://doi.org/10.1007/JHEP06(2015)139), [massive type IIA](https://doi.org/10.1088/0264-9381/32/23/235004) and [5-dimensional](https://doi.org/10.1088/1361-6382/aac30c) supergravities (both gauged and ungauged). The work has been published in three peer-review papers in leading international journals with the third publication on the five-dimensional supergravity theories being a sole-author paper. My examiners remarked at the great achievement to produce such a sole-author paper during a PhD. I had also continued my research and publications in quantum gravity as an independent researcher for black holes in [6-dimensional](https://doi.org/10.48550/arXiv.1912.04249) gauged $N=(1,0)$ supergravity.
+In particular, I studied black holes under various [string](https://en.wikipedia.org/wiki/String_theory) and [supergravity](https://en.wikipedia.org/wiki/Supergravity) theories, specifically [type IIA](https://doi.org/10.1007/JHEP06(2015)139), [massive type IIA](https://doi.org/10.1088/0264-9381/32/23/235004) and [5-dimensional](https://doi.org/10.1088/1361-6382/aac30c) supergravities (both gauged and ungauged). The work has been published in three peer-review papers in leading international journals with the third publication on the five-dimensional supergravity theories being a sole-author paper. My examiners remarked at the great achievement to produce such a sole-author paper during a PhD. I had also continued my research and publications in quantum gravity as an independent researcher for black holes in [6-dimensional](https://doi.org/10.48550/arXiv.1912.04249) gauged $N=(1,0)$ supergravity.
 
 <p align="center"><img src="/assets/img/stringt.png" alt="isolated" width="400"/></p>
 
-I have extensive experience coding in many high-level programming languages (e.g C++, Java), scripting languages (e.g Python, R, Bash, etc) and symbolic languages (e.g Mathematica, MATLAB, Maple etc) using various operating systems (e.g Linux, Windows, Mac OS). I have also used these languages or libraries (e.g NumPy, SciPy, Matplotlib etc) to  perform mathematical, physical, and statistical computations for various analyses and datasets. 
-
-<p align="center"><a href="https://www.wolfram.com/mathematica/"><img src="/assets/img/wolfram.gif" alt="isolated" width="600"/></a></p>
-<p align="center"><img src="/assets/img/R.gif" alt="isolated" width="300"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="/assets/img/python-shm.gif" alt="isolated" width="350"/></p>
-<p align="center"><img src="/assets/img/pylib.png" alt="isolated" width="350"/></p>
-
-
-For my PhD research, I had performed extensive computations on multi-dimensional arrays for supergravity calculations using Python with [Cadabra](https://cadabra.science/). 
+For my PhD research, I also performed extensive computations on multi-dimensional arrays for supergravity calculations using Python with [Cadabra](https://cadabra.science/). 
 
 <p align="center"><a href="https://cadabra.science/"><img src="/assets/img/cadabra.jpg" alt="isolated" width="350"/></a></p>
 
+# Tutoring
 
-I also have experience teaching and tutoring Mathematics, Physics and Programming at a Graduate (BSc/MSc), A-level and GCSE. I am currently tutoring university students in mathematics topics such as advanced statistics, linear algebra and Python coding.
+I have experience teaching and tutoring Mathematics, Physics and Programming at a Graduate (BSc/MSc), A-level and GCSE. I was a graduate teaching assistant at my university for over 6 years, and a private tutor for over 12 years. During my PhD, I also volunteered in roles for science communication to explain my research on black holes to school children.
 
-After leaving academia, one of the roles I decided to pursue was a Scientific Software Engineer at the Meteorological Office, but I decided to embark on a career in Data Science instead. Nevertheless, the panel was very impressed with my application and noted that I had a good understanding of the importance of software quality, and awareness of the challenges of developing scientific software. I also demonstrated good examples of software development, especially in Python and a sensible approach to debugging code, including when working with other’s code. 
+In the last few years, I have also undertaken freelance work with [Witherow Brooke](https://www.witherowbrooke.co.uk/), a private tuition and educational consultancy company which was featured in The Telepgraph. I am currently tutoring university students in mathematics topics such as advanced statistics, linear algebra and Python coding.
+
+<p align="center"><a href="https://www.witherowbrooke.co.uk/"><img src="https://images.squarespace-cdn.com/content/v1/5f9b483a3274976f2be7ff49/1629543370730-SJGZ5LRA0O2PYEP44JGH/WBLOGO.png" alt="isolated" width="300"/></a></p>
+
+I also worked as a freelance mathematics content writer and video developer for [Nagwa](https://www.nagwa.com/en/), a leading educational technology company in the Middle East and North Africa. I was responsible for developing educational videos and content for the company's online platform for topics in mathematics from GCSE to graduate levevel, such as algebra, trigonometry, calculus and statistics.
+
+<p align="center"><a href="https://www.nagwa.com/en/"><img src="https://contents.nagwa.com/content/images/logo.svg" alt="isolated" width="200"/></a></p>
+
+# Coding and Data Science
+
+I have extensive experience coding in many high-level programming languages (e.g C++, Java), scripting languages (e.g Python, R, Bash, etc) and symbolic languages (e.g Mathematica, MATLAB, Maple etc) using various operating systems (e.g Linux, Windows, Mac OS). 
+
+<p align="center"><a href="https://www.wolfram.com/mathematica/"><img src="/assets/img/wolfram.gif" alt="isolated" width="600"/></a></p>
+<p align="center"><img src="/assets/img/R.gif" alt="isolated" width="300"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="/assets/img/python-shm.gif" alt="isolated" width="350"/></p>
+
+In addition to [Cadabra](https://cadabra.science/), I used [Mathematica](https://www.wolfram.com/mathematica/) and [Maple](https://www.maplesoft.com/) for my research in quantum gravity during my PhD and beyond. I have also used various programming languages or libraries (e.g NumPy, SciPy, Matplotlib etc) to perform mathematical, physical, and statistical computations for various analyses and datasets. 
+
+<p align="center"><img src="/assets/img/pylib.png" alt="isolated" width="350"/></p>
+
+After leaving academia, one of the roles I decided to pursue was a Scientific Software Engineer at the Meteorological Office, but I ultimately decided to embark on a career in Data Science instead. Nevertheless, the panel was very impressed with my application and noted that I had a good understanding of the importance of software quality, and awareness of the challenges of developing scientific software. I also demonstrated good examples of software development, especially in Python and a sensible approach to debugging code, including when working with other’s code. 
 
 I am experienced with data science and machine learning Python libraries (e.g Scikit-learn, Keras, Tensorflow) as well as data visualization software such as Tableau and Power BI. 
 
@@ -71,6 +90,7 @@ As a freelance data scientist, I analysed instantaneous power consumption data o
 
 <p align="center"><img src="https://static.wixstatic.com/media/e465c3_63f788f48f2a42c1ab6736fe40180f9e~mv2.png/v1/fit/w_829%2Ch_456%2Cal_c/file.png" alt="isolated" width="275"/></p>
 
+# My journey at the Office for National Statistics
 
 In **June 2021**, I was employed as a Data Scientist at the *Higher Executive Officer* grade at the [Office for National Statistics](https://www.ons.gov.uk/) (ONS) within the Economics Statistics Group (ESG) and the Reproducible Data Science and Analysis (RDSA) team, formerly known as Emerging Platforms Delivery Support (EPDS). 
 
