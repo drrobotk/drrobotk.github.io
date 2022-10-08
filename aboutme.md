@@ -46,7 +46,7 @@ In particular, under various string and supergravity theories, specifically [typ
 
 I have extensive experience coding in many high-level programming languages (e.g C++, Java), scripting languages (e.g Python, R, Bash, etc) and symbolic languages (e.g Mathematica, MATLAB, Maple etc) using various operating systems (e.g Linux, Windows, Mac OS). I have also used these languages or libraries (e.g NumPy, SciPy, Matplotlib etc) to  perform mathematical, physical, and statistical computations for various analyses and datasets. 
 
-<p align="center"><a href="https://www.wolfram.com/mathematica/"><img src="/assets/img/wolfram.png" alt="isolated" width="250"/></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="/assets/img/mathematica-a.gif" alt="isolated" width="300"/></p>
+<p align="center"><a href="https://www.wolfram.com/mathematica/"><img src="/assets/img/wolfram.gif" alt="isolated" width="600"/></a></p>
 <p align="center"><img src="/assets/img/R.gif" alt="isolated" width="300"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="/assets/img/python-shm.gif" alt="isolated" width="350"/></p>
 <p align="center"><img src="/assets/img/pylib.png" alt="isolated" width="350"/></p>
 
