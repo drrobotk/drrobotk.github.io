@@ -3,7 +3,7 @@ layout: post
 title: About me
 subtitle: whoami
 date: 2022-04-15
-last-updated: 2022-10-05
+last-updated: 2022-10-08
 ---
 # Table of Contents
 1. [Introduction](#introduction)
