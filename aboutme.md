@@ -15,7 +15,7 @@ last-updated: 2022-10-08
 <a name="introduction"></a>
 # Introduction
 
-My name is **Usman Kayani** and I am a [neurodivergent](https://exceptionalindividuals.com/neurodiversity/) Data Scientist with an extensive background in mathematics (MSci, PhD), and as such I have a lot of analytical experience including theoretical and applied techniques in mathematics, statistics and numerical methods. 
+My name is **Usman Kayani** and I am a Data Scientist with an extensive background in mathematics (MSci, PhD), and as such I have a lot of analytical experience including theoretical and applied techniques in mathematics, statistics and numerical methods. 
 
 <p align="center"><img src="/assets/img/tp.jpeg" alt="isolated" width="350"/></p>
 
@@ -24,7 +24,7 @@ I am an expert in Python code development, creating analytical data pipelines (E
 <p align="center"><img src="/assets/img/pysym.jpg" alt="isolated" width="200"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="/assets/img/coding.gif" alt="isolated" width="400"/></p>
 <p align="center"><img src="https://www.databricks.com/wp-content/uploads/2021/05/ETL-Process.jpg" alt="isolated" width="350"/></p>
 
-I am also neurodivergent with [ADHD](https://www.nhs.uk/conditions/attention-deficit-hyperactivity-disorder-adhd/) and [Dyslexia](https://www.bdadyslexia.org.uk/dyslexia/about-dyslexia/what-is-dyslexia), and this has shaped my life and career in many ways. I am passionate about diversity and inclusion, and I am a strong advocate for neurodiversity in the [workplace](https://www.inclusiveemployers.co.uk/blog/neurodiversity-in-the-workplace-understanding-is-key/). I am also a strong believer in the power of data and technology to improve people's lives, and I am always looking for ways to use my skills to make a positive impact on society.
+I am also [neurodivergent](https://exceptionalindividuals.com/neurodiversity/) with [ADHD](https://www.nhs.uk/conditions/attention-deficit-hyperactivity-disorder-adhd/) and [Dyslexia](https://www.bdadyslexia.org.uk/dyslexia/about-dyslexia/what-is-dyslexia), and this has shaped my life and career in many ways. I am passionate about diversity and inclusion, and I am a strong advocate for neurodiversity in the [workplace](https://www.inclusiveemployers.co.uk/blog/neurodiversity-in-the-workplace-understanding-is-key/). I am also a strong believer in the power of data and technology to improve people's lives, and I am always looking for ways to use my skills to make a positive impact on society.
 
 
 <p align="center"><img src="/assets/img/neurodiversity.png" alt="isolated" width="200"/></p>
