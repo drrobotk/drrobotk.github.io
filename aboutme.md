@@ -79,7 +79,7 @@ I also attended various academic seminars and conferences such as the [Winter Sc
 
 I have experience teaching and tutoring Mathematics, Physics and Programming at a Graduate (BSc/MSc), A-level and GCSE. I was a graduate teaching assistant at [King's College London](https://www.kcl.ac.uk/) for 6 years, and a private tutor for over 12 years. During my PhD, I also volunteered for roles in science communication, such as with the [Institute of Physics](https://www.iop.org/), to explain my research on black holes to school children.
 
-<p align="center"><a href="https://www.iop.org/"><img src="/assets/img/iop.png" alt="isolated" width="175"/></a></p>
+<p align="center"><a href="https://www.iop.org/"><img src="/assets/img/iop.png" alt="isolated" width="150"/></a></p>
 
 In the last few years, I have also undertaken freelance work with [Witherow Brooke](https://www.witherowbrooke.co.uk/), a private tuition and educational consultancy company which was featured in The Telegraph. I am currently tutoring university students in mathematics topics such as advanced statistics, linear algebra and Python coding.
 
