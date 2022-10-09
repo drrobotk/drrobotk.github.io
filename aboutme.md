@@ -118,7 +118,7 @@ I am experienced with data science and machine learning Python libraries (e.g Sc
 
 As a freelance data scientist, I analysed instantaneous power consumption data of a large number of households with supervised machine learning models to identify various devices (e.g the TV or kettle) and classify when they are turned on and the occurrences/duration of their usage, to identify routines and detection of anomalies. This data was provided by a particular company that aims to use ML and modelling with domestic electric appliances.
 
-<p align="center"><img src="https://static.wixstatic.com/media/e465c3_63f788f48f2a42c1ab6736fe40180f9e~mv2.png/v1/fit/w_829%2Ch_456%2Cal_c/file.png" alt="isolated" width="275"/></p>
+<p align="center"><img src="https://static.wixstatic.com/media/e465c3_63f788f48f2a42c1ab6736fe40180f9e~mv2.png/v1/fit/w_829%2Ch_456%2Cal_c/file.png" alt="isolated" width="250"/></p>
 
 <a name="ons_journey"></a>
 # My journey at the Office for National Statistics
