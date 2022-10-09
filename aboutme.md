@@ -116,7 +116,7 @@ I am experienced with data science and machine learning Python libraries (e.g Sc
 <img src="https://camo.githubusercontent.com/aeb4f612bd9b40d81c62fcbebd6db44a5d4344b8b962be0138817e18c9c06963/68747470733a2f2f7777772e74656e736f72666c6f772e6f72672f696d616765732f74665f6c6f676f5f686f72697a6f6e74616c2e706e67" alt="isolated" width="300"/>
 </p>
 
-As a freelance data scientist, I analysed instantaneous power consumption data of a large number of households with supervised machine learning models to identify various devices (e.g the TV or kettle) and classify when they are turned on and the occurrences/duration of their usage, to identify routines and detection of anomalies. This data was provided by a particular company that aims to use ML and modelling with domestic electric appliances.
+As a freelance data scientist, I analysed instantaneous power consumption data of a large number of households with supervised machine learning models to identify various devices (e.g the TV or kettle) and classify when they are turned on and the occurrences/ duration of their usage, to identify routines and the detection of anomalies. This data was provided by a particular company that aims to use ML and modelling with domestic electric appliances.
 
 <p align="center"><img src="https://static.wixstatic.com/media/e465c3_63f788f48f2a42c1ab6736fe40180f9e~mv2.png/v1/fit/w_829%2Ch_456%2Cal_c/file.png" alt="isolated" width="250"/></p>
 
