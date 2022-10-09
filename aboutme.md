@@ -149,7 +149,7 @@ My first task was to implement the TPD method within the CPI pipeline using PySp
 
 <p align="center"><img src="https://noufel1393.gitlab.io/noufel1393/img/blog_images/pyspark_udf_large.png" alt="isolated" width="300"/></p>
 
-This led me toward discovering [Pandas UDFs](https://www.databricks.com/blog/2020/05/20/new-pandas-udfs-and-python-type-hints-in-the-upcoming-release-of-apache-spark-3-0.html), which allow for vectorized operations on Big Data and increase performance by up to 100x compared to regular UDFs, and have since been implemented in various multilateral index methods and an integral part of the CPI pipeline. 
+This led me toward discovering [Pandas UDFs](https://www.databricks.com/blog/2020/05/20/new-pandas-udfs-and-python-type-hints-in-the-upcoming-release-of-apache-spark-3-0.html), which allow for vectorized operations on Big Data and increase performance by up to 100x compared to regular UDFs using Apache Arrow. They have since been implemented in various multilateral index methods and are an integral part of the CPI pipeline. 
 
 <p align="center"><img src="https://kontext.tech/api/flex/medias/obj-1563" alt="isolated" width="500"/></p>
 
@@ -192,7 +192,7 @@ My first project was on the [least cost index](https://www.ons.gov.uk/economy/in
 
 My package and work was used to track the prices over time of the lowest-cost grocery items for 30 products over multiple retailers, using web-scraped data and a data pipeline on the [Google Cloud Platform](https://cloud.google.com/). This analysis was conducted as part of the ONS's current and future analytical work related to the cost of living.
 
-<p align="center"><a href="https://cloud.google.com/"><img src="/assets/img/gcp.jpg" alt="isolated" width="175"/></a></p>
+<p align="center"><a href="https://cloud.google.com/"><img src="/assets/img/gcp.jpg" alt="isolated" width="150"/></a></p>
 <p align="center"><img src="/assets/img/bucket.png" alt="isolated" width="600"/></p>
 
 In **April 2022**, I also joined the Data Access Platform Capability And Training Support (DAPCATS) as a mentor, where I have been helping other data scientists and analysts with their work and projects. 
