@@ -65,7 +65,6 @@ In particular, I studied [string](https://en.wikipedia.org/wiki/String_theory) a
 
 <p align="center"><img src="/assets/img/stringt.png" alt="isolated" width="400"/></p>
 
-
 The main theme of my [PhD research](https://doi.org/10.48550/arXiv.1910.01080) was a study of the *symmetries* of black hole horizons in quantum gravity. 
 
 <p align="center"><img src="/assets/img/bhs.gif" alt="isolated" width="400"/><img src="/assets/img/source.gif" alt="isolated" width="400"/></p>
