@@ -61,7 +61,7 @@ For my academic excellence in my MSci, I was also awarded a scholarship by the [
 <img src="/assets/img/qg.jpg" alt="isolated" width="475"/>
 </p>
 
-In particular, I studied [string](https://en.wikipedia.org/wiki/String_theory) and [supergravity](https://en.wikipedia.org/wiki/Supergravity) theories, specifically [type IIA](https://doi.org/10.1007/JHEP06(2015)139), [massive type IIA](https://doi.org/10.1088/0264-9381/32/23/235004) and [5-dimensional](https://doi.org/10.1088/1361-6382/aac30c) supergravities (both gauged and ungauged). 
+In particular, I studied [string](https://en.wikipedia.org/wiki/String_theory) and [supergravity](https://en.wikipedia.org/wiki/Supergravity) theories, specifically [type IIA](https://doi.org/10.1007/JHEP06(2015)139), [massive type IIA](https://doi.org/10.1088/0264-9381/32/23/235004) and [5-dimensional](https://doi.org/10.1088/1361-6382/aac30c) (both gauged and ungauged). 
 
 <p align="center"><img src="/assets/img/stringt.png" alt="isolated" width="400"/></p>
 
