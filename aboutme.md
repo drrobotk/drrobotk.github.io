@@ -96,7 +96,7 @@ In the last few years, I have also undertaken freelance work with [Witherow Broo
 
 I also worked as a freelance mathematics content writer and video developer for [Nagwa](https://www.nagwa.com/en/), a leading educational technology company in the Middle East and North Africa. I was responsible for developing educational videos and content for the company's online platform for topics in mathematics from GCSE to graduate level, such as algebra, trigonometry, calculus and statistics.
 
-<p align="center"><a href="https://www.nagwa.com/en/"><img src="https://contents.nagwa.com/content/images/logo.svg" alt="isolated" width="175"/></a></p>
+<p align="center"><a href="https://www.nagwa.com/en/"><img src="/assets/img/nagwa.png" alt="isolated" width="150"/></a></p>
 
 <a name="coding_data_science"></a>
 # Coding and Data Science
