@@ -63,11 +63,11 @@ For my academic excellence in my MSci, I was also awarded a scholarship by the [
 
 In particular, I studied [string](https://en.wikipedia.org/wiki/String_theory) and [supergravity](https://en.wikipedia.org/wiki/Supergravity) theories, specifically [type IIA](https://doi.org/10.1007/JHEP06(2015)139), [massive type IIA](https://doi.org/10.1088/0264-9381/32/23/235004) and [5-dimensional](https://doi.org/10.1088/1361-6382/aac30c) (both gauged and ungauged). 
 
-<p align="center"><img src="/assets/img/stringt.png" alt="isolated" width="400"/></p>
+<p align="center"><img src="/assets/img/stringt.png" alt="isolated" width="425"/></p>
 
 The main theme of my [PhD research](https://doi.org/10.48550/arXiv.1910.01080) was a study of the *symmetries* of black hole horizons in quantum gravity. 
 
-<p align="center"><img src="/assets/img/bhs.gif" alt="isolated" width="400"/><img src="/assets/img/source.gif" alt="isolated" width="400"/></p>
+<p align="center"><img src="/assets/img/bhs.gif" alt="isolated" width="400"/><img src="/assets/img/source.gif" alt="isolated" width="402"/></p>
 
 The work has been published in three peer-review papers in leading international journals with the third publication on the five-dimensional supergravity theories being a sole-author paper. My examiners remarked at the great achievement to produce such a sole-author paper during a PhD. I had also continued my research and publications in quantum gravity as an independent researcher for black holes in [6-dimensional](https://doi.org/10.48550/arXiv.1912.04249) gauged $N=(1,0)$ supergravity.
 
