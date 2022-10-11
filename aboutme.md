@@ -112,15 +112,15 @@ In addition to [Cadabra](https://cadabra.science/), I used [Mathematica](https:/
 
 After leaving academia, one of the roles I decided to pursue was a Scientific Software Engineer at the [Meteorological Office](https://www.metoffice.gov.uk/). For this role, I gave a presentation on the history, applications and good practices of scientific software engineering.
 
-<p align="center"><a href="https://www.metoffice.gov.uk/"><img src="/assets/img/mo.png" alt="isolated" width="125"/></a></p>
+<p align="center"><a href="https://www.metoffice.gov.uk/"><img src="/assets/img/mo.png" alt="isolated" width="100"/></a></p>
 
 Ultimately I decided to embark on a career in data science instead. Nevertheless, the panel was very impressed with my application and noted that I had a good understanding of the importance of software quality, and awareness of the challenges of developing scientific software. I also demonstrated good examples of software development, especially in Python and a sensible approach to debugging code, including when working with other’s code. 
 
 I am experienced with data science and machine learning Python libraries (e.g Scikit-learn, Keras, Tensorflow) as well as data visualization software such as Tableau and Power BI. 
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/scikit-learn/scikit-learn/main/doc/logos/scikit-learn-logo.png" alt="isolated" width="150"/>
-<img src="https://camo.githubusercontent.com/aeb4f612bd9b40d81c62fcbebd6db44a5d4344b8b962be0138817e18c9c06963/68747470733a2f2f7777772e74656e736f72666c6f772e6f72672f696d616765732f74665f6c6f676f5f686f72697a6f6e74616c2e706e67" alt="isolated" width="300"/>
+<img src="/assets/img/scikit.png" alt="isolated" width="125"/>
+<img src="/assets/img/tflow.png" alt="isolated" width="300"/>
 </p>
 
 As a freelance data scientist, I analysed instantaneous power consumption data of a large number of households with supervised machine learning models to identify various devices (e.g the TV or kettle) and classify when they are turned on and the occurrences/ duration of their usage, to identify routines and the detection of anomalies. This data was provided by a particular company that aims to use ML and modelling with domestic electric appliances.
