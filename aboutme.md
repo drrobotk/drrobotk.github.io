@@ -111,6 +111,10 @@ In addition to [Cadabra](https://cadabra.science/), I used [Mathematica](https:/
 
 <p align="center"><img src="/assets/img/pylib.png" alt="isolated" width="350"/></p>
 
+During my PhD, I also worked on a personal project to interact with bluetooth low energy (BLE) smart watches in Python. This was used to  read the heart rate (bpm), systolic/diastolic blood pressure (mmHg) and SpO2 blood oxygen (%) with a live plot of real-time HR readings using gnuplot. I also used Python to perform data analysis on the data collected from the smart watch.
+
+<p align="center"><img src="/assets/img/ble.gif" alt="isolated" width="550"/></p>
+
 After leaving academia, one of the roles I decided to pursue was a Scientific Software Engineer at the [Meteorological Office](https://www.metoffice.gov.uk/). For this role, I gave a presentation on the history, applications and good practices of scientific software engineering.
 
 <p align="center"><a href="https://www.metoffice.gov.uk/"><img src="/assets/img/mo.png" alt="isolated" width="100"/></a></p>
