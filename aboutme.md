@@ -36,7 +36,7 @@ I am also [neurodivergent](https://exceptionalindividuals.com/neurodiversity/) w
 
 I completed an MSci in Mathematics, with **First Class Honours**, and a PhD in Applied Mathematics and Theoretical Physics at [King's College London](https://www.kcl.ac.uk/). 
 
-<p align="center"><a href="https://www.kcl.ac.uk/"><img src="/assets/img/kcl.jpeg" alt="isolated" width="175"/></a></p>
+<p align="center"><a href="https://www.kcl.ac.uk/"><img src="/assets/img/kcl.jpeg" alt="isolated" width="150"/></a></p>
 
 During my MSci, I scored highly in my mathematics modules, most notably gaining 99% in Linear Algebra and Partial Differential Equations with Complex Variables. I also covered several modules including Dynamical Systems, Probability and Statistics, Differential Geometry, Discrete Mathematics, Logic, Real and Complex Analysis, Fourier Analysis, and Mathematical Biology. 
 
