@@ -46,7 +46,7 @@ In my second year as an undergraduate, I had written a paper under the advice of
 
 The paper I wrote was on a new method to solve linear ordinary differential equations of any order with non-constant coefficients and certain classes of partial differential equations. As a result, by the recommendation of another professor and based on my academic record, I was able to attend the fourth year module, Fourier Analysis, for extra credit in my second year.
 
-<p align="center"><img src="/assets/img/ft.gif" alt="isolated" width="425"/></p>
+<p align="center"><img src="/assets/img/ft.gif" alt="isolated" width="450"/></p>
 
 For my MSci dissertation, I studied integrable quantum spin chains. This introduced me to quantum interaction models particularly the Heisenberg spin chain, which describes the nearest neighbour interaction of particles with spin-$\frac{1}{2}$  (i.e electrons) and naturally arises in the study of ferromagnetism. 
 
