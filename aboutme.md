@@ -58,7 +58,7 @@ These models have acquired growing importance in [quantum computing](https://doi
 
 <p align="center">
 <img src="/assets/img/qc.png" alt="isolated" width="300"/>&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="/assets/img/qubit.gif" alt="isolated" width="300"/>
+<img src="/assets/img/qubit.gif" alt="isolated" width="325"/>
 </p>
 
 For my academic excellence in my MSci, I was also awarded a scholarship by the [Science and Technology Facilities Council](https://stfc.ukri.org/) (STFC) to undertake a PhD in Applied Mathematics and Theoretical Physics under the mathematics department. My research was in quantum gravity, which is the study of the relationship between quantum mechanics and general relativity.
