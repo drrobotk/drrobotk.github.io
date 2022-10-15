@@ -38,15 +38,20 @@ I completed an MSci in Mathematics, with **First Class Honours**, and a PhD in A
 
 <p align="center"><a href="https://www.kcl.ac.uk/"><img src="/assets/img/kcl.jpeg" alt="isolated" width="150"/></a></p>
 
-During my MSci, I scored highly in my mathematics modules, most notably gaining 99% in Linear Algebra and Partial Differential Equations with Complex Variables. I also completed [other modules](https://web.archive.org/web/20090221212207/http://www.mth.kcl.ac.uk/courses) with topics covering Dynamical Systems, Probability and Statistics, Differential Geometry, Discrete Mathematics, Logic, Real and Complex Analysis, Fourier Analysis, and Mathematical Biology. 
+During my MSci, I scored highly in my modules, most notably gaining 99% in *linear algebra* and *partial differential equations with complex variables*. Other pure and applied mathematics [modules](https://web.archive.org/web/20090221212207/http://www.mth.kcl.ac.uk/courses) that I completed included topics covering dynamical systems, probability and statistics, discrete mathematics, logic, fourier analysis, differential geometry and mathematical biology.
 
 <p align="center"><img src="/assets/img/math.jpg" alt="isolated" width="600"/></p>
+
 
 In my second year as an undergraduate, I had written a paper under the advice of one of my professors, who thought that it was interesting enough to be posted on the [university website](https://web.archive.org/web/20100113041557/http://www.mth.kcl.ac.uk:80/courses/cm211.html) for the mathematics department. This gave me valuable experience on how to write a paper and investigate different mathematical techniques and ideas.
 
 The paper I wrote was on a new method to solve linear ordinary differential equations of any order with non-constant coefficients and certain classes of partial differential equations. As a result, by the recommendation of another professor and based on my academic record, I was able to attend the fourth year module, Fourier Analysis, for extra credit in my second year.
 
 <p align="center"><img src="/assets/img/ft.gif" alt="isolated" width="450"/></p>
+
+In the final two years of my MSci, I also completed modules in physics, covering quantum mechanics, advanced quantum field theory, statistical mechanics, advanced general relativity, string theory, and cosmology.
+
+<p align="center"><img src="/assets/img/eqn.jpeg" alt="isolated" width="550"/></p>
 
 For my MSci dissertation, I studied integrable quantum spin chains. This introduced me to quantum interaction models particularly the Heisenberg spin chain, which describes the nearest neighbour interaction of particles with spin-$\frac{1}{2}$  (i.e electrons) and naturally arises in the study of ferromagnetism. 
 
