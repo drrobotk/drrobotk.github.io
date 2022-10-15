@@ -40,7 +40,7 @@ I completed an MSci in Mathematics, with **First Class Honours**, and a PhD in A
 
 During my MSci, I scored highly in my mathematics modules, most notably gaining 99% in Linear Algebra and Partial Differential Equations with Complex Variables. I also completed other modules including Dynamical Systems, Probability and Statistics, Differential Geometry, Discrete Mathematics, Logic, Real and Complex Analysis, Fourier Analysis, and Mathematical Biology. 
 
-<p align="center"><img src="/assets/img/math.jpg" alt="isolated" width="575"/></p>
+<p align="center"><img src="/assets/img/math.jpg" alt="isolated" width="600"/></p>
 
 In my second year as an undergraduate, I had written a paper under the advice of one of my professors, who thought that it was interesting enough to be posted on the [university website](https://web.archive.org/web/20100113041557/http://www.mth.kcl.ac.uk:80/courses/cm211.html) for the mathematics department. This gave me valuable experience on how to write a paper and investigate different mathematical techniques and ideas.
 
