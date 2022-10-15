@@ -110,7 +110,7 @@ I also worked as a freelance mathematics content writer and video developer for 
 
 I have extensive experience coding in many high-level programming languages (e.g C++, Java), scripting languages (e.g Python, R, Bash, etc) and symbolic languages (e.g Mathematica, MATLAB, Maple etc) using various operating systems (e.g Linux, Windows, Mac OS). 
 
-<p align="center"><a href="https://www.wolfram.com/mathematica/"><img src="/assets/img/wolfram.gif" alt="isolated" width="600"/></a></p>
+<p align="center"><a href="https://www.wolfram.com/mathematica/"><img src="/assets/img/wolfram.gif" alt="isolated" width="575"/></a></p>
 <p align="center"><img src="/assets/img/R.gif" alt="isolated" width="300"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="/assets/img/python-shm.gif" alt="isolated" width="350"/></p>
 
 In addition to [Cadabra](https://cadabra.science/), I used [Mathematica](https://www.wolfram.com/mathematica/) and [Maple](https://www.maplesoft.com/) for my research in quantum gravity during my PhD and beyond. I have also used various programming languages or libraries (e.g NumPy, SciPy, Matplotlib etc) to perform mathematical, physical, and statistical computations for various analyses and datasets. 
