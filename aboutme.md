@@ -51,7 +51,7 @@ The paper I wrote was on a new method to solve linear ordinary differential equa
 
 In the final two years of my MSci, I also completed modules in physics, covering quantum mechanics, advanced quantum field theory, statistical mechanics, advanced general relativity, string theory, and cosmology.
 
-<p align="center"><img src="/assets/img/eqn.jpeg" alt="isolated" width="550"/></p>
+<p align="center"><img src="/assets/img/eqn.jpeg" alt="isolated" width="600"/></p>
 
 For my MSci dissertation, I studied integrable quantum spin chains. This introduced me to quantum interaction models particularly the Heisenberg spin chain, which describes the nearest neighbour interaction of particles with spin-$\frac{1}{2}$  (i.e electrons) and naturally arises in the study of ferromagnetism. 
 
