@@ -47,7 +47,7 @@ In my second year as an undergraduate, I had written a paper under the advice of
 
 The paper I wrote was on a new method to solve linear ordinary differential equations of any order with non-constant coefficients and certain classes of partial differential equations. As a result, by the recommendation of another professor and based on my academic record, I was able to attend the fourth year module, [Fourier analysis](https://web.archive.org/web/20090307084310/http://www.mth.kcl.ac.uk/courses/cmms11.html), for extra credit in my second year.
 
-<p align="center"><img src="/assets/img/ft.gif" alt="isolated" width="450"/></p>
+<p align="center"><img src="/assets/img/ft.gif" alt="isolated" width="425"/></p>
 
 In the final two years of my MSci, I also completed modules in physics, covering quantum mechanics, advanced quantum field theory, statistical mechanics, advanced general relativity, string theory, and cosmology.
 
@@ -82,7 +82,7 @@ The main theme of my [PhD research](https://doi.org/10.48550/arXiv.1910.01080) w
 
 The work has been published in three peer-review papers in leading international journals with the third publication on the five-dimensional supergravity theories being a sole-author paper. My examiners remarked at the great achievement to produce such a sole-author paper during a PhD. I had also continued my research and publications in quantum gravity as an independent researcher for black holes in [6-dimensional](https://doi.org/10.48550/arXiv.1912.04249) gauged $N=(1,0)$ supergravity. The methodology used to investigate these problems involves techniques in Lie algebras, differential geometry, differential equations on compact manifolds, general relativity, supersymmetry and string theory. Algebraic and differential topology were also essential in the analysis.
 
-<p align="center"><img src="/assets/img/e8.gif" alt="isolated" width="175"/></p>
+<p align="center"><img src="/assets/img/e8.gif" alt="isolated" width="150"/></p>
 
 
 For my research in quantum gravity, I also performed extensive computations on multi-dimensional arrays for supergravity calculations using Python with [Cadabra](https://cadabra.science/), particularly for Clifford algebras and spinors in higher dimensions.
