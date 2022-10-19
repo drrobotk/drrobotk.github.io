@@ -40,7 +40,7 @@ I completed an MSci in Mathematics, with **First Class Honours**, and a PhD in A
 
 During my MSci, I scored highly in my modules, most notably gaining 99% in *linear algebra* and *partial differential equations with complex variables*. Other pure and applied mathematics [modules](https://web.archive.org/web/20090221212207/http://www.mth.kcl.ac.uk/courses) that I completed included topics covering dynamical systems, probability and statistics, discrete mathematics, logic, Fourier analysis, differential geometry and mathematical biology.
 
-<p align="center"><img src="/assets/img/math.jpg" alt="isolated" width="600"/></p>
+<p align="center"><img src="/assets/img/math.jpeg" alt="isolated" width="600"/></p>
 
 
 In my second year as an undergraduate, I had written a paper under the advice of one of my professors, who thought that it was interesting enough to be posted on the [university website](https://web.archive.org/web/20100113041557/http://www.mth.kcl.ac.uk:80/courses/cm211.html) for the mathematics department. This gave me valuable experience on how to write a paper and investigate different mathematical techniques and ideas.
@@ -69,7 +69,7 @@ These models have acquired growing importance in [quantum computing](https://doi
 For my academic excellence in my MSci, I was also awarded a scholarship by the [Science and Technology Facilities Council](https://stfc.ukri.org/) (STFC) to undertake a PhD in Applied Mathematics and Theoretical Physics under the mathematics department. My research was in quantum gravity, which is the study of the relationship between quantum mechanics and general relativity.
 
 <p align="center">
-<img src="/assets/img/qg.jpg" alt="isolated" width="450"/>
+<img src="/assets/img/qg.jpeg" alt="isolated" width="450"/>
 </p>
 
 In particular, I studied [string](https://en.wikipedia.org/wiki/String_theory) and [supergravity](https://en.wikipedia.org/wiki/Supergravity) theories, specifically [type IIA](https://doi.org/10.1007/JHEP06(2015)139), [massive type IIA](https://doi.org/10.1088/0264-9381/32/23/235004) and [5-dimensional](https://doi.org/10.1088/1361-6382/aac30c) (both gauged and ungauged). 
