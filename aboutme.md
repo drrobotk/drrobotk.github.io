@@ -19,7 +19,7 @@ My name is **Usman Kayani** and I am a Data Scientist with an extensive backgrou
 
 <p align="center"><img src="/assets/img/tp.jpeg" alt="isolated" width="350"/></p>
 
-I am an expert in Python code development, creating analytical data pipelines (ETL, RAP) and deploying machine learning models at scale, using cloud services (e.g GCP, Cloudera) and technologies such as Apache Spark or BigQuery with SQL.
+I am an expert in Python code development, creating analytical data pipelines (ETL, RAP) and deploying machine learning models at scale, using cloud services (e.g GCP, Cloudera, AWS) and technologies such as Apache Spark or BigQuery with SQL.
 
 <p align="center"><img src="/assets/img/pysym.jpg" alt="isolated" width="200"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="/assets/img/coding.gif" alt="isolated" width="400"/></p>
 <p align="center"><img src="https://www.databricks.com/wp-content/uploads/2021/05/ETL-Process.jpg" alt="isolated" width="350"/></p>
