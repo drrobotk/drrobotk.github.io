@@ -38,7 +38,7 @@ I completed an MSci in Mathematics, with **First Class Honours**, and a PhD in A
 
 <p align="center"><a href="https://www.kcl.ac.uk/"><img src="/assets/img/kcl.jpeg" alt="isolated" width="150"/></a></p>
 
-During my MSci, I scored highly in my modules, most notably gaining 99% in *linear algebra* and *partial differential equations with complex variables*. Other pure and applied mathematics [modules](https://web.archive.org/web/20090221212207/http://www.mth.kcl.ac.uk/courses) that I completed included topics covering dynamical systems, probability and statistics, discrete mathematics, logic, Fourier analysis, differential geometry and mathematical biology.
+During my MSci, I scored highly in my modules, most notably gaining 99% in *linear algebra* and *partial differential equations with complex variables*. Other pure and applied mathematics [modules](https://web.archive.org/web/20090221212207/http://www.mth.kcl.ac.uk/courses) that I completed included topics covering advanced calculus, dynamical systems, probability and statistics, discrete mathematics, logic, complex analysis, manifolds, linear algebra, differential geometry and mathematical biology.
 
 <p align="center"><img src="/assets/img/math.jpeg" alt="isolated" width="600"/></p>
 
