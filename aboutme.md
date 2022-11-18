@@ -15,7 +15,7 @@ last-updated: 2022-10-08
 <a name="introduction"></a>
 # Introduction
 
-My name is **Usman Kayani** and I am a Data Scientist with an extensive background in mathematics (MSci, PhD), and as such I have a lot of analytical experience including theoretical and applied techniques in mathematics, statistics and numerical methods. 
+My name is **Usman Kayani** and I am a Data Scientist and Engineer with an extensive background in mathematics (MSci, PhD), and as such I have a lot of analytical experience including theoretical and applied techniques in mathematics, statistics and numerical methods. 
 
 <p align="center"><img src="/assets/img/tp.jpeg" alt="isolated" width="350"/></p>
 
