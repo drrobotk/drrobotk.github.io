@@ -74,7 +74,7 @@ Photoshop, PowerPoint, LaTeX, GIMP and CorelDraw
 -   Delivered presentation titled *Spark application debugging, tuning and optimization* as part of the [*Spark at the ONS*](https://best-practice-and-impact.github.io/ons-spark/intro.html) event to the ONS, hosted by DAPCATS.
 -   Worked on a project to investigate the feasibility of using transparancy declearations, expenditure data that local councils and central government bodies must publish, to improve intelligence on public sector expenditure and increase the quality of ONS public statistics.
 -   Founding member of the ONS Data Science Network, a cross-department group that promotes data science across the ONS.
--   Given the Recognition Award twice for outstanding collaboration and contribution to the ONS in August and December 2022.
+-   Given the Recognition Award twice for outstanding collaboration and contribution to the ONS, in August and December 2022.
 -   Provided help and support to allow the capital stocks statistical production to be accessible for transparancy and reproducibility, and helped out developers from other departments by sharing my knowledge and troubleshooting systems on GCP.
 
 ### **Freelance Mathematics, Statistics and Computing Tutor** - [Witherow Brooke](https://www.witherowbrooke.co.uk/)
