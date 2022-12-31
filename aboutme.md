@@ -170,13 +170,13 @@ After noticing an error in the formulae and example workbooks produced for these
 
 My first task was to implement the TPD method within the CPI pipeline using PySpark. Spark's native ML library though powerful generally lacks many features, and is not suited for modelling on multiple groups or subsets of the data at once. The usual approach to use custom functions or transformations which are not part of the built-in functions provided by Spark’s standard library is to use a User Defined Function (UDF). However, the downside of this is they have performance issues, since they executed row-at-a-time and thus suffer from high serialization and invocation overhead.
 
-<p align="center"><img src="https://noufel1393.gitlab.io/noufel1393/img/blog_images/pyspark_udf_large.png" alt="isolated" width="300"/></p>
+<p align="center"><img src="/assets/img/pyudf.png" alt="isolated" width="300"/></p>
 
 This led me toward discovering [Pandas UDFs](https://www.databricks.com/blog/2020/05/20/new-pandas-udfs-and-python-type-hints-in-the-upcoming-release-of-apache-spark-3-0.html), which allow for vectorized operations on Big Data and increase performance by up to 100x compared to regular UDFs using Apache Arrow. They have since been implemented in various multilateral index methods and are an integral part of the CPI pipeline. 
 
-<p align="center"><img src="https://kontext.tech/api/flex/medias/obj-1563" alt="isolated" width="500"/></p>
+<p align="center"><img src="/assets/img/warrow.png" alt="isolated" width="500"/></p>
 
-<p align="center"><a href="https://www.databricks.com/blog/2017/10/30/introducing-vectorized-udfs-for-pyspark.html"><img src="https://www.databricks.com/wp-content/uploads/2017/10/image1-4.png" alt="isolated" width="500"/></a></p>
+<p align="center"><a href="https://www.databricks.com/blog/2017/10/30/introducing-vectorized-udfs-for-pyspark.html"><img src="/assets/img/pudf_performance.png" alt="isolated" width="500"/></a></p>
 
 I also used the same ideas for the [Time Dummy Hedonic](https://onlinelibrary.wiley.com/doi/full/10.1111/roiw.12468#roiw12468-sec-0002-title) (TDH) method, which is an explicit hedonic model similar to TPD, but also uses the item characteristics in the WLS regression model. 
 
@@ -211,7 +211,7 @@ In **March 2022**, I joined the [Data Science Campus](https://datasciencecampus.
 
 My first project was on the [least cost index](https://www.ons.gov.uk/economy/inflationandpriceindices/articles/trackingthelowestcostgroceryitemsukexperimentalanalysis/april2021toapril2022), which was published in May 2022. I played a significant role in researching and implementing the price index and aggregation methods, which was powered by a Python price index package which I created called [PriceIndexCalc](https://pypi.org/project/PriceIndexCalc/).
 
-<p align="center"><a href="https://www.ons.gov.uk/economy/inflationandpriceindices/articles/trackingthelowestcostgroceryitemsukexperimentalanalysis/april2021toapril2022"><img src="/assets/img/lci.png" alt="isolated" width="600"/></a></p>
+<p align="center"><a href="https://www.ons.gov.uk/economy/inflationandpriceindices/articles/trackingthelowestcostgroceryitemsukexperimentalanalysis/april2021toapril2022"><img src="/assets/img/lci.png" alt="isolated" width="650"/></a></p>
 
 My package and work was used to track the prices over time of the lowest-cost grocery items for 30 products over multiple retailers, using web-scraped data and a data pipeline on the [Google Cloud Platform](https://cloud.google.com/). This analysis was conducted as part of the ONS's current and future analytical work related to the cost of living.
 
