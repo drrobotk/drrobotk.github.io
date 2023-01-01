@@ -5,7 +5,9 @@ title: My CV
 
 # Summary
 
-Motivated and innovative data scientist and engineer with a strong background in mathematics and theoretical physics. I have experience in Python code development, creating analytical data pipelines, and deploying machine learning models at scale using technologies such as Apache Spark and BigQuery. My skills in dyslexic thinking and my expertise in data science, machine learning, and mathematical modeling enable me to effectively tackle complex problems and drive positive change in society. I am seeking opportunities to utilize my skills to make a meaningful impact on the world.
+Motivated and innovative data scientist and engineer with a strong background in mathematics and theoretical physics. I have experience in Python code development, creating analytical data pipelines, and deploying machine learning models at scale using technologies such as Apache Spark and BigQuery. 
+
+My skills in dyslexic thinking and my expertise in data science, machine learning, and mathematical modeling enable me to effectively tackle complex problems and drive positive change in society. I am seeking opportunities to utilize my skills to make a meaningful impact on the world.
 
 # Skills
 
