@@ -5,7 +5,7 @@ title: My CV
 
 # Summary
 
-Logical, imaginative, analytical and committed data scientist with a background in mathematics and theoretical physics looking for opportunities in data science, machine learning or mathematical modelling to solve real-world problems. Interested in devising a better problem-solving method for challenging tasks, and learning new technologies and tools if the need arises. 
+Motivated and innovative data scientist with a strong background in mathematics and theoretical physics, and experience in using data and technology to improve people's lives. My skills in dyslexic thinking, including pattern recognition, spatial reasoning, lateral thinking, and interpersonal communication, make me well-suited to tackle complex problems and drive positive change in society. Seeking opportunities to utilize my expertise in data science, machine learning, and mathematical modeling to make a meaningful impact on the world.
 
 # Skills
 
