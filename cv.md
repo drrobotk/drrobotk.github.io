@@ -81,7 +81,7 @@ Photoshop, PowerPoint, LaTeX, GIMP and CorelDraw
 
 ### **Freelance Mathematics, Statistics and Computing Tutor** - [Witherow Brooke](https://www.witherowbrooke.co.uk/)
 
-**July 2021 - Present**
+**July 2021 - May 2022**
 -   Tutoring university students and planning lessons remotely over a video call and an online whiteboard.
 -   Advanced topics such as Linear Algebra, Statistics and Python.
 -  Helping students to develop their problem-solving skills and confidence.
