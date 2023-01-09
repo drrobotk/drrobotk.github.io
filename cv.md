@@ -5,7 +5,7 @@ title: My CV
 
 # Summary
 
-Motivated and innovative data scientist and engineer with a strong background in mathematics and theoretical physics. I have experience in Python code development, creating analytical data pipelines, and deploying machine learning models at scale using technologies such as Apache Spark and BigQuery. 
+Motivated and innovative data engineer and scientist with a strong background in mathematics and theoretical physics. I have experience in Python code development, creating analytical data pipelines, and deploying machine learning models at scale using technologies such as Apache Spark and BigQuery. 
 
 My skills in dyslexic thinking and my expertise in data science, machine learning, and mathematical modeling enable me to effectively tackle complex problems and drive positive change in society. I am seeking opportunities to utilize my skills to make a meaningful impact on the world.
 
@@ -63,9 +63,13 @@ Photoshop, PowerPoint, LaTeX, GIMP and CorelDraw
 
 # Experience
 
+### **Data Engineer** - [Quantexa](https://www.quantexa.com/)
+**January 2023 - Present**
+tbc
+
 ### **Data Scientist (Senior Executive Officer)** - [Office for National Statistics](https://www.ons.gov.uk/)
 
-**March 2022 - Present**
+**March 2022 - January 2023**
 -   Working in the Economics Statistics Group (ESG) as part of the [Data Science Campus](https://datasciencecampus.ons.gov.uk/) and the Economics Insights squad.
 -   Extracting, analysing and interpreting large amounts of data from a range of sources, using algorithmic, data mining, machine learning and statistical tools in Python and R.
 -   Developing and maintaining data pipelines and data visualisations using Python, R, SQL, Tableau and GCP.
