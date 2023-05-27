@@ -11,6 +11,7 @@ last-updated: 2022-12-27
 3. [Tutoring and Content Development](#tutoring)
 4. [Coding and Data Science](#coding_data_science)
 5. [My journey at the Office for National Statistics](#ons_journey)
+6. [My journey at Quantexa](#quantexa_journey)
 
 <a name="introduction"></a>
 # Introduction
@@ -241,3 +242,20 @@ In **November 2022**, I had a one-on-one chat with [Professor Sir Ian Diamond](h
 
 In **December 2022**, I received the Recognition Award again for outstanding collaboration and contribution to the ONS. I helped another team in a different department who recently migrated their systems and team of new developers to GCP. They encountered issues getting things set up with the on-prem laptop and GCP, largely due to niche ONS system restrictions which made it difficult to find resources on the internet to solve them. I generously shared my knowledge and expertise, which saved the team a lot of time and helped them gain a deeper understanding of the topic.
 
+In **May 2023**, despite leaving the ONS in January of the same year, I was honored with a Recognition Award for the impactful contribution I had made in establishing a cross-ONS network of data scientists during my time at the organization. Displaying initiative, I set up a project management tool to handle different aspects of the network and its prospective deliverables. Moreover, I created a dedicated communication channel and a network inbox, both of which were critical for effective communication within the network. My proactive role in laying the foundation for the network was acknowledged as instrumental in creating a thriving environment where data scientists across the ONS could collaborate and learn. This achievement not only acknowledges my contributions to the data science community within the ONS but also underscores the importance of fostering collaboration and community in the ever-evolving field of data science.
+
+<a name="quantexa_journey"></a>
+# My journey at Quantexa
+## Data Engineer in Research and Development (R&D)
+
+In **January 2023**, I was fortunate enough to join [Quantexa](https://www.quantexa.com/), a dynamic fintech company established in 2016, as a Data Engineer. Renowned for its ground-breaking work in advanced network analytics and dynamic entity resolution, Quantexa operates with a vision that better decisions can be made through a greater understanding of context. It's inspiring to be part of an organization whose pioneering technologies are applied across diverse sectors such as Finance, Insurance, Energy, and Government, generating valuable insights from data and addressing significant business issues like lead generation, customer insight, fraud, and financial crime.
+
+<p align="center"><a href="https://www.quantexa.com/"><img src="https://www.quantexa.com/wp-content/uploads/2017/04/Q_Logo_Strap_Colour_flash@1080x.png" alt="isolated" width="300"/></a></p>
+
+My role at Quantexa has been dynamic and impactful, contributing to the development, testing, and documentation of a wide array of data engineering tools and best practices. These materials have found applications in Quantexa's software deployments, strengthening the company's data engineering function and enhancing the quality and efficiency of project delivery.
+
+One of my primary responsibilities involves defining big data best practices across the business. With a solid background in big data technologies such as Spark, Hadoop, and Elasticsearch, I've been able to bring valuable expertise to the table. My programming skills in Java, Python, and Scala have further enabled me to contribute effectively to the team's initiatives.
+
+Stakeholder engagement has been a crucial aspect of my role, allowing me to work closely with delivery teams, clients, and partners to provide high-quality solutions. These solutions span both cloud and on-premise environments and cover a variety of tasks including big data processing/ETL pipelines, cleansing, parsing and standardising global datasets, data classification, and entity extraction/resolution.
+
+My journey at Quantexa is continuously evolving, offering daily opportunities for learning, development, and contribution to the exciting field of data engineering. As this journey continues, I look forward to sharing more updates in due course.
