@@ -248,7 +248,7 @@ In **May 2023**, despite leaving the ONS in January of the same year, I was hono
 # My journey at Quantexa
 ## Data Engineer in Research and Development (R&D)
 
-In **January 2023**, I was fortunate enough to join [Quantexa](https://www.quantexa.com/), a dynamic fintech company established in 2016, as a Data Engineer. Renowned for its ground-breaking work in advanced network analytics and dynamic entity resolution, Quantexa operates with a vision that better decisions can be made through a greater understanding of context. It's inspiring to be part of an organization whose pioneering technologies are applied across diverse sectors such as Finance, Insurance, Energy, and Government, generating valuable insights from data and addressing significant business issues like lead generation, customer insight, fraud, and financial crime.
+In **January 2023**, I embarked on a new journey as a Data Engineer with Quantexa, a dynamic fintech company founded in 2016. Renowned for its ground-breaking work in advanced network analytics and dynamic entity resolution, Quantexa operates with a vision that better decisions can be made through a greater understanding of context. It's inspiring to be part of an organization whose pioneering technologies are applied across diverse sectors such as Finance, Insurance, Energy, and Government, generating valuable insights from data and addressing significant business issues like lead generation, customer insight, fraud, and financial crime.
 
 <p align="center"><a href="https://www.quantexa.com/"><img src="https://www.quantexa.com/wp-content/uploads/2017/04/Q_Logo_Strap_Colour_flash@1080x.png" alt="isolated" width="300"/></a></p>
 
