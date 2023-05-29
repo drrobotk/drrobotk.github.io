@@ -65,7 +65,15 @@ Photoshop, PowerPoint, LaTeX, GIMP and CorelDraw
 
 ### **Data Engineer** - [Quantexa](https://www.quantexa.com/)
 **January 2023 - Present**
-tbc
+-   Took part in the Quantexa Academy, scoring a remarkable 97% and earning the title of Quantexa Certified Data Engineer.
+-   Frequently provided help and support to other academy participants and team members, fostering a collaborative learning environment.
+-   Utilized my expertise in big data technologies such as Spark, Hadoop, and Elasticsearch to define and implement best practices across the business.
+-   Leveraged strong programming skills in Java, Python, and Scala to contribute to various data engineering projects and initiatives.
+-   Engaged with stakeholders including delivery teams, clients, and partners to provide high-quality data solutions in both cloud and on-premise environments.
+-   Assisted in the development, testing, and documentation of a broad range of data engineering tools, enhancing the efficiency of project delivery and the overall strength of Quantexa's data engineering function.
+-   Developed and optimized ETL pipelines for big data processing, data cleansing, parsing, and standardizing of global datasets, leading to more efficient data management and processing.
+-   Implemented innovative solutions for data classification, and entity extraction/resolution, further strengthening Quantexa's cutting-edge data technologies.
+-   Continually learning and innovating within the dynamic field of data engineering, contributing to Quantexa's vision of making better decisions through a greater understanding of context.
 
 ### **Data Scientist (Senior Executive Officer)** - [Office for National Statistics](https://www.ons.gov.uk/)
 
@@ -80,7 +88,7 @@ tbc
 -   Delivered presentation titled *Spark application debugging, tuning and optimization* as part of the [*Spark at the ONS*](https://best-practice-and-impact.github.io/ons-spark/intro.html) event to the ONS, hosted by DAPCATS.
 -   Worked on a project to investigate the feasibility of using transparancy declearations, expenditure data that local councils and central government bodies must publish, to improve intelligence on public sector expenditure and increase the quality of ONS public statistics.
 -   Founding member of the ONS Data Science Network, a cross-department group that promotes data science across the ONS.
--   Given the Recognition Award twice for outstanding collaboration and contribution to the ONS, in August and December 2022.
+-   Earned the Recognition Award three times for exceptional collaboration and impactful contributions to the ONS, first in August 2022 for facilitating team transparency with GitHub, again in December 2022 for aiding GCP system migration, and posthumously in May 2023 for pioneering a cross-ONS data scientist network.
 -   Provided help and support to allow the capital stocks statistical production to be accessible for transparancy and reproducibility, and helped out developers from other departments by sharing my knowledge and troubleshooting systems on GCP.
 
 ### **Freelance Mathematics, Statistics and Computing Tutor** - [Witherow Brooke](https://www.witherowbrooke.co.uk/)

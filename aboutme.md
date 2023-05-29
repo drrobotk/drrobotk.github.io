@@ -152,11 +152,15 @@ As a freelance data scientist, I analysed instantaneous power consumption data o
 
 <a name="ons_journey"></a>
 # My journey at the Office for National Statistics
-### Data Scientist in `Reproducible Data Science and Analysis`
 
-In **June 2021**, I was employed as a Data Scientist at the *Higher Executive Officer* grade at the [Office for National Statistics](https://www.ons.gov.uk/) (ONS) within the Economics Statistics Group (ESG) and the Reproducible Data Science and Analysis (RDSA) team, formerly known as Emerging Platforms Delivery Support (EPDS). 
+Throughout my tenure at the [Office for National Statistics](https://www.ons.gov.uk/) (ONS), I have made pivotal contributions to data science and analysis, specializing in the development of advanced statistical and machine learning models, designing analytical data pipelines, and crafting data visualizations to distil complex data insights. Key projects include devising sophisticated multilateral price indices for the treatment of alternative data sources, implementing novel machine learning methodologies in Python, and significantly enhancing the computational efficiency of data processes. Furthermore, my commitment to knowledge sharing has positioned me as a mentor to new team members and a key presenter in various organizational seminars.
 
 <p align="center"><a href="https://www.ons.gov.uk/"><img src="/assets/img/ons.png" alt="isolated" width="275"/></a></p>
+
+### Data Scientist in `Reproducible Data Science and Analysis`
+
+In **June 2021**, I was employed as a Data Scientist at the *Higher Executive Officer* grade at the ONS within the Economics Statistics Group (ESG) and the Reproducible Data Science and Analysis (RDSA) team, formerly known as Emerging Platforms Delivery Support (EPDS). 
+
 
 After only my second month at the ONS, I was a member of the induction team responsible for onboarding new starters and aiding or mentoring to new members of the team. My main work was researching and implementing [multilateral](https://cran.r-project.org/web/packages/IndexNumR/vignettes/indexnumr.html#multilateral-index-numbers) price indices, using calculations and time series extension methods in Python. This work was as part of an ETL Reproducible Analytical Pipeline (RAP) on Cloudera with Apache Spark for the treatment of [alternative data sources](https://www.ons.gov.uk/economy/inflationandpriceindices/articles/introducingalternativedataintoconsumerpricestatisticsaggregationandweights/2021-11-09) (scanner and web-scraped data) and [new index methods](https://www.ons.gov.uk/economy/inflationandpriceindices/articles/newindexnumbermethodsinconsumerpricestatistics/2020-09-01) which will be used to determine the consumer price index (CPI) in the future. 
 
@@ -246,11 +250,14 @@ In **May 2023**, despite leaving the ONS in January of the same year, I was hono
 
 <a name="quantexa_journey"></a>
 # My journey at Quantexa
+
+During m current role at [Quantexa](https://www.quantexa.com/), I have found myself entrenched in the intriguing realm of data engineering. This journey has been about constantly challenging the limits of big data technology and using its transformative potential to bolster decision-making capabilities for businesses spanning multiple sectors. My approach has been characterized by determination, ambition, teamwork, and accountability, aligning perfectly with Quantexa's core values. From improving operational efficiency through Python scripting to uncovering security vulnerabilities in systems, I have proactively sought ways to make a difference. I’ve actively embraced teamwork, helping to create an inclusive environment that fosters collective growth, and have also shown accountability by regularly seeking feedback and striving for continuous improvement.
+
+<p align="center"><a href="https://www.quantexa.com/"><img src="https://www.quantexa.com/wp-content/uploads/2017/04/Q_Logo_Strap_Colour_flash@1080x.png" alt="isolated" width="300"/></a></p>
+
 ## Data Engineer in Research and Development (R&D)
 
 In **January 2023**, I embarked on a new journey as a Data Engineer with Quantexa, a dynamic fintech company founded in 2016. Renowned for its ground-breaking work in advanced network analytics and dynamic entity resolution, Quantexa operates with a vision that better decisions can be made through a greater understanding of context. It's inspiring to be part of an organization whose pioneering technologies are applied across diverse sectors such as Finance, Insurance, Energy, and Government, generating valuable insights from data and addressing significant business issues like lead generation, customer insight, fraud, and financial crime.
-
-<p align="center"><a href="https://www.quantexa.com/"><img src="https://www.quantexa.com/wp-content/uploads/2017/04/Q_Logo_Strap_Colour_flash@1080x.png" alt="isolated" width="300"/></a></p>
 
 My role at Quantexa has been dynamic and impactful, contributing to the development, testing, and documentation of a wide array of data engineering tools and best practices. These materials have found applications in Quantexa's software deployments, strengthening the company's data engineering function and enhancing the quality and efficiency of project delivery.
 
