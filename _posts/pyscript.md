@@ -50,8 +50,8 @@ df
 </div>
 ```
 
-
-<!-- {% include pyscript.html type="post" %}
+<!-- 
+{% include pyscript.html type="post" %}
 
 <div id="pandas">
 <py-env>
