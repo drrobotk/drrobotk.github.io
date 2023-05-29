@@ -5,27 +5,28 @@ title: My CV
 
 # Summary
 
-Motivated and innovative data engineer and scientist with a strong background in mathematics and theoretical physics. I have experience in Python code development, creating analytical data pipelines, and deploying machine learning models at scale using technologies such as Apache Spark and BigQuery. 
+Accomplished and forward-thinking Data Engineer and Scientist with a comprehensive background in Mathematics, Theoretical Physics, and Data Science. Proficient in Python, and well-versed in creating scalable data pipelines and deploying machine learning models using technologies such as Apache Spark and Google BigQuery. With a track record of leading successful data analytics projects and effective collaboration within diverse teams, I have proven my ability to deliver high-impact data solutions.
 
-My skills in dyslexic thinking and my expertise in data science, machine learning, and mathematical modeling enable me to effectively tackle complex problems and drive positive change in society. I am seeking opportunities to utilize my skills to make a meaningful impact on the world.
+My unique perspective as a dyslexic thinker has always been a source of innovative approaches and complex problem-solving capabilities. Equipped with a robust foundation in mathematical modeling and machine learning, I excel in turning raw data into valuable insights that drive strategic decisions. Passionate about harnessing data to bring about societal change, I am on the lookout for opportunities to make a significant difference through my expertise.
 
 # Skills
 
 ### Programming and Scripting
-Python, C++, Visual Basic, Java, Javascript, PyScript, PHP, PowerShell, Bash, SQL, and HTML5
-### Computations and Data Science
-Mathematica, Maple, MATLAB, Matplotlib, NumPy, SciPy, Seaborn, GAMS,
-Pandas, PySpark, Jupyter, Tableau, Power BI, Plotly and R
-### Machine Learning
-Statsmodels, Scikit-learn, TensorFlow, Keras, PyTorch and XGBoost
-### Technical
-Data analysis, Time Series Analytics, Signal Processing, Web Scraping,
-Mathematical Modelling, Quantitative Research, Statistical Analysis,
-Data Mining, Arduino, Raspberry Pi, TCP/IP Networking and Debugging,
-Cloud Computing (Cloudera, GCP, Microsoft Azure), Big Data (Spark and
-Hadoop), Jenkins, Agile software development, Git and Docker
-### Graphics 
-Photoshop, PowerPoint, LaTeX, GIMP and CorelDraw
+Highly proficient in a wide array of programming and scripting languages, including Python, Scala, Java, C++, PHP, PowerShell, Bash, SQL, and Visual Basic for application development. Additionally, adept at web development utilizing HTML5, PyScript, TypeScript, and JavaScript.
+
+### Computational and Data Science Tools
+Demonstrable expertise in a range of computational tools including Mathematica, Maple, and MATLAB. Proficient in data science tools like Matplotlib, NumPy, SciPy, Seaborn, Pandas, and PySpark. Familiar with data visualization tools such as Tableau, Power BI, and Plotly. Skilled in using R for statistical programming and analysis.
+### Machine Learning Frameworks
+In-depth knowledge of machine learning libraries and frameworks like Statsmodels, Scikit-learn, TensorFlow, Keras, PyTorch, and XGBoost. Proven ability to implement machine learning algorithms to solve real-world problems.
+
+### Data Engineering and Cloud Technologies
+Proven track record in data analysis, time series analytics, signal processing, mathematical modeling, quantitative research, and data mining. Experience in using cloud computing platforms such as Cloudera, GCP, and Microsoft Azure. Proficient in big data technologies like Apache Spark and Hadoop. Familiarity with Jenkins for continuous integration, Agile development methodologies, Git for version control, and Docker for containerization.
+
+### Hardware and Networking
+Practical knowledge of hardware including Arduino and Raspberry Pi. Solid understanding of TCP/IP networking and debugging techniques.
+
+### Graphic Design Tools
+Proficient in graphic design tools like Photoshop, PowerPoint, LaTeX, GIMP, and CorelDraw. Capable of creating engaging visual content for various platforms.
 
 # Education
 
@@ -66,6 +67,7 @@ Photoshop, PowerPoint, LaTeX, GIMP and CorelDraw
 ### **Data Engineer** - [Quantexa](https://www.quantexa.com/)
 **January 2023 - Present**
 -   Took part in the Quantexa Academy, scoring a remarkable 97% and earning the title of Quantexa Certified Data Engineer.
+-  Gained hands-on experience with Scala, contributing to codebase improvements, software enhancements, and problem-solving in complex data engineering projects.
 -   Frequently provided help and support to other academy participants and team members, fostering a collaborative learning environment.
 -   Utilized my expertise in big data technologies such as Spark, Hadoop, and Elasticsearch to define and implement best practices across the business.
 -   Leveraged strong programming skills in Java, Python, and Scala to contribute to various data engineering projects and initiatives.
