@@ -16,19 +16,21 @@ last-updated: 2023-05-29
 <a name="introduction"></a>
 # Introduction
 
-My name is **Usman Kayani** and I am a Data Engineer and Scientist with an extensive background in mathematics (MSci, PhD), and as such I have a lot of analytical experience including theoretical and applied techniques in mathematics, statistics and numerical methods. 
+Hello, I'm **Usman Kayani** — a seasoned Data Engineer and Scientist with a rich academic foundation in Mathematics, reflected in my MSci and PhD degrees. Throughout my career, I've garnered invaluable analytical experience, mastering both theoretical and applied techniques across diverse fields such as mathematics, statistics, and numerical methods.
 
 <p align="center"><img src="/assets/img/tp.jpeg" alt="isolated" width="350"/></p>
 
-I am an expert in Python code development, creating analytical data pipelines (ETL, RAP) and deploying machine learning models at scale, using cloud services (e.g GCP, Cloudera, AWS) and technologies such as Apache Spark or BigQuery with SQL.
+Armed with over a decade of Python development expertise and a recent proficiency in Scala, my specialty lies in engineering robust analytical data pipelines (ETL, RAP) and skillfully deploying machine learning models at scale. My proficiency in harnessing cloud services like GCP, Cloudera, and AWS, coupled with my adept usage of technologies such as Apache Spark, BigQuery, and SQL, enables me to design dynamic, scalable data solutions.
 
 <p align="center"><img src="/assets/img/pysym.jpg" alt="isolated" width="200"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="/assets/img/coding.gif" alt="isolated" width="400"/></p>
 <p align="center"><img src="https://www.databricks.com/wp-content/uploads/2021/05/ETL-Process.jpg" alt="isolated" width="350"/></p>
 
-I am also [neurodivergent](https://exceptionalindividuals.com/neurodiversity/) with [ADHD](https://www.nhs.uk/conditions/attention-deficit-hyperactivity-disorder-adhd/) and [Dyslexia](https://www.bdadyslexia.org.uk/dyslexia/about-dyslexia/what-is-dyslexia), and this has shaped my life and career in many ways. I am passionate about diversity and inclusion, and I am a strong advocate for neurodiversity in the [workplace](https://www.inclusiveemployers.co.uk/blog/neurodiversity-in-the-workplace-understanding-is-key/). I am also a strong believer in the power of data and technology to improve people's lives, and I am always looking for ways to use my skills to make a positive impact on society.
+I identify as [neurodivergent](https://exceptionalindividuals.com/neurodiversity/), living with [ADHD](https://www.nhs.uk/conditions/attention-deficit-hyperactivity-disorder-adhd/) and [Dyslexia](https://www.bdadyslexia.org.uk/dyslexia/about-dyslexia/what-is-dyslexia), and find that this unique perspective has richly informed my life and career. As an advocate for diversity and inclusion, I am passionate about fostering an environment of acceptance and understanding for neurodiversity in the [workplace](https://www.inclusiveemployers.co.uk/blog/neurodiversity-in-the-workplace-understanding-is-key/).
 
 
 <p align="center"><img src="/assets/img/neurodiversity.png" alt="isolated" width="200"/></p>
+
+Fuelled by my unwavering belief in the transformative potential of data and technology, I continuously strive to apply my skills towards positive societal change. I am always on the lookout for innovative opportunities where data science can be leveraged to improve lives and create a meaningful impact.
 
 {% include mathjax.html type="post" %}
 
