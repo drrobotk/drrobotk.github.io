@@ -218,7 +218,7 @@ In **November 2021**, I delivered a presentation in a seminar to my team and dep
 
 ### Data scientist in the `Data Science Campus`
 
-In **March 2022**, I joined the [Data Science Campus](https://datasciencecampus.ons.gov.uk/) at the ONS with a promotion to *Senior Executive Officer* and a permanent role in the civil service.
+In **March 2022**, I [joined](https://datasciencecampus.ons.gov.uk/author/usman-kayani/) the [Data Science Campus](https://datasciencecampus.ons.gov.uk/) at the ONS with a promotion to *Senior Executive Officer* and a permanent role in the civil service.
 
 <p align="center"><a href="https://datasciencecampus.ons.gov.uk/"><img src="/assets/img/dsc.png" alt="isolated" width="200"/></a></p>
 
