@@ -18,7 +18,7 @@ last-updated: 2023-05-29
 
 Hello, I'm **Usman Kayani** — a seasoned Data Engineer and Scientist with a rich academic foundation in Mathematics, reflected in my MSci and PhD degrees. Throughout my career, I've garnered invaluable analytical experience, mastering both theoretical and applied techniques across diverse fields such as mathematics, statistics, and numerical methods.
 
-<p align="center"><img src="/assets/img/tp.jpeg" alt="isolated" width="350"/></p>
+<p align="center"><img src="/assets/img/tp2.webp" alt="isolated" width="275"/></p>
 
 Armed with over a decade of Python development expertise and a recent proficiency in Scala, my specialty lies in engineering robust analytical data pipelines (ETL, RAP) and skillfully deploying machine learning models at scale. My proficiency in harnessing cloud services like GCP, Cloudera, and AWS, coupled with my adept usage of technologies such as Apache Spark, BigQuery, and SQL, enables me to design dynamic, scalable data solutions.
 
