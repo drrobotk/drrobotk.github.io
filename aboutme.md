@@ -255,7 +255,7 @@ In **May 2023**, despite leaving the ONS in January of the same year, I was hono
 
 My role as a Data Engineer at [Quantexa](https://www.quantexa.com/) has been a deep dive into the exciting and challenging world of data engineering. Embarking on this journey has allowed me to push the boundaries of big data technology and harness its transformative potential to augment decision-making capabilities for businesses across a myriad of sectors. My journey at Quantexa is marked by perseverance, ambition, teamwork, and accountability—principles that resonate deeply with the company's core values. Whether it was enhancing operational efficiency via Python scripts or unveiling system vulnerabilities, I have consistently sought out ways to drive impact. My approach to teamwork has been rooted in inclusivity, fostering an environment that champions collective growth. I have maintained a strong focus on accountability by regularly soliciting feedback and setting high standards for continual self-improvement.
 
-<p align="center"><a href="https://www.quantexa.com/"><img src="https://www.quantexa.com/wp-content/uploads/2017/04/Q_Logo_Strap_Colour_flash@1080x.png" alt="isolated" width="300"/></a></p>
+<p align="center"><a href="https://www.quantexa.com/"><img src="https://www.quantexa.com/images/quantexa.svg" alt="isolated" width="350"/></a></p>
 
 ## Data Engineer in Research and Development (R&D)
 
