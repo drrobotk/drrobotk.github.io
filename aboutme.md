@@ -16,7 +16,7 @@ last-updated: 2023-05-29
 <a name="introduction"></a>
 # Introduction
 
-Hello, I'm **Usman Kayani** — a seasoned Data Engineer and Scientist with a rich academic foundation in Mathematics, reflected in my MSci and PhD degrees. Throughout my career, I've garnered invaluable analytical experience, mastering both theoretical and applied techniques across diverse fields such as mathematics, statistics, and numerical methods.
+Hello, I'm **Usman Kayani** — a seasoned Senior Data Engineer and Scientist with a rich academic foundation in Mathematics, reflected in my MSci and PhD degrees. Throughout my career, I've garnered invaluable analytical experience, mastering both theoretical and applied techniques across diverse fields such as mathematics, statistics, and numerical methods.
 
 <p align="center"><img src="/assets/img/tp2.webp" alt="isolated" width="275"/></p>
 
@@ -216,7 +216,7 @@ In **October 2021**, after working closely with methodology on index numbers, I 
 
 In **November 2021**, I delivered a presentation in a seminar to my team and deparment, to introduce the concept of Pandas UDFs. This turned out to be a success as I got good engagement and questions after the presentation, as well as interest from other parties in DaSH, to watch the recording and slides. I also presented a seminar aimed at people both little and extensive knowledge of the subjects, and a Jupyter Notebook of worked examples. I discussed this material with a computing specialist, and with their feedback have produced useful material with a full set of instructions and worked examples, which is accessible to a wider audience.
 
-### Data scientist in the `Data Science Campus`
+### Senior Data scientist in the `Data Science Campus`
 
 In **March 2022**, I [joined](https://datasciencecampus.ons.gov.uk/author/usman-kayani/) the [Data Science Campus](https://datasciencecampus.ons.gov.uk/) at the ONS with a promotion to *Senior Executive Officer* and a permanent role in the civil service.
 
