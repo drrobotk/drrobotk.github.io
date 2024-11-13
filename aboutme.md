@@ -16,21 +16,22 @@ last-updated: 2024-11-13
 <a name="introduction"></a>
 # Introduction
 
-Hello, I'm **Usman Kayani** — a seasoned Senior Data Engineer and Scientist with a rich academic foundation in Mathematics, reflected in my MSci and PhD degrees. Throughout my career, I've garnered invaluable analytical experience, mastering both theoretical and applied techniques across diverse fields such as mathematics, statistics, and numerical methods.
+Hello, I'm **Dr. Usman Kayani** — a Senior Data Engineer and Scientist with a solid academic foundation in Mathematics, showcased through my **MSci** and **PhD** degrees. My career is rooted in data engineering, data science, and theoretical physics, where I specialize in creating scalable data solutions, deploying machine learning models, and leveraging big data to solve complex, industry-wide challenges.
 
 <p align="center"><img src="/assets/img/tp2.webp" alt="isolated" width="275"/></p>
 
-Armed with over a decade of Python development expertise and a recent proficiency in Scala, my specialty lies in engineering robust analytical data pipelines (ETL, RAP) and skillfully deploying machine learning models at scale. My proficiency in harnessing cloud services like GCP, Cloudera, and AWS, coupled with my adept usage of technologies such as Apache Spark, BigQuery, and SQL, enables me to design dynamic, scalable data solutions.
+With over a decade of experience in Python development, enhanced by recent proficiency in Scala, I design and implement robust analytical data pipelines (ETL, RAP) and deploy machine learning models at scale. My technical expertise includes Apache Spark, Airflow, BigQuery, and SQL, enabling me to build dynamic, high-performance data solutions. Proficient in cloud platforms such as GCP, Cloudera, and AWS, I leverage cloud-based infrastructures to transform vast datasets into actionable insights, empowering businesses to make data-driven decisions with confidence.
 
 <p align="center"><img src="/assets/img/pysym.jpg" alt="isolated" width="200"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="/assets/img/coding.gif" alt="isolated" width="400"/></p>
 <p align="center"><img src="https://www.databricks.com/wp-content/uploads/2021/05/ETL-Process.jpg" alt="isolated" width="350"/></p>
 
-I identify as [neurodivergent](https://exceptionalindividuals.com/neurodiversity/), living with [ADHD](https://www.nhs.uk/conditions/attention-deficit-hyperactivity-disorder-adhd/) and [Dyslexia](https://www.bdadyslexia.org.uk/dyslexia/about-dyslexia/what-is-dyslexia), and find that this unique perspective has richly informed my life and career. As an advocate for diversity and inclusion, I am passionate about fostering an environment of acceptance and understanding for neurodiversity in the [workplace](https://www.inclusiveemployers.co.uk/blog/neurodiversity-in-the-workplace-understanding-is-key/).
+As a [neurodivergent](https://exceptionalindividuals.com/neurodiversity/) individual with [ADHD](https://www.nhs.uk/conditions/attention-deficit-hyperactivity-disorder-adhd/) and [Dyslexia](https://www.bdadyslexia.org.uk/dyslexia/about-dyslexia/what-is-dyslexia), I bring a unique approach to problem-solving and innovation in data engineering. My neurodivergent perspective has fostered creativity and resilience, driving me to develop inventive solutions. As an advocate for diversity and inclusion, I am committed to fostering an environment where neurodiversity is understood and celebrated within the [workplace](https://www.inclusiveemployers.co.uk/blog/neurodiversity-in-the-workplace-understanding-is-key/).
 
+In addition to my technical expertise, I am deeply committed to education and have taught Mathematics and Physics across various levels, from GCSE to advanced university topics, including statistics, linear algebra, and Python programming. My approach to teaching emphasizes accessibility, making complex topics understandable and engaging. I have also worked as a freelance mathematics content writer and video developer, producing educational materials for platforms reaching a wide audience.
 
 <p align="center"><img src="/assets/img/neurodiversity.png" alt="isolated" width="200"/></p>
 
-Fuelled by my unwavering belief in the transformative potential of data and technology, I continuously strive to apply my skills towards positive societal change. I am always on the lookout for innovative opportunities where data science can be leveraged to improve lives and create a meaningful impact.
+Driven by a steadfast belief in the power of data and technology, I aim to use my skills for positive societal impact. I am always seeking innovative ways to apply data science to improve lives and drive meaningful change. Whether it's mentoring new engineers, enhancing data engineering practices, or advocating for inclusivity, I am dedicated to harnessing the transformative potential of data to make a lasting difference.
 
 {% include mathjax.html type="post" %}
 
