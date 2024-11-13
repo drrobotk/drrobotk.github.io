@@ -258,7 +258,7 @@ My role as a Data Engineer at [Quantexa](https://www.quantexa.com/) has been a d
 
 <p align="center"><a href="https://www.quantexa.com/"><img src="https://www.quantexa.com/images/quantexa.svg" alt="isolated" width="350"/></a></p>
 
-## Data Engineer in Research and Development (R&D)
+### Data Engineer in Research and Development (R&D)
 
 In January 2023, I joined Quantexa as a Data Engineer, diving into advanced network analytics and dynamic entity resolution in a dynamic fintech setting. With its 2016 founding, Quantexa has established itself as a leader in contextual data insights, applying its pioneering technologies across diverse sectors like Finance, Insurance, Energy, and Government to tackle issues from lead generation and customer insights to fraud detection and financial crime. It’s inspiring to contribute to an organization driven by the belief that better decisions are made through contextual understanding.
 
@@ -270,7 +270,7 @@ Stakeholder engagement is essential to my role, allowing me to work closely with
 
 A significant milestone in my journey was achieving a 97% score in the Quantexa Academy, earning the title of Quantexa Certified Data Engineer. This accomplishment deepened my expertise in Quantexa’s technology stack, and I actively support other Academy participants, fostering a collaborative learning environment within the team.
 
-# Senior Data Engineer in Research and Development (R&D)
+### Senior Data Engineer in Research and Development (R&D)
 
 In October 2024, I was promoted to Senior Data Engineer within Quantexa’s Data Engineering Accelerators and Demos (DEAD) team in R&D. This role enables me to lead complex data engineering projects and drive innovation within Quantexa’s technology stack. My responsibilities now include architecting, developing, and optimizing scalable data pipelines that support large-scale data integration, advanced analytics, and entity resolution. I work across both cloud and on-premise infrastructures, leveraging tools like Airflow, Spark, and Google Cloud, with a strong focus on infrastructure optimization, automation, and performance.
 
