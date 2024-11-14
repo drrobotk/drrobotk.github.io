@@ -29,6 +29,8 @@ In classical computing, the bit is the fundamental unit of information, existing
 
 Quantum computing leverages the principles of quantum mechanics. Its fundamental unit, the **quantum bit** or **qubit**, can exist in a superposition of states, effectively representing both 0 and 1 simultaneously:
 
+{% include mathjax.html type="post" %}
+
 $$
 \begin{aligned}
 |\psi\rangle = \alpha |0\rangle + \beta |1\rangle,
