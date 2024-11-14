@@ -181,13 +181,6 @@ Proficient in visual content creation using **Photoshop**, **PowerPoint**, **LaT
 - Training in the mathematics department with supervisor Dr B. Doyon.
 - Analysed physics journal papers and typed up reports in LaTeX.
 
-### **Sales Assistant** - [River Island](https://www.riverisland.com/)
-
-**October 2008 - November 2010**
-- Greeting customers who entered the shop, giving advice and guidance on product selection, and dealing with customer issues and queries.
-- Stock control, checking and retrieving items, responsible for processing cash and card payments, and stocking shelves with merchandise.
-- Worked within the team to ensure all targets were met.
-
 # Publications 
 [Orcid: 0000-0003-3754-3730](https://orcid.org/0000-0003-3754-3730)
 
