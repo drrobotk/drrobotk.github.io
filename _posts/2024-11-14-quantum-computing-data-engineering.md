@@ -1,4 +1,4 @@
-Here’s the full markdown version, formatted with inline $...$ and block $$...$$ equations:
+<!-- Here’s the full markdown version, formatted with inline $...$ and block $$...$$ equations:
 
 ---
 layout: post
@@ -273,4 +273,4 @@ Quantum computing holds the potential to transform data engineering by introduci
 - [Arute, F., Arya, K., Babbush, R., et al. (2019). *Quantum supremacy using a programmable superconducting processor*. Nature, 574(7779), 505-510.](https://doi.org/10.1038/s41586-019-1666-5)
 - [Nielsen, M. A., & Chuang, I. L. (2010). *Quantum Computation and Quantum Information*. Cambridge University Press.](https://doi.org/10.1017/CBO9780511976667)
 - [Qiskit Documentation](https://qiskit.org/documentation/)
-- [Quantum Algorithms for Data Science](https://arxiv.org/abs/2011.06492)
+- [Quantum Algorithms for Data Science](https://arxiv.org/abs/2011.06492) -->
