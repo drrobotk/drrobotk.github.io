@@ -9,9 +9,6 @@ tags: [latex]
 date: 2024-11-14
 last-updated: 2024-11-14
 ---
-
-{% include mathjax.html type="post" %}
-
 Quantum computing is on the brink of revolutionizing data engineering by enabling capabilities that extend beyond the limits of classical computers. Unlike traditional machines that process information in binary bits—strictly $0$s and $1$s—quantum computers leverage **qubits**. 
 
 Through principles like **superposition** and **entanglement**, qubits can exist in multiple states simultaneously, enabling quantum computers to handle complex computations at unprecedented speeds. This unique architecture has the potential to address computationally intensive tasks, from optimization and machine learning to intricate data analysis, positioning quantum computing as a transformative tool for data engineers.
@@ -24,6 +21,8 @@ As we approach a quantum-ready future, now is the time for data engineers to gai
 
 
 ---
+
+{% include mathjax.html type="post" %}
 
 ## Quantum Computing vs. Classical Computing
 
