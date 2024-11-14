@@ -1,4 +1,4 @@
-<!-- Here’s the full markdown version, formatted with inline $...$ and block $$...$$ equations:
+<!--
 
 ---
 layout: post
