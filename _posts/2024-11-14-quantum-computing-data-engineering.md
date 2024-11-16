@@ -34,7 +34,7 @@ $$\begin{aligned}
 |\psi\rangle = \alpha |0\rangle + \beta |1\rangle,
 \end{aligned}$$
 
-where $\alpha$ and $\beta$ are complex probability amplitudes such that $\| \alpha^2 \| + \| \beta \|^2 = 1$.
+where $\alpha$ and $\beta$ are complex probability amplitudes such that $\| \alpha \|^2 + \| \beta \|^2 = 1$.
 
 **Key Differences:**
 
