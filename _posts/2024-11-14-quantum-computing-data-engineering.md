@@ -149,7 +149,7 @@ where $\alpha$ and $\beta$ are complex probability amplitudes such that $\| \alp
 
 The diagram below represents a simple quantum circuit with the following sequence:
 
-<centre><img src="/assets/img/circuit.webp" alt="isolated" width="500"/></centre>
+<centre><img src="/assets/img/circuit.png" alt="isolated" width="650"/></centre>
 
 1. **Hadamard Gate** on the first qubit $ q_0 $: This gate places the qubit in a superposition of $ \|0\rangle $ and $ \|1\rangle $, enabling the representation of multiple states simultaneously.
 2. **CNOT Gate** between $ q_0 $ (control) and $ q_1 $ (target): This entangles the two qubits. If $ q_0 $ is in the state $ \|1\rangle $, the CNOT gate flips the state of $ q_1 $; otherwise, it leaves $ q_1 $ unchanged.
