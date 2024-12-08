@@ -265,9 +265,17 @@ In January 2023, I joined Quantexa as a Data Engineer, diving into advanced netw
 
 My role has been dynamic and impactful, encompassing the development, testing, and documentation of data engineering tools and best practices. These materials support Quantexa’s deployments, strengthening the data engineering function and improving the quality and efficiency of project delivery.
 
-Though relatively new to Scala, I’ve made significant strides in mastering this language, a vital tool for data processing within big data ecosystems. My proficiency in Scala has produced tangible results, with contributions that influence development sprints and code optimization. My knowledge of big data technologies—particularly Spark, Hadoop, and Elasticsearch—has also been pivotal in defining best practices across the business. With skills in Java, Python, and Scala, I’m well-equipped to support the team’s initiatives and deliver efficient solutions across both cloud and on-premise environments.
+Though relatively new to Scala, I’ve made significant strides in mastering this language, a vital tool for data processing within big data ecosystems. My proficiency in Scala has produced tangible results, with contributions that influence development sprints and code optimization.
+
+<p align="center"><img src="/assets/img/scala.gif" alt="isolated" width="550"/></p>
+
+My knowledge of big data technologies—particularly Spark, Hadoop, and Elasticsearch—has also been pivotal in defining best practices across the business. With skills in Java, Python, and Scala, I’m well-equipped to support the team’s initiatives and deliver efficient solutions across both cloud and on-premise environments.
+
+<p align="center"><img src="/assets/img/elastic.svg" alt="isolated" width="500"/></p>
 
 Stakeholder engagement is essential to my role, allowing me to work closely with delivery teams, clients, and partners to deliver high-quality solutions. These solutions span diverse tasks, including ETL pipelines, data cleansing, parsing, and standardization, as well as data classification and entity extraction/resolution.
+
+<p align="center"><img src="/assets/img/qcert.png" alt="isolated" width="250"/></p>
 
 A significant milestone in my journey was achieving a 97% score in the Quantexa Academy, earning the title of Quantexa Certified Data Engineer. This accomplishment deepened my expertise in Quantexa’s technology stack, and I actively support other Academy participants, fostering a collaborative learning environment within the team.
 
@@ -276,6 +284,8 @@ A significant milestone in my journey was achieving a 97% score in the Quantexa 
 In October 2024, I was promoted to Senior Data Engineer within Quantexa’s Data Engineering Accelerators and Demos (DEAD) team in R&D. This role enables me to lead complex data engineering projects and drive innovation within Quantexa’s technology stack. My responsibilities now include architecting, developing, and optimizing scalable data pipelines that support large-scale data integration, advanced analytics, and entity resolution. I work across both cloud and on-premise infrastructures, leveraging tools like Airflow, Spark, and Google Cloud, with a strong focus on infrastructure optimization, automation, and performance.
 
 A recent highlight was spearheading the implementation of dynamic Directed Acyclic Graphs (DAGs) and autoscaling in Airflow, which has optimized resource usage and boosted scalability. This project aligns with my technical focus on big data and cloud solutions, which allows me to refine Quantexa’s infrastructure management practices for improved accessibility and best practices across the team.
+
+<p align="center"><img src="/assets/img/airflow.gif" alt="isolated" width="700"/></p>
 
 Mentorship has become a rewarding focus of my role. I work closely with junior engineers, guiding them through coding challenges, conducting code reviews, and creating a collaborative learning environment. My expertise in Scala and Python has been instrumental in tackling complex data engineering problems and supporting the professional growth of emerging engineers, especially as we manage large-scale data and complex systems.
 
