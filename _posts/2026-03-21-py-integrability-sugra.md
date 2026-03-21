@@ -1109,15 +1109,24 @@ $$\mathcal{I}_a = -\frac{1}{2}E_a{}^b\Gamma_b - \frac{3}{4}i\,BF_a{}^{bc}\Gamma_
 
 ## Unified Driver
 
-The driver `integrability_driver.py` reads all theory data from `theories.json` and runs the standard 9-step pipeline for any named theory.
+The driver `integrability_driver.py` reads all theory data from `theories.json` and dispatches to the appropriate pipeline for each computation. Three pipeline variants are supported:
+
+- **Standard** — the 9-step pipeline (substitute, Clifford, Leibniz, unwrap, field equations, Bianchi, epsilon identities, final Clifford, cleanup). Used for all minimal and non-matter-coupled theories.
+- **VSG gravitino** — standard pipeline followed by very-special-geometry simplification (*calabi*, *back*, *vanish* rules) that resolves \(Q_{IJ}\), \(C_{IJK}\), \(X^I\) algebraic relations. Used for D=5 vector multiplet gravitino computations.
+- **VSG scalar** — a custom pipeline with 3 KSE passes, intermediate calabi simplification, and extensive VSG post-processing. Used for D=5 vector multiplet scalar/gaugino computations.
+
+Pipeline selection is automatic via the `pipeline_per_computation` field in `theories.json`.
 
 ### Command-line Usage
 
 ```bash
 /opt/homebrew/Cellar/cadabra2/2.5.14/libexec/bin/python3 integrability_driver.py [theory_id]
+/opt/homebrew/Cellar/cadabra2/2.5.14/libexec/bin/python3 integrability_driver.py [theory_id] --op gravitino
 /opt/homebrew/Cellar/cadabra2/2.5.14/libexec/bin/python3 integrability_driver.py --list
 /opt/homebrew/Cellar/cadabra2/2.5.14/libexec/bin/python3 integrability_driver.py --all
 ```
+
+Use `--op` to run a single computation (e.g. `--op gravitino` or `--op scalar`).
 
 ### Available Theory IDs
 
@@ -1139,6 +1148,7 @@ The driver `integrability_driver.py` reads all theory data from `theories.json` 
 from integrability_driver import run_theory, THEORIES, setup_kernel
 
 results = run_theory('d11_supergravity')
+results = run_theory('d5_vector_gauged', operator_filter='scalar')
 print(list(THEORIES.keys()))
 ```
 
@@ -1178,6 +1188,9 @@ All substitution strings use Cadabra LaTeX notation (backslash-escaped).
 | `field_equations_per_computation` | dict | Per-operator field equation override |
 | `bianchi_per_computation` | dict | Per-operator Bianchi override |
 | `epsilon_extra_per_computation` | dict | Per-operator extra epsilon rule |
+| `pipeline_per_computation` | dict | Maps computation name to pipeline variant (`standard`, `vsg_gravitino`, `vsg_scalar`) |
+| `kernel_per_computation` | dict | Per-operator kernel modifications (extra commuting/noncommuting declarations) |
+| `vsg` | object | Very-special-geometry rules: `calabi_gravitino`, `calabi_scalar`, `back_gravitino`, `back_scalar`, `vanish` |
 | `references` | list | Key paper citations |
 | `physics_notes` | string | Physical context and conventions |
 
@@ -1276,8 +1289,8 @@ display(ex)  # compare with standalone here
 | D=4 Einstein–Maxwell | gravitino | ✓ matches standalone |
 | D=4 Minimal Gauged | gravitino | ✓ matches standalone |
 | D=5 Minimal | gravitino | ✓ matches standalone |
-| D=5 Vector Ungauged | gravitino | partial — needs very-special-geometry simplification |
-| D=5 Vector Gauged | gravitino | partial — same |
+| D=5 Vector Ungauged | gravitino, scalar | ✓ both match standalone (VSG pipeline) |
+| D=5 Vector Gauged | gravitino, scalar | ✓ both match standalone (VSG pipeline) |
 | D=6 N=(1,0) | gravitino, dilatino, gaugino | ✓ all 3 match standalone |
 | D=11 Supergravity | gravitino | ✓ matches standalone |
 | D=10 Heterotic | gravitino, dilatino, gaugino | ✓ all 3 match standalone |
@@ -1286,8 +1299,6 @@ display(ex)  # compare with standalone here
 ---
 
 ## Known Limitations
-
-**D=5 vector multiplets**: The raw output contains unsimplified \(Q_{IJ}\nabla X\nabla X\), \(F^IF^JQ_{IJ}\), \(X_IX_JF^IF^J\) terms that cancel via the very-special-geometry constraint. The required substitution dictionaries (*calabi*, *back*, *vanish*) are implemented in `legacy/integrability_d5_vector_gauged.py` but not yet encoded in `theories.json`.
 
 **Romans mass / massive IIA**: The `d10_iia` theory in `theories.json` uses the Romans mass parameter $\kappa$. Setting $\kappa = 0$ in the KSEs gives the massless theory; the integrability result is the same in both cases because mass terms enter only through \(E_{ab}\) and $F\Phi$ residuals which vanish on-shell.
 
