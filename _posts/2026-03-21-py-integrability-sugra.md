@@ -22,7 +22,7 @@ The code and full reference are at **[github.com/drrobotk/py_integrability_sugra
 
 # py_integrability_sugra
 
-Symbolic verification of **Killing Spinor Equation (KSE) integrability conditions** for supergravity theories in D = 4, 5, 6, 10, 11 dimensions, using the [Cadabra2](https://cadabra.science/) computer algebra system.
+Symbolic verification of **Killing Spinor Equation (KSE) integrability conditions** for supergravity theories in D = 4, 5, 6, 9, 10, 11 dimensions, using the [Cadabra2](https://cadabra.science/) computer algebra system.
 
 All computations are driven by a unified Python script (`integrability_driver.py`) that reads theory data from a structured JSON schema (`theories.json`). Legacy standalone scripts for each theory are preserved in `legacy/`.
 
@@ -38,6 +38,7 @@ All computations are driven by a unified Python script (`integrability_driver.py
   - [D=10 Type IIA (Massless)](#d10-type-iia-massless)
   - [D=10 Type IIA (Romans Mass)](#d10-type-iia-romans-mass)
   - [D=10 Heterotic](#d10-heterotic)
+  - [D=9 NS-NS Supergravity](#d9-ns-ns-supergravity)
   - [D=5 Vector Multiplets (Ungauged)](#d5-vector-multiplets-ungauged)
   - [D=5 Vector Multiplets (Gauged)](#d5-vector-multiplets-gauged)
   - [D=5 Minimal](#d5-minimal)
@@ -703,6 +704,56 @@ $$\mathcal{K} = BF^{abc}\Gamma_{abc} - 2FF^a\Gamma_a$$
 
 ---
 
+### D=9 NS-NS Supergravity
+
+**Theory**: NS-NS sector of string theory effective action in $D=9$. Dimensional analogue of $D=10$ heterotic (NS-NS sector, no gauge field or gaugino). Two KSEs: gravitino $\Psi_a$ and dilatino $\mathcal{A}$. No chirality matrix exists in odd spacetime dimension.
+
+**Fields**: metric $g_{ab}$, dilaton $\Phi$, NS-NS 3-form $H_{abc}$
+
+**Index range**: $a,b,\ldots \in \{0,1,\ldots,8\}$
+
+#### Bosonic Action
+
+$$
+S = \frac{1}{2\kappa_9^2}\int d^9x\,\sqrt{-g}\,e^{-2\Phi}\left(R + 4\nabla_a\Phi\nabla^a\Phi - \frac{1}{12}H_{abc}H^{abc}\right)
+$$
+
+#### Field Equations and Bianchi Identities
+
+$$
+E_{ab} = R_{ab} + 2\nabla_a\nabla_b\Phi - \frac{1}{4}H_{acd}H_b{}^{cd} = 0
+$$
+
+$$
+F\Phi = \nabla^2\Phi - 2(\partial\Phi)^2 + \frac{1}{12}H^2 = 0, \qquad FH_{ab} = \nabla^c H_{abc} - 2H_{abc}\nabla^c\Phi = 0
+$$
+
+$$
+BH_{abcd} = \nabla_{[a}H_{bcd]} = 0
+$$
+
+#### KSEs
+
+The string-frame KSE connections are identical to those of $D=10$ heterotic (dimension-independent):
+
+$$
+\mathcal{D}_a\varepsilon = \nabla_a\varepsilon - \frac{1}{8}H_{abc}\,\Gamma^{bc}\varepsilon = 0, \qquad \mathcal{A}\varepsilon = \nabla_a\Phi\,\Gamma^a\varepsilon - \frac{1}{12}H_{abc}\,\Gamma^{abc}\varepsilon = 0
+$$
+
+#### Integrability Results
+
+**Gravitino**:
+
+$$\mathcal{I}_a = -\frac{1}{2}E_a{}^b\Gamma_b - \frac{1}{6}BH_a{}^{bcd}\Gamma_{bcd} - \frac{1}{4}FH_a{}^b\Gamma_b$$
+
+**Dilatino**:
+
+$$\mathcal{J} = F\Phi - \frac{1}{12}BH^{abcd}\Gamma_{abcd} - \frac{1}{4}FH^{ab}\Gamma_{ab}$$
+
+Both results are structurally identical to the $D=10$ heterotic gravitino and dilatino (absent the gaugino sector), reflecting the dimension-independence of the NS-NS string-frame equations. No epsilon $\to$ Gamma identity is needed: the maximum Gamma rank in the computation is 5, well below the $D=9$ volume-form rank of 9.
+
+---
+
 ### D=5 Vector Multiplets (Ungauged)
 
 **Theory**: $\mathcal{N}=2$ supergravity coupled to $k$ abelian vector multiplets, obtained from M-theory compactification on a Calabi–Yau threefold \(CY_3\) with Hodge numbers \(h_{(1,1)}, h_{(2,1)}\) and intersection numbers \(C_{IJK}\).
@@ -1295,6 +1346,7 @@ display(ex)  # compare with standalone here
 | D=11 Supergravity | gravitino | ✓ matches standalone |
 | D=10 Heterotic | gravitino, dilatino, gaugino | ✓ all 3 match standalone |
 | D=10 Type IIA | gravitino, dilatino | ✓ both match standalone |
+| D=9 NS-NS | gravitino, dilatino | ✓ both verified (standalone) |
 
 ---
 
