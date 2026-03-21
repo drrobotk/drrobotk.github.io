@@ -1,15 +1,24 @@
 ---
 layout: post
-title: "py_integrability_sugra"
-subtitle: "Symbolic verification of KSE integrability conditions in supergravity (D=4,5,6,10,11)"
+title: "Releasing my PhD thesis code — KSE integrability in supergravity, extended to any theory"
+subtitle: "From legacy Cadabra notebooks to a unified AI-assisted driver for D=4,5,6,10,11"
 date: 2026-03-21
 last-updated: 2026-03-21
-tags: [supergravity, KSE, integrability, cadabra, clifford algebra]
+tags: [supergravity, KSE, integrability, cadabra, clifford algebra, phd, black holes, string theory]
 permalink: /py_integrability_sugra/
 ---
 
 {% include mathjax.html type="post" %}
 
+It has been several years since I submitted my PhD thesis and the accompanying papers. For a long time, the code and calculations sat in a collection of standalone Cadabra notebooks — functional, verified, but not in a form that was easy to share or extend. With the help of AI tools, I have finally had the time and energy to clean everything up, unify it under a single driver, and release it publicly.
+
+My PhD thesis, [*Dynamical supersymmetry enhancement of black hole horizons*](https://arxiv.org/abs/1910.01080) (arXiv:1910.01080), investigates how near the horizons of supersymmetric black holes in supergravity, the number of preserved supersymmetries doubles — the **horizon conjecture** — proved across IIA, massive IIA (Romans), and D=5 supergravity. The companion paper [*Symmetry enhancement of Killing horizons in D=6 supergravity*](https://arxiv.org/abs/1912.04249) (arXiv:1912.04249) extends the analysis to six-dimensional gauged supergravity.
+
+The structural argument at the heart of both works rests on **KSE integrability**: proving that the integrability conditions of the Killing Spinor Equations are automatically satisfied on-shell. This is the Lichnerowicz-type argument that allows one to trade global analysis of the KSEs for local algebraic conditions — verified symbolically, for each theory, using Cadabra2.
+
+The code and full reference are at **[github.com/drrobotk/py_integrability_sugra](https://github.com/drrobotk/py_integrability_sugra)**, released under [CC BY-NC 4.0](https://github.com/drrobotk/py_integrability_sugra/blob/main/LICENSE). If you use this work, please cite arXiv:1910.01080 and arXiv:1912.04249.
+
+---
 
 # py_integrability_sugra
 
