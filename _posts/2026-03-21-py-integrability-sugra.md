@@ -81,7 +81,7 @@ The integrability conditions are **consequences** of the bosonic field equations
 
 $$\mathcal{I}_a\,\varepsilon =\sum_i C_i \cdot \Gamma^{\cdots}\,\varepsilon$$
 
-where each coefficient $C_i$ is a linear combination of **on-shell residuals** (EOM or Bianchi) that vanish on any solution. This guarantees that one need only solve the KSEs directly.
+where each coefficient \(C_i\) is a linear combination of **on-shell residuals** (EOM or Bianchi) that vanish on any solution. This guarantees that one need only solve the KSEs directly.
 
 ### Lichnerowicz Argument
 
@@ -93,14 +93,14 @@ All equations of motion and Bianchi identities are written in **residual form**:
 
 | Symbol | Meaning |
 |--------|---------|
-| $E_{ab}$ | Einstein equation residual |
+| \(E_{ab}\) | Einstein equation residual |
 | $F\Phi$ | Dilaton equation residual |
-| $FH_{ab}$ | $H_{3}$-field equation residual |
-| $FF_a$ | Maxwell / gauge field equation residual |
-| $FG_{abc}$ | 4-form field equation residual |
-| $BH_{abcd}$ | $H_{3}$-field Bianchi residual |
-| $BF_{abc}$ | 2-form Bianchi residual |
-| $BG_{abcde}$ | 4-form Bianchi residual |
+| \(FH_{ab}\) | \(H_{3}\)-field equation residual |
+| \(FF_a\) | Maxwell / gauge field equation residual |
+| \(FG_{abc}\) | 4-form field equation residual |
+| \(BH_{abcd}\) | \(H_{3}\)-field Bianchi residual |
+| \(BF_{abc}\) | 2-form Bianchi residual |
+| \(BG_{abcde}\) | 4-form Bianchi residual |
 
 All residuals vanish on any solution to the field equations.
 
@@ -108,8 +108,8 @@ All residuals vanish on any solution to the field equations.
 
 Each integrability operator is processed by a 9-step Cadabra2 algorithm:
 
-1. **KSE substitution** — substitute $\Psi_a$, $\mathcal{A}$, $\mathcal{N}$ by their expressions in bosonic fields
-2. **Field equation substitution** — replace $R_{ab}$, $\nabla^c H_{abc}$, etc., introducing EOM residuals
+1. **KSE substitution** — substitute \(\Psi_a\), $\mathcal{A}$, $\mathcal{N}$ by their expressions in bosonic fields
+2. **Field equation substitution** — replace \(R_{ab}\), \(\nabla^c H_{abc}\), etc., introducing EOM residuals
 3. **Clifford expansion** (3 passes) — `join_gamma` + `distribute`
 4. **Leibniz rule** — `product_rule` expands $\nabla$ on products
 5. **Clifford expansion** (2 passes) + `unwrap`
@@ -150,49 +150,49 @@ D=11 SUGRA (unique)
 
 ### D=11 → Type IIA
 
-The most direct reduction: compactify D=11 on a circle $S^1$ of radius $R_{11}$, truncating all Kaluza–Klein modes with masses $\sim 1/R_{11}$. The metric decomposes as in ([Dimensional Reduction](#dimensional-reduction-to-iia)), identifying the dilaton $e^\Phi = R_{11}^{3/2}$, the RR 1-form $A_\mu$ as the Kaluza–Klein gauge field, and the NS-NS 2-form $B_{\mu\nu}$ plus RR 3-form $C_{\mu\nu\rho}$ from the D=11 3-form potential. The $D=11$ gravitino gives both the IIA gravitino and dilatino.
+The most direct reduction: compactify D=11 on a circle $S^1$ of radius \(R_{11}\), truncating all Kaluza–Klein modes with masses \(\sim 1/R_{11}\). The metric decomposes as in ([Dimensional Reduction](#dimensional-reduction-to-iia)), identifying the dilaton \(e^\Phi = R_{11}^{3/2}\), the RR 1-form \(A_\mu\) as the Kaluza–Klein gauge field, and the NS-NS 2-form \(B_{\mu\nu}\) plus RR 3-form \(C_{\mu\nu\rho}\) from the D=11 3-form potential. The $D=11$ gravitino gives both the IIA gravitino and dilatino.
 
-### D=11 → D=5 N=2 (M-theory on $CY_3$)
+### D=11 → D=5 N=2 (M-theory on \(CY_3\))
 
-Compactify M-theory on a Calabi–Yau threefold $CY_3$ with Hodge numbers $h^{(1,1)}, h^{(2,1)}$ (see [D=5 Vector Multiplets (Ungauged)](#d5-vector-multiplets-ungauged)). The massless spectrum contains:
+Compactify M-theory on a Calabi–Yau threefold \(CY_3\) with Hodge numbers $h^{(1,1)}, h^{(2,1)}$ (see [D=5 Vector Multiplets (Ungauged)](#d5-vector-multiplets-ungauged)). The massless spectrum contains:
 
-- **Gravity multiplet**: $g_{\mu\nu}$, graviphoton $A^0_\mu$, gravitino
-- **$h^{(1,1)}-1$ vector multiplets**: each contains a vector $A^I_\mu$, a real scalar $X^I$ (Kähler modulus), and a gaugino
+- **Gravity multiplet**: \(g_{\mu\nu}\), graviphoton \(A^0_\mu\), gravitino
+- **$h^{(1,1)}-1$ vector multiplets**: each contains a vector \(A^I_\mu\), a real scalar $X^I$ (Kähler modulus), and a gaugino
 - **$h^{(2,1)}+1$ hypermultiplets**: complex structure moduli and universal hypermultiplet
 
-The Kähler moduli satisfy the very-special-geometry constraint $C_{IJK}X^IX^JX^K = 1$ where $C_{IJK}$ are the triple intersection numbers of $CY_3$. Hypermultiplets decouple from stationary solutions and are set to constants. The resulting 5d action is exactly that encoded in `d5_vector_ungauged`.
+The Kähler moduli satisfy the very-special-geometry constraint \(C_{IJK}X^IX^JX^K = 1\) where \(C_{IJK}\) are the triple intersection numbers of \(CY_3\). Hypermultiplets decouple from stationary solutions and are set to constants. The resulting 5d action is exactly that encoded in `d5_vector_ungauged`.
 
 ### D=5 Ungauged → D=5 Gauged
 
-The gauged theory is obtained by turning on a $U(1)$ subgroup of the $SU(2)_R$ automorphism group of the $\mathcal{N}=2$ algebra. This is equivalent to gauging a linear combination $V_I A^I_\mu$ of the abelian vectors with coupling $\chi$. The scalar potential $U = 9V_IV_J(X^IX^J - \frac{1}{2}Q^{IJ})$ arises from the $D$-term of the gauging. The D=5 gauged theory also arises from type IIB supergravity compactified on $S^5$.
+The gauged theory is obtained by turning on a $U(1)$ subgroup of the \(SU(2)_R\) automorphism group of the $\mathcal{N}=2$ algebra. This is equivalent to gauging a linear combination \(V_I A^I_\mu\) of the abelian vectors with coupling $\chi$. The scalar potential \(U = 9V_IV_J(X^IX^J - \frac{1}{2}Q^{IJ})\) arises from the $D$-term of the gauging. The D=5 gauged theory also arises from type IIB supergravity compactified on $S^5$.
 
-### D=11 → D=4 N=2 (M-theory on $CY_3$, or IIA on $CY_3$)
+### D=11 → D=4 N=2 (M-theory on \(CY_3\), or IIA on \(CY_3\))
 
 Two equivalent paths:
-- **M-theory on $CY_3$**: gives 5d N=2 as above; further reducing on $S^1$ gives 4d N=2
-- **Type IIA on $CY_3$**: directly gives 4d N=2 with $h^{(1,1)}$ vector multiplets and $h^{(2,1)}+1$ hypermultiplets
+- **M-theory on \(CY_3\)**: gives 5d N=2 as above; further reducing on $S^1$ gives 4d N=2
+- **Type IIA on \(CY_3\)**: directly gives 4d N=2 with $h^{(1,1)}$ vector multiplets and $h^{(2,1)}+1$ hypermultiplets
 
-The 4d Einstein–Maxwell theory in `d4_einstein_maxwell` is the simplest case ($h^{(1,1)}=1$, no vector multiplets beyond the graviphoton). The gauged version `d4_minimal_gauged` adds an $AdS_4$ vacuum stabilised by the cosmological constant $\Lambda = -3/\ell^2$.
+The 4d Einstein–Maxwell theory in `d4_einstein_maxwell` is the simplest case ($h^{(1,1)}=1$, no vector multiplets beyond the graviphoton). The gauged version `d4_minimal_gauged` adds an \(AdS_4\) vacuum stabilised by the cosmological constant $\Lambda = -3/\ell^2$.
 
 ### D=11 / Hořava–Witten → D=10 Heterotic
 
-M-theory on the orbifold $S^1/\mathbb{Z}_2$ (Hořava–Witten construction) gives D=10 heterotic $E_8\times E_8$ supergravity at low energy. The two fixed-point boundaries of the interval each carry an $E_8$ gauge multiplet. In the weak-coupling limit the interval shrinks and one recovers the perturbative heterotic string. The D=10 heterotic supergravity encoded in `d10_heterotic` is the effective field theory of this construction, with a single (abelianised) gauge 2-form $F_{ab}$.
+M-theory on the orbifold \(S^1/\mathbb{Z}_2\) (Hořava–Witten construction) gives D=10 heterotic \(E_8\times E_8\) supergravity at low energy. The two fixed-point boundaries of the interval each carry an \(E_8\) gauge multiplet. In the weak-coupling limit the interval shrinks and one recovers the perturbative heterotic string. The D=10 heterotic supergravity encoded in `d10_heterotic` is the effective field theory of this construction, with a single (abelianised) gauge 2-form \(F_{ab}\).
 
 The heterotic string also has an $SO(32)$ variant (related to Type I by S-duality); the NS-NS sector supergravity is the same in both cases.
 
 ### D=10 Heterotic → D=6 N=(1,0)
 
-Compactify heterotic string theory on the torus $T^4$. Generically this gives D=6 with N=(1,1) or N=(2,0) supersymmetry depending on the gauge bundle. With a non-trivial gauge bundle satisfying $\int_{T^4} \text{tr}F^2 = \int_{T^4} R^2$ (the anomaly cancellation condition), one breaks to D=6 N=(1,0), which is the theory encoded in `d6_n10`. The bosonic content (metric, anti-self-dual 3-form $H$, gauge 2-form $F$, dilaton $\Phi$) matches the tensor + vector multiplet sector.
+Compactify heterotic string theory on the torus $T^4$. Generically this gives D=6 with N=(1,1) or N=(2,0) supersymmetry depending on the gauge bundle. With a non-trivial gauge bundle satisfying \(\int_{T^4} \text{tr}F^2 = \int_{T^4} R^2\) (the anomaly cancellation condition), one breaks to D=6 N=(1,0), which is the theory encoded in `d6_n10`. The bosonic content (metric, anti-self-dual 3-form $H$, gauge 2-form $F$, dilaton $\Phi$) matches the tensor + vector multiplet sector.
 
 Alternatively, M-theory on $K3$ gives D=7 with 16 supercharges; further compactification or orbifolding gives D=6 N=(1,0).
 
 ### D=10 Heterotic / IIA → D=4 N=1
 
-Compactify heterotic string theory on a Calabi–Yau threefold $CY_3$. With holonomy group $SU(3)\subset SO(6)$, this preserves $\mathcal{N}=1$ supersymmetry in D=4. The resulting supergravity has a Kähler potential determined by the CY moduli and is the effective theory of the heterotic landscape. The D=4 theories in `d4_einstein_maxwell` and `d4_minimal_gauged` are truncations of this richer structure to the gravity + gauge sector.
+Compactify heterotic string theory on a Calabi–Yau threefold \(CY_3\). With holonomy group $SU(3)\subset SO(6)$, this preserves $\mathcal{N}=1$ supersymmetry in D=4. The resulting supergravity has a Kähler potential determined by the CY moduli and is the effective theory of the heterotic landscape. The D=4 theories in `d4_einstein_maxwell` and `d4_minimal_gauged` are truncations of this richer structure to the gravity + gauge sector.
 
 ### Massive IIA from Romans deformation
 
-The Romans mass $m$ cannot be obtained as a standard Kaluza–Klein reduction of D=11 supergravity — it is an intrinsically 10-dimensional deformation. It can be thought of as a vacuum expectation value for the dual of a 0-form field strength. The theory exists consistently at the quantum level (as a type IIA string background) and its near-horizon geometries include $AdS_4\times S^6$ and warped $AdS$ vacua relevant to ABJM theory.
+The Romans mass $m$ cannot be obtained as a standard Kaluza–Klein reduction of D=11 supergravity — it is an intrinsically 10-dimensional deformation. It can be thought of as a vacuum expectation value for the dual of a 0-form field strength. The theory exists consistently at the quantum level (as a type IIA string background) and its near-horizon geometries include \(AdS_4\times S^6\) and warped $AdS$ vacua relevant to ABJM theory.
 
 ---
 
@@ -280,9 +280,9 @@ cdbpy integrability_driver.py --all
 
 ### D=11 Supergravity
 
-**Theory**: The unique maximal ($\mathcal{N}=1$) supergravity in eleven dimensions. Supersymmetry completely fixes the theory. The field content consists of the graviton $G_{MN}$ (44 off-shell components), the 3-form potential $A^{(3)}_{MNP}$ (84 components), and the gravitino $\psi_M$ (128 fermionic components) — matching exactly the massless spectrum of type II string theory.
+**Theory**: The unique maximal ($\mathcal{N}=1$) supergravity in eleven dimensions. Supersymmetry completely fixes the theory. The field content consists of the graviton \(G_{MN}\) (44 off-shell components), the 3-form potential \(A^{(3)}_{MNP}\) (84 components), and the gravitino \(\psi_M\) (128 fermionic components) — matching exactly the massless spectrum of type II string theory.
 
-**Fields**: metric $G_{MN}$, 3-form $A_{MNP}$, 4-form field strength $G_{MNPQ}$
+**Fields**: metric \(G_{MN}\), 3-form \(A_{MNP}\), 4-form field strength \(G_{MNPQ}\)
 
 $$G_{MNPQ} = 4\partial_{[M}A_{NPQ]}$$
 
@@ -372,9 +372,9 @@ All coefficients multiply on-shell residuals, confirming automatic satisfaction 
 
 ### D=10 Type IIA (Massless)
 
-**Theory**: Type IIA supergravity obtained by dimensional reduction of D=11 supergravity on $\mathcal{M}_{10}\times S^1$. Non-chiral theory with two Majorana (non-Weyl) spinors. The chirality matrix $\Gamma_{11}$ distinguishes the NS-NS sector (odd) from the RR sector (even).
+**Theory**: Type IIA supergravity obtained by dimensional reduction of D=11 supergravity on \(\mathcal{M}_{10}\times S^1\). Non-chiral theory with two Majorana (non-Weyl) spinors. The chirality matrix \(\Gamma_{11}\) distinguishes the NS-NS sector (odd) from the RR sector (even).
 
-**Fields**: metric $g_{\mu\nu}$, dilaton $\Phi$, NS-NS 2-form $B_{\mu\nu}$, RR 1-form $A_\mu$, RR 3-form $C_{\mu\nu\rho}$
+**Fields**: metric \(g_{\mu\nu}\), dilaton $\Phi$, NS-NS 2-form \(B_{\mu\nu}\), RR 1-form \(A_\mu\), RR 3-form \(C_{\mu\nu\rho}\)
 
 **Field strengths**:
 
@@ -436,7 +436,7 @@ $$
 
 #### Chirality Matrix
 
-The chirality matrix $\Gamma_{11} = C$ satisfies:
+The chirality matrix \(\Gamma_{11} = C\) satisfies:
 
 $$
 \Gamma_{\mu_1\cdots\mu_{10}} = -\varepsilon_{\mu_1\cdots\mu_{10}}\,\Gamma_{11}
@@ -444,10 +444,10 @@ $$
 
 Commutation with gamma matrices:
 
-| Gamma rank | Relation with $C = \Gamma_{11}$ |
+| Gamma rank | Relation with \(C = \Gamma_{11}\) |
 |---|---|
-| Odd: $\Gamma^\mu$, $\Gamma^{\mu\nu\rho}$, $\Gamma^{\mu\nu\rho\sigma\kappa}$, ... | $\{\Gamma^{a_1\cdots a_{2k+1}},\, C\} = 0$ |
-| Even: $\Gamma^{\mu\nu}$, $\Gamma^{\mu\nu\rho\sigma}$, ... | $[\Gamma^{a_1\cdots a_{2k}},\, C] = 0$ |
+| Odd: $\Gamma^\mu$, $\Gamma^{\mu\nu\rho}$, $\Gamma^{\mu\nu\rho\sigma\kappa}$, ... | \(\{\Gamma^{a_1\cdots a_{2k+1}},\, C\} = 0\) |
+| Even: $\Gamma^{\mu\nu}$, $\Gamma^{\mu\nu\rho\sigma}$, ... | \([\Gamma^{a_1\cdots a_{2k}},\, C] = 0\) |
 
 #### Supersymmetry Variations
 
@@ -477,7 +477,7 @@ $$
 
 #### KSEs
 
-Setting $m=0$ (massless case), the KSEs $\mathcal{D}_\mu\varepsilon = 0$ and $\mathcal{A}\varepsilon = 0$ become (using $C$ for $\Gamma_{11}$):
+Setting $m=0$ (massless case), the KSEs \(\mathcal{D}_\mu\varepsilon = 0\) and $\mathcal{A}\varepsilon = 0$ become (using $C$ for \(\Gamma_{11}\)):
 
 $$
 \Psi_a = -\frac{1}{8}H_{abc}\,\Gamma^{bc} + e^\Phi\left[-\frac{1}{16}F_{bc}\,\Gamma_a\Gamma^{bc} - \frac{1}{192}G_{bcde}\,\Gamma_a\Gamma^{bcde}\right]\!C
@@ -565,7 +565,7 @@ $$
 
 #### Modified Field Equations
 
-Einstein equation (mass term adds $-\frac{1}{4}e^{2\Phi}m^2 g_{\mu\nu}$):
+Einstein equation (mass term adds \(-\frac{1}{4}e^{2\Phi}m^2 g_{\mu\nu}\)):
 
 $$
 R_{\mu\nu} = -2\nabla_\mu\nabla_\nu\Phi + \frac{1}{4}H_\mu{}^2 + \frac{1}{2}e^{2\Phi}\tilde{F}_\mu{}^2 + \frac{1}{12}e^{2\Phi}\tilde{G}_\mu{}^2 + g_{\mu\nu}\left(-\frac{1}{8}e^{2\Phi}\tilde{F}^2 - \frac{1}{96}e^{2\Phi}\tilde{G}^2 - \frac{1}{4}e^{2\Phi}m^2\right)
@@ -577,7 +577,7 @@ $$
 \nabla^2\Phi = 2(\partial\Phi)^2 - \frac{1}{12}H^2 + \frac{3}{8}e^{2\Phi}\tilde{F}^2 + \frac{1}{96}e^{2\Phi}\tilde{G}^2 + \frac{5}{4}e^{2\Phi}m^2
 $$
 
-3-form equation (mass term adds $-mF_{\mu\nu}$):
+3-form equation (mass term adds \(-mF_{\mu\nu}\)):
 
 $$
 \nabla_\lambda\left(e^{-2\Phi}H^{\lambda\mu\nu}\right) = m\tilde{F}^{\mu\nu} + \frac{1}{2}\tilde{G}^{\mu\nu\lambda_1\lambda_2}\tilde{F}_{\lambda_1\lambda_2} - \frac{1}{1152}\,\varepsilon^{\mu\nu\lambda_1\cdots\lambda_8}\tilde{G}_{\lambda_1\lambda_2\lambda_3\lambda_4}\tilde{G}_{\lambda_5\lambda_6\lambda_7\lambda_8}
@@ -599,15 +599,15 @@ The Cadabra code uses $\kappa$ for the Romans mass $m$. Setting $\kappa = 0$ rec
 
 #### Integrability Results
 
-Same structure as massless IIA. The mass term $m^2$ enters the Einstein and dilaton residuals $E_{ab}$ and $F\Phi$, which vanish on-shell. The integrability output is formally identical to massless IIA with $F$, $G$ replaced by $\tilde{F}$, $\tilde{G}$.
+Same structure as massless IIA. The mass term $m^2$ enters the Einstein and dilaton residuals \(E_{ab}\) and $F\Phi$, which vanish on-shell. The integrability output is formally identical to massless IIA with $F$, $G$ replaced by $\tilde{F}$, $\tilde{G}$.
 
 ---
 
 ### D=10 Heterotic
 
-**Theory**: Heterotic string supergravity (NS-NS sector). Three KSEs: gravitino $\Psi_a$, dilatino $\mathcal{A}$, gaugino $\mathcal{N}$. No chirality matrix. The $E_8\times E_8$ or $SO(32)$ gauge group enters through the non-abelian 2-form $F_{ab}$.
+**Theory**: Heterotic string supergravity (NS-NS sector). Three KSEs: gravitino \(\Psi_a\), dilatino $\mathcal{A}$, gaugino $\mathcal{N}$. No chirality matrix. The \(E_8\times E_8\) or $SO(32)$ gauge group enters through the non-abelian 2-form \(F_{ab}\).
 
-**Fields**: metric $g_{ab}$, dilaton $\Phi$, NS-NS 3-form $H_{abc}$, gauge 2-form $F_{ab}$
+**Fields**: metric \(g_{ab}\), dilaton $\Phi$, NS-NS 3-form \(H_{abc}\), gauge 2-form \(F_{ab}\)
 
 **Index range**: $a,b,\ldots \in \{0,1,\ldots,9\}$
 
@@ -717,7 +717,7 @@ The scalars $X^I$ parametrise a **very special real manifold** $\mathcal{N}$ def
 
 $$\mathcal{V}(X) =\frac{1}{6}\,C_{IJK}X^I X^J X^K =1$$
 
-The constants $C_{IJK}$ are the triple intersection numbers of $CY_3$. The scalar metric is:
+The constants \(C_{IJK}\) are the triple intersection numbers of \(CY_3\). The scalar metric is:
 
 $$Q_{IJ} =-\frac{1}{2}\frac{\partial^2\ln\mathcal{V}}{\partial X^I\partial X^J}\bigg|_{\mathcal{V}=1} =-\frac{1}{2}C_{IJK}X^K + \frac{9}{2}X_I X_J$$
 
@@ -727,7 +727,7 @@ $$X_I = \frac{2}{3}Q_{IJ}X^J, \qquad \partial_a X_I = -\frac{2}{3}Q_{IJ}\partial
 
 #### Bosonic Action
 
-The five-dimensional action obtained from M-theory reduction on $CY_3$:
+The five-dimensional action obtained from M-theory reduction on \(CY_3\):
 
 $$
 \begin{aligned}
@@ -736,7 +736,7 @@ S_5 &= -\frac{1}{4\pi^2}\int d^5x\,\sqrt{-g}\left(R - Q_{IJ}\partial_\mu X^I\par
 \end{aligned}
 $$
 
-The last term is the five-dimensional Chern–Simons coupling, which descends from the eleven-dimensional Chern–Simons term. Supersymmetry forces the same metric $Q_{IJ}$ to appear in both the scalar and vector kinetic terms.
+The last term is the five-dimensional Chern–Simons coupling, which descends from the eleven-dimensional Chern–Simons term. Supersymmetry forces the same metric \(Q_{IJ}\) to appear in both the scalar and vector kinetic terms.
 
 #### Field Equations
 
@@ -814,7 +814,7 @@ The spinor $\varepsilon$ is a Dirac spinor of $Spin(4,1)$.
 
 #### Supercovariant Connection
 
-The supercovariant curvature $\mathcal{R}_{\mu\nu}$, defined by the commutator relation
+The supercovariant curvature \(\mathcal{R}_{\mu\nu}\), defined by the commutator relation
 
 $$[\mathcal{D}_\mu,\mathcal{D}_\nu]\varepsilon = \mathcal{R}_{\mu\nu}\varepsilon$$
 
@@ -966,9 +966,9 @@ $$\mathcal{I}_a = -\frac{1}{2}E_a{}^b\Gamma_b - \frac{3}{4}i\,BF_a{}^{bc}\Gamma_
 
 ### D=6 N=(1,0)
 
-**Theory**: Chiral $\mathcal{N}=(1,0)$ supergravity coupled to a tensor multiplet. Three KSEs: gravitino $\Psi_a$, dilatino $\mathcal{A}$, gaugino $\mathcal{N}$. Rich dilaton structure with fractional exponential weights $e^{\pm\Phi/4}$, $e^{\pm\Phi/2}$.
+**Theory**: Chiral $\mathcal{N}=(1,0)$ supergravity coupled to a tensor multiplet. Three KSEs: gravitino \(\Psi_a\), dilatino $\mathcal{A}$, gaugino $\mathcal{N}$. Rich dilaton structure with fractional exponential weights $e^{\pm\Phi/4}$, $e^{\pm\Phi/2}$.
 
-**Fields**: metric $g_{ab}$, anti-self-dual 3-form $H_{abc}$, gauge 2-form $F_{ab} = dA$, dilaton $\Phi$, gauge coupling $g$
+**Fields**: metric \(g_{ab}\), anti-self-dual 3-form \(H_{abc}\), gauge 2-form \(F_{ab} = dA\), dilaton $\Phi$, gauge coupling $g$
 
 **Index range**: $a,b,\ldots \in \{0,1,2,3,4,5\}$
 
@@ -1055,7 +1055,7 @@ $$\mathcal{K} = e^{\Phi/4}\,BF^{abc}\Gamma_{abc} - 2\,e^{\Phi/4}\,FF^a\Gamma_a$$
 
 **Theory**: Pure $\mathcal{N}=2$ supergravity with U(1) gauge field. No dilaton, no cosmological constant.
 
-**Fields**: metric $g_{ab}$, Maxwell 2-form $F_{ab}$
+**Fields**: metric \(g_{ab}\), Maxwell 2-form \(F_{ab}\)
 
 **Index range**: $a,b,\ldots \in \{0,1,2,3\}$
 
@@ -1085,9 +1085,9 @@ $$\mathcal{I}_a = -\frac{1}{2}E_a{}^b\Gamma_b - \frac{3}{4}i\,BF_a{}^{bc}\Gamma_
 
 ### D=4 Minimal Gauged
 
-**Theory**: $\mathcal{N}=2$ Einstein–Maxwell with cosmological constant $\Lambda = -3/\ell^2$ (AdS$_4$ vacuum).
+**Theory**: $\mathcal{N}=2$ Einstein–Maxwell with cosmological constant $\Lambda = -3/\ell^2$ (AdS\(_4\) vacuum).
 
-**Fields**: metric $g_{ab}$, Maxwell 2-form $F_{ab}$, gauge potential $A_a$, AdS radius $\ell$
+**Fields**: metric \(g_{ab}\), Maxwell 2-form \(F_{ab}\), gauge potential \(A_a\), AdS radius $\ell$
 
 **Index range**: $a,b,\ldots \in \{0,1,2,3\}$
 
