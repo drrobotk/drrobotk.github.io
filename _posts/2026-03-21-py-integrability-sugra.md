@@ -63,7 +63,7 @@ $$\mathcal{D}_a \varepsilon :=\nabla_a \varepsilon + \Psi_a \varepsilon = 0 \qqu
 
 $$\mathcal{A}\, \varepsilon = 0 \qquad \text{(dilatino / gaugino KSE)}$$
 
-where $\Psi_a$ is the supercovariant connection — a matrix-valued 1-form built from the bosonic fields — and $\mathcal{A}$ is the dilatino or gaugino operator.
+where \(\Psi_a\) is the supercovariant connection — a matrix-valued 1-form built from the bosonic fields — and $\mathcal{A}$ is the dilatino or gaugino operator.
 
 **Integrability** requires the curvature of $\mathcal{D}$ to annihilate any Killing spinor:
 
@@ -328,7 +328,7 @@ $$
 
 #### Gravitino KSE
 
-The KSE is the vanishing of $\delta\psi_M$ on the bosonic background:
+The KSE is the vanishing of \(\delta\psi_M\) on the bosonic background:
 
 $$
 \mathcal{D}_a\varepsilon = \nabla_a\varepsilon + \Psi_a\varepsilon = 0
@@ -348,7 +348,7 @@ $$
 G_{MN} = e^{-2\Phi/3}\begin{pmatrix} g_{\mu\nu} + e^{2\Phi}A_\mu A_\nu & e^{2\Phi}A_\mu \\ e^{2\Phi}A_\nu & e^{2\Phi} \end{pmatrix}
 $$
 
-and reducing the 3-form as $A_{MNP} \to C_{\mu\nu\rho}$ (three 10d legs) and $B_{\mu\nu} = A_{\mu\nu,10}$ (one leg in the 11th direction), one recovers type IIA supergravity on $\mathcal{M}_{10}$.
+and reducing the 3-form as \(A_{MNP} \to C_{\mu\nu\rho}\) (three 10d legs) and \(B_{\mu\nu} = A_{\mu\nu,10}\) (one leg in the 11th direction), one recovers type IIA supergravity on \(\mathcal{M}_{10}\).
 
 #### Field Equations (residual form, Cadabra conventions)
 
@@ -390,8 +390,8 @@ $$dF = 0, \qquad dH = 0, \qquad dG = F\wedge H$$
 
 $$
 \begin{aligned}
-S &= \int\sqrt{-g}\left[e^{-2\Phi}\left(R + 4\nabla_\mu\Phi\nabla^\mu\Phi - \frac{1}{12}H_{\lambda_1\lambda_2\lambda_3}H^{\lambda_1\lambda_2\lambda_3}\right) \right.
-&\quad \left. - \frac{1}{4}F_{\mu\nu}F^{\mu\nu} - \frac{1}{48}G_{\mu_1\cdots\mu_4}G^{\mu_1\cdots\mu_4}\right]
+S &= \int\sqrt{-g}\left[e^{-2\Phi}\left(R + 4\nabla_\mu\Phi\nabla^\mu\Phi - \frac{1}{12}H_{\lambda_1\lambda_2\lambda_3}H^{\lambda_1\lambda_2\lambda_3}\right) \right. \\
+&\quad \left. - \frac{1}{4}F_{\mu\nu}F^{\mu\nu} - \frac{1}{48}G_{\mu_1\cdots\mu_4}G^{\mu_1\cdots\mu_4}\right] \\
 &\quad + \frac{1}{2}\int dC\wedge dC\wedge B
 \end{aligned}
 $$
@@ -423,7 +423,7 @@ $$
 
 $$
 \begin{aligned}
-\nabla_\lambda\!\left(e^{-2\Phi}H^{\lambda\mu\nu}\right) &= -\frac{1}{1152}\,\varepsilon^{\mu\nu\lambda_1\cdots\lambda_8}G_{\lambda_1\lambda_2\lambda_3\lambda_4}G_{\lambda_5\lambda_6\lambda_7\lambda_8}
+\nabla_\lambda\!\left(e^{-2\Phi}H^{\lambda\mu\nu}\right) &= -\frac{1}{1152}\,\varepsilon^{\mu\nu\lambda_1\cdots\lambda_8}G_{\lambda_1\lambda_2\lambda_3\lambda_4}G_{\lambda_5\lambda_6\lambda_7\lambda_8} \\
 &\quad + \frac{1}{2}G^{\mu\nu\lambda_1\lambda_2}F_{\lambda_1\lambda_2}
 \end{aligned}
 $$
@@ -461,7 +461,7 @@ Gravitino:
 
 $$
 \begin{aligned}
-\delta\psi_\mu &= \nabla_\mu\varepsilon + \frac{1}{8}H_{\mu\nu_1\nu_2}\Gamma^{\nu_1\nu_2}\Gamma_{11}\varepsilon
+\delta\psi_\mu &= \nabla_\mu\varepsilon + \frac{1}{8}H_{\mu\nu_1\nu_2}\Gamma^{\nu_1\nu_2}\Gamma_{11}\varepsilon \\
 &\quad + \frac{1}{16}e^\Phi F_{\nu_1\nu_2}\Gamma^{\nu_1\nu_2}\Gamma_\mu\Gamma_{11}\varepsilon + \frac{1}{8\cdot 4!}e^\Phi G_{\nu_1\cdots\nu_4}\Gamma^{\nu_1\cdots\nu_4}\Gamma_\mu\varepsilon
 \end{aligned}
 $$
@@ -470,7 +470,7 @@ Dilatino:
 
 $$
 \begin{aligned}
-\delta\lambda &= \partial_\mu\Phi\,\Gamma^\mu\varepsilon + \frac{1}{12}H_{\mu_1\mu_2\mu_3}\Gamma^{\mu_1\mu_2\mu_3}\Gamma_{11}\varepsilon
+\delta\lambda &= \partial_\mu\Phi\,\Gamma^\mu\varepsilon + \frac{1}{12}H_{\mu_1\mu_2\mu_3}\Gamma^{\mu_1\mu_2\mu_3}\Gamma_{11}\varepsilon \\
 &\quad + \frac{3}{8}e^\Phi F_{\mu_1\mu_2}\Gamma^{\mu_1\mu_2}\Gamma_{11}\varepsilon + \frac{1}{4\cdot 4!}e^\Phi G_{\mu_1\cdots\mu_4}\Gamma^{\mu_1\cdots\mu_4}\varepsilon
 \end{aligned}
 $$
@@ -493,11 +493,11 @@ The gravitino integrability condition is:
 
 $$\Gamma^\nu[\mathcal{D}_\mu,\mathcal{D}_\nu]\varepsilon - [\mathcal{D}_\mu,\mathcal{A}]\varepsilon + \Phi_\mu\mathcal{A}\varepsilon = 0$$
 
-The auxiliary connection $\Phi_\mu$ is:
+The auxiliary connection \(\Phi_\mu\) is:
 
 $$
 \begin{aligned}
-\Phi_\mu &= \frac{1}{192}e^\Phi G_{\lambda_1\cdots\lambda_4}\Gamma^{\lambda_1\cdots\lambda_4}\Gamma_\mu
+\Phi_\mu &= \frac{1}{192}e^\Phi G_{\lambda_1\cdots\lambda_4}\Gamma^{\lambda_1\cdots\lambda_4}\Gamma_\mu \\
 &\quad + C\!\left(\frac{1}{4}H_{\mu\lambda_1\lambda_2}\Gamma^{\lambda_1\lambda_2} - \frac{1}{16}e^\Phi F_{\lambda_1\lambda_2}\Gamma^{\lambda_1\lambda_2}\Gamma_\mu\right)
 \end{aligned}
 $$
@@ -705,11 +705,11 @@ $$\mathcal{K} = BF^{abc}\Gamma_{abc} - 2FF^a\Gamma_a$$
 
 ### D=5 Vector Multiplets (Ungauged)
 
-**Theory**: $\mathcal{N}=2$ supergravity coupled to $k$ abelian vector multiplets, obtained from M-theory compactification on a Calabi–Yau threefold $CY_3$ with Hodge numbers $h_{(1,1)}, h_{(2,1)}$ and intersection numbers $C_{IJK}$.
+**Theory**: $\mathcal{N}=2$ supergravity coupled to $k$ abelian vector multiplets, obtained from M-theory compactification on a Calabi–Yau threefold \(CY_3\) with Hodge numbers \(h_{(1,1)}, h_{(2,1)}\) and intersection numbers \(C_{IJK}\).
 
-**Fields**: metric $g_{\mu\nu}$, gauge fields $A^I_\mu$, scalars $X^I$, scalar metric $Q_{IJ}$
+**Fields**: metric \(g_{\mu\nu}\), gauge fields \(A^I_\mu\), scalars $X^I$, scalar metric \(Q_{IJ}\)
 
-**Index range**: $\mu,\nu \in \{0,...,4\}$; $I,J,K \in \{1,...,h_{(1,1)}\}$
+**Index range**: $\mu,\nu \in \{0,...,4\}$; \(I,J,K \in \{1,...,h_{(1,1)}\}\)
 
 #### Very Special Geometry
 
@@ -721,7 +721,7 @@ The constants $C_{IJK}$ are the triple intersection numbers of $CY_3$. The scala
 
 $$Q_{IJ} =-\frac{1}{2}\frac{\partial^2\ln\mathcal{V}}{\partial X^I\partial X^J}\bigg|_{\mathcal{V}=1} =-\frac{1}{2}C_{IJK}X^K + \frac{9}{2}X_I X_J$$
 
-The dual coordinate is $X_I = \frac{1}{6}C_{IJK}X^JX^K$, and the constraint becomes $X^I X_I = 1$. Key identities:
+The dual coordinate is \(X_I = \frac{1}{6}C_{IJK}X^JX^K\), and the constraint becomes \(X^I X_I = 1\). Key identities:
 
 $$X_I = \frac{2}{3}Q_{IJ}X^J, \qquad \partial_a X_I = -\frac{2}{3}Q_{IJ}\partial_a X^J, \qquad X^I\partial_a X_I = X_I\partial_a X^I = 0$$
 
@@ -731,7 +731,7 @@ The five-dimensional action obtained from M-theory reduction on $CY_3$:
 
 $$
 \begin{aligned}
-S_5 &= -\frac{1}{4\pi^2}\int d^5x\,\sqrt{-g}\left(R - Q_{IJ}\partial_\mu X^I\partial^\mu X^J - \frac{1}{2}Q_{IJ}F^I{}_{\mu\nu}F^{J\mu\nu}\right)
+S_5 &= -\frac{1}{4\pi^2}\int d^5x\,\sqrt{-g}\left(R - Q_{IJ}\partial_\mu X^I\partial^\mu X^J - \frac{1}{2}Q_{IJ}F^I{}_{\mu\nu}F^{J\mu\nu}\right) \\
 &\quad + \frac{C_{IJK}}{24\pi^2}\int A^I\wedge F^J\wedge F^K
 \end{aligned}
 $$
@@ -767,7 +767,7 @@ $$BF^I{}_{\mu\nu\rho} = \nabla_{[\mu}F^I{}_{\nu\rho]} = 0$$
 
 #### Decomposition $F^I = FX^I + G^I$
 
-It is useful to decompose the gauge field strengths into components parallel and perpendicular to $X_I$:
+It is useful to decompose the gauge field strengths into components parallel and perpendicular to \(X_I\):
 
 $$F^I = FX^I + G^I, \qquad X_I F^I = F, \qquad X_I G^I = 0$$
 
@@ -775,7 +775,7 @@ In terms of $F$ and $G^I$, the Einstein equation splits as:
 
 $$
 \begin{aligned}
-E_{\mu\nu} &= R_{\mu\nu} - \frac{3}{2}F_{\mu\rho}F_\nu{}^\rho + \frac{1}{4}g_{\mu\nu}F^2
+E_{\mu\nu} &= R_{\mu\nu} - \frac{3}{2}F_{\mu\rho}F_\nu{}^\rho + \frac{1}{4}g_{\mu\nu}F^2 \\
 &\quad - Q_{IJ}\!\left(\nabla_\mu X^I\nabla_\nu X^J + G^I{}_{\mu\rho}G^J{}_\nu{}^\rho - \frac{1}{6}g_{\mu\nu}G^I{}_{\rho\sigma}G^{J\rho\sigma}\right) = 0
 \end{aligned}
 $$
@@ -830,7 +830,7 @@ Gravitino integrability condition:
 
 $$
 \begin{aligned}
-\Gamma^\nu[\mathcal{D}_\mu,\mathcal{D}_\nu]\varepsilon + \Phi_{I\mu}\mathcal{A}^I\varepsilon &= -\frac{1}{2}E_{\mu\nu}\Gamma^\nu\varepsilon
+\Gamma^\nu[\mathcal{D}_\mu,\mathcal{D}_\nu]\varepsilon + \Phi_{I\mu}\mathcal{A}^I\varepsilon &= -\frac{1}{2}E_{\mu\nu}\Gamma^\nu\varepsilon \\
 &\quad + i\!\left(-\frac{3}{4}BF_{\mu\nu\rho}\Gamma^{\nu\rho} + \frac{1}{8}BF_{\nu\rho\lambda}\Gamma_\mu{}^{\nu\rho\lambda} - \frac{1}{4}FF_\nu\Gamma_\mu{}^\nu + \frac{1}{2}FF_\mu\right)\!\varepsilon
 \end{aligned}
 $$
@@ -844,7 +844,7 @@ $$
 \end{aligned}
 $$
 
-where the auxiliary connection $\theta_{IJ}$ is:
+where the auxiliary connection \(\theta_{IJ}\) is:
 
 $$
 \theta_{IJ} = X_I\left(-\frac{3i}{4}\nabla_\mu X_J\Gamma^\mu + \frac{1}{12}Q_{JK}G^K{}_{\mu\nu}\Gamma^{\mu\nu}\right) + \frac{1}{24}C_{IJK}\mathcal{A}^K
@@ -858,15 +858,15 @@ $$
 \mathcal{I}_a = -\frac{1}{2}E_a{}^b\Gamma_b - \frac{3}{4}i\,BF^I{}_a{}^{bc}X_I\Gamma_{bc} + \frac{1}{8}i\,BF^{I\,bcd}X_I\Gamma_{abcd} + \ldots + (\text{VSG terms})
 $$
 
-The VSG (very-special-geometry) remainder terms involve $Q_{IJ}\nabla X^I\nabla X^J$, $F^IF^JQ_{IJ}$, $X_IX_JF^IF^J$, and $C_{IJK}F^IF^JX^K$. These cancel via the calabi/back/vanish substitution dictionaries (not yet encoded in `theories.json`).
+The VSG (very-special-geometry) remainder terms involve \(Q_{IJ}\nabla X^I\nabla X^J\), \(F^IF^JQ_{IJ}\), \(X_IX_JF^IF^J\), and \(C_{IJK}F^IF^JX^K\). These cancel via the calabi/back/vanish substitution dictionaries (not yet encoded in `theories.json`).
 
 ---
 
 ### D=5 Vector Multiplets (Gauged)
 
-**Theory**: Gauged extension of the D=5 vector-multiplet theory, obtained by gauging a $U(1)$ subgroup of the $SU(2)$ R-symmetry group with gauge coupling $\chi$ and coupling constants $V_I$. Equivalently obtained from type IIB compactification on $S^5$.
+**Theory**: Gauged extension of the D=5 vector-multiplet theory, obtained by gauging a $U(1)$ subgroup of the $SU(2)$ R-symmetry group with gauge coupling $\chi$ and coupling constants \(V_I\). Equivalently obtained from type IIB compactification on $S^5$.
 
-**Additional parameter**: gauging parameter $\chi$, coupling constants $V_I$
+**Additional parameter**: gauging parameter $\chi$, coupling constants \(V_I\)
 
 #### Modified Action
 
@@ -880,7 +880,7 @@ $$
 U = 9\,V_I V_J\left(X^I X^J - \frac{1}{2}Q^{IJ}\right)
 $$
 
-with $V_I$ constants and $Q^{IJ}$ the inverse of $Q_{IJ}$.
+with \(V_I\) constants and $Q^{IJ}$ the inverse of \(Q_{IJ}\).
 
 #### Modified Einstein Equation
 
@@ -912,13 +912,13 @@ $$
 
 #### Modified Supercovariant Connection
 
-The auxiliary connection $\Phi_{I\mu}$ gains an additional term:
+The auxiliary connection \(\Phi_{I\mu}\) gains an additional term:
 
 $$
 \Phi_{I\mu} = \frac{3i}{8}\nabla_\mu X_I + Q_{IJ}\left(-\frac{1}{6}F^J{}_{\mu\nu}\Gamma^\nu + \frac{1}{24}F^J{}_{\nu\rho}\Gamma_\mu{}^{\nu\rho}\right) + \frac{i}{4}\chi V_I\Gamma_\mu
 $$
 
-The $\theta_{IJ}$ connection gains:
+The \(\theta_{IJ}\) connection gains:
 
 $$
 \theta_{IJ} = (\text{ungauged terms}) + \frac{i}{2}\chi\left(X_I V_J + C_{IJL}Q^{LM}V_M\right)
@@ -926,15 +926,15 @@ $$
 
 #### Integrability Result
 
-Same structure as ungauged, with the gauging parameter $\chi$ appearing inside $E_{ab}$ (cosmological term). The Cadabra output contains $V_I\nabla X^I$, $V_IV_JX^IX^J$ terms that vanish via the very-special-geometry constraint.
+Same structure as ungauged, with the gauging parameter $\chi$ appearing inside \(E_{ab}\) (cosmological term). The Cadabra output contains \(V_I\nabla X^I\), \(V_IV_JX^IX^J\) terms that vanish via the very-special-geometry constraint.
 
 ---
 
 ### D=5 Minimal
 
-**Theory**: Minimal $\mathcal{N}=1$ supergravity with a single U(1) gauge field and Chern–Simons coupling. This is the $k=1$, $C_{111}=1$ limit of the vector-multiplet theory with $X^1 = 1$ (no moduli).
+**Theory**: Minimal $\mathcal{N}=1$ supergravity with a single U(1) gauge field and Chern–Simons coupling. This is the $k=1$, \(C_{111}=1\) limit of the vector-multiplet theory with $X^1 = 1$ (no moduli).
 
-**Fields**: metric $g_{ab}$, Maxwell 2-form $F_{ab}$
+**Fields**: metric \(g_{ab}\), Maxwell 2-form \(F_{ab}\)
 
 **Index range**: $a,b,\ldots \in \{0,1,2,3,4\}$
 
@@ -992,14 +992,14 @@ $$\mathcal{I}_a = -\frac{1}{2}R_{ab}\Gamma^b + \Gamma^b\nabla_a\Psi_b - \Gamma^b
 
 $$
 \begin{aligned}
-\mathcal{J} &= \Gamma^a\!\left(\nabla_a\mathcal{A} + \Psi_a\mathcal{A} - \mathcal{A}\Psi_a\right) - \frac{1}{24}\,e^{\Phi/2}\,H_{abc}\,\Gamma^{abc}\mathcal{A}
+\mathcal{J} &= \Gamma^a\!\left(\nabla_a\mathcal{A} + \Psi_a\mathcal{A} - \mathcal{A}\Psi_a\right) - \frac{1}{24}\,e^{\Phi/2}\,H_{abc}\,\Gamma^{abc}\mathcal{A} \\
 &\quad + \left(\frac{1}{8}\,e^{\Phi/4}F_{ab}\,\Gamma^{ab} + ig\,e^{-\Phi/4}\right)\mathcal{N}
 \end{aligned}
 $$
 
 $$
 \begin{aligned}
-\mathcal{K} &= \Gamma^a\!\left(\nabla_a\mathcal{N} + \Psi_a\mathcal{N} - \mathcal{N}\Psi_a\right) - \frac{1}{4}[\mathcal{A},\mathcal{N}]
+\mathcal{K} &= \Gamma^a\!\left(\nabla_a\mathcal{N} + \Psi_a\mathcal{N} - \mathcal{N}\Psi_a\right) - \frac{1}{4}[\mathcal{A},\mathcal{N}] \\
 &\quad + \frac{1}{4}\Gamma^a\nabla_a\Phi\cdot\mathcal{N} - \frac{1}{2}\,e^{\Phi/4}F_{ab}\,\Gamma^{ab}\mathcal{A}
 \end{aligned}
 $$
@@ -1008,7 +1008,7 @@ $$
 
 $$
 \begin{aligned}
-R_{ab} &= \frac{1}{4}\nabla_a\Phi\nabla_b\Phi + \frac{1}{2}e^{\Phi/2}\!\left(F_{ac}F_b{}^c - \frac{1}{8}F^2\delta_{ab}\right)
+R_{ab} &= \frac{1}{4}\nabla_a\Phi\nabla_b\Phi + \frac{1}{2}e^{\Phi/2}\!\left(F_{ac}F_b{}^c - \frac{1}{8}F^2\delta_{ab}\right) \\
 &\quad + \frac{1}{4}e^\Phi\!\left(H_{acd}H_b{}^{cd} - \frac{1}{6}H^2\delta_{ab}\right) + 2g^2 e^{-\Phi/2}\delta_{ab} + E_{ab}
 \end{aligned}
 $$
@@ -1036,7 +1036,7 @@ These must be applied before any product simplifications, or the gaugino result 
 
 $$
 \begin{aligned}
-\mathcal{I}_a &= -\frac{1}{2}E_a{}^b\Gamma_b + \frac{1}{12}\,e^{\Phi/2}\,BH_a{}^{bcd}\Gamma_{bcd}
+\mathcal{I}_a &= -\frac{1}{2}E_a{}^b\Gamma_b + \frac{1}{12}\,e^{\Phi/2}\,BH_a{}^{bcd}\Gamma_{bcd} \\
 &\quad - \frac{1}{48}\,e^{\Phi/2}\,BH^{bcde}\Gamma_{abcde} - \frac{1}{16}\,e^{\Phi/2}\,FH^{bc}\Gamma_{abc} + \frac{1}{8}\,e^{\Phi/2}\,FH_a{}^b\Gamma_b
 \end{aligned}
 $$
@@ -1236,7 +1236,7 @@ Minimum required: `id`, `description`, `dimension`, `index_range`, `kse`, `field
 ]
 ```
 
-**Use `extra_field_sub: true`** when the KSE contains $A_a$ (gauge potential). This applies the Maxwell field equation a second time after `product_rule` generates new $\nabla_a A_b$ terms.
+**Use `extra_field_sub: true`** when the KSE contains \(A_a\) (gauge potential). This applies the Maxwell field equation a second time after `product_rule` generates new \(\nabla_a A_b\) terms.
 
 **Use power notation `X**2`** — Cadabra parses `X^{2}` as $X$ with index 2.
 
@@ -1287,9 +1287,9 @@ display(ex)  # compare with standalone here
 
 ## Known Limitations
 
-**D=5 vector multiplets**: The raw output contains unsimplified $Q_{IJ}\nabla X\nabla X$, $F^IF^JQ_{IJ}$, $X_IX_JF^IF^J$ terms that cancel via the very-special-geometry constraint. The required substitution dictionaries (*calabi*, *back*, *vanish*) are implemented in `legacy/integrability_d5_vector_gauged.py` but not yet encoded in `theories.json`.
+**D=5 vector multiplets**: The raw output contains unsimplified \(Q_{IJ}\nabla X\nabla X\), \(F^IF^JQ_{IJ}\), \(X_IX_JF^IF^J\) terms that cancel via the very-special-geometry constraint. The required substitution dictionaries (*calabi*, *back*, *vanish*) are implemented in `legacy/integrability_d5_vector_gauged.py` but not yet encoded in `theories.json`.
 
-**Romans mass / massive IIA**: The `d10_iia` theory in `theories.json` uses the Romans mass parameter $\kappa$. Setting $\kappa = 0$ in the KSEs gives the massless theory; the integrability result is the same in both cases because mass terms enter only through $E_{ab}$ and $F\Phi$ residuals which vanish on-shell.
+**Romans mass / massive IIA**: The `d10_iia` theory in `theories.json` uses the Romans mass parameter $\kappa$. Setting $\kappa = 0$ in the KSEs gives the massless theory; the integrability result is the same in both cases because mass terms enter only through \(E_{ab}\) and $F\Phi$ residuals which vanish on-shell.
 
 **Index alphabet**: The driver uses 16 spacetime indices `{a,...,p}`. Theories with $D > 16$ would need an extended alphabet.
 
