@@ -380,7 +380,11 @@ $$dF = 0, \qquad dH = 0, \qquad dG = F\wedge H$$
 #### Bosonic Action (string frame)
 
 $$
-S = \int\sqrt{-g}\left[e^{-2\Phi}\left(R + 4\nabla_\mu\Phi\nabla^\mu\Phi - \frac{1}{12}H_{\lambda_1\lambda_2\lambda_3}H^{\lambda_1\lambda_2\lambda_3}\right) - \frac{1}{4}F_{\mu\nu}F^{\mu\nu} - \frac{1}{48}G_{\mu_1\cdots\mu_4}G^{\mu_1\cdots\mu_4}\right] + \frac{1}{2}\int dC\wedge dC\wedge B
+\begin{aligned}
+S &= \int\sqrt{-g}\left[e^{-2\Phi}\left(R + 4\nabla_\mu\Phi\nabla^\mu\Phi - \frac{1}{12}H_{\lambda_1\lambda_2\lambda_3}H^{\lambda_1\lambda_2\lambda_3}\right) \right.
+&\quad \left. - \frac{1}{4}F_{\mu\nu}F^{\mu\nu} - \frac{1}{48}G_{\mu_1\cdots\mu_4}G^{\mu_1\cdots\mu_4}\right]
+&\quad + \frac{1}{2}\int dC\wedge dC\wedge B
+\end{aligned}
 $$
 
 #### Field Equations
@@ -409,7 +413,10 @@ $$
 3-form (NS-NS) equation:
 
 $$
-\nabla_\lambda\left(e^{-2\Phi}H^{\lambda\mu\nu}\right) = -\frac{1}{1152}\,\varepsilon^{\mu\nu\lambda_1\cdots\lambda_8}G_{\lambda_1\lambda_2\lambda_3\lambda_4}G_{\lambda_5\lambda_6\lambda_7\lambda_8} + \frac{1}{2}G^{\mu\nu\lambda_1\lambda_2}F_{\lambda_1\lambda_2}
+\begin{aligned}
+\nabla_\lambda\!\left(e^{-2\Phi}H^{\lambda\mu\nu}\right) &= -\frac{1}{1152}\,\varepsilon^{\mu\nu\lambda_1\cdots\lambda_8}G_{\lambda_1\lambda_2\lambda_3\lambda_4}G_{\lambda_5\lambda_6\lambda_7\lambda_8}
+&\quad + \frac{1}{2}G^{\mu\nu\lambda_1\lambda_2}F_{\lambda_1\lambda_2}
+\end{aligned}
 $$
 
 4-form (RR) equation:
@@ -444,13 +451,19 @@ $$
 Gravitino:
 
 $$
-\delta\psi_\mu = \nabla_\mu\varepsilon + \frac{1}{8}H_{\mu\nu_1\nu_2}\Gamma^{\nu_1\nu_2}\Gamma_{11}\varepsilon + \frac{1}{16}e^\Phi F_{\nu_1\nu_2}\Gamma^{\nu_1\nu_2}\Gamma_\mu\Gamma_{11}\varepsilon + \frac{1}{8\cdot 4!}e^\Phi G_{\nu_1\cdots\nu_4}\Gamma^{\nu_1\cdots\nu_4}\Gamma_\mu\varepsilon
+\begin{aligned}
+\delta\psi_\mu &= \nabla_\mu\varepsilon + \frac{1}{8}H_{\mu\nu_1\nu_2}\Gamma^{\nu_1\nu_2}\Gamma_{11}\varepsilon
+&\quad + \frac{1}{16}e^\Phi F_{\nu_1\nu_2}\Gamma^{\nu_1\nu_2}\Gamma_\mu\Gamma_{11}\varepsilon + \frac{1}{8\cdot 4!}e^\Phi G_{\nu_1\cdots\nu_4}\Gamma^{\nu_1\cdots\nu_4}\Gamma_\mu\varepsilon
+\end{aligned}
 $$
 
 Dilatino:
 
 $$
-\delta\lambda = \partial_\mu\Phi\,\Gamma^\mu\varepsilon + \frac{1}{12}H_{\mu_1\mu_2\mu_3}\Gamma^{\mu_1\mu_2\mu_3}\Gamma_{11}\varepsilon + \frac{3}{8}e^\Phi F_{\mu_1\mu_2}\Gamma^{\mu_1\mu_2}\Gamma_{11}\varepsilon + \frac{1}{4\cdot 4!}e^\Phi G_{\mu_1\cdots\mu_4}\Gamma^{\mu_1\cdots\mu_4}\varepsilon
+\begin{aligned}
+\delta\lambda &= \partial_\mu\Phi\,\Gamma^\mu\varepsilon + \frac{1}{12}H_{\mu_1\mu_2\mu_3}\Gamma^{\mu_1\mu_2\mu_3}\Gamma_{11}\varepsilon
+&\quad + \frac{3}{8}e^\Phi F_{\mu_1\mu_2}\Gamma^{\mu_1\mu_2}\Gamma_{11}\varepsilon + \frac{1}{4\cdot 4!}e^\Phi G_{\mu_1\cdots\mu_4}\Gamma^{\mu_1\cdots\mu_4}\varepsilon
+\end{aligned}
 $$
 
 #### KSEs
@@ -474,7 +487,10 @@ $$\Gamma^\nu[\mathcal{D}_\mu,\mathcal{D}_\nu]\varepsilon - [\mathcal{D}_\mu,\mat
 The auxiliary connection $\Phi_\mu$ is:
 
 $$
-\Phi_\mu = \frac{1}{192}e^\Phi G_{\lambda_1\cdots\lambda_4}\Gamma^{\lambda_1\cdots\lambda_4}\Gamma_\mu + C\left(\frac{1}{4}H_{\mu\lambda_1\lambda_2}\Gamma^{\lambda_1\lambda_2} - \frac{1}{16}e^\Phi F_{\lambda_1\lambda_2}\Gamma^{\lambda_1\lambda_2}\Gamma_\mu\right)
+\begin{aligned}
+\Phi_\mu &= \frac{1}{192}e^\Phi G_{\lambda_1\cdots\lambda_4}\Gamma^{\lambda_1\cdots\lambda_4}\Gamma_\mu
+&\quad + C\!\left(\frac{1}{4}H_{\mu\lambda_1\lambda_2}\Gamma^{\lambda_1\lambda_2} - \frac{1}{16}e^\Phi F_{\lambda_1\lambda_2}\Gamma^{\lambda_1\lambda_2}\Gamma_\mu\right)
+\end{aligned}
 $$
 
 The dilatino integrability condition is:
@@ -705,7 +721,10 @@ $$X_I = \frac{2}{3}Q_{IJ}X^J, \qquad \partial_a X_I = -\frac{2}{3}Q_{IJ}\partial
 The five-dimensional action obtained from M-theory reduction on $CY_3$:
 
 $$
-S_5 = -\frac{1}{4\pi^2}\int d^5x\,\sqrt{-g}\left(R - Q_{IJ}\partial_\mu X^I\partial^\mu X^J - \frac{1}{2}Q_{IJ}F^I{}_{\mu\nu}F^{J\mu\nu}\right) + \frac{C_{IJK}}{24\pi^2}\int A^I\wedge F^J\wedge F^K
+\begin{aligned}
+S_5 &= -\frac{1}{4\pi^2}\int d^5x\,\sqrt{-g}\left(R - Q_{IJ}\partial_\mu X^I\partial^\mu X^J - \frac{1}{2}Q_{IJ}F^I{}_{\mu\nu}F^{J\mu\nu}\right)
+&\quad + \frac{C_{IJK}}{24\pi^2}\int A^I\wedge F^J\wedge F^K
+\end{aligned}
 $$
 
 The last term is the five-dimensional Chern–Simons coupling, which descends from the eleven-dimensional Chern–Simons term. Supersymmetry forces the same metric $Q_{IJ}$ to appear in both the scalar and vector kinetic terms.
@@ -746,7 +765,10 @@ $$F^I = FX^I + G^I, \qquad X_I F^I = F, \qquad X_I G^I = 0$$
 In terms of $F$ and $G^I$, the Einstein equation splits as:
 
 $$
-E_{\mu\nu} = R_{\mu\nu} - \frac{3}{2}F_{\mu\rho}F_\nu{}^\rho + \frac{1}{4}g_{\mu\nu}F^2 - Q_{IJ}\left(\nabla_\mu X^I\nabla_\nu X^J + G^I{}_{\mu\rho}G^J{}_\nu{}^\rho - \frac{1}{6}g_{\mu\nu}G^I{}_{\rho\sigma}G^{J\rho\sigma}\right) = 0
+\begin{aligned}
+E_{\mu\nu} &= R_{\mu\nu} - \frac{3}{2}F_{\mu\rho}F_\nu{}^\rho + \frac{1}{4}g_{\mu\nu}F^2
+&\quad - Q_{IJ}\!\left(\nabla_\mu X^I\nabla_\nu X^J + G^I{}_{\mu\rho}G^J{}_\nu{}^\rho - \frac{1}{6}g_{\mu\nu}G^I{}_{\rho\sigma}G^{J\rho\sigma}\right) = 0
+\end{aligned}
 $$
 
 The Maxwell equation splits as:
@@ -798,13 +820,19 @@ $$
 Gravitino integrability condition:
 
 $$
-\Gamma^\nu[\mathcal{D}_\mu,\mathcal{D}_\nu]\varepsilon + \Phi_{I\mu}\mathcal{A}^I\varepsilon = -\frac{1}{2}E_{\mu\nu}\Gamma^\nu\varepsilon + i\left(-\frac{3}{4}BF_{\mu\nu\rho}\Gamma^{\nu\rho} + \frac{1}{8}BF_{\nu\rho\lambda}\Gamma_\mu{}^{\nu\rho\lambda} - \frac{1}{4}FF_\nu\Gamma_\mu{}^\nu + \frac{1}{2}FF_\mu\right)\varepsilon
+\begin{aligned}
+\Gamma^\nu[\mathcal{D}_\mu,\mathcal{D}_\nu]\varepsilon + \Phi_{I\mu}\mathcal{A}^I\varepsilon &= -\frac{1}{2}E_{\mu\nu}\Gamma^\nu\varepsilon
+&\quad + i\!\left(-\frac{3}{4}BF_{\mu\nu\rho}\Gamma^{\nu\rho} + \frac{1}{8}BF_{\nu\rho\lambda}\Gamma_\mu{}^{\nu\rho\lambda} - \frac{1}{4}FF_\nu\Gamma_\mu{}^\nu + \frac{1}{2}FF_\mu\right)\!\varepsilon
+\end{aligned}
 $$
 
 Scalar/gaugino integrability condition:
 
 $$
-\frac{i}{3}\Gamma^\mu[\mathcal{D}_\mu,\mathcal{A}_I]\varepsilon + \theta_{IJ}\mathcal{A}^J\varepsilon = FX_I\,\varepsilon + \frac{i}{3}\left[\left(Q_{IJ} - \frac{3}{2}X_I X_J\right)BG^J{}_{\mu\nu\rho}\Gamma^{\mu\nu\rho} - 2\left(\delta^J{}_I - X^J X_I\right)FG_{J\mu}\Gamma^\mu\right]\varepsilon
+\begin{aligned}
+&\frac{i}{3}\Gamma^\mu[\mathcal{D}_\mu,\mathcal{A}_I]\varepsilon + \theta_{IJ}\mathcal{A}^J\varepsilon = FX_I\,\varepsilon \\
+&\quad + \frac{i}{3}\!\left[\left(Q_{IJ} - \frac{3}{2}X_I X_J\right)BG^J{}_{\mu\nu\rho}\Gamma^{\mu\nu\rho} - 2\left(\delta^J{}_I - X^J X_I\right)FG_{J\mu}\Gamma^\mu\right]\!\varepsilon
+\end{aligned}
 $$
 
 where the auxiliary connection $\theta_{IJ}$ is:
@@ -953,13 +981,28 @@ $$\lambda_a = \frac{1}{64}\left(e^{\Phi/4}F_{cd}\,\Gamma_a\Gamma^{cd} - 8\,e^{\P
 
 $$\mathcal{I}_a = -\frac{1}{2}R_{ab}\Gamma^b + \Gamma^b\nabla_a\Psi_b - \Gamma^b\nabla_b\Psi_a + \Gamma^b[\Psi_a, \Psi_b] + \mu_a\mathcal{A} + \lambda_a\mathcal{N}$$
 
-$$\mathcal{J} = \Gamma^a\left(\nabla_a\mathcal{A} + \Psi_a\mathcal{A} - \mathcal{A}\Psi_a\right) - \frac{1}{24}\,e^{\Phi/2}\,H_{abc}\,\Gamma^{abc}\mathcal{A} + \left(\frac{1}{8}\,e^{\Phi/4}F_{ab}\,\Gamma^{ab} + ig\,e^{-\Phi/4}\right)\mathcal{N}$$
+$$
+\begin{aligned}
+\mathcal{J} &= \Gamma^a\!\left(\nabla_a\mathcal{A} + \Psi_a\mathcal{A} - \mathcal{A}\Psi_a\right) - \frac{1}{24}\,e^{\Phi/2}\,H_{abc}\,\Gamma^{abc}\mathcal{A}
+&\quad + \left(\frac{1}{8}\,e^{\Phi/4}F_{ab}\,\Gamma^{ab} + ig\,e^{-\Phi/4}\right)\mathcal{N}
+\end{aligned}
+$$
 
-$$\mathcal{K} = \Gamma^a\left(\nabla_a\mathcal{N} + \Psi_a\mathcal{N} - \mathcal{N}\Psi_a\right) - \frac{1}{4}[\mathcal{A},\mathcal{N}] + \frac{1}{4}\Gamma^a\nabla_a\Phi\cdot\mathcal{N} - \frac{1}{2}\,e^{\Phi/4}F_{ab}\,\Gamma^{ab}\mathcal{A}$$
+$$
+\begin{aligned}
+\mathcal{K} &= \Gamma^a\!\left(\nabla_a\mathcal{N} + \Psi_a\mathcal{N} - \mathcal{N}\Psi_a\right) - \frac{1}{4}[\mathcal{A},\mathcal{N}]
+&\quad + \frac{1}{4}\Gamma^a\nabla_a\Phi\cdot\mathcal{N} - \frac{1}{2}\,e^{\Phi/4}F_{ab}\,\Gamma^{ab}\mathcal{A}
+\end{aligned}
+$$
 
 #### Field Equations
 
-$$R_{ab} = \frac{1}{4}\nabla_a\Phi\nabla_b\Phi + \frac{1}{2}e^{\Phi/2}\left(F_{ac}F_b{}^c - \frac{1}{8}F^2\delta_{ab}\right) + \frac{1}{4}e^\Phi\left(H_{acd}H_b{}^{cd} - \frac{1}{6}H^2\delta_{ab}\right) + 2g^2 e^{-\Phi/2}\delta_{ab} + E_{ab}$$
+$$
+\begin{aligned}
+R_{ab} &= \frac{1}{4}\nabla_a\Phi\nabla_b\Phi + \frac{1}{2}e^{\Phi/2}\!\left(F_{ac}F_b{}^c - \frac{1}{8}F^2\delta_{ab}\right)
+&\quad + \frac{1}{4}e^\Phi\!\left(H_{acd}H_b{}^{cd} - \frac{1}{6}H^2\delta_{ab}\right) + 2g^2 e^{-\Phi/2}\delta_{ab} + E_{ab}
+\end{aligned}
+$$
 
 $$\nabla^c H_{abc} = -H_{abc}\nabla^c\Phi + FH_{ab}$$
 
@@ -970,7 +1013,10 @@ $$\nabla^a\nabla_a\Phi = \frac{1}{4}e^{\Phi/2}F^2 + \frac{1}{6}e^\Phi H^2 - 8g^2
 The dilaton derivative expansions are:
 
 $$
-\nabla_a e^{\Phi/2} = \frac{1}{2}e^{\Phi/2}\nabla_a\Phi, \quad \nabla_a e^{\Phi/4} = \frac{1}{4}e^{\Phi/4}\nabla_a\Phi, \quad \nabla_a e^{-\Phi/4} = -\frac{1}{4}e^{-\Phi/4}\nabla_a\Phi, \quad \nabla_a e^{-\Phi/2} = -\frac{1}{2}e^{-\Phi/2}\nabla_a\Phi
+\begin{aligned}
+\nabla_a e^{\Phi/2} &= \tfrac{1}{2}e^{\Phi/2}\nabla_a\Phi, & \nabla_a e^{\Phi/4} &= \tfrac{1}{4}e^{\Phi/4}\nabla_a\Phi \\
+\nabla_a e^{-\Phi/4} &= -\tfrac{1}{4}e^{-\Phi/4}\nabla_a\Phi, & \nabla_a e^{-\Phi/2} &= -\tfrac{1}{2}e^{-\Phi/2}\nabla_a\Phi
+\end{aligned}
 $$
 
 These must be applied before any product simplifications, or the gaugino result will contain unsimplified $\nabla(e^{n\Phi})$ terms.
@@ -979,7 +1025,12 @@ These must be applied before any product simplifications, or the gaugino result 
 
 **Gravitino**:
 
-$$\mathcal{I}_a = -\frac{1}{2}E_a{}^b\Gamma_b + \frac{1}{12}\,e^{\Phi/2}\,BH_a{}^{bcd}\Gamma_{bcd} - \frac{1}{48}\,e^{\Phi/2}\,BH^{bcde}\Gamma_{abcde} - \frac{1}{16}\,e^{\Phi/2}\,FH^{bc}\Gamma_{abc} + \frac{1}{8}\,e^{\Phi/2}\,FH_a{}^b\Gamma_b$$
+$$
+\begin{aligned}
+\mathcal{I}_a &= -\frac{1}{2}E_a{}^b\Gamma_b + \frac{1}{12}\,e^{\Phi/2}\,BH_a{}^{bcd}\Gamma_{bcd}
+&\quad - \frac{1}{48}\,e^{\Phi/2}\,BH^{bcde}\Gamma_{abcde} - \frac{1}{16}\,e^{\Phi/2}\,FH^{bc}\Gamma_{abc} + \frac{1}{8}\,e^{\Phi/2}\,FH_a{}^b\Gamma_b
+\end{aligned}
+$$
 
 **Dilatino**:
 
