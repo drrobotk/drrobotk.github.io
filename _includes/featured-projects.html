@@ -1,0 +1,69 @@
+<section class="section">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="section-title">Featured Projects</h2>
+      <p class="section-subtitle">
+        Data engineering tools, research, and open source contributions
+      </p>
+    </div>
+    
+    <div class="projects-grid">
+      {% assign featured_projects = site.projects | where: "featured", true | limit: 3 %}
+      {% for project in featured_projects %}
+        {% include project-card.html project=project %}
+      {% endfor %}
+      
+      {% if featured_projects.size == 0 %}
+      <!-- Fallback featured projects -->
+      <article class="project-card">
+        <span class="project-card-category">Data Engineering</span>
+        <h3 class="project-card-title">
+          <a href="https://pypi.org/project/PriceIndexCalc/">PriceIndexCalc</a>
+        </h3>
+        <p class="project-card-description">
+          Python package for calculating bilateral and multilateral price indices. Used by ONS for tracking lowest-cost grocery items.
+        </p>
+        <div class="project-card-tech">
+          <span class="tech-tag">Python</span>
+          <span class="tech-tag">PyPI</span>
+          <span class="tech-tag">Statistics</span>
+        </div>
+      </article>
+      
+      <article class="project-card">
+        <span class="project-card-category">Data Engineering</span>
+        <h3 class="project-card-title">
+          <a href="{{ '/aboutme#quantexa_journey' | relative_url }}">Dynamic DAG Generator</a>
+        </h3>
+        <p class="project-card-description">
+          ETL pipeline generator that creates Airflow DAGs from configuration files. Enables rapid deployment of custom data pipelines.
+        </p>
+        <div class="project-card-tech">
+          <span class="tech-tag">Airflow</span>
+          <span class="tech-tag">Python</span>
+          <span class="tech-tag">Scala</span>
+        </div>
+      </article>
+      
+      <article class="project-card">
+        <span class="project-card-category">Physics & Math</span>
+        <h3 class="project-card-title">
+          <a href="{{ '/research' | relative_url }}">PhD Research</a>
+        </h3>
+        <p class="project-card-description">
+          Dynamical supersymmetry enhancement of black hole horizons. Published in peer-reviewed journals including Classical and Quantum Gravity.
+        </p>
+        <div class="project-card-tech">
+          <span class="tech-tag">Quantum Gravity</span>
+          <span class="tech-tag">Python</span>
+          <span class="tech-tag">Cadabra</span>
+        </div>
+      </article>
+      {% endif %}
+    </div>
+    
+    <div style="text-align: center; margin-top: var(--space-2xl);">
+      <a href="{{ '/projects' | relative_url }}" class="btn-secondary">View All Projects →</a>
+    </div>
+  </div>
+</section>

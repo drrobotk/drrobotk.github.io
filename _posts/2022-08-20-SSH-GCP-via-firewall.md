@@ -114,7 +114,17 @@ gcloud config set proxy/password XXXXXXXXXXXX
 Identity-Aware Proxy (IAP) is a managed service that can control the access to your VM. It allows you to authenticate user TCP traffic through IAP before sending it to your VM instances. This also works for private VM’s without an external IP address.
 
 
-<img src="https://binx.io/wp-content/uploads/2020/02/iap-tcp-forwarding-diagram.png" width="55%" />
+<div style="background:rgba(0,212,255,0.05);border:1px solid rgba(0,212,255,0.2);border-radius:10px;padding:1.5rem;margin:1.5rem auto;max-width:560px;font-family:monospace;font-size:0.85rem;text-align:center;color:#94a3b8;">
+  <div style="margin-bottom:0.75rem;color:#00d4ff;font-weight:600;font-size:0.95rem;">IAP TCP Forwarding Architecture</div>
+  <div style="display:flex;align-items:center;justify-content:center;gap:0.5rem;flex-wrap:wrap;">
+    <span style="background:rgba(139,92,246,0.15);border:1px solid rgba(139,92,246,0.4);padding:0.3rem 0.7rem;border-radius:6px;color:#a78bfa;">Your Machine</span>
+    <span style="color:#00d4ff;">──▶</span>
+    <span style="background:rgba(0,212,255,0.1);border:1px solid rgba(0,212,255,0.3);padding:0.3rem 0.7rem;border-radius:6px;color:#00d4ff;">IAP<br><span style="font-size:0.7rem;color:#64748b;">tunnel.cloudproxy.app</span></span>
+    <span style="color:#00d4ff;">──▶</span>
+    <span style="background:rgba(16,185,129,0.1);border:1px solid rgba(16,185,129,0.3);padding:0.3rem 0.7rem;border-radius:6px;color:#10b981;">GCP VM<br><span style="font-size:0.7rem;color:#64748b;">Private / No external IP</span></span>
+  </div>
+  <div style="margin-top:0.75rem;font-size:0.75rem;color:#475569;">TCP traffic authenticated via Google Identity before reaching VM</div>
+</div>
 
 In order to establish the connection over IAP, we need to add the firewall rules and user role to your account. This can be done directly via the webbrowser within the Compute Engine section, but here we will do this via the gcloud CLI.
 

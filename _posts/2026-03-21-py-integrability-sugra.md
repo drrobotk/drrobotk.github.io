@@ -6,6 +6,7 @@ date: 2026-03-21
 last-updated: 2026-03-21
 tags: [supergravity, KSE, integrability, cadabra, clifford algebra, phd, black holes, string theory]
 permalink: /py_integrability_sugra/
+published: false
 ---
 
 {% include mathjax.html type="post" %}

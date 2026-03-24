@@ -1,0 +1,192 @@
+---
+layout: base
+---
+
+{% include header.html type="page" %}
+
+<div class="container-md section" role="main">
+  <div class="row">
+    <div class="col-xl-10 offset-xl-1 col-lg-10 offset-lg-1">
+      
+      {{ content }}
+      
+      <!-- Filter Bar -->
+      <div class="filter-bar" id="project-filters">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="data-engineering">Data Engineering</button>
+        <button class="filter-btn" data-filter="python">Python</button>
+        <button class="filter-btn" data-filter="physics">Physics & Math</button>
+        <button class="filter-btn" data-filter="apps">Apps & Tools</button>
+      </div>
+      
+      <!-- Projects Grid -->
+      <div class="projects-grid" id="projects-grid">
+        {% if site.projects %}
+          {% assign projects = site.projects | sort: 'date' | reverse %}
+        {% else %}
+          {% assign projects = "" | split: "" %}
+        {% endif %}
+        {% for project in projects %}
+        <article class="project-card" data-category="{{ project.category | downcase | replace: ' ', '-' }}">
+          {% if project.category %}
+          <span class="project-card-category">{{ project.category }}</span>
+          {% endif %}
+          
+          <h3 class="project-card-title">
+            <a href="{{ project.url | relative_url }}">{{ project.title }}</a>
+          </h3>
+          
+          {% if project.description %}
+          <p class="project-card-description">{{ project.description }}</p>
+          {% endif %}
+          
+          {% if project.tech %}
+          <div class="project-card-tech">
+            {% for tech in project.tech %}
+            <span class="tech-tag">{{ tech }}</span>
+            {% endfor %}
+          </div>
+          {% endif %}
+        </article>
+        {% endfor %}
+        
+        {% if projects.size == 0 %}
+        <!-- Placeholder Projects -->
+        <article class="project-card" data-category="data-engineering">
+          <span class="project-card-category">Data Engineering</span>
+          <h3 class="project-card-title">
+            <a href="https://pypi.org/project/PriceIndexCalc/">PriceIndexCalc</a>
+          </h3>
+          <p class="project-card-description">
+            Python package for calculating bilateral and multilateral price indices. Used by ONS for tracking lowest-cost grocery items.
+          </p>
+          <div class="project-card-tech">
+            <span class="tech-tag">Python</span>
+            <span class="tech-tag">PyPI</span>
+            <span class="tech-tag">Statistics</span>
+          </div>
+        </article>
+        
+        <article class="project-card" data-category="data-engineering">
+          <span class="project-card-category">Data Engineering</span>
+          <h3 class="project-card-title">
+            <a href="{{ '/aboutme#quantexa_journey' | relative_url }}">Dynamic DAG Generator</a>
+          </h3>
+          <p class="project-card-description">
+            ETL pipeline generator that creates Airflow DAGs from configuration files. Enables rapid deployment of custom data pipelines.
+          </p>
+          <div class="project-card-tech">
+            <span class="tech-tag">Airflow</span>
+            <span class="tech-tag">Python</span>
+            <span class="tech-tag">Scala</span>
+          </div>
+        </article>
+        
+        <article class="project-card" data-category="python">
+          <span class="project-card-category">Python</span>
+          <h3 class="project-card-title">
+            <a href="https://github.com/drrobotk">Pandas UDF Optimization</a>
+          </h3>
+          <p class="project-card-description">
+            Implementation of vectorized Pandas UDFs for Apache Spark, achieving up to 100x performance improvement over standard UDFs.
+          </p>
+          <div class="project-card-tech">
+            <span class="tech-tag">PySpark</span>
+            <span class="tech-tag">Pandas</span>
+            <span class="tech-tag">Apache Arrow</span>
+          </div>
+        </article>
+        
+        <article class="project-card" data-category="physics">
+          <span class="project-card-category">Physics & Math</span>
+          <h3 class="project-card-title">
+            <a href="https://github.com/drrobotk/py_integrability_sugra" target="_blank" rel="noopener">py_integrability_sugra</a>
+          </h3>
+          <p class="project-card-description">
+            Open-source symbolic verification engine for Killing Spinor Equation (KSE) integrability in supergravity theories derived from string/M-theory. Covers D=4,5,6,9,10,11 (type IIA, heterotic, M-theory). Built on Cadabra2 with a unified 9-step pipeline driven by a JSON theory schema.
+          </p>
+          <div class="project-card-tech">
+            <span class="tech-tag">Python</span>
+            <span class="tech-tag">Cadabra2</span>
+            <span class="tech-tag">String Theory</span>
+            <span class="tech-tag">Supergravity</span>
+            <span class="tech-tag">Lie Algebras</span>
+          </div>
+        </article>
+
+        <article class="project-card" data-category="physics">
+          <span class="project-card-category">Physics & Math</span>
+          <h3 class="project-card-title">
+            <a href="{{ '/research' | relative_url }}">PhD Research: Black Hole Horizons</a>
+          </h3>
+          <p class="project-card-description">
+            Dynamical supersymmetry enhancement of black hole horizons in supergravity theories. Published in peer-reviewed journals.
+          </p>
+          <div class="project-card-tech">
+            <span class="tech-tag">Quantum Gravity</span>
+            <span class="tech-tag">Cadabra</span>
+            <span class="tech-tag">Python</span>
+          </div>
+        </article>
+        
+        <article class="project-card" data-category="data-engineering">
+          <span class="project-card-category">Data Engineering</span>
+          <h3 class="project-card-title">
+            <a href="{{ '/2021-09-20-Geary-Khamis/' | relative_url }}">Geary-Khamis Matrix Solution</a>
+          </h3>
+          <p class="project-card-description">
+            Exact closed-form solution for the multilateral Geary-Khamis price index method using linear algebra, replacing iterative approaches.
+          </p>
+          <div class="project-card-tech">
+            <span class="tech-tag">Linear Algebra</span>
+            <span class="tech-tag">Python</span>
+            <span class="tech-tag">Statistics</span>
+          </div>
+        </article>
+        
+        <article class="project-card" data-category="apps">
+          <span class="project-card-category">Apps & Tools</span>
+          <h3 class="project-card-title">
+            <a href="{{ '/aboutme#coding_data_science' | relative_url }}">BLE Smart Watch Integration</a>
+          </h3>
+          <p class="project-card-description">
+            Python project to interface with BLE smart watches, reading heart rate, blood pressure, and SpO2 with real-time plotting.
+          </p>
+          <div class="project-card-tech">
+            <span class="tech-tag">Python</span>
+            <span class="tech-tag">Bluetooth</span>
+            <span class="tech-tag">IoT</span>
+          </div>
+        </article>
+        {% endif %}
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const filterBtns = document.querySelectorAll('.filter-btn');
+  const projects = document.querySelectorAll('.project-card');
+  
+  filterBtns.forEach(btn => {
+    btn.addEventListener('click', function() {
+      // Update active state
+      filterBtns.forEach(b => b.classList.remove('active'));
+      this.classList.add('active');
+      
+      const filter = this.dataset.filter;
+      
+      // Filter projects
+      projects.forEach(project => {
+        if (filter === 'all' || project.dataset.category === filter) {
+          project.style.display = 'flex';
+        } else {
+          project.style.display = 'none';
+        }
+      });
+    });
+  });
+});
+</script>

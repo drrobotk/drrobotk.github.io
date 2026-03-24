@@ -1,0 +1,282 @@
+---
+layout: base
+---
+
+<!-- ═══════════════════════════════════════════════
+     HERO
+═══════════════════════════════════════════════ -->
+<section class="hero">
+  <canvas id="particles-canvas"></canvas>
+
+  <div class="hero-inner">
+    <div class="hero-text">
+      <p class="hero-label">// Hello, I'm</p>
+
+      <h1 class="hero-name">Dr. Usman<br>Kayani</h1>
+
+      <div class="hero-typewriter">
+        I build <span class="typewriter-highlight" id="typewriter-text"></span><span class="typewriter-cursor"></span>
+      </div>
+
+      <p class="hero-bio">
+        Senior Data Engineer at <a href="https://www.quantexa.com/" target="_blank" rel="noopener">Quantexa</a> R&amp;D &nbsp;&middot;&nbsp;
+        PhD Applied Maths &amp; Theoretical Physics &nbsp;&middot;&nbsp;
+        MSci Integrable Quantum Spin Chains &nbsp;&middot;&nbsp;
+        <a href="https://www.kcl.ac.uk/" target="_blank" rel="noopener">King's College London</a>
+      </p>
+
+      <div class="hero-badges">
+        <span class="hero-badge cyan">Apache Spark</span>
+        <span class="hero-badge cyan">Python</span>
+        <span class="hero-badge cyan">Scala</span>
+        <span class="hero-badge violet">Quantum Gravity</span>
+        <span class="hero-badge violet">Spin Chains</span>
+        <span class="hero-badge violet">Supergravity</span>
+        <span class="hero-badge emerald">GCP</span>
+        <span class="hero-badge emerald">Airflow</span>
+        <span class="hero-badge emerald">AI/ML</span>
+      </div>
+
+      <div class="hero-ctas">
+        <a href="{{ '/aboutme' | relative_url }}" class="btn-primary">
+          <i class="fas fa-user-astronaut"></i> About Me
+        </a>
+        <a href="{{ '/cv' | relative_url }}" class="btn-secondary">
+          <i class="fas fa-file-alt"></i> View CV
+        </a>
+        <a href="{{ '/blog' | relative_url }}" class="btn-ghost">
+          Blog <i class="fas fa-arrow-right"></i>
+        </a>
+      </div>
+
+      <div class="hero-stats">
+        <div class="stat-item">
+          <div class="stat-number">15+</div>
+          <div class="stat-label">Years Python</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number">5</div>
+          <div class="stat-label">Publications</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number">PhD</div>
+          <div class="stat-label">Maths &amp; Physics</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-photo">
+      <div class="hero-photo-wrapper">
+        <img src="{{ '/assets/img/profile.jpeg' | relative_url }}" alt="Dr. Usman Kayani" />
+      </div>
+      <div class="hero-gif-wrapper">
+        <img src="{{ '/assets/img/cv4.gif' | relative_url }}" alt="Physics animation" class="hero-gif" />
+      </div>
+    </div>
+  </div>
+
+  <div class="hero-scroll">
+    <div class="scroll-arrow">scroll</div>
+  </div>
+</section>
+
+<div class="section-divider"></div>
+
+<!-- ═══════════════════════════════════════════════
+     WHAT I DO
+═══════════════════════════════════════════════ -->
+<section class="section reveal">
+  <div class="section-header">
+    <p class="section-label">Expertise</p>
+    <h2 class="section-title">What I Do</h2>
+    <p class="section-desc">Bridging the worlds of big data engineering and theoretical physics.</p>
+  </div>
+
+  <div class="cards-grid">
+    <div class="glass-card cyan-glow reveal reveal-delay-1">
+      <div class="card-icon cyan"><i class="fas fa-database"></i></div>
+      <div class="card-title">Data Engineering &amp; AI Pipelines</div>
+      <div class="card-body">
+        Senior Data Engineer at Quantexa R&amp;D, architecting AI-powered entity resolution pipelines for financial crime detection. Built dynamic Airflow DAG generators, Spark ETL frameworks, and self-service batch ops platforms across GCP and on-premise. 97% in Quantexa Academy; 480+ tickets, 380+ PRs.
+      </div>
+      <div class="card-tags">
+        <span class="tag cyan">Apache Spark</span>
+        <span class="tag cyan">Airflow</span>
+        <span class="tag cyan">Python</span>
+        <span class="tag cyan">Scala</span>
+        <span class="tag cyan">GCP</span>
+        <span class="tag cyan">Elasticsearch</span>
+      </div>
+    </div>
+
+    <div class="glass-card violet-glow reveal reveal-delay-2">
+      <div class="card-icon violet"><i class="fas fa-atom"></i></div>
+      <div class="card-title">Quantum Physics &amp; Computing</div>
+      <div class="card-body">
+        MSci dissertation on integrable <strong>quantum spin chains</strong> (Heisenberg model) &mdash; a direct foundation for quantum information processing and quantum computing. PhD proved supersymmetry enhancement theorems for black hole horizons across type IIA, massive IIA, D=5, D=6 supergravity — part of the string/M-theory landscape (D=11 → IIA, heterotic, Calabi-Yau compactifications). Developed <a href="https://github.com/drrobotk/py_integrability_sugra" target="_blank" rel="noopener">py_integrability_sugra</a>, an open-source Cadabra2 engine verifying KSE integrability across D=4–11. STFC Scholar; 5 publications.
+      </div>
+      <div class="card-tags">
+        <span class="tag violet">Quantum Spin Chains</span>
+        <span class="tag violet">Supergravity</span>
+        <span class="tag violet">String Theory</span>
+        <span class="tag violet">Lie Algebras</span>
+        <span class="tag violet">Cadabra / Python</span>
+      </div>
+    </div>
+
+    <div class="glass-card emerald-glow reveal reveal-delay-3">
+      <div class="card-icon emerald"><i class="fas fa-brain"></i></div>
+      <div class="card-title">Data Science &amp; ML / AI</div>
+      <div class="card-body">
+        At ONS: led the least-cost grocery index project, built <a href="https://pypi.org/project/PriceIndexCalc/" target="_blank" rel="noopener">PriceIndexCalc</a> (PyPI), achieved 100&times; speed-up with Pandas UDFs via Apache Arrow, and founded the ONS Data Science Network. Freelance ML: classified household appliance usage from power consumption time series.
+      </div>
+      <div class="card-tags">
+        <span class="tag emerald">TensorFlow / PyTorch</span>
+        <span class="tag emerald">Scikit-learn</span>
+        <span class="tag emerald">PySpark</span>
+        <span class="tag emerald">R</span>
+        <span class="tag emerald">Tableau / Power BI</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="section-divider"></div>
+
+<!-- ═══════════════════════════════════════════════
+     RECENT POSTS
+═══════════════════════════════════════════════ -->
+<section class="section reveal">
+  <div class="section-header" style="display:flex;justify-content:space-between;align-items:flex-end;flex-wrap:wrap;gap:1rem;">
+    <div>
+      <p class="section-label">Writing</p>
+      <h2 class="section-title">Recent Posts</h2>
+    </div>
+    <a href="{{ '/blog' | relative_url }}" class="view-all-link">
+      All posts <i class="fas fa-arrow-right"></i>
+    </a>
+  </div>
+
+  <div class="home-posts-grid">
+    {% for post in site.posts limit:3 %}
+    <div class="home-post-card reveal reveal-delay-{{ forloop.index }}">
+      <div class="home-post-body">
+        <div class="home-post-date">{{ post.date | date: "%B %-d, %Y" }}</div>
+        <div class="home-post-title">{{ post.title | strip_html }}</div>
+        {% if post.subtitle %}
+          <div class="home-post-excerpt">{{ post.subtitle | strip_html }}</div>
+        {% else %}
+          <div class="home-post-excerpt">{{ post.excerpt | strip_html | truncatewords: 25 }}</div>
+        {% endif %}
+        <a href="{{ post.url | relative_url }}" class="home-post-read-more">
+          Read more <i class="fas fa-arrow-right"></i>
+        </a>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+
+<div class="section-divider"></div>
+
+<!-- ═══════════════════════════════════════════════
+     TECH STACK
+═══════════════════════════════════════════════ -->
+<section class="section reveal">
+  <div class="section-header">
+    <p class="section-label">Tools &amp; Technologies</p>
+    <h2 class="section-title">Tech Stack</h2>
+  </div>
+
+  <div class="tech-grid">
+    <span class="tech-badge"><i class="fab fa-python"></i>&nbsp; Python</span>
+    <span class="tech-badge"><i class="fas fa-bolt"></i>&nbsp; Apache Spark</span>
+    <span class="tech-badge"><i class="fas fa-code-branch"></i>&nbsp; Scala</span>
+    <span class="tech-badge"><i class="fas fa-cloud"></i>&nbsp; GCP</span>
+    <span class="tech-badge"><i class="fas fa-stream"></i>&nbsp; Airflow</span>
+    <span class="tech-badge"><i class="fas fa-search"></i>&nbsp; Elasticsearch</span>
+    <span class="tech-badge"><i class="fab fa-docker"></i>&nbsp; Docker</span>
+    <span class="tech-badge"><i class="fas fa-table"></i>&nbsp; BigQuery</span>
+    <span class="tech-badge"><i class="fas fa-brain"></i>&nbsp; TensorFlow / PyTorch</span>
+    <span class="tech-badge"><i class="fas fa-chart-bar"></i>&nbsp; Pandas / NumPy</span>
+    <span class="tech-badge"><i class="fas fa-code"></i>&nbsp; SQL</span>
+    <span class="tech-badge"><i class="fab fa-git-alt"></i>&nbsp; Git / Jenkins</span>
+    <span class="tech-badge"><i class="fas fa-flask"></i>&nbsp; Scikit-learn / XGBoost</span>
+    <span class="tech-badge"><i class="fab fa-java"></i>&nbsp; Java</span>
+    <span class="tech-badge"><i class="fas fa-chart-pie"></i>&nbsp; R / Tableau / Power BI</span>
+    <span class="tech-badge"><i class="fas fa-server"></i>&nbsp; Hadoop / Kubernetes</span>
+    <span class="tech-badge"><i class="fas fa-cloud-upload-alt"></i>&nbsp; Azure / Cloudera / AWS</span>
+    <span class="tech-badge"><i class="fas fa-calculator"></i>&nbsp; Mathematica / Maple</span>
+    <span class="tech-badge"><i class="fas fa-atom"></i>&nbsp; Cadabra / LaTeX</span>
+    <span class="tech-badge"><i class="fas fa-microchip"></i>&nbsp; Arduino / Raspberry Pi</span>
+  </div>
+</section>
+
+<div class="section-divider"></div>
+
+<!-- ═══════════════════════════════════════════════
+     PUBLICATIONS
+═══════════════════════════════════════════════ -->
+<section class="section reveal">
+  <div class="section-header" style="display:flex;justify-content:space-between;align-items:flex-end;flex-wrap:wrap;gap:1rem;">
+    <div>
+      <p class="section-label">Research</p>
+      <h2 class="section-title">Publications</h2>
+    </div>
+    <a href="{{ '/cv' | relative_url }}" class="view-all-link">
+      Full CV <i class="fas fa-arrow-right"></i>
+    </a>
+  </div>
+
+  <div class="publication-item reveal reveal-delay-1">
+    <div class="card-title" style="font-size:1rem;margin-bottom:0.5rem;">
+      Symmetry enhancement of Killing horizons in D = 6 supergravity
+    </div>
+    <div style="font-size:0.85rem;color:var(--text3);font-family:var(--font-mono);">
+      <strong style="color:var(--cyan)">U. Kayani</strong> (Sole Author) &nbsp;&middot;&nbsp; ArXiv Preprint, 2019 &nbsp;&middot;&nbsp;
+      <a href="https://doi.org/10.48550/arXiv.1912.04249" target="_blank" rel="noopener">arXiv:1912.04249</a>
+    </div>
+  </div>
+
+  <div class="publication-item reveal reveal-delay-2">
+    <div class="card-title" style="font-size:1rem;margin-bottom:0.5rem;">
+      Symmetry enhancement of extremal horizons in D = 5 supergravity
+    </div>
+    <div style="font-size:0.85rem;color:var(--text3);font-family:var(--font-mono);">
+      <strong style="color:var(--cyan)">U. Kayani</strong> (Sole Author) &nbsp;&middot;&nbsp; Classical and Quantum Gravity, 2018 &nbsp;&middot;&nbsp;
+      <a href="https://doi.org/10.1088/1361-6382/aac30c" target="_blank" rel="noopener">10.1088/1361-6382/aac30c</a>
+    </div>
+  </div>
+
+  <div class="publication-item reveal reveal-delay-3">
+    <div class="card-title" style="font-size:1rem;margin-bottom:0.5rem;">
+      Dynamical symmetry enhancement near massive IIA horizons
+    </div>
+    <div style="font-size:0.85rem;color:var(--text3);font-family:var(--font-mono);">
+      J. Gutowski, U. Gran, G. Papadopoulos, <strong style="color:var(--cyan)">U. Kayani</strong> &nbsp;&middot;&nbsp; Classical and Quantum Gravity, 2015 &nbsp;&middot;&nbsp;
+      <a href="https://doi.org/10.1088/0264-9381/32/23/235004" target="_blank" rel="noopener">10.1088/0264-9381/32/23/235004</a>
+    </div>
+  </div>
+
+  <div class="publication-item reveal reveal-delay-1">
+    <div class="card-title" style="font-size:1rem;margin-bottom:0.5rem;">
+      Dynamical symmetry enhancement near IIA horizons
+    </div>
+    <div style="font-size:0.85rem;color:var(--text3);font-family:var(--font-mono);">
+      J. Gutowski, U. Gran, G. Papadopoulos, <strong style="color:var(--cyan)">U. Kayani</strong> &nbsp;&middot;&nbsp; Journal of High Energy Physics, 2015 &nbsp;&middot;&nbsp;
+      <a href="https://doi.org/10.1007/JHEP06(2015)139" target="_blank" rel="noopener">JHEP06(2015)139</a>
+    </div>
+  </div>
+
+  <div class="publication-item reveal reveal-delay-2">
+    <div class="card-title" style="font-size:1rem;margin-bottom:0.5rem;">
+      Dynamical Supersymmetry Enhancement of Black Hole Horizons <span style="font-size:0.8rem;color:var(--violet);font-family:var(--font-mono)">(PhD Thesis)</span>
+    </div>
+    <div style="font-size:0.85rem;color:var(--text3);font-family:var(--font-mono);">
+      <strong style="color:var(--cyan)">U. Kayani</strong> (Sole Author) &nbsp;&middot;&nbsp; King's College London, 2019 &nbsp;&middot;&nbsp;
+      <a href="https://doi.org/10.48550/arXiv.1910.01080" target="_blank" rel="noopener">arXiv:1910.01080</a>
+    </div>
+  </div>
+</section>
+
+{{ content }}

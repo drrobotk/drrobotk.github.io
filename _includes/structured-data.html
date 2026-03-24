@@ -1,0 +1,64 @@
+{% if page.layout == 'home' or page.structured-data %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Dr. Usman Kayani",
+  "url": "{{ site.url }}{{ site.baseurl }}",
+  "image": "{{ '/assets/img/profile.jpeg' | absolute_url }}",
+  "sameAs": [
+    "https://github.com/drrobotk",
+    "https://linkedin.com/in/usman-kayani",
+    "https://twitter.com/usmankayaniphd",
+    "https://orcid.org/0000-0003-3754-3730",
+    "https://scholar.google.com/citations?user=2ZJi0zUAAAAJ"
+  ],
+  "jobTitle": "Senior Data Engineer",
+  "worksFor": {
+    "@type": "Organization",
+    "name": "Quantexa"
+  },
+  "alumniOf": {
+    "@type": "EducationalOrganization",
+    "name": "King's College London"
+  },
+  "knowsAbout": [
+    "Data Engineering",
+    "Python",
+    "Apache Spark",
+    "Big Data",
+    "Machine Learning",
+    "Theoretical Physics",
+    "Mathematics"
+  ],
+  "description": "Senior Data Engineer with PhD in Applied Mathematics and Theoretical Physics. Specializing in data pipelines, big data technologies, and machine learning."
+}
+</script>
+{% endif %}
+
+{% if page.layout == 'post' %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "{{ page.title | escape }}",
+  "description": "{{ page.subtitle | default: page.excerpt | strip_html | truncate: 160 | escape }}",
+  "image": "{{ page.thumbnail-img | default: '/assets/img/profile.jpeg' | absolute_url }}",
+  "datePublished": "{{ page.date | date_to_xmlschema }}",
+  {% if page.last-updated %}"dateModified": "{{ page.last-updated | date_to_xmlschema }}",{% endif %}
+  "author": {
+    "@type": "Person",
+    "name": "Dr. Usman Kayani",
+    "url": "{{ site.url }}{{ site.baseurl }}"
+  },
+  "publisher": {
+    "@type": "Person",
+    "name": "Dr. Usman Kayani"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ page.url | absolute_url }}"
+  }
+}
+</script>
+{% endif %}

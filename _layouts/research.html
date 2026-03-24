@@ -1,0 +1,159 @@
+---
+layout: base
+---
+
+{% include header.html type="page" %}
+
+<div class="container-md section" role="main">
+  <div class="row">
+    <div class="col-xl-10 offset-xl-1 col-lg-10 offset-lg-1">
+      
+      {{ content }}
+
+      <!-- Open Source Research -->
+      <h2 id="open-source">Open Source Research</h2>
+
+      <p>Alongside peer-reviewed publications, I maintain open-source symbolic computation tools that extend and verify the results from my doctoral work.</p>
+
+      <ul class="publication-list">
+        <li class="publication-item">
+          <h3 class="publication-title">
+            <a href="https://github.com/drrobotk/py_integrability_sugra" target="_blank" rel="noopener">py_integrability_sugra</a>
+          </h3>
+          <p class="publication-authors"><strong>U. Kayani</strong> (Sole Author) &nbsp;&middot;&nbsp; Open Source, 2024&ndash;present</p>
+          <p style="margin-top:0.5rem;font-size:0.9rem;line-height:1.65;">
+            A Python/Cadabra2 symbolic verification engine for <strong>Killing Spinor Equation (KSE) integrability</strong> in supergravity theories. The core claim: integrability conditions <code>[D<sub>a</sub>, D<sub>b</sub>]&epsilon; = 0</code> are automatically satisfied on-shell for the theories listed. A unified 9-step Cadabra2 pipeline, driven by a <code>theories.json</code> schema, verifies each gravitino integrability operator against the field equations.
+          </p>
+          <p style="margin-top:0.5rem;font-size:0.9rem;line-height:1.65;">
+            Verified theories span the full <strong>string/M-theory descent</strong>: D=11 M-theory &rarr; Type IIA, Heterotic (D=10), D=9 NS-NS, D=6 N=(1,0) (via T<sup>4</sup>), D=5 minimal &amp; vector (via CY<sub>3</sub>), D=4 Einstein-Maxwell &amp; minimal gauged. The Lichnerowicz argument guarantees that KSEs together with a subset of field equations imply the full equations of motion &mdash; so KSE integrability is a powerful consistency check on the theory.
+          </p>
+          <div class="publication-links">
+            <a href="https://github.com/drrobotk/py_integrability_sugra" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </li>
+      </ul>
+
+      <!-- Foundations Section -->
+      <h2 id="foundations">Research Foundations</h2>
+
+      <p>My research path spans two interconnected threads: <strong>quantum spin systems</strong> as a gateway to quantum computing, and <strong>symmetry structure of black holes</strong> in quantum gravity and string theory — both united by the mathematics of Lie algebras, differential geometry, and integrability. The supergravity work probes the full string/M-theory landscape: D=11 M-theory, Type IIA, massive IIA, Heterotic strings (D=10), and lower-dimensional theories obtained via Calabi-Yau compactifications (D=5) and toroidal reductions (D=9, D=6).</p>
+
+      <h3 id="spin-chains">MSci Dissertation: Integrable Quantum Spin Chains</h3>
+
+      <ul class="publication-list">
+        <li class="publication-item">
+          <h3 class="publication-title">Integrable Quantum Spin Chains</h3>
+          <p class="publication-authors"><strong>U. Kayani</strong> (Sole Author)</p>
+          <p class="publication-venue">MSci Dissertation, King's College London, 2012 &nbsp;&middot;&nbsp; Supervised by Dr. B. Doyon</p>
+          <p style="margin-top:0.5rem;font-size:0.9rem;line-height:1.65;">Studied the <strong>Heisenberg spin chain</strong> — a quantum interaction model describing nearest-neighbour spin-½ particles — and the Bethe Ansatz diagonalisation method. These integrable models have direct applications in <a href="https://doi.org/10.48550/arXiv.2207.09994" target="_blank" rel="noopener">quantum information processing and quantum computing</a>, providing efficient mechanisms for transferring quantum information. The exponentially-scaling matrix diagonalisation techniques developed here directly underpin modern quantum algorithm design.</p>
+        </li>
+      </ul>
+
+      <!-- Publications Section -->
+      <h2 id="publications">Peer-Reviewed Publications</h2>
+      
+      <ul class="publication-list">
+        <li class="publication-item">
+          <h3 class="publication-title">Symmetry enhancement of Killing horizons in D = 6 supergravity</h3>
+          <p class="publication-authors"><strong>U. Kayani</strong> (Sole Author)</p>
+          <p class="publication-venue">ArXiv Preprint, 2019</p>
+          <div class="publication-links">
+            <a href="https://doi.org/10.48550/arXiv.1912.04249" target="_blank" rel="noopener">arXiv</a>
+            <a href="https://arxiv.org/pdf/1912.04249" target="_blank" rel="noopener">PDF</a>
+          </div>
+        </li>
+        
+        <li class="publication-item">
+          <h3 class="publication-title">Symmetry enhancement of extremal horizons in D = 5 supergravity</h3>
+          <p class="publication-authors"><strong>U. Kayani</strong> (Sole Author)</p>
+          <p class="publication-venue">Classical and Quantum Gravity, 2018</p>
+          <div class="publication-links">
+            <a href="https://doi.org/10.1088/1361-6382/aac30c" target="_blank" rel="noopener">DOI</a>
+            <a href="https://iopscience.iop.org/article/10.1088/1361-6382/aac30c" target="_blank" rel="noopener">Journal</a>
+          </div>
+        </li>
+        
+        <li class="publication-item">
+          <h3 class="publication-title">Dynamical symmetry enhancement near massive IIA horizons</h3>
+          <p class="publication-authors">J. Gutowski, U. Gran, G. Papadopoulos, <strong>U. Kayani</strong></p>
+          <p class="publication-venue">Classical and Quantum Gravity, 2015</p>
+          <div class="publication-links">
+            <a href="https://doi.org/10.1088/0264-9381/32/23/235004" target="_blank" rel="noopener">DOI</a>
+            <a href="https://iopscience.iop.org/article/10.1088/0264-9381/32/23/235004" target="_blank" rel="noopener">Journal</a>
+          </div>
+        </li>
+        
+        <li class="publication-item">
+          <h3 class="publication-title">Dynamical symmetry enhancement near IIA horizons</h3>
+          <p class="publication-authors">J. Gutowski, U. Gran, G. Papadopoulos, <strong>U. Kayani</strong></p>
+          <p class="publication-venue">Journal of High Energy Physics, 2015</p>
+          <div class="publication-links">
+            <a href="https://doi.org/10.1007/JHEP06(2015)139" target="_blank" rel="noopener">DOI</a>
+            <a href="https://link.springer.com/article/10.1007%2FJHEP06%282015%29139" target="_blank" rel="noopener">Journal</a>
+          </div>
+        </li>
+      </ul>
+      
+      <!-- Thesis Section -->
+      <h2 id="thesis">Doctoral Thesis</h2>
+      
+      <ul class="publication-list">
+        <li class="publication-item">
+          <h3 class="publication-title">Dynamical Supersymmetry Enhancement of Black Hole Horizons</h3>
+          <p class="publication-authors"><strong>U. Kayani</strong></p>
+          <p class="publication-venue">PhD Thesis, King's College London, 2019</p>
+          <div class="publication-links">
+            <a href="https://kclpure.kcl.ac.uk/portal/en/theses/dynamical-supersymmetry-enhancement-of-black-hole-horizons" target="_blank" rel="noopener">KCL Repository</a>
+            <a href="https://doi.org/10.48550/arXiv.1910.01080" target="_blank" rel="noopener">arXiv</a>
+          </div>
+        </li>
+      </ul>
+      
+      <!-- Conferences Section -->
+      <h2 id="talks">Conference Presentations</h2>
+      
+      <ul class="publication-list">
+        <li class="publication-item">
+          <h3 class="publication-title">Publications in Applied Mathematics</h3>
+          <p class="publication-venue">Mathematics of String Theory (MOST) — King's College London, October 2018</p>
+        </li>
+        
+        <li class="publication-item">
+          <h3 class="publication-title">Future Research in Mathematical Physics</h3>
+          <p class="publication-venue">2nd South East Mathematical Physics Seminar — King's College London, March 2017</p>
+        </li>
+        
+        <li class="publication-item">
+          <h3 class="publication-title">Publications in Theoretical Physics</h3>
+          <p class="publication-venue">Localisation and the Gauge/Gravity Duality — King's College London, February 2016</p>
+        </li>
+
+        <li class="publication-item">
+          <h3 class="publication-title">Publications in String Theory and Supergravity</h3>
+          <p class="publication-venue"><a href="https://indico.cern.ch/event/439879/" target="_blank" rel="noopener">Winter School on Supergravity, Strings, and Gauge Theory</a> — CERN, Switzerland, November 2016</p>
+        </li>
+        
+        <li class="publication-item">
+          <h3 class="publication-title">Latest Research in Supergravity</h3>
+          <p class="publication-venue">Young Theorists' Forum — Durham University, December 2015, 2016, 2017</p>
+        </li>
+      </ul>
+      
+      <!-- Academic Profiles -->
+      <h2 id="profiles">Academic Profiles</h2>
+      
+      <div style="display: flex; flex-wrap: wrap; gap: var(--space-md); margin-top: var(--space-lg);">
+        <a href="https://orcid.org/0000-0003-3754-3730" class="btn-secondary" target="_blank" rel="noopener">
+          ORCID
+        </a>
+        <a href="https://scholar.google.com/citations?user=2ZJi0zUAAAAJ&hl=en" class="btn-secondary" target="_blank" rel="noopener">
+          Google Scholar
+        </a>
+        <a href="https://arxiv.org/search/hep-th?searchtype=author&query=Kayani%2C+U" class="btn-secondary" target="_blank" rel="noopener">
+          arXiv
+        </a>
+      </div>
+      
+    </div>
+  </div>
+</div>
