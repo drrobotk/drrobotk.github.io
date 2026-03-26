@@ -1367,13 +1367,19 @@ footer {
 
   .hero-photo {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     order: -1;
   }
 
   .hero-photo-wrapper {
     width: 200px;
     height: 200px;
+  }
+
+  /* GIF is too wide to share a row with the portrait on narrow screens */
+  .hero-gif-wrapper {
+    display: none;
   }
 
   .section-label { justify-content: center; }
