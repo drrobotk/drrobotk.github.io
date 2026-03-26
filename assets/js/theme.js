@@ -28,12 +28,18 @@
     const canvas = document.getElementById('particles-canvas');
     if (!canvas) return;
 
+    // Respect reduced-motion preference
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+
     const ctx = canvas.getContext('2d');
     let W, H, particles, animId;
 
+    // Use fewer particles on small screens for better performance
+    const isMobile = window.innerWidth < 768;
+
     const CONFIG = {
-      count:       90,
-      maxDist:     130,
+      count:       isMobile ? 40 : 90,
+      maxDist:     isMobile ? 100 : 130,
       speed:       0.3,
       dotSize:     1.5,
       colorCyan:   [0, 212, 255],
@@ -144,6 +150,12 @@
     const el = document.getElementById('typewriter-text');
     if (!el) return;
 
+    // Show a static phrase instead of animating for reduced-motion preference
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      el.textContent = 'scalable data pipelines';
+      return;
+    }
+
     const phrases = [
       'scalable data pipelines',
       'quantum spin chain models',
@@ -216,7 +228,11 @@
     if (!btn) return;
 
     const stored = localStorage.getItem('theme');
-    if (stored === 'light') {
+    // Fall back to system preference if no explicit choice has been saved
+    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    const isDark = stored ? stored === 'dark' : prefersDark;
+
+    if (!isDark) {
       document.body.classList.add('light-mode');
       btn.setAttribute('aria-label', 'Switch to dark mode');
       btn.innerHTML = '<i class="fas fa-moon"></i>';
@@ -232,6 +248,15 @@
         ? '<i class="fas fa-moon"></i>'
         : '<i class="fas fa-sun"></i>';
       btn.setAttribute('aria-label', isLight ? 'Switch to dark mode' : 'Switch to light mode');
+    });
+
+    // Keep in sync if the user changes their system theme without a stored preference
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e) => {
+      if (localStorage.getItem('theme')) return; // honour explicit user choice
+      const nowDark = e.matches;
+      document.body.classList.toggle('light-mode', !nowDark);
+      btn.innerHTML = nowDark ? '<i class="fas fa-sun"></i>' : '<i class="fas fa-moon"></i>';
+      btn.setAttribute('aria-label', nowDark ? 'Switch to light mode' : 'Switch to dark mode');
     });
   }
 

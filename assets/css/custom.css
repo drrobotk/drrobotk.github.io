@@ -856,6 +856,34 @@ img[loading="lazy"]:not([src*="data:"]) {
 }
 
 /* --------------------------------------------------------------------------
+   Reduced Motion (Accessibility)
+   -------------------------------------------------------------------------- */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+
+  html {
+    scroll-behavior: auto;
+  }
+
+  /* Hide particle canvas entirely for users who prefer reduced motion */
+  #particles-canvas {
+    display: none !important;
+  }
+
+  /* Keep reveal items visible without animation */
+  .reveal {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+}
+
+/* --------------------------------------------------------------------------
    Print Styles
    -------------------------------------------------------------------------- */
 @media print {

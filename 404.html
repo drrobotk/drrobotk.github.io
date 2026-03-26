@@ -1,13 +1,28 @@
 ---
-layout: default
-title: 404 - Page not found
+layout: base
+title: 404 - Page Not Found
 permalink: /404.html
 ---
 
-<div class="text-center">
-  <h1>Whoops, this page doesn't exist.</h1>
-  <h1>Move along. (404 error)</h1>
-  <br/>
-
-  <img src="{{ 'https://http.cat/404' | relative_url }}" alt="Not found" />
-</div>
+<section class="hero" style="min-height:70vh;display:flex;align-items:center;justify-content:center;text-align:center;">
+  <div class="hero-inner" style="flex-direction:column;gap:var(--space-xl);">
+    <p class="section-label" style="font-size:var(--text-sm);">// error</p>
+    <h1 style="font-size:clamp(5rem,15vw,10rem);font-weight:800;margin:0;line-height:1;
+                background:linear-gradient(135deg,var(--cyan),var(--violet));
+                -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;">
+      404
+    </h1>
+    <h2 style="margin:0;font-size:var(--text-2xl);">Page not found</h2>
+    <p style="color:var(--text2);max-width:40ch;margin:0 auto;font-size:var(--text-lg);">
+      This page collapsed into a singularity, or perhaps it never existed in this dimension of spacetime.
+    </p>
+    <div style="display:flex;gap:var(--space-md);justify-content:center;flex-wrap:wrap;margin-top:var(--space-md);">
+      <a href="{{ '/' | relative_url }}" class="btn-primary">
+        <i class="fas fa-home"></i> Go Home
+      </a>
+      <a href="{{ '/blog' | relative_url }}" class="btn-secondary">
+        <i class="fas fa-pen"></i> Read Blog
+      </a>
+    </div>
+  </div>
+</section>
