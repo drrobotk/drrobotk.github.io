@@ -476,7 +476,10 @@ blockquote {
 .hero-photo-wrapper {
   width: 280px;
   height: 280px;
+  aspect-ratio: 1 / 1;
   position: relative;
+  border-radius: 50%;
+  overflow: hidden;
 }
 
 .hero-photo-wrapper::before {
@@ -1401,6 +1404,10 @@ footer {
   .hero-photo-wrapper {
     width: 160px;
     height: 160px;
+  }
+
+  .hero-gif-wrapper {
+    display: none;
   }
 }
 
