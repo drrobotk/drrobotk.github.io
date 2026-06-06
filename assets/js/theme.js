@@ -32,7 +32,7 @@
     let W, H, particles, animId;
 
     const CONFIG = {
-      count:       90,
+      count:       150,
       maxDist:     130,
       speed:       0.3,
       dotSize:     1.5,
@@ -40,6 +40,9 @@
       colorViolet: [139, 92, 246],
       colorWhite:  [200, 220, 255],
     };
+
+    // Slow-drifting nebula orb
+    const orb = { x: 0, y: 0, vx: 0.12, vy: 0.07, r: 200 };
 
     function resize() {
       W = canvas.width  = canvas.offsetWidth;
@@ -74,6 +77,18 @@
 
     function draw() {
       ctx.clearRect(0, 0, W, H);
+
+      // Nebula orb
+      orb.x += orb.vx; orb.y += orb.vy;
+      if (orb.x < 0 || orb.x > W) orb.vx *= -1;
+      if (orb.y < 0 || orb.y > H) orb.vy *= -1;
+      const grad = ctx.createRadialGradient(orb.x, orb.y, 0, orb.x, orb.y, orb.r);
+      grad.addColorStop(0, 'rgba(139,92,246,0.07)');
+      grad.addColorStop(1, 'transparent');
+      ctx.beginPath();
+      ctx.arc(orb.x, orb.y, orb.r, 0, Math.PI * 2);
+      ctx.fillStyle = grad;
+      ctx.fill();
 
       // Update & draw particles
       for (let i = 0; i < particles.length; i++) {
@@ -126,6 +141,7 @@
 
     function start() {
       resize();
+      orb.x = W * 0.65; orb.y = H * 0.35;
       initParticles();
       draw();
     }
@@ -267,6 +283,110 @@
     });
   }
 
+  /* ── Stat Count-Up ── */
+  function initStatCountUp() {
+    const stats = document.querySelectorAll('.stat-number[data-target]');
+    if (!stats.length) return;
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((e) => {
+        if (!e.isIntersecting) return;
+        const el = e.target;
+        const target = parseInt(el.dataset.target, 10);
+        const suffix = el.dataset.suffix || '';
+        const duration = 1200;
+        const start = performance.now();
+
+        function step(now) {
+          const progress = Math.min((now - start) / duration, 1);
+          const eased = 1 - Math.pow(1 - progress, 3);
+          el.textContent = Math.floor(eased * target) + suffix;
+          if (progress < 1) requestAnimationFrame(step);
+          else el.textContent = target + suffix;
+        }
+        requestAnimationFrame(step);
+        observer.unobserve(el);
+      });
+    }, { threshold: 0.5 });
+
+    stats.forEach((el) => observer.observe(el));
+  }
+
+  /* ── Book-Stack 3D Scroll Engine ── */
+  function initBookStack() {
+    const stack    = document.getElementById('book-stack');
+    const fog      = document.getElementById('depth-fog');
+    if (!stack) return;
+
+    const pages = Array.from(stack.querySelectorAll('.book-page'));
+    const N = pages.length;
+    if (!N) return;
+
+    function setHeight() {
+      stack.style.height = N * 100 + 'vh';
+    }
+    setHeight();
+    window.addEventListener('resize', setHeight, { passive: true });
+
+    let fogTimeout, lastProgress = 0, ticking = false;
+
+    function render() {
+      const progress = window.scrollY / window.innerHeight;
+      const delta = Math.abs(progress - lastProgress);
+
+      const cur  = Math.floor(progress);   // page index currently filling the viewport
+      const frac = progress - cur;          // 0..1 progress through this page's scroll band
+
+      pages.forEach((page, i) => {
+        let rx, zi, op;
+
+        if (i < cur) {
+          // Past: flipped away and hidden
+          rx = -100; zi = 0; op = 0;
+        } else if (i === cur) {
+          // Current: static then flips backward from top hinge
+          if (frac < 0.45) {
+            rx = 0; zi = 10; op = 1;
+          } else {
+            const t = (frac - 0.45) / 0.55;
+            rx = -t * 100;            // rotates 100° back (past 90° = backface hidden)
+            zi = 10;
+            op = 1;
+          }
+        } else if (i === cur + 1 && i < N) {
+          // Next page: always visible beneath current, comes to top after flip
+          rx = 0; zi = 9; op = 1;
+        } else {
+          // Future pages beyond next: invisible stack
+          rx = 0; zi = i; op = 0;
+        }
+
+        page.style.zIndex   = zi;
+        page.style.transform = `rotateX(${rx}deg)`;
+        page.style.opacity   = op;
+      });
+
+      // Depth fog on fast scroll
+      if (fog && delta > 0.07) {
+        fog.classList.add('active');
+        clearTimeout(fogTimeout);
+        fogTimeout = setTimeout(() => fog.classList.remove('active'), 220);
+      }
+
+      lastProgress = progress;
+      ticking = false;
+    }
+
+    function onScroll() {
+      if (ticking) return;
+      ticking = true;
+      requestAnimationFrame(render);
+    }
+
+    window.addEventListener('scroll', onScroll, { passive: true });
+    render();
+  }
+
   /* ── Boot ── */
   document.addEventListener('DOMContentLoaded', () => {
     initNavbar();
@@ -276,5 +396,7 @@
     initDarkMode();
     initActiveNav();
     initSmoothScroll();
+    initStatCountUp();
+    initBookStack();
   });
 })();

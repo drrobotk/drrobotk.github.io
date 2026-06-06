@@ -35,6 +35,6 @@ common-js:
   {% include footer.html %}
 
   {% include footer-scripts.html %}
-  <script src="{{ '/assets/js/theme.js' | relative_url }}"></script>
+  <script src="{{ '/assets/js/theme.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
 </body>
 </html>

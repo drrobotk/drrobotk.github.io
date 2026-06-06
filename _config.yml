@@ -26,7 +26,7 @@ keywords: "data engineering, python, apache spark, big data, machine learning, t
 ###############################################
 
 navbar-links:
-  Home: ""
+  Home: "/"
   Projects: "projects"
   Writing: "blog"
   Research: "research"
