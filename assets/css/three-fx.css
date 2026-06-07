@@ -26,9 +26,27 @@ body.webgl-on #particles-canvas { display: none; }
    JS fades the next panel in during the flip so content never double-stacks. */
 body.webgl-on .book-page       { background: transparent !important; }
 
-/* Readability of prose over the moving 3D field */
+/* =============================================================================
+   Readability over the moving 3D field
+   Brighten the plain descriptive WRITING — the hero bio line, the "I build"
+   tagline, section descriptions and long-form page prose — and lift each off
+   the busy cosmos with a soft dark halo. Cards / badges keep their own styling.
+   ============================================================================= */
 body.webgl-on .hero-bio,
-body.webgl-on .hero-typewriter { text-shadow: 0 2px 18px rgba(3,10,26,0.9); }
+body.webgl-on .hero-typewriter { color: #eaf2fd; }
+body.webgl-on .hero-bio a      { color: #aef0ff; }   /* links a touch brighter */
+body.webgl-on .section-desc    { color: #cdd9ec; }
+
+body.webgl-on .hero-bio,
+body.webgl-on .hero-typewriter,
+body.webgl-on .hero-label,
+body.webgl-on .section-desc,
+body.webgl-on .post-subtitle,
+body.webgl-on .blog-post p,
+body.webgl-on .blog-post li,
+body.webgl-on .page-content p {
+  text-shadow: 0 1px 10px rgba(2, 7, 18, 0.96), 0 0 4px rgba(2, 7, 18, 0.92);
+}
 
 /* =============================================================================
    Custom cursor glow (desktop / fine-pointer only)
