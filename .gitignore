@@ -21,3 +21,7 @@ jserve.sh
 # tool artifacts
 .playwright-mcp/
 .superpowers/
+
+# 3D upgrade screenshot artifacts
+site-3d-*.jpeg
+awwwards-3d-gallery.jpeg

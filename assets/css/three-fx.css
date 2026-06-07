@@ -1,0 +1,83 @@
+/* =============================================================================
+   Dr. UK — 3D / WebGL Background + Interaction FX
+   Layering, custom cursor, magnetic buttons, 3D card tilt, a11y fallbacks.
+   ============================================================================= */
+
+/* --- Site-wide WebGL canvas, behind all content --- */
+#space-bg {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  pointer-events: none;
+  display: block;
+}
+
+/* Keep real content above the 3D canvas (canvas is the only z-index:0 layer) */
+#main-content { position: relative; z-index: 1; }
+footer        { position: relative; z-index: 1; }
+
+/* When WebGL takes over: let the global nebula show through the hero and
+   retire the 2D fallback canvas. */
+body.webgl-on .hero            { background: transparent !important; }
+body.webgl-on #particles-canvas { display: none; }
+/* Let the 3D cosmos show behind the flip-book panels (home). The book-stack
+   JS fades the next panel in during the flip so content never double-stacks. */
+body.webgl-on .book-page       { background: transparent !important; }
+
+/* Readability of prose over the moving 3D field */
+body.webgl-on .hero-bio,
+body.webgl-on .hero-typewriter { text-shadow: 0 2px 18px rgba(3,10,26,0.9); }
+
+/* =============================================================================
+   Custom cursor glow (desktop / fine-pointer only)
+   ============================================================================= */
+.cursor-glow {
+  position: fixed;
+  top: 0; left: 0;
+  width: 26px; height: 26px;
+  margin: -13px 0 0 -13px;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 212, 255, 0.6);
+  background: radial-gradient(circle, rgba(0, 212, 255, 0.18), transparent 70%);
+  box-shadow: 0 0 18px rgba(0, 212, 255, 0.5), inset 0 0 8px rgba(139, 92, 246, 0.4);
+  pointer-events: none;
+  z-index: 9999;
+  opacity: 0;
+  transform: translate3d(-100px, -100px, 0);
+  transition: opacity .3s ease, width .2s ease, height .2s ease,
+              margin .2s ease, background .2s ease, border-color .2s ease;
+  mix-blend-mode: screen;
+  will-change: transform;
+}
+.cursor-glow.active { opacity: 1; }
+.cursor-glow.hovering {
+  width: 54px; height: 54px;
+  margin: -27px 0 0 -27px;
+  background: radial-gradient(circle, rgba(139, 92, 246, 0.22), transparent 70%);
+  border-color: rgba(139, 92, 246, 0.7);
+}
+
+/* =============================================================================
+   3D tilt cards + magnetic buttons (transform driven by JS)
+   ============================================================================= */
+.glass-card,
+.featured-card,
+.post-card { transform-style: preserve-3d; will-change: transform; }
+
+.btn-primary,
+.btn-secondary,
+.btn-ghost { will-change: transform; }
+
+/* =============================================================================
+   Accessibility / capability fallbacks
+   ============================================================================= */
+@media (hover: none), (pointer: coarse) {
+  .cursor-glow { display: none !important; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cursor-glow { display: none !important; }
+  /* three-bg.js already renders a single static frame under reduced-motion */
+}

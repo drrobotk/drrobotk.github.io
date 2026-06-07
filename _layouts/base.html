@@ -6,6 +6,7 @@ common-ext-css:
 common-css:
   - "/assets/css/beautifuljekyll.css"
   - "/assets/css/theme.css"
+  - "/assets/css/three-fx.css"
 common-ext-js:
   - href: "https://code.jquery.com/jquery-3.5.1.slim.min.js"
     sri: "sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs="
@@ -26,6 +27,9 @@ common-js:
   {% include skip-link.html %}
   {% include gtm_body.html %}
 
+  <!-- Site-wide WebGL background (Three.js); falls back to 2D #particles-canvas -->
+  <canvas id="space-bg" aria-hidden="true"></canvas>
+
   {% include nav.html %}
 
   <main id="main-content">
@@ -35,6 +39,19 @@ common-js:
   {% include footer.html %}
 
   {% include footer-scripts.html %}
+
+  <div class="cursor-glow" id="cursor-glow" aria-hidden="true"></div>
+
   <script src="{{ '/assets/js/theme.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
+
+  <!-- Three.js as an ES module via CDN (no build step) -->
+  <script type="importmap">
+  {
+    "imports": {
+      "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js"
+    }
+  }
+  </script>
+  <script type="module" src="{{ '/assets/js/three-bg.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
 </body>
 </html>

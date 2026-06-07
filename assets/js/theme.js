@@ -27,6 +27,8 @@
   function initParticles() {
     const canvas = document.getElementById('particles-canvas');
     if (!canvas) return;
+    // If the Three.js WebGL background took over, skip the 2D system entirely.
+    if (document.body.classList.contains('webgl-on')) return;
 
     const ctx = canvas.getContext('2d');
     let W, H, particles, animId;
@@ -354,8 +356,11 @@
             op = 1;
           }
         } else if (i === cur + 1 && i < N) {
-          // Next page: always visible beneath current, comes to top after flip
-          rx = 0; zi = 9; op = 1;
+          // Next page: stays hidden until the current page starts flipping away,
+          // then fades in — so the 3D background shows behind the active panel
+          // (and panels never double-stack over the transparent cosmos).
+          rx = 0; zi = 9;
+          op = frac < 0.45 ? 0 : (frac - 0.45) / 0.55;
         } else {
           // Future pages beyond next: invisible stack
           rx = 0; zi = i; op = 0;
@@ -387,6 +392,77 @@
     render();
   }
 
+  /* ── Custom cursor glow (fine-pointer, motion-on only) ── */
+  function initCursorGlow() {
+    const dot = document.getElementById('cursor-glow');
+    if (!dot) return;
+    if (!window.matchMedia('(pointer: fine)').matches) return;
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+
+    let x = window.innerWidth / 2, y = window.innerHeight / 2;
+    let tx = x, ty = y, shown = false;
+
+    window.addEventListener('mousemove', (e) => {
+      tx = e.clientX; ty = e.clientY;
+      if (!shown) { dot.classList.add('active'); shown = true; }
+    }, { passive: true });
+    document.addEventListener('mouseleave', () => dot.classList.remove('active'));
+
+    const hoverSel = 'a, button, .btn-primary, .btn-secondary, .btn-ghost, .glass-card, ' +
+      '.featured-card, .post-card, .hero-badge, .tech-badge, input, textarea, [role="button"]';
+    document.addEventListener('mouseover', (e) => {
+      if (e.target.closest(hoverSel)) dot.classList.add('hovering');
+    });
+    document.addEventListener('mouseout', (e) => {
+      if (e.target.closest(hoverSel)) dot.classList.remove('hovering');
+    });
+
+    (function follow() {
+      x += (tx - x) * 0.2; y += (ty - y) * 0.2;
+      dot.style.transform = `translate3d(${x}px, ${y}px, 0)`;
+      requestAnimationFrame(follow);
+    })();
+  }
+
+  /* ── Magnetic buttons ── */
+  function initMagnetic() {
+    if (!window.matchMedia('(pointer: fine)').matches) return;
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+
+    document.querySelectorAll('.btn-primary, .btn-secondary, .btn-ghost').forEach((el) => {
+      const strength = 0.35;
+      el.addEventListener('mousemove', (e) => {
+        const r = el.getBoundingClientRect();
+        const mx = e.clientX - (r.left + r.width / 2);
+        const my = e.clientY - (r.top + r.height / 2);
+        el.style.transform = `translate(${mx * strength}px, ${my * strength}px)`;
+      });
+      el.addEventListener('mouseleave', () => { el.style.transform = ''; });
+    });
+  }
+
+  /* ── 3D tilt on cards ── */
+  function initTilt() {
+    if (!window.matchMedia('(pointer: fine)').matches) return;
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+
+    const MAX = 6;
+    document.querySelectorAll('.glass-card, .featured-card, .post-card').forEach((card) => {
+      card.addEventListener('mouseenter', () => { card.style.transition = 'transform 0.08s ease-out'; });
+      card.addEventListener('mousemove', (e) => {
+        const r = card.getBoundingClientRect();
+        const px = (e.clientX - r.left) / r.width - 0.5;
+        const py = (e.clientY - r.top) / r.height - 0.5;
+        card.style.transform =
+          `perspective(900px) rotateY(${px * MAX}deg) rotateX(${-py * MAX}deg) translateY(-6px)`;
+      });
+      card.addEventListener('mouseleave', () => {
+        card.style.transition = 'transform 0.4s ease';
+        card.style.transform = '';
+      });
+    });
+  }
+
   /* ── Boot ── */
   document.addEventListener('DOMContentLoaded', () => {
     initNavbar();
@@ -398,5 +474,8 @@
     initSmoothScroll();
     initStatCountUp();
     initBookStack();
+    initCursorGlow();
+    initMagnetic();
+    initTilt();
   });
 })();
