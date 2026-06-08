@@ -3,6 +3,23 @@
    Layering, custom cursor, magnetic buttons, 3D card tilt, a11y fallbacks.
    ============================================================================= */
 
+/* --- Cosmic fallback backdrop, always painted BEHIND the WebGL canvas ---
+   Guarantees an intentional deep-space background when: WebGL is unavailable,
+   the GPU context is lost (common on phones), or on mobile where we deliberately
+   skip the costly nebula shader and let this gradient stand in for it. Without
+   this the page would flash blank when the canvas clears. */
+html { background-color: #030a1a; }
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  z-index: -1;                 /* behind #space-bg (z-index:0) and all content */
+  background:
+    radial-gradient(115% 80% at 18% 12%, rgba(139, 92, 246, 0.20), transparent 60%),
+    radial-gradient(110% 75% at 85% 88%, rgba(0, 212, 255, 0.16), transparent 55%),
+    radial-gradient(140% 120% at 50% 40%, #07142b 0%, #040c1d 55%, #030a1a 100%);
+}
+
 /* --- Site-wide WebGL canvas, behind all content --- */
 #space-bg {
   position: fixed;

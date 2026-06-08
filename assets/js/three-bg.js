@@ -11,7 +11,10 @@
    The bright lattice is HOME-ONLY so it never sits behind article text.
    ============================================================================= */
 
-import * as THREE from 'three';
+// Self-hosted Three.js r160 (no CDN / no importmap) so the WebGL background is
+// not blocked by ad-blockers, Enhanced Tracking Protection, or browsers without
+// import-map support (e.g. older Firefox). Relative to /assets/js/.
+import * as THREE from './vendor/three.module.js';
 
 (function () {
   const canvas = document.getElementById('space-bg');
@@ -36,8 +39,12 @@ import * as THREE from 'three';
     const renderer = new THREE.WebGLRenderer({
       canvas, antialias: !isMobile, alpha: true, powerPreference: 'high-performance',
     });
-    renderer.setClearColor(0x030a1a, 1);
-    renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, isMobile ? 1.5 : 2));
+    // On mobile the canvas is transparent so the CSS cosmic gradient shows through
+    // (we skip the costly nebula shader there); on desktop it's an opaque backdrop.
+    renderer.setClearColor(0x030a1a, isMobile ? 0 : 1);
+    // Clamp DPR hard on mobile — the per-pixel work is what triggers GPU context
+    // loss / thermal throttling on phones.
+    renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, isMobile ? 1 : 2));
     let W = window.innerWidth, H = window.innerHeight;
     renderer.setSize(W, H, false);
 
@@ -128,12 +135,14 @@ import * as THREE from 'three';
     );
     bgQuad.frustumCulled = false;
     bgQuad.renderOrder = -1;          // drawn first, as the background
-    scene.add(bgQuad);
+    // Desktop only — on mobile the CSS gradient stands in for the nebula so the
+    // GPU isn't running a 5-octave fbm per pixel every frame (context-loss risk).
+    if (!isMobile) scene.add(bgQuad);
 
     /* =====================================================================
        particle starfield
        ===================================================================== */
-    const COUNT = isMobile ? 1200 : (isHome ? 3800 : 1600);
+    const COUNT = isMobile ? 900 : (isHome ? 3800 : 1600);
     const SPREAD = 30;
     const pgeo = new THREE.BufferGeometry();
     const pos = new Float32Array(COUNT * 3);
@@ -179,7 +188,7 @@ import * as THREE from 'three';
     const lattice = new THREE.Group();
     scene.add(lattice);
     let core = null;
-    if (isHome) {
+    if (isHome && !isMobile) {
       lattice.add(new THREE.LineSegments(
         new THREE.WireframeGeometry(new THREE.IcosahedronGeometry(4.2, 1)),
         new THREE.LineBasicMaterial({ color: CYAN, transparent: true, opacity: 0.9,
@@ -263,20 +272,50 @@ import * as THREE from 'three';
     /* diagnostic handle (harmless; lets a quick console/eval confirm geometry) */
     window.__bg = { renderer, scene, info: () => renderer.info.render };
 
-    if (reduceMotion) { resize(); renderFrame(0); return; }
-
     const clock = new THREE.Clock();
-    let running = true;
-    function loop() {
-      if (!running) return;
-      renderFrame(clock.getElapsedTime());
+    let running = false;
+    let contextLost = false;
+    // Cap mobile to ~30fps: the per-frame GPU work is what overheats phones and
+    // makes the browser drop the WebGL context (the "background disappears" bug).
+    const minFrameMs = isMobile ? 1000 / 30 : 0;
+    let lastDraw = -1e9;
+
+    function loop(nowMs) {
+      if (!running || contextLost) return;
+      if (nowMs - lastDraw >= minFrameMs) {
+        lastDraw = nowMs;
+        try { renderFrame(clock.getElapsedTime()); }
+        catch (e) { /* context lost mid-render — the handler below recovers it */ }
+      }
       requestAnimationFrame(loop);
     }
+    function start() {
+      if (running || contextLost) return;
+      running = true;
+      requestAnimationFrame(loop);
+    }
+
+    /* ── WebGL context loss is routine on mobile (GPU memory pressure). Recover
+       gracefully instead of leaving a blank page; the CSS cosmic gradient stays
+       visible behind the canvas throughout the gap. ── */
+    canvas.addEventListener('webglcontextlost', (e) => {
+      e.preventDefault();              // required, or the browser won't restore it
+      contextLost = true; running = false;
+    }, false);
+    canvas.addEventListener('webglcontextrestored', () => {
+      contextLost = false;             // three.js re-uploads its GL resources here
+      resize();
+      if (reduceMotion) renderFrame(clock.getElapsedTime());
+      else if (!document.hidden) start();
+    }, false);
+
+    if (reduceMotion) { resize(); renderFrame(0); return; }
+
     document.addEventListener('visibilitychange', () => {
       if (document.hidden) running = false;
-      else if (!running) { running = true; loop(); }
+      else start();
     });
-    loop();
+    start();
   } catch (err) {
     document.body.classList.remove('webgl-on');
     console.warn('[three-bg] WebGL init failed, using 2D fallback:', err);
