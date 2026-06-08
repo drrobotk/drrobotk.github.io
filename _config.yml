@@ -286,6 +286,11 @@ exclude:
   - README.md
   - screenshot.png
   - docs/
+  # CI installs gems into vendor/bundle (bundler-cache); keep Jekyll from trying
+  # to process the gems' own site templates. A custom exclude: overrides Jekyll's
+  # built-in vendor/.bundle defaults, so they must be listed explicitly.
+  - vendor
+  - .bundle
 
 plugins:
   - jekyll-paginate
