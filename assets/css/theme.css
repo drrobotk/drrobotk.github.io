@@ -513,9 +513,6 @@ blockquote {
   height: 100%;
   border-radius: 50%;
   object-fit: cover;
-  /* Source is a pre-framed square avatar (head centred with margin), so a plain
-     centre crop keeps the face centred in the circle. */
-  object-position: center;
   border: 3px solid var(--bg);
   position: relative;
   z-index: 1;
