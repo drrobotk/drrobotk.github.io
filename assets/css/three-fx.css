@@ -106,13 +106,8 @@ body.webgl-on .page-content p {
 .btn-ghost { will-change: transform; }
 
 /* =============================================================================
-   Accessibility / capability fallbacks
+   Capability fallbacks (the FX always animate — no reduced-motion mode)
    ============================================================================= */
 @media (hover: none), (pointer: coarse) {
   .cursor-glow { display: none !important; }
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .cursor-glow { display: none !important; }
-  /* three-bg.js already renders a single static frame under reduced-motion */
 }

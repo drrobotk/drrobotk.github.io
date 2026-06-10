@@ -6,8 +6,10 @@
      • a 3D PARTICLE STARFIELD + (home only) a rotating wireframe "spacetime
        lattice" (icosahedra) with a fresnel-glow core
    Interaction: eased mouse parallax + scroll-linked camera dolly.
-   Degradation: no WebGL → 2D #particles-canvas; reduced-motion → static frame;
-   hidden tab → loop pauses; DPR clamped; particle count scaled on mobile.
+   Always animates (prefers-reduced-motion is deliberately ignored — owner's
+   choice; a frozen background reads as broken). Degradation: no WebGL →
+   2D #particles-canvas; hidden tab → loop pauses; DPR clamped; particle
+   count scaled on mobile.
    The bright lattice is HOME-ONLY so it never sits behind article text.
    ============================================================================= */
 
@@ -29,7 +31,6 @@ import * as THREE from './vendor/three.module.js';
   }
   if (!hasWebGL()) return;
 
-  const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   const isMobile = window.matchMedia('(max-width: 768px)').matches ||
                    /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
   const isHome = document.body.classList.contains('has-hero');
@@ -305,11 +306,8 @@ import * as THREE from './vendor/three.module.js';
     canvas.addEventListener('webglcontextrestored', () => {
       contextLost = false;             // three.js re-uploads its GL resources here
       resize();
-      if (reduceMotion) renderFrame(clock.getElapsedTime());
-      else if (!document.hidden) start();
+      if (!document.hidden) start();
     }, false);
-
-    if (reduceMotion) { resize(); renderFrame(0); return; }
 
     document.addEventListener('visibilitychange', () => {
       if (document.hidden) running = false;

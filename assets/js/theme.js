@@ -392,13 +392,11 @@
     render();
   }
 
-  /* ── Custom cursor glow (fine-pointer, motion-on only) ── */
+  /* ── Custom cursor glow (fine-pointer only) ── */
   function initCursorGlow() {
     const dot = document.getElementById('cursor-glow');
     if (!dot) return;
     if (!window.matchMedia('(pointer: fine)').matches) return;
-    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
-
     let x = window.innerWidth / 2, y = window.innerHeight / 2;
     let tx = x, ty = y, shown = false;
 
@@ -427,8 +425,6 @@
   /* ── Magnetic buttons ── */
   function initMagnetic() {
     if (!window.matchMedia('(pointer: fine)').matches) return;
-    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
-
     document.querySelectorAll('.btn-primary, .btn-secondary, .btn-ghost').forEach((el) => {
       const strength = 0.35;
       el.addEventListener('mousemove', (e) => {
@@ -444,8 +440,6 @@
   /* ── 3D tilt on cards ── */
   function initTilt() {
     if (!window.matchMedia('(pointer: fine)').matches) return;
-    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
-
     const MAX = 6;
     document.querySelectorAll('.glass-card, .featured-card, .post-card').forEach((card) => {
       card.addEventListener('mouseenter', () => { card.style.transition = 'transform 0.08s ease-out'; });
