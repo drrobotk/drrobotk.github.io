@@ -319,6 +319,10 @@
     const stack    = document.getElementById('book-stack');
     const fog      = document.getElementById('depth-fog');
     if (!stack) return;
+    // Desktop-only scroll-flip. On small/touch screens it's disabled (see the
+    // matching CSS) so the page scrolls naturally — the fixed-height flip pages
+    // otherwise clip any section taller than the viewport.
+    if (window.matchMedia('(max-width: 992px)').matches) return;
 
     const pages = Array.from(stack.querySelectorAll('.book-page'));
     const N = pages.length;
